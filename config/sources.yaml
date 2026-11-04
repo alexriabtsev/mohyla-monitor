@@ -1,6 +1,7 @@
 # Mohyla media monitor: sources and tuning. Edit freely; no code changes needed.
 
-user_agent: "MohylaMonitor/0.1 (+https://github.com/; media monitoring of NaUKMA community)"
+user_agent: "MohylaMonitor/0.1 (+https://github.com/alexriabtsev/mohyla-monitor; media monitoring of NaUKMA community)"
+site_url: "https://alexriabtsev.github.io/mohyla-monitor/"
 lookback_hours: 36          # window for a daily run (overlap protects against missed runs)
 digest_size: 30             # max items on the daily page
 
