@@ -13,7 +13,7 @@
         "wd:Q7685535"
       ],
       "category": "science",
-      "score": 3.472501513152594,
+      "score": 3.464505777214973,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -31,7 +31,7 @@
         "wd:Q124101558"
       ],
       "category": "science",
-      "score": 3.0370827616387963,
+      "score": 3.0300896151446093,
       "extra": {
         "keep_reason": "own_achievement",
         "body_match": false
@@ -47,7 +47,7 @@
       "author": "БукІнфо",
       "person_ids": [],
       "category": "community",
-      "score": 2.2911704773544357,
+      "score": 2.285894858594988,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://bukinfo.com.ua",
@@ -67,7 +67,7 @@
         "wd:Q135615535"
       ],
       "category": "achievement",
-      "score": 2.0697435068584413,
+      "score": 2.0649777429050595,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://leopolis.news",
@@ -85,7 +85,7 @@
       "author": "Вікенд",
       "person_ids": [],
       "category": "community",
-      "score": 1.1694292597013862,
+      "score": 1.1667365473950322,
       "extra": {
         "query": "\"НаУКМА\"",
         "publisher_url": "https://weekend.today",
@@ -103,7 +103,7 @@
       "author": "MY.UA",
       "person_ids": [],
       "category": "community",
-      "score": 1.058617867018682,
+      "score": 1.0561803075557217,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://my.ua",
@@ -121,7 +121,7 @@
       "author": "Громадське радіо",
       "person_ids": [],
       "category": "community",
-      "score": 0.5725803098276163,
+      "score": 0.5712618939988191,
       "extra": {
         "query": "\"Могилянка\" OR \"Могилянки\" OR \"Могилянці\"",
         "publisher_url": "https://hromadske.radio",
@@ -139,7 +139,7 @@
       "author": "Comments.ua",
       "person_ids": [],
       "category": "community",
-      "score": 0.5091461749569849,
+      "score": 0.5079738217259823,
       "extra": {
         "query": "\"НаУКМА\"",
         "publisher_url": "https://society.comments.ua",
@@ -157,7 +157,7 @@
       "author": "Українське радіо",
       "person_ids": [],
       "category": "community",
-      "score": 0.4310790934466761,
+      "score": 0.43008649644236274,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://ukr.radio",
@@ -178,14 +178,14 @@
       "name": "google_news",
       "ok": true,
       "enabled": true,
-      "count": 7,
+      "count": 4,
       "message": ""
     },
     {
       "name": "telegram",
       "ok": true,
       "enabled": true,
-      "count": 33,
+      "count": 29,
       "message": ""
     },
     {
