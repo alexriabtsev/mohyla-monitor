@@ -1,0 +1,54 @@
+name: daily-digest
+
+on:
+  schedule:
+    - cron: "0 4 * * *"        # 06:00/07:00 Kyiv (UTC+2/+3)
+  workflow_dispatch:
+    inputs:
+      refresh_people:
+        description: "Rebuild people base from Wikidata/Wikipedia"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m pytest -q
+      - name: Refresh people base (Mondays, on demand, or first run)
+        continue-on-error: true   # an outage must not block the daily digest
+        env:
+          FORCE: ${{ github.event.inputs.refresh_people }}
+        run: |
+          if [ "$FORCE" = "true" ] || [ "$(date -u +%u)" = "1" ] || [ ! -f data/people.json ]; then
+            python -m mohyla.cli people
+          fi
+      - name: Build daily digest
+        env:
+          BSKY_HANDLE: ${{ secrets.BSKY_HANDLE }}
+          BSKY_APP_PASSWORD: ${{ secrets.BSKY_APP_PASSWORD }}
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+        run: python -m mohyla.cli daily
+      - name: Commit data and site
+        if: always()             # keep whatever was produced, even after a failed step
+        run: |
+          git config user.name "mohyla-monitor"
+          git config user.email "actions@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "chore: digest $(date -u +%F)"
+          git push

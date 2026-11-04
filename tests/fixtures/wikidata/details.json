@@ -1,0 +1,347 @@
+{
+ "head": {
+  "vars": [
+   "p",
+   "k",
+   "v"
+  ]
+ },
+ "results": {
+  "bindings": [
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q100"
+    },
+    "k": {
+     "type": "literal",
+     "value": "P31"
+    },
+    "v": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q5"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q100"
+    },
+    "k": {
+     "type": "literal",
+     "value": "P569"
+    },
+    "v": {
+     "type": "literal",
+     "value": "1983-05-12T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q100"
+    },
+    "k": {
+     "type": "literal",
+     "value": "sitelinks"
+    },
+    "v": {
+     "type": "literal",
+     "value": "12",
+     "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q100"
+    },
+    "k": {
+     "type": "literal",
+     "value": "label"
+    },
+    "v": {
+     "type": "literal",
+     "value": "Олександра Матвійчук",
+     "xml:lang": "uk"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q100"
+    },
+    "k": {
+     "type": "literal",
+     "value": "label"
+    },
+    "v": {
+     "type": "literal",
+     "value": "Oleksandra Matviichuk",
+     "xml:lang": "en"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q100"
+    },
+    "k": {
+     "type": "literal",
+     "value": "desc"
+    },
+    "v": {
+     "type": "literal",
+     "value": "українська правозахисниця",
+     "xml:lang": "uk"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q100"
+    },
+    "k": {
+     "type": "literal",
+     "value": "alias"
+    },
+    "v": {
+     "type": "literal",
+     "value": "Матвійчук Олександра Вячеславівна",
+     "xml:lang": "uk"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q100"
+    },
+    "k": {
+     "type": "literal",
+     "value": "P108"
+    },
+    "v": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q1133013"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q100"
+    },
+    "k": {
+     "type": "literal",
+     "value": "P108"
+    },
+    "v": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q4211"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q100"
+    },
+    "k": {
+     "type": "literal",
+     "value": "telegram"
+    },
+    "v": {
+     "type": "literal",
+     "value": "matviichuk"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q100"
+    },
+    "k": {
+     "type": "literal",
+     "value": "x"
+    },
+    "v": {
+     "type": "literal",
+     "value": "avalaina"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q100"
+    },
+    "k": {
+     "type": "literal",
+     "value": "facebook"
+    },
+    "v": {
+     "type": "literal",
+     "value": "oleksandra.matviichuk"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q200"
+    },
+    "k": {
+     "type": "literal",
+     "value": "P31"
+    },
+    "v": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q5"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q200"
+    },
+    "k": {
+     "type": "literal",
+     "value": "label"
+    },
+    "v": {
+     "type": "literal",
+     "value": "John Smith",
+     "xml:lang": "en"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q200"
+    },
+    "k": {
+     "type": "literal",
+     "value": "P108"
+    },
+    "v": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q4211"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q200"
+    },
+    "k": {
+     "type": "literal",
+     "value": "linkedin"
+    },
+    "v": {
+     "type": "literal",
+     "value": "john-smith-123"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q300"
+    },
+    "k": {
+     "type": "literal",
+     "value": "P31"
+    },
+    "v": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q5"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q300"
+    },
+    "k": {
+     "type": "literal",
+     "value": "P570"
+    },
+    "v": {
+     "type": "literal",
+     "value": "2001-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q300"
+    },
+    "k": {
+     "type": "literal",
+     "value": "label"
+    },
+    "v": {
+     "type": "literal",
+     "value": "Мертва Особа",
+     "xml:lang": "uk"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q400"
+    },
+    "k": {
+     "type": "literal",
+     "value": "P31"
+    },
+    "v": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q5"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q400"
+    },
+    "k": {
+     "type": "literal",
+     "value": "P569"
+    },
+    "v": {
+     "type": "literal",
+     "value": "1925-01-01T00:00:00Z",
+     "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q400"
+    },
+    "k": {
+     "type": "literal",
+     "value": "label"
+    },
+    "v": {
+     "type": "literal",
+     "value": "Стара Особа",
+     "xml:lang": "uk"
+    }
+   },
+   {
+    "p": {
+     "type": "uri",
+     "value": "http://www.wikidata.org/entity/Q500"
+    },
+    "k": {
+     "type": "literal",
+     "value": "label"
+    },
+    "v": {
+     "type": "literal",
+     "value": "Якийсь Обʼєкт",
+     "xml:lang": "uk"
+    }
+   }
+  ]
+ }
+}

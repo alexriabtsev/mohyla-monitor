@@ -1,0 +1,2935 @@
+{
+ "nodes": [
+  {
+   "id": "wd:Q64486491",
+   "name_uk": "Олексій Гончарук",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.9516280807158373
+  },
+  {
+   "id": "wd:Q109336893",
+   "name_uk": "Кирило Буданов",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.9092153497721114
+  },
+  {
+   "id": "wd:Q16700680",
+   "name_uk": "Катерина Калитко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.8578128741309132
+  },
+  {
+   "id": "wd:Q124101558",
+   "name_uk": "Сергій Корецький",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.8578128741309132
+  },
+  {
+   "id": "wd:Q54860605",
+   "name_uk": "Оксана Маркарова",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.8191192289631661
+  },
+  {
+   "id": "wd:Q28807625",
+   "name_uk": "Микола Овчаров",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.7519185836123723
+  },
+  {
+   "id": "wd:Q488211",
+   "name_uk": "Анатолій Гриценко",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.7406022510826102
+  },
+  {
+   "id": "wd:Q16696252",
+   "name_uk": "Антон Геращенко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.7406022510826102
+  },
+  {
+   "id": "wd:Q94633869",
+   "name_uk": "Кіра Рудик",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.7406022510826102
+  },
+  {
+   "id": "wd:Q87159",
+   "name_uk": "Андреас Умлянд",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.7031039757960106
+  },
+  {
+   "id": "wd:Q66810142",
+   "name_uk": "Ганна Новосад",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.7031039757960106
+  },
+  {
+   "id": "wd:Q66823503",
+   "name_uk": "Зоряна Скалецька",
+   "roles": [
+    "alumnus",
+    "staff"
+   ],
+   "prominence": 0.6891997754414121
+  },
+  {
+   "id": "wd:Q67191508",
+   "name_uk": "Дар Гай",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.6744523947580044
+  },
+  {
+   "id": "wd:Q16717067",
+   "name_uk": "Інна Совсун",
+   "roles": [
+    "staff",
+    "alumnus"
+   ],
+   "prominence": 0.6587529295664228
+  },
+  {
+   "id": "wd:Q18575021",
+   "name_uk": "Оксана Сироїд",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.6587529295664228
+  },
+  {
+   "id": "wd:Q4536696",
+   "name_uk": "Любов Якимчук",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.6419699112188565
+  },
+  {
+   "id": "wd:Q12171717",
+   "name_uk": "Павло Шеремета",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.6419699112188565
+  },
+  {
+   "id": "wd:Q12109356",
+   "name_uk": "Сергій Квіт",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.6419699112188565
+  },
+  {
+   "id": "wd:Q25438189",
+   "name_uk": "Тимофій Милованов",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.6239426073894736
+  },
+  {
+   "id": "wd:Q651264",
+   "name_uk": "Андрій Бондар",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.604471635932257
+  },
+  {
+   "id": "wd:Q1226946",
+   "name_uk": "Діонісій",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.604471635932257
+  },
+  {
+   "id": "wd:Q21683816",
+   "name_uk": "Катерина Горностай",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.604471635932257
+  },
+  {
+   "id": "wd:Q12079200",
+   "name_uk": "Артем Чапай",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5833054849228712
+  },
+  {
+   "id": "wd:Q12152002",
+   "name_uk": "Остап Семерак",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5833054849228712
+  },
+  {
+   "id": "wd:Q118131641",
+   "name_uk": "Тетяна Бережна",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5833054849228712
+  },
+  {
+   "id": "wd:Q2081854",
+   "name_uk": "Андрій Шевченко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5601205897026693
+  },
+  {
+   "id": "wd:Q12076600",
+   "name_uk": "Віра Агеєва",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.5601205897026693
+  },
+  {
+   "id": "wd:Q4352142",
+   "name_uk": "Геннадій Зубко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5601205897026693
+  },
+  {
+   "id": "wd:Q47489237",
+   "name_uk": "Марія Берлінська",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5601205897026693
+  },
+  {
+   "id": "wd:Q125168146",
+   "name_uk": "Олег Іващенко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5601205897026693
+  },
+  {
+   "id": "wd:Q18635335",
+   "name_uk": "Олексій Павленко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5601205897026693
+  },
+  {
+   "id": "wd:Q7685535",
+   "name_uk": "Тарас Кузьо",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.5601205897026693
+  },
+  {
+   "id": "wd:Q76402188",
+   "name_uk": "Юрій Полюхович",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5601205897026693
+  },
+  {
+   "id": "wd:Q12118939",
+   "name_uk": "Ігор Луценко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5344908771065096
+  },
+  {
+   "id": "wd:Q17371776",
+   "name_uk": "Володимир Єрмоленко",
+   "roles": [
+    "staff",
+    "alumnus"
+   ],
+   "prominence": 0.5344908771065096
+  },
+  {
+   "id": "wd:Q2343701",
+   "name_uk": "Григорій Немиря",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.5344908771065096
+  },
+  {
+   "id": "wd:Q80121827",
+   "name_uk": "Максим Козицький",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5344908771065096
+  },
+  {
+   "id": "wd:Q23658682",
+   "name_uk": "Юлія Ковалів",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5344908771065096
+  },
+  {
+   "id": "wd:Q65198934",
+   "name_uk": "Галина Янченко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5058392960685033
+  },
+  {
+   "id": "wd:Q12121957",
+   "name_uk": "Дзвінка Матіяш",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5058392960685033
+  },
+  {
+   "id": "wd:Q1957965",
+   "name_uk": "Микола Томенко",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.5058392960685033
+  },
+  {
+   "id": "wd:Q17371919",
+   "name_uk": "Мирослав Лаюк",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5058392960685033
+  },
+  {
+   "id": "wd:Q50018638",
+   "name_uk": "Надія Парфан",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.5058392960685033
+  },
+  {
+   "id": "wd:Q4536789",
+   "name_uk": "Наталя Яковенко",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.5058392960685033
+  },
+  {
+   "id": "wd:Q16273268",
+   "name_uk": "Андрій Баришполець",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.47335681252935546
+  },
+  {
+   "id": "wd:Q110411627",
+   "name_uk": "Дмитро Лунін",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.47335681252935546
+  },
+  {
+   "id": "wd:Q140608110",
+   "name_uk": "Оксана Ферчук",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.47335681252935546
+  },
+  {
+   "id": "wd:Q70213976",
+   "name_uk": "Олександр Бондаренко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.47335681252935546
+  },
+  {
+   "id": "wd:Q11797645",
+   "name_uk": "Олександра Гнатюк",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.47335681252935546
+  },
+  {
+   "id": "wd:Q65938549",
+   "name_uk": "Олександра Устінова",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.47335681252935546
+  },
+  {
+   "id": "wd:Q16710465",
+   "name_uk": "Олеся Островська-Люта",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.47335681252935546
+  },
+  {
+   "id": "wd:Q17371647",
+   "name_uk": "Сергій Березенко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.47335681252935546
+  },
+  {
+   "id": "wd:Q30301559",
+   "name_uk": "Тамара Марценюк",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.47335681252935546
+  },
+  {
+   "id": "wd:Q114866269",
+   "name_uk": "Юлія Микитенко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.47335681252935546
+  },
+  {
+   "id": "wd:Q64064169",
+   "name_uk": "Юлія Сірко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.47335681252935546
+  },
+  {
+   "id": "wd:Q4075070",
+   "name_uk": "Юрій Бажал",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.47335681252935546
+  },
+  {
+   "id": "wd:Q4284843",
+   "name_uk": "Богдана Матіяш",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q4097480",
+   "name_uk": "В'ячеслав Брюховецький",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q68069976",
+   "name_uk": "Владислав Скальський",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q126724549",
+   "name_uk": "Катерина Черногоренко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q273152",
+   "name_uk": "Люба Шумейко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q65198501",
+   "name_uk": "Марина Бардіна",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q61944182",
+   "name_uk": "Марцін Пшидач",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q12133167",
+   "name_uk": "Неда Неждана",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q81826",
+   "name_uk": "Олексій Толочко",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q69815905",
+   "name_uk": "Олена Мошенець",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q64410361",
+   "name_uk": "Олена Семеняка",
+   "roles": [
+    "alumnus",
+    "staff"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q102853647",
+   "name_uk": "Роман Клічук",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q20068974",
+   "name_uk": "Тетяна Острікова-Чмерук",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q44056619",
+   "name_uk": "Ярослав Юрчишин",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.43585853724275586
+  },
+  {
+   "id": "wd:Q12087729",
+   "name_uk": "Ірина Ванникова",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q135485249",
+   "name_uk": "Аліса Ложкіна",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q85998900",
+   "name_uk": "Андрій Смирнов",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q15526840",
+   "name_uk": "Богдан Кравченко",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q71014742",
+   "name_uk": "Валерій Євдокимов",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q109007383",
+   "name_uk": "Галина Григоренко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q4216989",
+   "name_uk": "Георгій Касьянов",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q12159270",
+   "name_uk": "Костянтин Сігов",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q12121729",
+   "name_uk": "Лариса Масенко",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q65966626",
+   "name_uk": "Максим Пашковський",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q4427504",
+   "name_uk": "Марина Соколян",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q12131336",
+   "name_uk": "Михайло Мінаков",
+   "roles": [
+    "staff",
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q12137646",
+   "name_uk": "Олександр Палій",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q24044761",
+   "name_uk": "Олена Максименко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q12137283",
+   "name_uk": "Ростислав Павленко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q17372316",
+   "name_uk": "Ростислав Семків",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q22813963",
+   "name_uk": "Ростислав Шурма",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q12121833",
+   "name_uk": "Світлана Матвієнко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q41803958",
+   "name_uk": "Юрій Городниченко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q57661888",
+   "name_uk": "Євген Гашенко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q12073077",
+   "name_uk": "Євген Глібовицький",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q50748587",
+   "name_uk": "Євген Дикий",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q12132206",
+   "name_uk": "Іванна Найда",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q125134376",
+   "name_uk": "Ілля Євлаш",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q116946137",
+   "name_uk": "Анастасія Левкова",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q115575466",
+   "name_uk": "Андріана Сусак-Арехта",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q20066777",
+   "name_uk": "Вадим Денисенко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q113459566",
+   "name_uk": "Вадим Карп'як",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q12139367",
+   "name_uk": "Валерій Пекар",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q44054980",
+   "name_uk": "Вахтанґ Кебуладзе",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q17327072",
+   "name_uk": "Володимир Іщенко",
+   "roles": [
+    "staff",
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q86000294",
+   "name_uk": "Володимир Цабаль",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q12161563",
+   "name_uk": "Галина Ткачук",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q104889210",
+   "name_uk": "Ганна Замазєєва",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q66820845",
+   "name_uk": "Денис Герман",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q12102480",
+   "name_uk": "Дмитро Дроздовський",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q85987598",
+   "name_uk": "Катерина Єгорушкіна",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q20066040",
+   "name_uk": "Катерина Ботанова",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q130742512",
+   "name_uk": "Костянтин Кошеленко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q12130451",
+   "name_uk": "Лариса Мудрак",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q12101605",
+   "name_uk": "Митрофан Довгалевський",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q111436856",
+   "name_uk": "Міріам Драгіна",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q85999996",
+   "name_uk": "Олександр Федієнко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q66912146",
+   "name_uk": "Олексій Мовчан",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q63974621",
+   "name_uk": "Олена Білан",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q12135685",
+   "name_uk": "Олена Гусейнова",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q28702168",
+   "name_uk": "Павло Грицак",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q124294112",
+   "name_uk": "Петро Бешта",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q16723735",
+   "name_uk": "Станіслав Шевчук",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q12119406",
+   "name_uk": "Тарас Лютий",
+   "roles": [
+    "staff",
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q18705367",
+   "name_uk": "Тетяна Пушнова",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q16724243",
+   "name_uk": "Тетяна Ярошенко",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q12157582",
+   "name_uk": "Юлія Стахівська",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q12123840",
+   "name_uk": "Юрій Мицик",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.3372261973790022
+  },
+  {
+   "id": "wd:Q4752151",
+   "name_uk": "Anatolii Sloiko",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q110096493",
+   "name_uk": "Jorge Urbiola López de Montenegro",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q117247039",
+   "name_uk": "Євгеній Стасіневич",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q18925155",
+   "name_uk": "Іван Буян БЧ",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q12085682",
+   "name_uk": "Ігор Бураковський",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q12088619",
+   "name_uk": "Ігор Верба",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q65950767",
+   "name_uk": "Василь Черепанин",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q65199923",
+   "name_uk": "Ганна Гриценко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q125768266",
+   "name_uk": "Дмитро Гордієнко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q124721263",
+   "name_uk": "Едуард Ахрамович",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q97160702",
+   "name_uk": "Зоя Литвин",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q4185404",
+   "name_uk": "Леонід Залізняк",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q135615535",
+   "name_uk": "Любов Галан",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q12086534",
+   "name_uk": "Лідія Білас",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q23659114",
+   "name_uk": "Марина Ткачук",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q25441025",
+   "name_uk": "Микола Картель",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q17372362",
+   "name_uk": "Надія Трач",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q12094329",
+   "name_uk": "Олексій Гарань",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q50328553",
+   "name_uk": "Олена Бетлій",
+   "roles": [
+    "staff",
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q85988774",
+   "name_uk": "Олена Богдан",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q12140221",
+   "name_uk": "Ольга Петрова",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q30961435",
+   "name_uk": "Остап Українець",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q63283260",
+   "name_uk": "Світлана Оксамитна",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q20068867",
+   "name_uk": "Тетяна Огаркова",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q65198928",
+   "name_uk": "Юлія Безвершенко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.2672454385532548
+  },
+  {
+   "id": "wd:Q120556496",
+   "name_uk": "Daria Meshcheriakova",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q6130176",
+   "name_uk": "James Brasfield",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q85987506",
+   "name_uk": "Tricky Nicki",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q61149956",
+   "name_uk": "Vladimir B Golovko",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q17372355",
+   "name_uk": "Ігор Тесленко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q130364937",
+   "name_uk": "Інна Волосевич",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q17371666",
+   "name_uk": "Ірина Борисюк",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q135923510",
+   "name_uk": "Альона Мисько",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q138636407",
+   "name_uk": "Анастасія Іванців",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q30251760",
+   "name_uk": "Анастасія Рябчук",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q25437538",
+   "name_uk": "Анатолій Бурбан",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q61116703",
+   "name_uk": "Андрій Пермяков",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q12149621",
+   "name_uk": "Андрій Рєпа",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q18957694",
+   "name_uk": "Анна Панова",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q30973847",
+   "name_uk": "Арсен Жумаділов",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q53673421",
+   "name_uk": "Артем Біденко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q108460194",
+   "name_uk": "Богдана Лаюк",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q109336875",
+   "name_uk": "Вадим Васильчук",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q17371997",
+   "name_uk": "Вадим Менжулін",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q85997224",
+   "name_uk": "Валентин Петров",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q116843279",
+   "name_uk": "Вячеслав Марченко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q132777264",
+   "name_uk": "Вєста Гунченко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q87181915",
+   "name_uk": "Галина Рудько",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q16717036",
+   "name_uk": "Денис Соболь",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q136799369",
+   "name_uk": "Дмитро Красний",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q135953340",
+   "name_uk": "Дмитро Суханов",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q98115195",
+   "name_uk": "Евеліна Кравченко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q20066604",
+   "name_uk": "Катерина Горчинська",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q30251349",
+   "name_uk": "Катерина Диса",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q12166682",
+   "name_uk": "Леонід Фінберг",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q135273339",
+   "name_uk": "Любов Шипович",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q20067530",
+   "name_uk": "Людмила Кісельова",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q117985149",
+   "name_uk": "Максим Лижов",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q20070993",
+   "name_uk": "Максим Яременко",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q116215920",
+   "name_uk": "Мар'яна Боднар",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q97273427",
+   "name_uk": "Мартин Якуб",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q132777741",
+   "name_uk": "Маруся Щербина",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q96147551",
+   "name_uk": "Микола Глибовець",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q21596805",
+   "name_uk": "Наталя Шліхта",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q20068772",
+   "name_uk": "Наталія Науменко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q17372426",
+   "name_uk": "Наталія Шульга",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q66707407",
+   "name_uk": "Оксана Бруй",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q112679181",
+   "name_uk": "Оксана Карпович",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q23658998",
+   "name_uk": "Олег Олексюк",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q55107844",
+   "name_uk": "Олег Петренко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q65960501",
+   "name_uk": "Олександр Івашина",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q16691997",
+   "name_uk": "Олександр Аронець",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q65007296",
+   "name_uk": "Олександр Голуб",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q16697517",
+   "name_uk": "Олександр Дем'янчук",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q115651642",
+   "name_uk": "Олена Дідик",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q131678981",
+   "name_uk": "Олена Шарговська",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q44055924",
+   "name_uk": "Олеся Василець",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q16705614",
+   "name_uk": "Олеся Лященко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q132345449",
+   "name_uk": "Олеся Пинзеник",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q12109925",
+   "name_uk": "Ольга Кирилова",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q85994124",
+   "name_uk": "Ольга Кудіненко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q136720726",
+   "name_uk": "Ольга Сквірська",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q93574391",
+   "name_uk": "Павло Барбул",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q130250425",
+   "name_uk": "Павло Жовніренко",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q17372065",
+   "name_uk": "Павло Нечитайло",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q97305643",
+   "name_uk": "Роксоляна Свято",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q25437160",
+   "name_uk": "Роман Петров",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q97575561",
+   "name_uk": "Роман Тичківський",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q28168512",
+   "name_uk": "Роман Хміль",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q28703512",
+   "name_uk": "Руслан Петричка",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q65203598",
+   "name_uk": "Світлана Остапа",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q141776532",
+   "name_uk": "Тарас Шило",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q46968597",
+   "name_uk": "Таїсія Сидорчук",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q61022459",
+   "name_uk": "Тетяна Локот",
+   "roles": [
+    "staff",
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q131753378",
+   "name_uk": "Тетяна Пугачевська",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q135486121",
+   "name_uk": "Христина Храновська",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q125490804",
+   "name_uk": "Юлія Вротна",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q28703463",
+   "name_uk": "Юлія Сінькевич",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q55107578",
+   "name_uk": "Юлія Тичківська",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q64141038",
+   "name_uk": "Юрій Джигир",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q56361437",
+   "name_uk": "Юрій Кухарчук",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q131828387",
+   "name_uk": "Юрій Пуголовок",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q65200942",
+   "name_uk": "Ярина Ключковська",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.1686130986895011
+  },
+  {
+   "id": "wd:Q55168088",
+   "name_uk": "Alex N. Zelensky",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q86866855",
+   "name_uk": "Alexander Golub",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q58825791",
+   "name_uk": "Alina Frolova",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q115242758",
+   "name_uk": "Alina Stupak",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q90252323",
+   "name_uk": "Alla I Kushkina",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q56972243",
+   "name_uk": "Alyona Mazhnaya",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q61774718",
+   "name_uk": "Anastasiia Navalikhina",
+   "roles": [
+    "staff",
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q57905015",
+   "name_uk": "Andrey Meleshevich",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q56416758",
+   "name_uk": "Andrii Slonchak",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q117741935",
+   "name_uk": "Andriy Beznosenko",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q92017825",
+   "name_uk": "Anna Tokar",
+   "roles": [
+    "alumnus",
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q59123709",
+   "name_uk": "Bizhan R Sharop",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q61457746",
+   "name_uk": "Galyna Kriukova",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q75323268",
+   "name_uk": "Ganna Panasyuk",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q85855784",
+   "name_uk": "Iana Markevych",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q102847567",
+   "name_uk": "Iaryna Grynkiv-Petropoulos",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q64005532",
+   "name_uk": "Ielyzaveta Chorna",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q111426899",
+   "name_uk": "Ilarion Jaroševyc’kyj",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q62518186",
+   "name_uk": "Inna Potekhina",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q114346945",
+   "name_uk": "Kateryna Bornukova",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q55572393",
+   "name_uk": "Larysa Khomenkova",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q59693559",
+   "name_uk": "Liubov Poshyvailo",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q104131746",
+   "name_uk": "Maryna Somova",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q58315597",
+   "name_uk": "Nataliia Borodai",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q55068268",
+   "name_uk": "Nataliia Zakharchuk",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q97625090",
+   "name_uk": "Nazar Bartosik",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q88505876",
+   "name_uk": "Oksana Shevtsova",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q127277989",
+   "name_uk": "Ol'ha Martyniuk",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q119996942",
+   "name_uk": "Oleg Badunenko",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q90945982",
+   "name_uk": "Roman Baskov",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q57046784",
+   "name_uk": "Sergiy Ivashchenko",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q92358289",
+   "name_uk": "Taisiia Serdenko",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q90280292",
+   "name_uk": "Vitalii Rud",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q57414371",
+   "name_uk": "Vladimir Zaitsev",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q66689004",
+   "name_uk": "Yulia Ilchuk",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q74515688",
+   "name_uk": "Yurii V. Yakovenko",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q30961654",
+   "name_uk": "Євгеній Стасіневич",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q57412834",
+   "name_uk": "Артур Трофимов",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q110780372",
+   "name_uk": "Богдана Олійник",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q96787728",
+   "name_uk": "Валентин Десятник",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wp:uk:Чуркін Валерій Валерійович",
+   "name_uk": "Валерій Чуркін",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q109647156",
+   "name_uk": "Володимир Бублик",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q138656414",
+   "name_uk": "Дар’я Подольцева",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q118929793",
+   "name_uk": "Катерина Бусол",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q113454497",
+   "name_uk": "Лариса Лебедівна",
+   "roles": [
+    "staff"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q139941051",
+   "name_uk": "Мартина Богуславець",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q43177805",
+   "name_uk": "Олександр Стародубцев",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q52297582",
+   "name_uk": "Ольга Мартинюк",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q16689384",
+   "name_uk": "Сергій Євтушенко",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  },
+  {
+   "id": "wd:Q16634941",
+   "name_uk": "Тетяна Висоцька",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.0
+  }
+ ],
+ "edges": [
+  {
+   "a": "wd:Q109647156",
+   "b": "wd:Q12085682",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q109647156",
+   "b": "wd:Q12088619",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q109647156",
+   "b": "wd:Q12109356",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q109647156",
+   "b": "wd:Q20067530",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q109647156",
+   "b": "wd:Q4075070",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q109647156",
+   "b": "wd:Q44054980",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q109647156",
+   "b": "wd:Q57414371",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q109647156",
+   "b": "wd:Q74515688",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q4201543"
+   ]
+  },
+  {
+   "a": "wd:Q109647156",
+   "b": "wd:Q87159",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q109647156",
+   "b": "wd:Q96147551",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q109647156",
+   "b": "wd:Q97625090",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q114346945",
+   "b": "wd:Q135615535",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q6450969"
+   ]
+  },
+  {
+   "a": "wd:Q114346945",
+   "b": "wd:Q16717067",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q6450969"
+   ]
+  },
+  {
+   "a": "wd:Q114346945",
+   "b": "wd:Q55107578",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q6450969"
+   ]
+  },
+  {
+   "a": "wd:Q12076600",
+   "b": "wd:Q12102480",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q12074629"
+   ]
+  },
+  {
+   "a": "wd:Q12085682",
+   "b": "wd:Q12088619",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12085682",
+   "b": "wd:Q12109356",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12085682",
+   "b": "wd:Q20067530",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12085682",
+   "b": "wd:Q4075070",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12085682",
+   "b": "wd:Q44054980",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12085682",
+   "b": "wd:Q57414371",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12085682",
+   "b": "wd:Q87159",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12085682",
+   "b": "wd:Q96147551",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12085682",
+   "b": "wd:Q97625090",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12088619",
+   "b": "wd:Q12109356",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12088619",
+   "b": "wd:Q20067530",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12088619",
+   "b": "wd:Q4075070",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12088619",
+   "b": "wd:Q44054980",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12088619",
+   "b": "wd:Q57414371",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12088619",
+   "b": "wd:Q87159",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12088619",
+   "b": "wd:Q96147551",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12088619",
+   "b": "wd:Q97625090",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12109356",
+   "b": "wd:Q20067530",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12109356",
+   "b": "wd:Q4075070",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12109356",
+   "b": "wd:Q44054980",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12109356",
+   "b": "wd:Q57414371",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12109356",
+   "b": "wd:Q87159",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12109356",
+   "b": "wd:Q96147551",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q12109356",
+   "b": "wd:Q97625090",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q135615535",
+   "b": "wd:Q16717067",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q6450969"
+   ]
+  },
+  {
+   "a": "wd:Q135615535",
+   "b": "wd:Q55107578",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q6450969"
+   ]
+  },
+  {
+   "a": "wd:Q16717067",
+   "b": "wd:Q55107578",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q6450969"
+   ]
+  },
+  {
+   "a": "wd:Q17327072",
+   "b": "wd:Q52297582",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q85449"
+   ]
+  },
+  {
+   "a": "wd:Q17327072",
+   "b": "wd:Q85988774",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q85449"
+   ]
+  },
+  {
+   "a": "wd:Q17372426",
+   "b": "wd:Q58825791",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q6040640"
+   ]
+  },
+  {
+   "a": "wd:Q17372426",
+   "b": "wd:Q75323268",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q6040640"
+   ]
+  },
+  {
+   "a": "wd:Q17372426",
+   "b": "wd:Q90252323",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q6040640"
+   ]
+  },
+  {
+   "a": "wd:Q20067530",
+   "b": "wd:Q4075070",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q20067530",
+   "b": "wd:Q44054980",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q20067530",
+   "b": "wd:Q57414371",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q20067530",
+   "b": "wd:Q87159",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q20067530",
+   "b": "wd:Q96147551",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q20067530",
+   "b": "wd:Q97625090",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q4075070",
+   "b": "wd:Q44054980",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q4075070",
+   "b": "wd:Q57414371",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q4075070",
+   "b": "wd:Q87159",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q4075070",
+   "b": "wd:Q96147551",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q4075070",
+   "b": "wd:Q97625090",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q4216989",
+   "b": "wd:Q81826",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q958769"
+   ]
+  },
+  {
+   "a": "wd:Q44054980",
+   "b": "wd:Q57414371",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q44054980",
+   "b": "wd:Q87159",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q44054980",
+   "b": "wd:Q96147551",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q44054980",
+   "b": "wd:Q97625090",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q52297582",
+   "b": "wd:Q85988774",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q85449"
+   ]
+  },
+  {
+   "a": "wd:Q55068268",
+   "b": "wd:Q57412834",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q311801"
+   ]
+  },
+  {
+   "a": "wd:Q55068268",
+   "b": "wd:Q97625090",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q311801"
+   ]
+  },
+  {
+   "a": "wd:Q57412834",
+   "b": "wd:Q97625090",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q311801"
+   ]
+  },
+  {
+   "a": "wd:Q57414371",
+   "b": "wd:Q87159",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q57414371",
+   "b": "wd:Q96147551",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q57414371",
+   "b": "wd:Q97625090",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q58825791",
+   "b": "wd:Q75323268",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q6040640"
+   ]
+  },
+  {
+   "a": "wd:Q58825791",
+   "b": "wd:Q90252323",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q6040640"
+   ]
+  },
+  {
+   "a": "wd:Q65198928",
+   "b": "wd:Q90945982",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q12074686"
+   ]
+  },
+  {
+   "a": "wd:Q66689004",
+   "b": "wd:Q87159",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q41506"
+   ]
+  },
+  {
+   "a": "wd:Q75323268",
+   "b": "wd:Q90252323",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q6040640"
+   ]
+  },
+  {
+   "a": "wd:Q87159",
+   "b": "wd:Q96147551",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q87159",
+   "b": "wd:Q97625090",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  },
+  {
+   "a": "wd:Q96147551",
+   "b": "wd:Q97625090",
+   "kind": "employer",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.wikidata.org/wiki/Q84151"
+   ]
+  }
+ ]
+}

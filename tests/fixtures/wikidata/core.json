@@ -1,0 +1,9 @@
+{"head": {"vars": ["p", "rel"]},
+ "results": {"bindings": [
+  {"p": {"type": "uri", "value": "http://www.wikidata.org/entity/Q100"}, "rel": {"type": "literal", "value": "alumnus"}},
+  {"p": {"type": "uri", "value": "http://www.wikidata.org/entity/Q100"}, "rel": {"type": "literal", "value": "staff"}},
+  {"p": {"type": "uri", "value": "http://www.wikidata.org/entity/Q200"}, "rel": {"type": "literal", "value": "alumnus"}},
+  {"p": {"type": "uri", "value": "http://www.wikidata.org/entity/Q300"}, "rel": {"type": "literal", "value": "staff"}},
+  {"p": {"type": "uri", "value": "http://www.wikidata.org/entity/Q400"}, "rel": {"type": "literal", "value": "alumnus"}},
+  {"p": {"type": "uri", "value": "http://www.wikidata.org/entity/Q500"}, "rel": {"type": "literal", "value": "alumnus"}}
+ ]}}

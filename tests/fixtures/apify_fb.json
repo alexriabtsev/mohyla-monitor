@@ -1,0 +1,6 @@
+[
+ {"postId":"111","pageName":"НаУКМА","url":"https://www.facebook.com/naukma/","postUrl":"https://www.facebook.com/naukma/posts/pfbid111","text":"Вітаємо випускницю Могилянки з нагородою!","time":"2026-11-04T07:00:00.000Z","likes":120},
+ {"postId":"112","pageName":"НаУКМА","url":"https://www.facebook.com/naukma/posts/pfbid112","text":"Старий допис","timestamp":1790000000},
+ {"postId":"113","user":{"name":"Fallback Name"},"url":"https://www.facebook.com/naukma/posts/pfbid113","text":"Фото з заходу","timestamp":1793800000},
+ {"error":"no_items","errorDescription":"Empty or private data for provided input"}
+]

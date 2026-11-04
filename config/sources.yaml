@@ -1,0 +1,101 @@
+# Mohyla media monitor: sources and tuning. Edit freely; no code changes needed.
+
+user_agent: "MohylaMonitor/0.1 (+https://github.com/; media monitoring of NaUKMA community)"
+lookback_hours: 36          # window for a daily run (overlap protects against missed runs)
+digest_size: 30             # max items on the daily page
+
+wikidata:
+  orgs:                     # NaUKMA and its units; P69 = educated at, P108 = employer
+    - Q1133013              # National University of Kyiv-Mohyla Academy
+    - Q4220135              # Kyiv-Mohyla Business School (kmbs)
+    - Q116205723            # Mohyla School of Journalism
+  exclude_dead: true
+  min_birth_year: 1940      # skip the historical Academy (1659–1817) crowd
+
+wikipedia_categories:       # uk.wikipedia, modern NaUKMA only
+  - "Категорія:Випускники Національного університету «Києво-Могилянська академія»"
+  - "Категорія:Випускники Києво-Могилянської бізнес-школи"
+  - "Категорія:Науковці Києво-Могилянської академії"
+
+rss:
+  - name: ukma.edu.ua
+    url: "https://www.ukma.edu.ua/index.php/news?format=feed&type=rss"
+    kind: official
+
+google_news_queries:        # each becomes a Google News RSS search (uk + en editions)
+  - '"Могилянка" OR "Могилянки" OR "Могилянці"'
+  - '"Києво-Могилянська академія" OR "Києво-Могилянської академії"'
+  - '"НаУКМА"'
+  - '"випускник Могилянки" OR "випускниця Могилянки"'
+  - '"Kyiv-Mohyla Academy" OR "NaUKMA"'
+  - '"Києво-Могилянська бізнес-школа" OR "Kyiv-Mohyla Business School"'
+# A Google News hit for these quoted queries counts as a Mohyla mention in the article body
+# even when the headline lacks the keyword (Google indexes the full text). Avoid bare "kmbs":
+# it matches partner footers on business media (e.g. Mind.ua) and floods the digest.
+
+telegram_channels:          # public channels; people's handles are added from Wikidata
+  # NaUKMA banned Telegram for official use from 2025-01-01 (official accounts deleted),
+  # so these are student/community channels; most signal comes from people's own channels.
+  - StudNaUKMA              # Студентська колегія НаУКМА
+  - naukmanews
+
+facebook_pages:             # used only when APIFY_TOKEN is set
+  - https://www.facebook.com/naukma/
+
+websearch_queries:          # used only when BRAVE_API_KEY is set
+  - 'site:linkedin.com/posts "Kyiv-Mohyla"'
+  - 'site:linkedin.com/posts "Могилянк"'
+  - 'site:x.com "Kyiv-Mohyla" OR "Могилянк"'
+  - 'site:threads.net "Могилянк"'
+
+bluesky_queries:            # used only when BSKY_HANDLE + BSKY_APP_PASSWORD are set
+  - Могилянка
+  - Kyiv-Mohyla
+
+relevance_patterns:         # case-insensitive regexes; any hit = Mohyla-related
+  - 'могилян\w*'
+  - 'києво-могилянськ\w*'
+  - '\bнаукма\b'
+  - '\bукма\b'
+  - 'kyiv[- ]mohyla'
+  - '\bnaukma\b'
+  - '\bkmbs\b'
+
+own_achievement_patterns:   # a person's OWN post is kept only with first-person success wording
+  - '(мене|мою кандидатуру) (було )?(призначено|обрано|номіновано)'
+  - '\b(я|ми) (отрима\w*|здобу\w*|вигра\w*|став|стала|стали|очоли\w*)'
+  - '(отрима\w*|здобу\w*|вручили) (премі|нагород|грант|стипенді|відзнак)\w*'
+  - '(увійш\w*|потрапи\w*) (до|в|у) (шорт-?лист|лонг-?лист|рейтинг|список forbes)\w*'
+  - 'лауреат\w*'
+  - "(i('m| am| was) (honou?red|appointed|elected|awarded)|i (won|received))"
+
+categories:                 # first match wins; order matters
+  achievement:
+    label: "Досягнення"
+    # no bare 'перемог\w*' / 'нагород\w*': «до перемоги», «нагородили посмертно» flood war news
+    patterns: ['премі[юяїє]\w*', 'нагороджен\w*', 'переможц\w*', 'переміг', 'перемогла',
+               'відзнак\w*', 'призначен\w*', 'обран[аоий]\w*', 'очоли\w*', 'на посаду',
+               'стал[аи]? (заступни|міністр|директор|ректор|голов|посл|керівни|член)\w*',
+               'грант\w*', 'стипенді\w*', 'лауреат\w*', 'шорт-?лист\w*',
+               'award\w*', 'prize', 'winner', 'appointed', 'elected', 'fellowship']
+  science:
+    label: "Наука"
+    patterns: ['досліджен\w*', 'наук\w*', 'конференці\w*', 'публікаці\w*', 'research', 'horizon']
+  students:
+    label: "Студентство"
+    patterns: ['студент\w*', 'вступ\w*', 'абітурієнт\w*', 'student\w*']
+  community:
+    label: "Спільнота"
+    patterns: []
+
+weights:
+  kind: {official: 1.0, media: 1.2, social: 0.8}
+  person_mention: 1.5       # per matched person (capped)
+  prominence: 1.0           # multiplied by person prominence
+  category: {achievement: 1.5, science: 0.6, students: 0.4, community: 0.0}
+  keep_reason:              # why match.py kept the item: explicit Mohyla mention matters most
+    keyword: 2.0
+    person: 0.8
+    body: 0.5
+    own_achievement: 0.0
+  recency_half_life_hours: 24

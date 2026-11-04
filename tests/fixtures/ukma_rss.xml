@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- trimmed from https://www.ukma.edu.ua/index.php/news?format=feed&type=rss (2026-11-04) -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Національний університет «Києво-Могилянська академія» — Новини</title>
+		<link>https://www.ukma.edu.ua/index.php/news</link>
+		<language>uk-ua</language>
+		<item>
+			<title>У Стамбулі відбувся міжнародний науковий воркшоп «The Wider Black Sea Security 2030»</title>
+			<link>https://www.ukma.edu.ua/index.php/news/6131-workshop</link>
+			<guid isPermaLink="true">https://www.ukma.edu.ua/index.php/news/6131-workshop</guid>
+			<description><![CDATA[<div class="feed-description">
+<p style="text-align: justify;"><strong>22–24 жовтня 2026 року</strong> в Стамбулі відбувся воркшоп,&nbsp;організований
+ кафедрою політології НаУКМА.</p>
+<p>&nbsp;</p><p>Захід об’єднав науковців.</p></div>]]></description>
+			<pubDate>Wed, 04 Nov 2026 07:29:43 +0200</pubDate>
+		</item>
+		<item>
+			<title>Могилянка отримала грант Horizon Europe</title>
+			<link>https://www.ukma.edu.ua/index.php/news/6129-grant</link>
+			<guid isPermaLink="true">https://www.ukma.edu.ua/index.php/news/6129-grant</guid>
+			<description><![CDATA[<p>Команда <b>НаУКМА</b> виграла грант.</p>]]></description>
+			<pubDate>Mon, 02 Nov 2026 16:29:50 +0200</pubDate>
+		</item>
+		<item>
+			<title>Старий допис</title>
+			<link>https://www.ukma.edu.ua/index.php/news/6100-old</link>
+			<guid isPermaLink="true">https://www.ukma.edu.ua/index.php/news/6100-old</guid>
+			<description><![CDATA[<p>Давно.</p>]]></description>
+			<pubDate>Thu, 22 Oct 2026 13:21:18 +0300</pubDate>
+		</item>
+	</channel>
+</rss>

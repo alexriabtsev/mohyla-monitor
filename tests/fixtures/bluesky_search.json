@@ -1,0 +1,6 @@
+{"posts":[
+ {"uri":"at://did:plc:abc123/app.bsky.feed.post/3lxyzold1","cid":"c1","author":{"did":"did:plc:abc123","handle":"olena.bsky.social","displayName":"Олена"},
+  "record":{"$type":"app.bsky.feed.post","text":"Сьогодні виступала в Могилянці про медіаграмотність.\nДякую всім!","createdAt":"2026-11-04T10:00:00.000Z"},"indexedAt":"2026-11-04T10:00:01.000Z"},
+ {"uri":"at://did:plc:def456/app.bsky.feed.post/3labcdef2","cid":"c2","author":{"did":"did:plc:def456","handle":"scholar.example.com","displayName":""},
+  "record":{"$type":"app.bsky.feed.post","text":"Old post about Kyiv-Mohyla","createdAt":"2026-10-01T10:00:00.000Z"},"indexedAt":"2026-10-01T10:00:01.000Z"}
+],"cursor":"2"}
