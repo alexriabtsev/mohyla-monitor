@@ -11,7 +11,7 @@
 - Bluesky search API вимагає авторизації → app password у secrets (опційно).
 - Facebook/LinkedIn/X/Threads не мають відкритого API для чужих дописів →
   Facebook через Apify (опційно, `APIFY_TOKEN`), LinkedIn/X/Threads через пошуковий
-  API з `site:`-запитами (опційно, `BRAVE_API_KEY`). Без ключів колектор вимикається
+  API Tavily з обмеженням за доменами (опційно, `TAVILY_API_KEY`). Без ключів колектор вимикається
   і дайджест показує, що джерело неактивне.
 - Telegram: глобального пошуку без акаунта нема → канали з конфігу + handles з Wikidata
   (P3789) + `t.me`-посилання, знайдені в новинах.
@@ -37,7 +37,7 @@ mohyla/
     telegram.py        t.me/s/<channel> (публічний веб-прев'ю)
     bluesky.py         searchPosts з app password (опційно)
     facebook_apify.py  (опційно)
-    websearch.py       Brave Search: site:linkedin.com|x.com|threads.net (опційно)
+    websearch.py       Tavily Search: linkedin.com|x.com|threads.com|instagram.com (опційно)
   match.py             релевантність до Могилянки + зв'язок item ↔ люди
   rank.py              скоринг, дедуп (URL + схожість заголовків), категорії
   digest.py            HTML + JSON дайджест, архів днів

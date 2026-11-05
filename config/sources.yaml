@@ -139,19 +139,19 @@ facebook_groups:            # public status unconfirmed; closed groups return no
   - https://www.facebook.com/groups/pochayna/           # Капела «Почайна»
   - https://www.facebook.com/groups/mogylianka.armiyi/  # Могилянці – воїнам
 
-# Brave Search (only when BRAVE_API_KEY is set): one request per query per day.
-# Brave gives up to $20 of free calls a month (brave.com/search/api, 2026-11); 10 queries x 30 days = 300 requests.
+# Tavily web search (only when TAVILY_API_KEY is set): one basic search = 1 credit,
+# last 24h only. Free plan: 1,000 credits/month; 10 queries x 30 days = 300.
 websearch_queries:
-  - 'site:linkedin.com/posts "Kyiv-Mohyla"'
-  - 'site:linkedin.com/posts "NaUKMA"'
-  - 'site:linkedin.com/posts "Могилянк"'
-  - 'site:linkedin.com/posts "НаУКМА"'
-  - 'site:linkedin.com/pulse "Kyiv-Mohyla" OR "NaUKMA"'
-  - 'site:x.com "Kyiv-Mohyla" OR "NaUKMA"'
-  - 'site:x.com "Могилянк" OR "НаУКМА"'
-  - 'site:threads.com "Могилянк" OR "НаУКМА"'
-  - 'site:threads.com "Kyiv-Mohyla" OR "NaUKMA"'
-  - 'site:instagram.com "Могилянк" OR "НаУКМА"'
+  - {query: "Kyiv-Mohyla OR NaUKMA", domains: [linkedin.com]}
+  - {query: "Могилянка OR НаУКМА OR Могилянської", domains: [linkedin.com]}
+  - {query: "Kyiv-Mohyla OR NaUKMA", domains: [x.com]}
+  - {query: "Могилянка OR НаУКМА", domains: [x.com]}
+  - {query: "Могилянка OR НаУКМА", domains: [threads.com, threads.net]}
+  - {query: "Kyiv-Mohyla OR NaUKMA", domains: [threads.com, threads.net]}
+  - {query: "Могилянка OR НаУКМА", domains: [instagram.com]}
+  - {query: "випускник Могилянки OR випускниця Могилянки", domains: [linkedin.com, x.com, threads.com]}
+  - {query: "Kyiv-Mohyla Business School OR kmbs", domains: [linkedin.com]}
+  - {query: "Kyiv-Mohyla Academy alumni", domains: [linkedin.com, x.com, threads.com]}
 
 bluesky_queries:            # used only when BSKY_HANDLE + BSKY_APP_PASSWORD are set
   - Могилянка

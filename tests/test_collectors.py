@@ -37,7 +37,7 @@ def no_sleep(monkeypatch):
 
 @pytest.fixture
 def no_secrets(monkeypatch):
-    for k in ("BSKY_HANDLE", "BSKY_APP_PASSWORD", "APIFY_TOKEN", "BRAVE_API_KEY"):
+    for k in ("BSKY_HANDLE", "BSKY_APP_PASSWORD", "APIFY_TOKEN", "TAVILY_API_KEY"):
         monkeypatch.delenv(k, raising=False)
 
 
@@ -181,7 +181,7 @@ def test_discover_channels():
 # ---------- optional collectors: disabled without secrets ----------
 
 @pytest.mark.parametrize("mod,env", [
-    (bluesky, "BSKY_HANDLE"), (facebook_apify, "APIFY_TOKEN"), (websearch, "BRAVE_API_KEY"),
+    (bluesky, "BSKY_HANDLE"), (facebook_apify, "APIFY_TOKEN"), (websearch, "TAVILY_API_KEY"),
 ])
 def test_disabled_without_secret(no_secrets, mod, env):
     def handler(r: httpx.Request) -> httpx.Response:
@@ -395,18 +395,25 @@ def test_facebook_discovered_sources_capped():
                                                        "https://www.facebook.com/d1/"]
 
 
-# ---------- websearch (brave) ----------
+# ---------- websearch (tavily) ----------
 
-def test_websearch_brave(monkeypatch):
-    monkeypatch.setenv("BRAVE_API_KEY", "KEY")
+def test_websearch_tavily(monkeypatch):
+    monkeypatch.setenv("TAVILY_API_KEY", "tvly-KEY")
+    bodies: list[dict] = []
 
     def handler(r: httpx.Request) -> httpx.Response:
-        assert r.headers["X-Subscription-Token"] == "KEY"
-        assert r.url.params["freshness"] == "pd" and r.url.params["count"] == "20"
-        return httpx.Response(200, content=fx("brave_search.json"))
+        assert r.method == "POST" and r.headers["Authorization"] == "Bearer tvly-KEY"
+        assert "KEY" not in str(r.url)
+        bodies.append(json.loads(r.content))
+        return httpx.Response(200, content=fx("tavily_search.json"))
 
-    res = websearch.collect(client_for(handler), {"websearch_queries": ["q1"]}, SINCE, [])
-    assert res.status.ok and len(res.items) == 2
+    cfg = {"websearch_queries": [{"query": "Могилянка", "domains": ["linkedin.com", "x.com"]},
+                                 "plain query", {"domains": ["x.com"]}]}
+    res = websearch.collect(client_for(handler), cfg, SINCE, [])
+    assert bodies[0]["include_domains"] == ["linkedin.com", "x.com"]
+    assert bodies[0]["time_range"] == "day" and bodies[0]["search_depth"] == "basic"
+    assert "include_domains" not in bodies[1] and len(bodies) == 2  # malformed one skipped
+    assert res.status.ok and len(res.items) == 2  # old post dropped, no-url skipped
     li, xx = res.items
     assert li.source == "web:linkedin.com" and xx.source == "web:x.com"
     assert li.published == datetime(2026, 11, 4, 6, tzinfo=timezone.utc)
@@ -415,11 +422,12 @@ def test_websearch_brave(monkeypatch):
     assert_items_valid(res.items)
 
 
-def test_websearch_failure(monkeypatch):
-    monkeypatch.setenv("BRAVE_API_KEY", "KEY")
-    res = websearch.collect(client_for(lambda r: httpx.Response(429)),
+def test_websearch_failure_never_leaks_key(monkeypatch, caplog):
+    monkeypatch.setenv("TAVILY_API_KEY", "tvly-KEY")
+    res = websearch.collect(client_for(lambda r: httpx.Response(432)),
                             {"websearch_queries": ["q1"]}, SINCE, [])
     assert not res.status.ok and res.items == ()
+    assert "tvly-KEY" not in res.status.message and "tvly-KEY" not in caplog.text
 
 
 # ---------- registry / run_all ----------

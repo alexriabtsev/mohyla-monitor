@@ -48,7 +48,7 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 3. Settings → Actions → General → Workflow permissions → Read and write.
 4. Опційні секрети (Settings → Secrets → Actions), кожен вмикає своє джерело:
    `BSKY_HANDLE` + `BSKY_APP_PASSWORD`, `APIFY_TOKEN` (Facebook, платно, див. нижче),
-   `BRAVE_API_KEY` (LinkedIn/X/Threads через пошук).
+   `TAVILY_API_KEY` (LinkedIn/X/Threads/Instagram через пошук Tavily, 1000 безкоштовних запитів на місяць).
 
 ## Facebook
 Публічні сторінки (`facebook_pages`) і групи (`facebook_groups`) з `config/sources.yaml`,

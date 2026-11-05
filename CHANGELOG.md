@@ -16,6 +16,9 @@
 - Sources are capped in priority order (config, people's profiles, discovered), so discovery
   can never push curated sources out or raise the bill past the configured cap.
 ### Notes & Caveats
+- Web search moved from Brave to Tavily (`TAVILY_API_KEY`): Brave's dashboard returns 403
+  to Ukrainian IPs and requires a $5 prepaid top-up; Tavily's free plan has 1,000 searches/month
+  with no card. Queries are now `{query, domains}` (include_domains instead of `site:`).
 - Only public pages, public groups and posts marked Public; Meta's terms forbid scraping, the
   risk sits with Apify. The legitimate full-text route is Meta Content Library (researchers).
 - Apify input/field names follow the actors' current docs; the first live run is the check.
