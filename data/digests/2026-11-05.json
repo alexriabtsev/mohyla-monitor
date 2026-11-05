@@ -13,7 +13,7 @@
         "wd:Q7685535"
       ],
       "category": "science",
-      "score": 3.464505777214973,
+      "score": 2.361490747520209,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -31,10 +31,46 @@
         "wd:Q124101558"
       ],
       "category": "science",
-      "score": 3.0300896151446093,
+      "score": 2.0653822075809067,
       "extra": {
         "keep_reason": "own_achievement",
         "body_match": false
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSFRsT0ZVQ3pUV3QzV3ZMbEpCX3lkaGI0S2xaeEJHREw2cjFTSkVnVFB5Wk1HTjU0aGFabVMxTWpvTGp0aWZLWTY3Q3dXVDgxbDd0b3pJb0ZrQ1N0VDljTm1uandNWXdTSExUZmVDdUFvcmxFN0FxMzJ2a0otcndtaVR3VlQ0eE1YOEhVSEM5aWd5c0Y1U2NCd2VvYTgwamZzZm0tcmxXSHg0WEtXMVgyU240UEVBa0JwUEJlZzJRNk5wV1N2cDNXNTRlcXh6QdIB0wFBVV95cUxNcU9NR19mMEtNM0F1cjFQajAwbEpURElSUVRfUXFxVWcxRW9wNS1ab0YtUmlQRkJCeFpXZ0w1ZDJQUncxYnB1c0dFX0R4Y2VLZ2F2RDdWN2Z4TWhpb3FzdTlueFNfa0hXbVRZSHQwVXBLQ3UzbGxpY3kzaHJaMjlNRWFudEg3aGpqdmhLMkJUM044WlVlOXFVWkVoc0lwcWFBSTdsWm1pMklsWTNVVnRhN2ZtMTR6WkZtY1FTUDY0YVZuZ0k0OFlOYVY5ZW5XVWlad3lF?oc=5",
+      "title": "НБУ призначив директором департаменту нагляду за небанківськими надавачами фінпослуг Атаманюк",
+      "text": "НБУ призначив директором департаменту нагляду за небанківськими надавачами фінпослуг Атаманюк Українські Новини",
+      "source": "gnews:Українські Новини",
+      "kind": "media",
+      "published": "2026-11-05T10:22:34+00:00",
+      "author": "Українські Новини",
+      "person_ids": [],
+      "category": "community",
+      "score": 1.6332751945663033,
+      "extra": {
+        "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
+        "publisher_url": "https://ukranews.com",
+        "keep_reason": "body",
+        "body_match": true
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYWVhd2ZHQ1RjSVRoSndURV9qalY2ZXlwbl9hdGRKcERwUXVKaHNCbThHbkRxaDRSQ3Vma0JfX3dkUGZYbE03Yk1jaUZrVXBVSlNCUGFsQWJrQnhfd0lDUDEtOFRxSTNMOG90LW94ekowZmQ0Yk1ESEVXQjZGX3JjTTFDeE5LZlE?oc=5",
+      "title": "Леонід Ушкалов у спогадах сучасників",
+      "text": "Леонід Ушкалов у спогадах сучасників Український тиждень",
+      "source": "gnews:Український тиждень",
+      "kind": "media",
+      "published": "2026-11-05T09:37:02+00:00",
+      "author": "Український тиждень",
+      "person_ids": [],
+      "category": "community",
+      "score": 1.597867216090623,
+      "extra": {
+        "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
+        "publisher_url": "https://tyzhden.ua",
+        "keep_reason": "body",
+        "body_match": true
       }
     },
     {
@@ -47,7 +83,7 @@
       "author": "БукІнфо",
       "person_ids": [],
       "category": "community",
-      "score": 2.285894858594988,
+      "score": 1.5581211016814902,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://bukinfo.com.ua",
@@ -67,7 +103,7 @@
         "wd:Q135615535"
       ],
       "category": "achievement",
-      "score": 2.0649777429050595,
+      "score": 1.4075386641801177,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://leopolis.news",
@@ -85,7 +121,7 @@
       "author": "Вікенд",
       "person_ids": [],
       "category": "community",
-      "score": 1.1667365473950322,
+      "score": 0.7952757878446682,
       "extra": {
         "query": "\"НаУКМА\"",
         "publisher_url": "https://weekend.today",
@@ -103,7 +139,7 @@
       "author": "MY.UA",
       "person_ids": [],
       "category": "community",
-      "score": 1.0561803075557217,
+      "score": 0.7199179866892521,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://my.ua",
@@ -121,7 +157,7 @@
       "author": "Громадське радіо",
       "person_ids": [],
       "category": "community",
-      "score": 0.5712618939988191,
+      "score": 0.38938589335346185,
       "extra": {
         "query": "\"Могилянка\" OR \"Могилянки\" OR \"Могилянці\"",
         "publisher_url": "https://hromadske.radio",
@@ -139,7 +175,7 @@
       "author": "Comments.ua",
       "person_ids": [],
       "category": "community",
-      "score": 0.5079738217259823,
+      "score": 0.34624721594567387,
       "extra": {
         "query": "\"НаУКМА\"",
         "publisher_url": "https://society.comments.ua",
@@ -157,7 +193,7 @@
       "author": "Українське радіо",
       "person_ids": [],
       "category": "community",
-      "score": 0.43008649644236274,
+      "score": 0.29315733535837085,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://ukr.radio",
@@ -178,14 +214,14 @@
       "name": "google_news",
       "ok": true,
       "enabled": true,
-      "count": 4,
+      "count": 5,
       "message": ""
     },
     {
       "name": "telegram",
       "ok": true,
       "enabled": true,
-      "count": 29,
+      "count": 27,
       "message": ""
     },
     {
