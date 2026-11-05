@@ -140,7 +140,7 @@ facebook_groups:            # public status unconfirmed; closed groups return no
   - https://www.facebook.com/groups/mogylianka.armiyi/  # Могилянці – воїнам
 
 # Brave Search (only when BRAVE_API_KEY is set): one request per query per day.
-# ~$5 per 1,000 requests with $5 free credit a month: 10 queries x 30 days = 300 = ~$1.5.
+# Brave gives up to $20 of free calls a month (brave.com/search/api, 2026-11); 10 queries x 30 days = 300 requests.
 websearch_queries:
   - 'site:linkedin.com/posts "Kyiv-Mohyla"'
   - 'site:linkedin.com/posts "NaUKMA"'
