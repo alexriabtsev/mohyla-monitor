@@ -9,7 +9,7 @@ from urllib.parse import quote
 import httpx
 
 from mohyla.http import FetchError, fetch
-from mohyla.models import ALUMNUS, STAFF, Person
+from mohyla.models import ALUMNUS, STAFF, Person, qualified_role
 from mohyla.people.names import canonical_name
 
 log = logging.getLogger(__name__)
@@ -20,8 +20,20 @@ _PAREN_RE = re.compile(r"\s*\([^)]*\)\s*$")
 _SKIP_PREFIXES = ("Список", "Перелік")
 
 
-def role_for_category(category: str) -> str:
-    return STAFF if "Науковці" in category or "Викладачі" in category else ALUMNUS
+def role_for_category(category: str, unit: str = "") -> str:
+    base = STAFF if "Науковці" in category or "Викладачі" in category else ALUMNUS
+    return qualified_role(base, unit)
+
+
+def category_entries(cfg: dict) -> list[tuple[str, str]]:
+    """wikipedia_categories items: 'Категорія:…' or {name: 'Категорія:…', unit: kmbs}."""
+    out = []
+    for entry in cfg.get("wikipedia_categories", []):
+        if isinstance(entry, dict) and entry.get("name"):
+            out.append((str(entry["name"]), str(entry.get("unit") or "")))
+        elif isinstance(entry, str) and entry.strip():
+            out.append((entry.strip(), ""))
+    return out
 
 
 def display_name(title: str) -> str:
@@ -95,12 +107,12 @@ def _person(title: str, qid: str | None, role: str) -> Person:
 
 def fetch_category_people(client: httpx.Client, cfg: dict) -> list[Person]:
     """Members of cfg['wikipedia_categories'] as Person records (one per title+role)."""
-    by_category: dict[str, list[str]] = {}
-    for category in cfg.get("wikipedia_categories", []):
+    by_category: dict[tuple[str, str], list[str]] = {}
+    for category, unit in category_entries(cfg):
         titles = [t for t in _category_members(client, category) if not t.startswith(_SKIP_PREFIXES)]
         log.info("wikipedia: %d pages in %s", len(titles), category)
-        by_category[category] = titles
+        by_category[(category, unit)] = titles
     all_titles = list(dict.fromkeys(t for ts in by_category.values() for t in ts))
     qids = _wikibase_items(client, all_titles)
-    return [_person(t, qids.get(t), role_for_category(c))
-            for c, titles in by_category.items() for t in titles]
+    return [_person(t, qids.get(t), role_for_category(c, unit))
+            for (c, unit), titles in by_category.items() for t in titles]

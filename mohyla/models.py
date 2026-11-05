@@ -10,13 +10,24 @@ STAFF = "staff"
 STUDENT = "student"
 
 
+def qualified_role(role: str, unit: str = "") -> str:
+    """Role tied to a university unit: ('alumnus', 'kmbs') -> 'alumnus@kmbs'."""
+    return f"{role}@{unit}" if unit else role
+
+
+def split_role(role: str) -> tuple[str, str]:
+    """'alumnus@kmbs' -> ('alumnus', 'kmbs'); 'alumnus' -> ('alumnus', '')."""
+    base, _, unit = role.partition("@")
+    return base, unit
+
+
 @dataclass(frozen=True)
 class Person:
     id: str                                   # "wd:Q123" | "wp:uk:Title" | "cand:<slug>"
     name_uk: str                              # canonical Ukrainian "Ім'я Прізвище"
     name_en: str = ""
     aliases: tuple[str, ...] = ()
-    roles: tuple[str, ...] = ()               # ALUMNUS / STAFF / STUDENT
+    roles: tuple[str, ...] = ()               # ALUMNUS / STAFF / STUDENT, '@unit' for kmbs etc.
     description: str = ""
     employers: tuple[str, ...] = ()           # Wikidata QIDs, used for graph edges
     socials: tuple[tuple[str, str], ...] = () # (network, handle), e.g. ("telegram", "durov")

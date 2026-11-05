@@ -16,7 +16,7 @@ from dataclasses import replace
 import httpx
 
 from mohyla.http import FetchError, fetch
-from mohyla.models import ALUMNUS, STAFF, Person
+from mohyla.models import ALUMNUS, STAFF, Person, qualified_role
 from mohyla.people.names import canonical_name
 
 log = logging.getLogger(__name__)
@@ -38,11 +38,14 @@ def prominence(sitelinks: int) -> float:
     return min(1.0, math.log1p(max(sitelinks, 0)) / math.log1p(PROMINENCE_SATURATION))
 
 
-def core_query(orgs: list[str]) -> str:
+def core_query(orgs: list[str], units: dict[str, str] | None = None) -> str:
+    """Alumni (P69) and staff (P108) of each org; roles carry the org's unit label
+    (e.g. 'alumnus@kmbs') when it is a school inside NaUKMA rather than the university."""
     branches = []
     for org in orgs:
-        branches.append(f'{{ ?p wdt:P69 wd:{org} . BIND("{ALUMNUS}" AS ?rel) }}')
-        branches.append(f'{{ ?p wdt:P108 wd:{org} . BIND("{STAFF}" AS ?rel) }}')
+        unit = (units or {}).get(org, "")
+        branches.append(f'{{ ?p wdt:P69 wd:{org} . BIND("{qualified_role(ALUMNUS, unit)}" AS ?rel) }}')
+        branches.append(f'{{ ?p wdt:P108 wd:{org} . BIND("{qualified_role(STAFF, unit)}" AS ?rel) }}')
     return "SELECT DISTINCT ?p ?rel WHERE {\n  " + "\n  UNION ".join(branches) + "\n}"
 
 
@@ -191,7 +194,7 @@ def fetch_people(client: httpx.Client, cfg: dict) -> list[Person]:
     """Living NaUKMA alumni/staff from Wikidata. Returns [] if the core query fails."""
     orgs = cfg.get("wikidata", {}).get("orgs", [])
     try:
-        core = parse_core(_sparql(client, core_query(orgs)))
+        core = parse_core(_sparql(client, core_query(orgs, cfg.get("wikidata", {}).get("units"))))
     except FetchError as exc:
         log.error("wikidata core query failed: %s", exc)
         return []

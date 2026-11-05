@@ -12,12 +12,15 @@ wikidata:
     - Q1133013              # National University of Kyiv-Mohyla Academy
     - Q4220135              # Kyiv-Mohyla Business School (kmbs)
     - Q116205723            # Mohyla School of Journalism
+  units:                    # schools inside NaUKMA: shown as "випускник kmbs", not just "випускник"
+    Q4220135: kmbs
+    Q116205723: Могилянська школа журналістики
   exclude_dead: true
   min_birth_year: 1940      # skip the historical Academy (1659–1817) crowd
 
 wikipedia_categories:       # uk.wikipedia, modern NaUKMA only
   - "Категорія:Випускники Національного університету «Києво-Могилянська академія»"
-  - "Категорія:Випускники Києво-Могилянської бізнес-школи"
+  - {name: "Категорія:Випускники Києво-Могилянської бізнес-школи", unit: kmbs}
   - "Категорія:Науковці Києво-Могилянської академії"
 
 rss:

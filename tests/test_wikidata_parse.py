@@ -81,3 +81,16 @@ def test_wikipedia_display_name(title, name):
 def test_wikipedia_role_for_category():
     assert role_for_category("Категорія:Науковці Києво-Могилянської академії") == "staff"
     assert role_for_category("Категорія:Випускники Києво-Могилянської бізнес-школи") == "alumnus"
+    assert role_for_category("Категорія:Випускники Києво-Могилянської бізнес-школи", "kmbs") == "alumnus@kmbs"
+
+
+def test_category_entries_accept_units():
+    from mohyla.people.wikipedia import category_entries
+    cfg = {"wikipedia_categories": ["Категорія:A", {"name": "Категорія:B", "unit": "kmbs"}, {"unit": "x"}]}
+    assert category_entries(cfg) == [("Категорія:A", ""), ("Категорія:B", "kmbs")]
+
+
+def test_core_query_qualifies_unit_roles():
+    q = wd.core_query(["Q1133013", "Q4220135"], {"Q4220135": "kmbs"})
+    assert 'wd:Q1133013 . BIND("alumnus" AS ?rel)' in q
+    assert 'wd:Q4220135 . BIND("alumnus@kmbs" AS ?rel)' in q and '"staff@kmbs"' in q

@@ -68,3 +68,10 @@ def test_render_index_and_write_site(tmp_path):
     feed = (tmp_path / "feed.xml").read_text(encoding="utf-8")
     assert "<rss" in feed and "A &amp; B" in feed
     assert "archive.html" in (tmp_path / "index.html").read_text(encoding="utf-8")
+
+
+
+def test_role_label_shows_unit():
+    from mohyla.digest import role_label
+    assert role_label("alumnus@kmbs") == "випускник kmbs"
+    assert role_label("staff") == "співробітник"

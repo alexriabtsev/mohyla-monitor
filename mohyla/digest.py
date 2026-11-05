@@ -11,7 +11,7 @@ from zoneinfo import ZoneInfo
 
 from mohyla import digest_assets as A
 from mohyla.people.archive import cohort_label
-from mohyla.models import Item, Person, SourceStatus
+from mohyla.models import Item, Person, SourceStatus, split_role
 
 KYIV = ZoneInfo("Europe/Kyiv")
 LEAD_COUNT = 5
@@ -64,8 +64,14 @@ def _cat_label(key: str) -> str:
 
 # --- item fragments ---------------------------------------------------------
 
+def role_label(role: str) -> str:
+    """'alumnus@kmbs' -> 'випускник kmbs'."""
+    base, unit = split_role(role)
+    return " ".join(filter(None, (A.ROLE_LABELS.get(base, base), unit)))
+
+
 def _person_chip(person: Person) -> str:
-    roles = ", ".join(A.ROLE_LABELS.get(r, r) for r in person.roles)
+    roles = ", ".join(role_label(r) for r in person.roles)
     if person.id.startswith("alumni:"):  # graduate from the archived cohort lists
         roles = " ".join(filter(None, (roles, cohort_label(person))))
     inner = esc(person.name_uk) + (f" <small>· {esc(roles)}</small>" if roles else "")
