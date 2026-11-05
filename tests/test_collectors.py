@@ -475,3 +475,24 @@ def test_run_all_isolates_exceptions(no_secrets, monkeypatch):
     assert by["google_news"].ok and by["telegram"].ok
     assert not by["bluesky"].enabled
     assert len(items) == by["google_news"].count + by["telegram"].count > 0
+
+
+BIO = "National University of Kyiv Mohyla Academy. Winner of Peterson Literary Prize for book."
+
+
+def test_websearch_x_bio_dropped_and_tweet_from_title(monkeypatch):
+    monkeypatch.setenv("TAVILY_API_KEY", "tvly-KEY")
+    payload = {"results": [
+        {"title": 'Taras Kuzio on X: "TRUMP-VANCE: WHO HAS THE ...', "content": BIO,
+         "url": "https://x.com/TarasKuzio/status/1"},
+        {"title": "Taras Kuzio on X / X", "content": BIO, "url": "https://x.com/TarasKuzio/status/2"},
+        {"title": "Andreas Umland - X", "content": "Чи зміниться політика США щодо України?",
+         "url": "https://x.com/UmlandAndreas/status/3"},
+    ]}
+    res = websearch.collect(client_for(lambda r: httpx.Response(200, json=payload)),
+                            {"websearch_queries": ["q"]}, SINCE, [])
+    by = {i.url.rsplit("/", 1)[-1]: i for i in res.items}
+    assert set(by) == {"1", "3"}  # the post with only a bio and no tweet text is dropped
+    assert by["1"].text == "TRUMP-VANCE: WHO HAS THE ..." and "Mohyla" not in by["1"].text
+    assert by["1"].author == "Taras Kuzio" and by["1"].extra["handle"] == "TarasKuzio"
+    assert by["3"].title.startswith("Чи зміниться") and by["3"].author == "Andreas Umland"

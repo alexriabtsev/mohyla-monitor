@@ -74,9 +74,10 @@ def social_owners(people: Sequence[Person]) -> dict[str, str]:
 
 def owner_id(item: Item, owners: dict[str, str]) -> str | None:
     """Person whose own social account published the item (source 'network:<handle>')."""
-    if item.kind != "social" or ":" not in item.source:
+    if item.kind != "social":
         return None
-    return owners.get(item.source.split(":", 1)[1].lower())
+    handle = item.extra.get("handle") or (item.source.split(":", 1)[1] if ":" in item.source else "")
+    return owners.get(str(handle).lower().lstrip("@")) if handle else None
 
 
 def link_item(

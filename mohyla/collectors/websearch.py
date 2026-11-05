@@ -18,7 +18,7 @@ import httpx
 from mohyla.http import FetchError, fetch
 from mohyla.models import CollectResult, Item, Person
 
-from ._common import clean_text, disabled, json_object, parse_iso, result, utc
+from ._common import clean_text, disabled, json_object, make_title, parse_iso, result, utc
 
 log = logging.getLogger(__name__)
 NAME = "websearch"
@@ -57,7 +57,30 @@ def is_post(url: str) -> bool:
     return bool(POST_PATH.match(urlparse(url).path or ""))
 
 
-def to_item(res: dict[str, Any], since: datetime, now: datetime) -> Item | None:
+# X result titles: 'Name on X: "tweet text..." / X', 'Name on X / X', 'Name - X'
+_X_TITLE = re.compile(r'^(?P<name>.+?)\s+(?:on X|on Twitter|-\s*X)(?::\s*"(?P<tweet>.*?)"?)?(?:\s*/\s*X)?$')
+MIN_BLURB_URLS = 2  # same snippet on this many posts of one host = a profile bio, not a post
+
+
+def x_parts(title: str) -> tuple[str, str]:
+    """(author name, tweet text from the title); empty strings when not an X-style title."""
+    m = _X_TITLE.match(title.strip())
+    return (m.group("name").strip(), (m.group("tweet") or "").strip()) if m else ("", "")
+
+
+def blurbs(results: Sequence[dict[str, Any]]) -> set[tuple[str, str]]:
+    """(host, snippet) pairs shared by several posts: search engines often show the
+    author's profile bio instead of the post, which would mislabel every post."""
+    urls: dict[tuple[str, str], set[str]] = {}
+    for res in results:
+        text = clean_text(res.get("content", ""))
+        if text and res.get("url"):
+            urls.setdefault((hostname(res["url"]), text), set()).add(res["url"])
+    return {key for key, found in urls.items() if len(found) >= MIN_BLURB_URLS}
+
+
+def to_item(res: dict[str, Any], since: datetime, now: datetime,
+            bios: set[tuple[str, str]] = frozenset()) -> Item | None:
     url = res.get("url") or ""
     if not url or not is_post(url):
         return None
@@ -67,9 +90,21 @@ def to_item(res: dict[str, Any], since: datetime, now: datetime) -> Item | None:
         published, extra = now, {"date_estimated": True}  # time_range=day keeps it recent
     if published < since:
         return None
-    return Item(url=url, title=clean_text(res.get("title", ""), 300),
-                text=clean_text(res.get("content", "")), source=f"web:{hostname(url)}",
-                kind="social", published=published, extra=extra)
+    host = hostname(url)
+    title = clean_text(res.get("title", ""), 300)
+    text = clean_text(res.get("content", ""))
+    if (host, text) in bios:
+        text = ""
+    author = ""
+    if host in ("x.com", "twitter.com"):
+        author, tweet = x_parts(title)
+        text = text or tweet
+        title = make_title(text)
+        extra = {**extra, "handle": urlparse(url).path.strip("/").split("/")[0]}
+    if not text.strip():
+        return None  # nothing of the post itself to judge or show
+    return Item(url=url, title=title or make_title(text), text=text, source=f"web:{host}",
+                kind="social", published=published, author=author, extra=extra)
 
 
 def parse_query(raw: Any) -> tuple[str, list[str]] | None:
@@ -106,6 +141,7 @@ def collect(client: httpx.Client, cfg: dict, since: datetime, people: Sequence[P
     now = datetime.now(timezone.utc)
     items: dict[str, Item] = {}
     errors: list[str] = []
+    raw: dict[str, dict[str, Any]] = {}
     for query, domains in queries:
         try:
             results = search(client, key, query, domains)
@@ -115,7 +151,11 @@ def collect(client: httpx.Client, cfg: dict, since: datetime, people: Sequence[P
             errors.append(f"{query}: {reason}")
             continue
         for res in results:
-            item = to_item(res, since, now)
-            if item is not None:
-                items.setdefault(item.url, item)
+            if res.get("url"):
+                raw.setdefault(res["url"], res)
+    bios = blurbs(list(raw.values()))
+    for res in raw.values():
+        item = to_item(res, since, now, bios)
+        if item is not None:
+            items[item.url] = item
     return result(NAME, items.values(), errors, attempts=len(queries))

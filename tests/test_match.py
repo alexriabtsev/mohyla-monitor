@@ -66,3 +66,10 @@ def test_index_matches_declined_and_reversed_names():
     ix = MatcherIndex(build_matchers([p, HRYTSAK]))
     for text in ("з Оленою Петренко", "Петренко Олена розповіла", "Ярославом Грицаком"):
         assert link_item(item("Могилянка", text=text), ix, None, True).person_ids
+
+
+def test_owner_from_handle_extra_for_web_results():
+    post = Item(url="https://x.com/Kyrylo_Budanov_Official/status/1", title="Новини фронту",
+                text="Новини фронту", source="web:x.com", kind="social", published=NOW,
+                extra={"handle": "Kyrylo_Budanov_Official"})
+    assert run([post]) == []  # own post without achievement wording is not kept

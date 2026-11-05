@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta, timezone
+from dataclasses import replace
 
 import pytest
 
@@ -146,3 +147,16 @@ def test_select_digest_family_cap_is_hard():
     out = select_digest(web + news, 20, {"web": 0.25})
     assert sum(1 for i in out if i.source.startswith("web:")) == 5
     assert len(out) == 10  # not refilled with web when other sources run out
+
+
+def test_dedupe_merges_identical_text():
+    body = "Могилянка відкрила нову лабораторію штучного інтелекту для студентів і викладачів університету в Києві цього тижня"
+    a = mk(url="https://a.ua/1", title="Перша назва", score=2.0)
+    b = mk(url="https://b.ua/2", title="Зовсім інша назва", score=1.0)
+    out = dedupe([replace(a, text=body), replace(b, text=body)])
+    assert len(out) == 1 and out[0].extra["also"][0]["url"] == "https://b.ua/2"
+
+
+def test_dedupe_keeps_short_equal_texts_apart():
+    a, b = mk(url="https://a.ua/1", title="Перша назва"), mk(url="https://b.ua/2", title="Інша назва")
+    assert len(dedupe([replace(a, text="Фото"), replace(b, text="Фото")])) == 2

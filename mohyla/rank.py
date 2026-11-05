@@ -15,6 +15,7 @@ FALLBACK_CATEGORY = "community"
 TITLE_JACCARD = 0.7
 TITLE_PREFIX = 60
 MIN_TITLE_TOKENS = 3
+MIN_TEXT_TOKENS = 12
 PERSON_CAP = 3
 SOURCE_SHARE = 0.4
 MIN_ACHIEVEMENTS = 5
@@ -80,18 +81,25 @@ def _preference(item: Item) -> tuple[float, int]:
     return (-item.score, KIND_PRIORITY.get(item.kind, len(KIND_PRIORITY)))
 
 
+def _text_key(item: Item) -> str:
+    """Normalized body when long enough to identify a story (reposts, cross-posts)."""
+    text = _norm_title(item.text)
+    return text if len(text.split()) >= MIN_TEXT_TOKENS else ""
+
+
 def dedupe(items: Sequence[Item]) -> list[Item]:
-    """Collapse URL/title duplicates; the best item keeps others in extra['also']."""
-    clusters: list[tuple[Item, str, str, list[Item]]] = []
+    """Collapse URL, title or identical-text duplicates; the best item keeps others in
+    extra['also']."""
+    clusters: list[tuple[Item, str, str, str, list[Item]]] = []
     for item in sorted(items, key=_preference):
-        url, title = canonical_url(item.url), _norm_title(item.title)
-        for rep, rurl, rtitle, dups in clusters:
-            if url == rurl or _titles_similar(title, rtitle):
+        url, title, text = canonical_url(item.url), _norm_title(item.title), _text_key(item)
+        for rep, rurl, rtitle, rtext, dups in clusters:
+            if url == rurl or _titles_similar(title, rtitle) or (text and text == rtext):
                 dups.append(item)
                 break
         else:
-            clusters.append((item, url, title, []))
-    return [_merge(rep, dups) for rep, _, _, dups in clusters]
+            clusters.append((item, url, title, text, []))
+    return [_merge(rep, dups) for rep, _, _, _, dups in clusters]
 
 
 def _merge(rep: Item, dups: list[Item]) -> Item:
