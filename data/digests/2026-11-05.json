@@ -15,7 +15,7 @@
         "alumni:a1ee24a10dc8"
       ],
       "category": "achievement",
-      "score": 9.185616495192207,
+      "score": 9.121994764407011,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -33,7 +33,7 @@
         "wd:Q7685535"
       ],
       "category": "achievement",
-      "score": 6.353809562865838,
+      "score": 6.309801590000803,
       "extra": {
         "date_estimated": true,
         "keep_reason": "keyword",
@@ -52,7 +52,7 @@
         "wd:Q7685535"
       ],
       "category": "achievement",
-      "score": 6.353809562865838,
+      "score": 6.309801590000803,
       "extra": {
         "date_estimated": true,
         "keep_reason": "keyword",
@@ -72,7 +72,7 @@
         "wd:Q124101558"
       ],
       "category": "community",
-      "score": 5.395549570741348,
+      "score": 5.358178730971633,
       "extra": {
         "keep_reason": "person",
         "body_match": false,
@@ -97,7 +97,7 @@
         "wd:Q124101558"
       ],
       "category": "community",
-      "score": 5.210628556241764,
+      "score": 5.174538522720292,
       "extra": {
         "keep_reason": "person",
         "body_match": false,
@@ -121,7 +121,7 @@
         "wd:Q4097480"
       ],
       "category": "science",
-      "score": 4.866064235679584,
+      "score": 4.832360735326841,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false,
@@ -143,9 +143,27 @@
       "author": "",
       "person_ids": [],
       "category": "achievement",
-      "score": 4.3,
+      "score": 4.271434134083557,
       "extra": {
         "date_estimated": true,
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://www.facebook.com/law.ukma/posts/pfbid021AVXjAzHyFZu51x19M1LF4yN1dGK5FA8AjhChUQ1GyP5PdycsKPHT7nMXmjowMzsl",
+      "title": "🇺🇦🇪🇺 Нові перспективи співпраці між Факультетом правничих наук НаУКМА та Universiteit Gent (Бельгія) у сфері міжнародного та європейського…",
+      "text": "🇺🇦🇪🇺 Нові перспективи співпраці між Факультетом правничих наук НаУКМА та Universiteit Gent (Бельгія) у сфері міжнародного та європейського права. У Генті відбулася міжнародна конференція, присвячена пам’яті професора Марка Мареска (Marc Maresceau) — одного із засновників наукового напряму права зовнішніх відносин Європейського Союзу. Подія об’єднала колег та учнів професора Мареска, провідних дослідників права ЄС, представників інституцій Європейського Союзу та Міністерства закордонних справ Бельгії. 🎓 Професор кафедри міжнародного та європейського права Факультету правничих наук НаУКМА Роман Петров виступив із доповіддю про вплив війни на процес вступу України до Європейського Союзу. 🤝 Під час конференції також вдалося домовитися про започаткування спільного наукового керівництва аспірантськими дослідженнями у сфері права зовнішніх відносин ЄС. До цієї пілотної ініціативи долучаться професор Гентського університету Пітер Ван Елсувеге (Peter Van Elsuwege) та професор Національний університет \"Києво-Могилянська академія\" Роман Петров. Співпраця відбуватиметься в межах докторської програми з міжнародного та європейського права Гентського університету й освітньо-наукової програми третього рівня вищої освіти за спеціальністю D9 «Міжнародне право» НаУКМА. Це ще один крок до зміцнення партнерства між університетами та нових можливостей для аспірантів, які досліджують міжнародне та європейське право.",
+      "source": "facebook:law.ukma",
+      "kind": "social",
+      "published": "2026-11-05T11:35:55+00:00",
+      "author": "law.ukma",
+      "person_ids": [
+        "wd:Q25437160"
+      ],
+      "category": "science",
+      "score": 3.9497105431076696,
+      "extra": {
         "keep_reason": "keyword",
         "body_match": false
       }
@@ -160,7 +178,7 @@
       "author": "naukma",
       "person_ids": [],
       "category": "achievement",
-      "score": 3.900480062816919,
+      "score": 3.8734644245503485,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -178,7 +196,7 @@
         "wd:Q87159"
       ],
       "category": "community",
-      "score": 3.7993302279690644,
+      "score": 3.7730151771442864,
       "extra": {
         "date_estimated": true,
         "keep_reason": "person",
@@ -207,7 +225,7 @@
         "wd:Q87159"
       ],
       "category": "community",
-      "score": 3.7993302279690644,
+      "score": 3.7730151771442864,
       "extra": {
         "date_estimated": true,
         "keep_reason": "person",
@@ -224,7 +242,7 @@
       "author": "",
       "person_ids": [],
       "category": "science",
-      "score": 3.396626244590399,
+      "score": 3.3731004158532243,
       "extra": {
         "date_estimated": true,
         "keep_reason": "keyword",
@@ -241,7 +259,7 @@
       "author": "",
       "person_ids": [],
       "category": "science",
-      "score": 3.396626244590399,
+      "score": 3.3731004158532243,
       "extra": {
         "date_estimated": true,
         "keep_reason": "keyword",
@@ -258,7 +276,7 @@
       "author": "kma.pro.official",
       "person_ids": [],
       "category": "science",
-      "score": 3.3839942102303597,
+      "score": 3.360555873921129,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -274,7 +292,7 @@
       "author": "detector.media",
       "person_ids": [],
       "category": "achievement",
-      "score": 3.1289399720346447,
+      "score": 3.1072682011036443,
       "extra": {
         "query": "\"Києво-Могилянська бізнес-школа\" OR \"Kyiv-Mohyla Business School\"",
         "publisher_url": "https://detector.media",
@@ -283,103 +301,17 @@
       }
     },
     {
-      "url": "https://www.threads.com/@nizhnabavovna/post/DfVC5Yajqm_/%D0%BD%D0%B0%D0%B3%D0%B0%D0%B4%D0%B0%D1%8E-%D1%86%D0%B5%D0%B9-%D0%BF%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B0%D0%B6-%D0%B7%D0%B0-%D0%B9%D0%BE%D0%B3%D0%BE-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D0%BC%D0%B8-%D0%B2%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%B0%D1%87-%D1%83-%D0%BC%D0%BE%D0%B3%D0%B8%D0%BB%D1%8F%D0%BD%D1%86%D1%96",
-      "title": "цей персонаж, за його словами, - викладач у Могилянці.",
-      "text": "Сміх сміхом, але створіння стверджує, що викладає в Могилянці. Викладач, який вірить у \"агітаторів збочення\". ivanlozowy's profile picture.Read more",
-      "source": "web:threads.com",
+      "url": "https://www.facebook.com/law.ukma/posts/pfbid0bgXsLU3pS6Kf9r6dKRAwFqj499yPVyF64TJxpVLS6er1kSLXSeCrcoRmrZCcRkngl",
+      "title": "🇺🇦 Сайт Факультету правничих наук НаУКМА тепер використовує новий український національний шрифт ZAKON!",
+      "text": "🇺🇦 Сайт Факультету правничих наук НаУКМА тепер використовує новий український національний шрифт ZAKON! Нещодавно в Україні презентували шрифт ZAKON, створений на основі історичної спадщини українського літерництва. А сьогодні він уже став частиною візуального оформлення нашого факультетського сайту. ZAKON поєднує українські графічні традиції із сучасними вимогами до оформлення текстів. Його розробили, спираючись на творчу спадщину видатних українських митців, зокрема Георгія Нарбута, Василя Кричевського, Якова Гніздовського та Роберта Лісовського. Цікаво, що одна з гарнітур шрифтової родини ZAKON розроблена спеціально для друку оригіналів нормативно-правових актів Верховної Ради України. Тож для нашого факультету використання цього шрифту має особливе символічне значення. Цей шрифт — є частиною ініціативи зі створення власної візуальної мови українських інституцій, збереження національної культурної спадщини та утвердження української ідентичності. Для Факультету правничих наук НаУКМА, який поєднує академічні традиції із сучасними підходами до правничої освіти, важливо підтримувати такі ініціативи й у власному інформаційному просторі. 🔗 Запрошуємо відвідати наш оновлений сайт і побачити ZAKON у використанні: law.ukma.edu.ua Дізнатися більше про український національний шрифт: mincult.gov.ua/zakon",
+      "source": "facebook:law.ukma",
       "kind": "social",
-      "published": "2026-11-05T20:00:14.698428+00:00",
-      "author": "",
+      "published": "2026-11-05T15:54:55+00:00",
+      "author": "law.ukma",
       "person_ids": [],
-      "category": "community",
-      "score": 2.8,
+      "category": "science",
+      "score": 3.001225544422589,
       "extra": {
-        "date_estimated": true,
-        "keep_reason": "keyword",
-        "body_match": false
-      }
-    },
-    {
-      "url": "https://www.threads.com/@juliya.isaeva/post/DfUKNHeDdvR/yees",
-      "title": "Yees https://youtube.com/@kmbsua?si=gskLgAe6vmKIBlxw",
-      "text": "A Threads user's profile picture. Відео про маркетинг бізнес-школи Могилянки дивлюсь як повноцінні лекції. І досі в шоці, що це безкоштовно. 28. 1. 4.Read more",
-      "source": "web:threads.com",
-      "kind": "social",
-      "published": "2026-11-05T20:00:14.698428+00:00",
-      "author": "",
-      "person_ids": [],
-      "category": "community",
-      "score": 2.8,
-      "extra": {
-        "date_estimated": true,
-        "keep_reason": "keyword",
-        "body_match": false
-      }
-    },
-    {
-      "url": "https://www.linkedin.com/posts/green-deal-ukraina_%F0%9D%97%A6%F0%9D%97%B0%F0%9D%97%B6%F0%9D%97%B2%F0%9D%97%BB%F0%9D%97%B0%F0%9D%97%B2-%F0%9D%97%B3%F0%9D%97%BC%F0%9D%97%BF-%F0%9D%97%A5%F0%9D%97%B2%F0%9D%97%B0%F0%9D%97%BC%F0%9D%97%BB%F0%9D%98%80%F0%9D%98%81%F0%9D%97%BF%F0%9D%98%82%F0%9D%97%B0%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BB-activity-7524034506400428032-8iG5",
-      "title": "Green Deal Ukraїna's Post",
-      "text": "Green Deal Ukraїna and Kyiv Energy and Climate Lab (KECLab) The workshop featured contributions from Dr Olha ovych (National University of Kyiv-Mohyla Academy),",
-      "source": "web:linkedin.com",
-      "kind": "social",
-      "published": "2026-11-05T19:57:35.432542+00:00",
-      "author": "",
-      "person_ids": [],
-      "category": "community",
-      "score": 2.797221613192093,
-      "extra": {
-        "date_estimated": true,
-        "keep_reason": "keyword",
-        "body_match": false
-      }
-    },
-    {
-      "url": "https://x.com/OKhudetska/status/2118027030545535373",
-      "title": "Olga Khudetska on X",
-      "text": "Relevant people. Avatar. Olga Khudetska@OKhudetskaFollow. 🖋️Journalist, editor | ⚕️TCCC NAEMT instructor | … Law, Sociology (NaUKMA) |",
-      "source": "web:x.com",
-      "kind": "social",
-      "published": "2026-11-05T19:57:35.432542+00:00",
-      "author": "",
-      "person_ids": [],
-      "category": "community",
-      "score": 2.797221613192093,
-      "extra": {
-        "date_estimated": true,
-        "keep_reason": "keyword",
-        "body_match": false
-      }
-    },
-    {
-      "url": "https://www.threads.com/@nizhnabavovna/post/DfUfuRGDocl/%D1%81%D0%BC%D1%96%D1%85-%D1%81%D0%BC%D1%96%D1%85%D0%BE%D0%BC-%D0%B0%D0%BB%D0%B5-%D1%81%D1%82%D0%B2%D0%BE%D1%80%D1%96%D0%BD%D0%BD%D1%8F-%D1%81%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B6%D1%83%D1%94-%D1%89%D0%BE-%D0%B2%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%B0%D1%94-%D0%B2-%D0%BC%D0%BE%D0%B3%D0%B8%D0%BB%D1%8F%D0%BD%D1%86%D1%96%D0%B2%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%B0%D1%87-%D1%8F%D0%BA%D0%B8%D0%B9-%D0%B2%D1%96%D1%80%D0%B8%D1%82%D1%8C-",
-      "title": "Сміх сміхом, але створіння стверджує, що викладає в ...",
-      "text": "Сміх сміхом, але створіння стверджує, що викладає в Могилянці. Викладач, який вірить у \"агітаторів збочення\". ivanlozowy's profile picture · IVAN LOZOWY ...Read more",
-      "source": "web:threads.com",
-      "kind": "social",
-      "published": "2026-11-05T19:57:35.432542+00:00",
-      "author": "",
-      "person_ids": [],
-      "category": "community",
-      "score": 2.797221613192093,
-      "extra": {
-        "date_estimated": true,
-        "keep_reason": "keyword",
-        "body_match": false
-      }
-    },
-    {
-      "url": "https://www.instagram.com/p/DfW4b-nMuN7",
-      "title": "Могилянські ігри 2026 офіційно завершено! Позаду - Instagram",
-      "text": "Могилянські ігри 2026 офіційно завершено! Позаду - дні спортивних змагань, командної підтримки, яскравих емоцій і справжнього могилянського",
-      "source": "web:instagram.com",
-      "kind": "social",
-      "published": "2026-11-05T19:57:35.432542+00:00",
-      "author": "",
-      "person_ids": [],
-      "category": "community",
-      "score": 2.797221613192093,
-      "extra": {
-        "date_estimated": true,
         "keep_reason": "keyword",
         "body_match": false
       }
@@ -397,7 +329,7 @@
         "wd:Q54860605"
       ],
       "category": "community",
-      "score": 2.5816813218387633,
+      "score": 2.563799992467222,
       "extra": {
         "keep_reason": "person",
         "body_match": false
@@ -413,7 +345,25 @@
       "author": "kmbs.ua",
       "person_ids": [],
       "category": "community",
-      "score": 2.523538128388692,
+      "score": 2.5060595123900216,
+      "extra": {
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://www.facebook.com/law.ukma/posts/pfbid035QYNHKsGKEZq2umabeEPusMDbPCc1NdqgFSHbqC3doGdkSeRmMn2Jk5TZUKyEzuMl",
+      "title": "⚖️ Правосуддя не має чекати завершення війни.",
+      "text": "⚖️ Правосуддя не має чекати завершення війни. Документування міжнародних злочинів, розслідування порушень і підтримка постраждалих мають відбуватися вже під час. Український досвід у цій сфері сьогодні має важливе значення для розвитку міжнародних підходів до перехідного правосуддя. Цій темі була присвячена лекція «Нові горизонти перехідного правосуддя в Україні та світі», якою Kateryna Busol, доцентка кафедри міжнародного та європейського права Факультету правничих наук НаУКМА, 26 жовтня відкрила цикл гостьових лекцій у Europa-Universität Viadrina. Під час зустрічі лекторка розповіла, як змінюються підходи до забезпечення відповідальності за міжнародні злочини та масові порушення прав людини. Досвід Колумбії, Сирії та України демонструє важливу тенденцію: документування порушень, початкові розслідування та репараційні ініціативи розпочинаються ще під час активної фази збройних конфліктів. Особливу увагу Катерина Бусол приділила українському досвіду надання індивідуальних проміжних репарацій постраждалим від сексуального насильства, пов’язаного зі збройним конфліктом. Важливість таких механізмів відзначили Уповноважений Ради Європи з прав людини та Незалежна міжнародна слідча комісія ООН щодо України. Вони дають змогу підтримувати постраждалих уже зараз, не відкладаючи допомогу до завершення російської агресії. Як наголосила лекторка, раннє впровадження механізмів правосуддя є необхідним кроком до формування системи відповідальності, орієнтованої на потреби постраждалих, ген…",
+      "source": "facebook:law.ukma",
+      "kind": "social",
+      "published": "2026-11-04T11:50:47+00:00",
+      "author": "law.ukma",
+      "person_ids": [
+        "wd:Q118929793"
+      ],
+      "category": "science",
+      "score": 1.922870638682579,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -431,7 +381,7 @@
         "wd:Q7685535"
       ],
       "category": "science",
-      "score": 1.8618157783174958,
+      "score": 1.8489204062668838,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -449,7 +399,7 @@
         "wd:Q124101558"
       ],
       "category": "science",
-      "score": 1.6283617398748436,
+      "score": 1.617083325160986,
       "extra": {
         "keep_reason": "own_achievement",
         "body_match": false
@@ -467,7 +417,7 @@
         "wd:Q53673421"
       ],
       "category": "achievement",
-      "score": 1.526747553551534,
+      "score": 1.516172942486523,
       "extra": {
         "keep_reason": "own_achievement",
         "body_match": false
@@ -483,12 +433,28 @@
       "author": "Ukr.net",
       "person_ids": [],
       "category": "community",
-      "score": 1.511721497182596,
+      "score": 1.5012509601025554,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://www.ukr.net",
         "keep_reason": "body",
         "body_match": true
+      }
+    },
+    {
+      "url": "https://www.facebook.com/KyivMohyla/posts/pfbid0FF4JRk3Lpk262HNZU7RbVPF4JYeJXtX9WHWq5gx1K4158VcjNs3zKzKfuCkwTLaZl",
+      "title": "LET’S KICK OFF THE HOLIDAY SEASON TOGETHER WITH THE KYIV-MOHYLA FOUNDATION OF AMERICA!",
+      "text": "LET’S KICK OFF THE HOLIDAY SEASON TOGETHER WITH THE KYIV-MOHYLA FOUNDATION OF AMERICA! Why celebrate with us? Because we promise an evening filled with holiday cheer, wonderful company, and a truly meaningful purpose! We believe in the magic of giving, and together, we can light the stars of hope for those who need our support most. STARS OF HOPE — A Christmas Celebration for the Future! Join us for a special holiday evening where festive traditions meet a wonderful cause: supporting students of the National University of Kyiv-Mohyla Academy in Ukraine! This year, our Christmas tree will be unlike any other! Instead of traditional ornaments, its branches will hold symbolic envelopes filled with the promise of scholarships. Behind every envelope is a Ukrainian student with a dream — a dream of education, opportunity, and a future under peaceful skies. And YOU can be the one to light a star of hope on our tree! ✨ 🎶 Here's what awaits you: 🎵 Live music and favorite holiday melodies! 🍷 Wine, delicious refreshments, and a warm reception! 🎁 An exciting charity auction! 🥂 Wonderful company, new friendships, heartfelt conversations, and plenty of holiday cheer! ❤️ And most importantly, the joy of knowing that together, we are making a real difference for Ukraine! 📅 Saturday, December 5, 2026 | 6:00 PM 📍 Ukrainian Institute of Modern Art 2320 W. Chicago Ave., Chicago, IL 🎟️ Tickets: $50 Get yours here: https://bit.ly/48iebsM 💙💛 Bring your family, invite your friends, and come ready t…",
+      "source": "facebook:kyivmohyla",
+      "kind": "social",
+      "published": "2026-11-04T17:38:50+00:00",
+      "author": "KyivMohyla",
+      "person_ids": [],
+      "category": "students",
+      "score": 1.4847841894186287,
+      "extra": {
+        "keep_reason": "keyword",
+        "body_match": false
       }
     },
     {
@@ -501,7 +467,7 @@
       "author": "Ukrainian News Agency",
       "person_ids": [],
       "category": "community",
-      "score": 1.3909781766376998,
+      "score": 1.3813439360694761,
       "extra": {
         "query": "\"Kyiv-Mohyla Academy\" OR \"NaUKMA\"",
         "publisher_url": "https://ukranews.com",
@@ -525,7 +491,7 @@
       "author": "Українські Новини",
       "person_ids": [],
       "category": "community",
-      "score": 1.2879128477421324,
+      "score": 1.2789924617760153,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://ukranews.com",
@@ -549,7 +515,7 @@
       "author": "Український тиждень",
       "person_ids": [],
       "category": "community",
-      "score": 1.2597696593551082,
+      "score": 1.2510441997018777,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://tyzhden.ua",
@@ -591,14 +557,14 @@
       "name": "facebook_apify",
       "ok": true,
       "enabled": true,
-      "count": 18,
+      "count": 17,
       "message": ""
     },
     {
       "name": "websearch",
       "ok": true,
       "enabled": true,
-      "count": 35,
+      "count": 28,
       "message": ""
     }
   ],
