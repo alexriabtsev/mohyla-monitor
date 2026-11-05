@@ -13,7 +13,7 @@
         "wd:Q7685535"
       ],
       "category": "science",
-      "score": 2.361490747520209,
+      "score": 2.156472032046111,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -31,10 +31,28 @@
         "wd:Q124101558"
       ],
       "category": "science",
-      "score": 2.0653822075809067,
+      "score": 1.8860708943327182,
       "extra": {
         "keep_reason": "own_achievement",
         "body_match": false
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQ0NoUUp6d1Y4WVUyZHk0Z2ZhN290SUVZTGdyalBiV1FjVVRmZldzelBqZ1FKVll0a1MzOWlTY2JMdk04OUdITmZHbVdlbjBLVlE4dnNPYzdmYVVqX0NESlFDUzJsc0VRWlp0b2NrbHlGRVFFblhYSUhraXBqLUQxWlV2Z213d1l6TjZoYThHYUdINWs2V2pQblozanB3emF4OWFQMDlPUkN1QnBsellqV3UyRTJTNUMta2lBUFJOSFFxcU1QeEppTWhZMnRoYldyQlHSAdcBQVVfeXFMTmg1MkxIalBtdXBmSXhmbEY0N2hoX0ZKLWEzMmVvVVN4YnFrSENfQ0VmSWxzb29hMmoxYzJvVTB1M2xDWDFYMTZhM2E1enJRbWN4ZWJuS19XZDNqdnpEVHBSNlhzdHJBNVFFT2ZGQ3lXQ3ViNjdPanhtSnltVlVDQUxBNzVVbTZCbkFXNERaM2FUeXYwb1ZFNGctRnNFd25iaWlzV3pUUlNoREtBU2F2U2RMdWFIdWctd1BTb1N1YkdVNFoza3g2UFJKd3RNck5qX2tzTmJDeXM?oc=5",
+      "title": "NBU appoints Atamaniuk as director of Nonbank Financial Service Providers Supervision Department",
+      "text": "NBU appoints Atamaniuk as director of Nonbank Financial Service Providers Supervision Department Ukrainian News Agency",
+      "source": "gnews:Ukrainian News Agency",
+      "kind": "media",
+      "published": "2026-11-05T13:02:52+00:00",
+      "author": "Ukrainian News Agency",
+      "person_ids": [],
+      "category": "community",
+      "score": 1.6111183340686952,
+      "extra": {
+        "query": "\"Kyiv-Mohyla Academy\" OR \"NaUKMA\"",
+        "publisher_url": "https://ukranews.com",
+        "keep_reason": "body",
+        "body_match": true
       }
     },
     {
@@ -47,7 +65,7 @@
       "author": "Українські Новини",
       "person_ids": [],
       "category": "community",
-      "score": 1.6332751945663033,
+      "score": 1.4914783305483867,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://ukranews.com",
@@ -65,7 +83,7 @@
       "author": "Український тиждень",
       "person_ids": [],
       "category": "community",
-      "score": 1.597867216090623,
+      "score": 1.4591443841315836,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://tyzhden.ua",
@@ -83,7 +101,7 @@
       "author": "БукІнфо",
       "person_ids": [],
       "category": "community",
-      "score": 1.5581211016814902,
+      "score": 1.4228489278839547,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://bukinfo.com.ua",
@@ -103,7 +121,7 @@
         "wd:Q135615535"
       ],
       "category": "achievement",
-      "score": 1.4075386641801177,
+      "score": 1.2853396806721942,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://leopolis.news",
@@ -121,7 +139,7 @@
       "author": "Вікенд",
       "person_ids": [],
       "category": "community",
-      "score": 0.7952757878446682,
+      "score": 0.7262319346588028,
       "extra": {
         "query": "\"НаУКМА\"",
         "publisher_url": "https://weekend.today",
@@ -139,7 +157,7 @@
       "author": "MY.UA",
       "person_ids": [],
       "category": "community",
-      "score": 0.7199179866892521,
+      "score": 0.6574165091659037,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://my.ua",
@@ -157,7 +175,7 @@
       "author": "Громадське радіо",
       "person_ids": [],
       "category": "community",
-      "score": 0.38938589335346185,
+      "score": 0.3555803847937134,
       "extra": {
         "query": "\"Могилянка\" OR \"Могилянки\" OR \"Могилянці\"",
         "publisher_url": "https://hromadske.radio",
@@ -175,7 +193,7 @@
       "author": "Comments.ua",
       "person_ids": [],
       "category": "community",
-      "score": 0.34624721594567387,
+      "score": 0.3161868993747924,
       "extra": {
         "query": "\"НаУКМА\"",
         "publisher_url": "https://society.comments.ua",
@@ -193,7 +211,7 @@
       "author": "Українське радіо",
       "person_ids": [],
       "category": "community",
-      "score": 0.29315733535837085,
+      "score": 0.26770614932679465,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://ukr.radio",
@@ -214,14 +232,14 @@
       "name": "google_news",
       "ok": true,
       "enabled": true,
-      "count": 5,
+      "count": 6,
       "message": ""
     },
     {
       "name": "telegram",
       "ok": true,
       "enabled": true,
-      "count": 27,
+      "count": 31,
       "message": ""
     },
     {
@@ -249,6 +267,7 @@
   "extra": {
     "new_people": [],
     "people": 277,
+    "archive": 0,
     "edges": 78
   }
 }
