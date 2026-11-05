@@ -139,11 +139,19 @@ facebook_groups:            # public status unconfirmed; closed groups return no
   - https://www.facebook.com/groups/pochayna/           # Капела «Почайна»
   - https://www.facebook.com/groups/mogylianka.armiyi/  # Могилянці – воїнам
 
-websearch_queries:          # used only when BRAVE_API_KEY is set
+# Brave Search (only when BRAVE_API_KEY is set): one request per query per day.
+# ~$5 per 1,000 requests with $5 free credit a month: 10 queries x 30 days = 300 = ~$1.5.
+websearch_queries:
   - 'site:linkedin.com/posts "Kyiv-Mohyla"'
+  - 'site:linkedin.com/posts "NaUKMA"'
   - 'site:linkedin.com/posts "Могилянк"'
-  - 'site:x.com "Kyiv-Mohyla" OR "Могилянк"'
-  - 'site:threads.net "Могилянк"'
+  - 'site:linkedin.com/posts "НаУКМА"'
+  - 'site:linkedin.com/pulse "Kyiv-Mohyla" OR "NaUKMA"'
+  - 'site:x.com "Kyiv-Mohyla" OR "NaUKMA"'
+  - 'site:x.com "Могилянк" OR "НаУКМА"'
+  - 'site:threads.com "Могилянк" OR "НаУКМА"'
+  - 'site:threads.com "Kyiv-Mohyla" OR "NaUKMA"'
+  - 'site:instagram.com "Могилянк" OR "НаУКМА"'
 
 bluesky_queries:            # used only when BSKY_HANDLE + BSKY_APP_PASSWORD are set
   - Могилянка
