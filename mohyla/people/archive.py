@@ -167,7 +167,7 @@ def fetch_archive(client: httpx.Client, pages: Sequence[dict], delay: float = 2.
 
 def without_public(archived: Sequence[Person], public: Sequence[Person]) -> list[Person]:
     """Drop graduates already in the public base (the public one wins), matching by label
-    and by aliases such as a legal name ('Водяний Антон Васильович' for Артем Чапай)."""
+    and by aliases, e.g. a writer's legal name listed as an alias of their pen name."""
     names = {normalize(n) for p in public for n in (p.name_uk, *p.aliases) if n}
     return [p for p in archived
             if normalize(p.name_uk) not in names and not names & {normalize(a) for a in p.aliases}]
