@@ -4,7 +4,7 @@
    "id": "wd:Q64486491",
    "name_uk": "Олексій Гончарук",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.9516280807158373
   },
@@ -12,7 +12,7 @@
    "id": "wd:Q109336893",
    "name_uk": "Кирило Буданов",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.9092153497721114
   },
@@ -28,7 +28,7 @@
    "id": "wd:Q124101558",
    "name_uk": "Сергій Корецький",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.8578128741309132
   },
@@ -60,7 +60,7 @@
    "id": "wd:Q16696252",
    "name_uk": "Антон Геращенко",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.7406022510826102
   },
@@ -92,8 +92,8 @@
    "id": "wd:Q66823503",
    "name_uk": "Зоряна Скалецька",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.6891997754414121
   },
@@ -128,7 +128,7 @@
    "roles": [
     "alumnus"
    ],
-   "prominence": 0.6419699112188565
+   "prominence": 0.6419699112188566
   },
   {
    "id": "wd:Q12171717",
@@ -136,7 +136,7 @@
    "roles": [
     "staff"
    ],
-   "prominence": 0.6419699112188565
+   "prominence": 0.6419699112188566
   },
   {
    "id": "wd:Q12109356",
@@ -144,7 +144,7 @@
    "roles": [
     "staff"
    ],
-   "prominence": 0.6419699112188565
+   "prominence": 0.6419699112188566
   },
   {
    "id": "wd:Q25438189",
@@ -238,7 +238,7 @@
    "id": "wd:Q125168146",
    "name_uk": "Олег Іващенко",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.5601205897026693
   },
@@ -367,7 +367,7 @@
    "id": "wd:Q110411627",
    "name_uk": "Дмитро Лунін",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.47335681252935546
   },
@@ -479,6 +479,7 @@
    "id": "wd:Q126724549",
    "name_uk": "Катерина Черногоренко",
    "roles": [
+    "alumnus@kmbs",
     "alumnus"
    ],
    "prominence": 0.43585853724275586
@@ -535,8 +536,8 @@
    "id": "wd:Q64410361",
    "name_uk": "Олена Семеняка",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.43585853724275586
   },
@@ -544,7 +545,7 @@
    "id": "wd:Q102853647",
    "name_uk": "Роман Клічук",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.43585853724275586
   },
@@ -600,7 +601,7 @@
    "id": "wd:Q71014742",
    "name_uk": "Валерій Євдокимов",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.3915074910131681
   },
@@ -745,7 +746,7 @@
    "id": "wd:Q12132206",
    "name_uk": "Іванна Найда",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.3372261973790022
   },
@@ -793,7 +794,7 @@
    "id": "wd:Q12139367",
    "name_uk": "Валерій Пекар",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.3372261973790022
   },
@@ -874,7 +875,7 @@
    "id": "wd:Q130742512",
    "name_uk": "Костянтин Кошеленко",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.3372261973790022
   },
@@ -946,7 +947,7 @@
    "id": "wd:Q124294112",
    "name_uk": "Петро Бешта",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.3372261973790022
   },
@@ -1005,7 +1006,7 @@
    "roles": [
     "alumnus"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q110096493",
@@ -1013,7 +1014,7 @@
    "roles": [
     "staff"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q117247039",
@@ -1021,7 +1022,7 @@
    "roles": [
     "alumnus"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q18925155",
@@ -1029,7 +1030,7 @@
    "roles": [
     "alumnus"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q12085682",
@@ -1037,7 +1038,7 @@
    "roles": [
     "staff"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q12088619",
@@ -1045,7 +1046,7 @@
    "roles": [
     "staff"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q65950767",
@@ -1053,7 +1054,7 @@
    "roles": [
     "alumnus"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q65199923",
@@ -1061,7 +1062,7 @@
    "roles": [
     "alumnus"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q125768266",
@@ -1069,15 +1070,15 @@
    "roles": [
     "alumnus"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q124721263",
    "name_uk": "Едуард Ахрамович",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q97160702",
@@ -1085,7 +1086,7 @@
    "roles": [
     "alumnus"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q4185404",
@@ -1093,7 +1094,7 @@
    "roles": [
     "staff"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q135615535",
@@ -1101,15 +1102,15 @@
    "roles": [
     "alumnus"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q12086534",
    "name_uk": "Лідія Білас",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q23659114",
@@ -1117,7 +1118,7 @@
    "roles": [
     "staff"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q25441025",
@@ -1125,7 +1126,7 @@
    "roles": [
     "staff"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q17372362",
@@ -1133,7 +1134,7 @@
    "roles": [
     "alumnus"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q12094329",
@@ -1141,7 +1142,7 @@
    "roles": [
     "staff"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q50328553",
@@ -1150,7 +1151,7 @@
     "staff",
     "alumnus"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q85988774",
@@ -1158,7 +1159,7 @@
    "roles": [
     "staff"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q12140221",
@@ -1166,7 +1167,7 @@
    "roles": [
     "staff"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q30961435",
@@ -1174,7 +1175,7 @@
    "roles": [
     "alumnus"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q63283260",
@@ -1182,7 +1183,7 @@
    "roles": [
     "staff"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q20068867",
@@ -1190,7 +1191,7 @@
    "roles": [
     "alumnus"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q65198928",
@@ -1198,7 +1199,7 @@
    "roles": [
     "alumnus"
    ],
-   "prominence": 0.2672454385532548
+   "prominence": 0.2672454385532547
   },
   {
    "id": "wd:Q120556496",
@@ -1292,7 +1293,7 @@
    "id": "wd:Q61116703",
    "name_uk": "Андрій Пермяков",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.1686130986895011
   },
@@ -1356,7 +1357,7 @@
    "id": "wd:Q85997224",
    "name_uk": "Валентин Петров",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.1686130986895011
   },
@@ -1660,7 +1661,7 @@
    "id": "wd:Q93574391",
    "name_uk": "Павло Барбул",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.1686130986895011
   },
@@ -1757,7 +1758,7 @@
    "id": "wd:Q131753378",
    "name_uk": "Тетяна Пугачевська",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.1686130986895011
   },
@@ -1765,7 +1766,7 @@
    "id": "wd:Q135486121",
    "name_uk": "Христина Храновська",
    "roles": [
-    "alumnus"
+    "alumnus@kmbs"
    ],
    "prominence": 0.1686130986895011
   },
@@ -1910,8 +1911,8 @@
    "id": "wd:Q92017825",
    "name_uk": "Anna Tokar",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.0
   },

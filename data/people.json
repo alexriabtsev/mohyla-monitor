@@ -7,7 +7,7 @@
    "Олексій Валерійович Гончарук"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "прем'єр-міністр України (2019—2020)",
   "employers": [],
@@ -42,7 +42,7 @@
    "Буданов Кирило Олексійович"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "український військовик, генерал-лейтенант, керівник офісу президента України",
   "employers": [
@@ -50,20 +50,20 @@
   ],
   "socials": [
    [
-    "instagram",
-    "kyrylo.budanov"
-   ],
-   [
     "x",
     "Kyrylo_Budanov"
    ],
    [
-    "facebook",
-    "100092170489440"
+    "instagram",
+    "kyrylo.budanov"
    ],
    [
     "telegram",
     "Kyrylo_Budanov_Official"
+   ],
+   [
+    "facebook",
+    "100092170489440"
    ]
   ],
   "sources": [
@@ -107,7 +107,7 @@
    "Сергій Федорович Корецький"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "премʼєр-міністр України, підприємець і топ-менеджер у нафтогазовій сфері",
   "employers": [
@@ -241,19 +241,11 @@
    "Геращенко Антон Юрійович"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "український громадський діяч, радник міністра внутрішніх справ України, народний депутат України 8-го скликання, вчитель",
   "employers": [],
   "socials": [
-   [
-    "x",
-    "Gerashchenko_en"
-   ],
-   [
-    "x",
-    "Gerashchenko7"
-   ],
    [
     "facebook",
     "anton.gerashchenko.7"
@@ -261,6 +253,14 @@
    [
     "telegram",
     "Pravda_Gerashchenko"
+   ],
+   [
+    "x",
+    "Gerashchenko_en"
+   ],
+   [
+    "x",
+    "Gerashchenko7"
    ]
   ],
   "sources": [
@@ -334,12 +334,12 @@
   ],
   "socials": [
    [
-    "x",
-    "UmlandAndreas"
-   ],
-   [
     "linkedin",
     "andreasumland"
+   ],
+   [
+    "x",
+    "UmlandAndreas"
    ]
   ],
   "sources": [
@@ -380,8 +380,8 @@
    "Скалецька Зоряна Степанівна"
   ],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "Міністр охорони здоров'я України з 2019",
   "employers": [
@@ -498,7 +498,7 @@
    "https://uk.wikipedia.org/wiki/%D0%AF%D0%BA%D0%B8%D0%BC%D1%87%D1%83%D0%BA_%D0%9B%D1%8E%D0%B1%D0%BE%D0%B2_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%96%D0%B2%D0%BD%D0%B0",
    "https://www.wikidata.org/wiki/Q4536696"
   ],
-  "prominence": 0.6419699112188565
+  "prominence": 0.6419699112188566
  },
  {
   "id": "wd:Q12171717",
@@ -528,7 +528,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q12171717"
   ],
-  "prominence": 0.6419699112188565
+  "prominence": 0.6419699112188566
  },
  {
   "id": "wd:Q12109356",
@@ -554,7 +554,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q12109356"
   ],
-  "prominence": 0.6419699112188565
+  "prominence": 0.6419699112188566
  },
  {
   "id": "wd:Q25438189",
@@ -864,7 +864,7 @@
    "Іващенко Олег Іванович"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "начальник Головного управління розвідки",
   "employers": [
@@ -1071,12 +1071,12 @@
     "yuliya.kovaliv"
    ],
    [
-    "x",
-    "Kovaliv_y"
-   ],
-   [
     "facebook",
     "yuliya.kovaliv"
+   ],
+   [
+    "x",
+    "Kovaliv_y"
    ]
   ],
   "sources": [
@@ -1259,7 +1259,7 @@
    "Лунін Дмитро Сергійович"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "український політик",
   "employers": [],
@@ -1269,12 +1269,12 @@
     "dmytro.lunin"
    ],
    [
-    "facebook",
-    "Dmytro.Lunin"
-   ],
-   [
     "telegram",
     "DMYTROLUNIN"
+   ],
+   [
+    "facebook",
+    "Dmytro.Lunin"
    ]
   ],
   "sources": [
@@ -1591,6 +1591,7 @@
    "Черногоренко Катерина Леонідівна"
   ],
   "roles": [
+   "alumnus@kmbs",
    "alumnus"
   ],
   "description": "Заступниця Міністра оборони України з питань цифрового розвитку, цифрових трансформацій і цифровізації (2023–2025)",
@@ -1746,8 +1747,8 @@
   "name_en": "Olena Semenyaka",
   "aliases": [],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "",
   "employers": [
@@ -1768,7 +1769,7 @@
    "Клічук Роман Васильович"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "український бізнесмен, політик, мер Чернівців",
   "employers": [],
@@ -1927,7 +1928,7 @@
   "name_en": "Valerii Yevdokymov",
   "aliases": [],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "",
   "employers": [],
@@ -2334,7 +2335,7 @@
    "Найда Іванна"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "українська продюсерка, тележурналістка",
   "employers": [],
@@ -2468,7 +2469,7 @@
    "Пекар Валерій Олександрович"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "",
   "employers": [],
@@ -2720,7 +2721,7 @@
    "Кошеленко Костянтин Борисович"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "український державний службовець",
   "employers": [],
@@ -2898,7 +2899,7 @@
    "Петро Петрович Бешта"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "український дипломат",
   "employers": [],
@@ -2920,14 +2921,14 @@
   ],
   "description": "",
   "employers": [
+   "Q1133013",
+   "Q2714836",
+   "Q4314802",
    "Q7164",
    "Q122880",
    "Q131252",
    "Q168751",
-   "Q223429",
-   "Q1133013",
-   "Q2714836",
-   "Q4314802"
+   "Q223429"
   ],
   "socials": [],
   "sources": [
@@ -3047,7 +3048,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q4752151"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q110096493",
@@ -3067,7 +3068,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q110096493"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q117247039",
@@ -3090,7 +3091,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q117247039"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q18925155",
@@ -3106,7 +3107,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q18925155"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q12085682",
@@ -3129,7 +3130,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q12085682"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q12088619",
@@ -3151,7 +3152,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q12088619"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q65950767",
@@ -3172,7 +3173,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q65950767"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q65199923",
@@ -3188,19 +3189,19 @@
   "employers": [],
   "socials": [
    [
-    "x",
-    "tovaryshka"
-   ],
-   [
     "facebook",
     "anya.hrytsenko"
+   ],
+   [
+    "x",
+    "tovaryshka"
    ]
   ],
   "sources": [
    "https://uk.wikipedia.org/wiki/%D0%93%D1%80%D0%B8%D1%86%D0%B5%D0%BD%D0%BA%D0%BE_%D0%93%D0%B0%D0%BD%D0%BD%D0%B0_%D0%92%D0%B0%D0%BB%D0%B5%D0%BD%D1%82%D0%B8%D0%BD%D1%96%D0%B2%D0%BD%D0%B0",
    "https://www.wikidata.org/wiki/Q65199923"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q125768266",
@@ -3223,7 +3224,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q125768266"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q124721263",
@@ -3233,7 +3234,7 @@
    "Ахрамович Едуард Станіславович"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "",
   "employers": [],
@@ -3242,7 +3243,7 @@
    "https://uk.wikipedia.org/wiki/%D0%90%D1%85%D1%80%D0%B0%D0%BC%D0%BE%D0%B2%D0%B8%D1%87_%D0%95%D0%B4%D1%83%D0%B0%D1%80%D0%B4_%D0%A1%D1%82%D0%B0%D0%BD%D1%96%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%B8%D1%87",
    "https://www.wikidata.org/wiki/Q124721263"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q97160702",
@@ -3267,7 +3268,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q97160702"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q4185404",
@@ -3288,7 +3289,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q4185404"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q135615535",
@@ -3321,7 +3322,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q135615535"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q12086534",
@@ -3332,7 +3333,7 @@
    "Білас Лідія"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "",
   "employers": [],
@@ -3340,7 +3341,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q12086534"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q23659114",
@@ -3360,7 +3361,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q23659114"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q25441025",
@@ -3380,7 +3381,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q25441025"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q17372362",
@@ -3399,7 +3400,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q17372362"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q12094329",
@@ -3420,7 +3421,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q12094329"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q50328553",
@@ -3446,7 +3447,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q50328553"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q85988774",
@@ -3468,7 +3469,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q85988774"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q12140221",
@@ -3492,7 +3493,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q12140221"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q30961435",
@@ -3515,7 +3516,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q30961435"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q63283260",
@@ -3536,7 +3537,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q63283260"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q20068867",
@@ -3554,7 +3555,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q20068867"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q65198928",
@@ -3579,7 +3580,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q65198928"
   ],
-  "prominence": 0.2672454385532548
+  "prominence": 0.2672454385532547
  },
  {
   "id": "wd:Q120556496",
@@ -3819,7 +3820,7 @@
    "Андрій Георгійович Пермяков"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "українській поет",
   "employers": [],
@@ -3977,7 +3978,7 @@
    "Петров Валентин Володимирович"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "",
   "employers": [],
@@ -4750,7 +4751,7 @@
    "Павло Олексійович Барбул"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "український державний управлінець, юрист, адвокат, підприємець; директор ДП «Спецтехноекспорт» (2015-18)",
   "employers": [],
@@ -4997,7 +4998,7 @@
    "Пугачевська Тетяна Іванівна"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "",
   "employers": [],
@@ -5016,7 +5017,7 @@
    "Храновська Христина Ярославівна"
   ],
   "roles": [
-   "alumnus"
+   "alumnus@kmbs"
   ],
   "description": "",
   "employers": [],
@@ -5373,8 +5374,8 @@
   "name_en": "Anna Tokar",
   "aliases": [],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "дослідниця",
   "employers": [
