@@ -15,7 +15,7 @@
         "alumni:a1ee24a10dc8"
       ],
       "category": "achievement",
-      "score": 9.121994764407011,
+      "score": 9.097960988419421,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -34,7 +34,7 @@
         "wd:Q124101558"
       ],
       "category": "community",
-      "score": 5.358178730971633,
+      "score": 5.34406150435097,
       "extra": {
         "keep_reason": "person",
         "body_match": false,
@@ -59,7 +59,7 @@
         "wd:Q124101558"
       ],
       "category": "community",
-      "score": 5.174538522720292,
+      "score": 5.160905134091363,
       "extra": {
         "keep_reason": "person",
         "body_match": false,
@@ -83,7 +83,7 @@
         "wd:Q4097480"
       ],
       "category": "science",
-      "score": 4.832360735326841,
+      "score": 4.819628884629312,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false,
@@ -105,7 +105,7 @@
       "author": "",
       "person_ids": [],
       "category": "achievement",
-      "score": 4.271434134083557,
+      "score": 4.260180160169335,
       "extra": {
         "date_estimated": true,
         "keep_reason": "keyword",
@@ -124,7 +124,7 @@
         "wd:Q25437160"
       ],
       "category": "science",
-      "score": 3.9497105431076696,
+      "score": 3.939304216327121,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -140,7 +140,7 @@
       "author": "naukma",
       "person_ids": [],
       "category": "achievement",
-      "score": 3.8734644245503485,
+      "score": 3.86325898388963,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -158,7 +158,7 @@
         "wd:Q87159"
       ],
       "category": "community",
-      "score": 3.7730151771442864,
+      "score": 3.763074390736572,
       "extra": {
         "date_estimated": true,
         "keep_reason": "person",
@@ -187,7 +187,7 @@
         "wd:Q87159"
       ],
       "category": "community",
-      "score": 3.7730151771442864,
+      "score": 3.763074390736572,
       "extra": {
         "date_estimated": true,
         "keep_reason": "person",
@@ -204,7 +204,7 @@
       "author": "",
       "person_ids": [],
       "category": "science",
-      "score": 3.3731004158532243,
+      "score": 3.364213287338902,
       "extra": {
         "date_estimated": true,
         "keep_reason": "keyword",
@@ -221,7 +221,7 @@
       "author": "",
       "person_ids": [],
       "category": "science",
-      "score": 3.3731004158532243,
+      "score": 3.364213287338902,
       "extra": {
         "date_estimated": true,
         "keep_reason": "keyword",
@@ -238,7 +238,7 @@
       "author": "kma.pro.official",
       "person_ids": [],
       "category": "science",
-      "score": 3.360555873921129,
+      "score": 3.351701796588971,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -254,7 +254,7 @@
       "author": "detector.media",
       "person_ids": [],
       "category": "achievement",
-      "score": 3.1072682011036443,
+      "score": 3.099081462368595,
       "extra": {
         "query": "\"Києво-Могилянська бізнес-школа\" OR \"Kyiv-Mohyla Business School\"",
         "publisher_url": "https://detector.media",
@@ -272,7 +272,7 @@
       "author": "law.ukma",
       "person_ids": [],
       "category": "science",
-      "score": 3.001225544422589,
+      "score": 2.9933181969305327,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -291,7 +291,7 @@
         "wd:Q54860605"
       ],
       "category": "community",
-      "score": 2.563799992467222,
+      "score": 2.557045132780571,
       "extra": {
         "keep_reason": "person",
         "body_match": false
@@ -307,7 +307,7 @@
       "author": "kmbs.ua",
       "person_ids": [],
       "category": "community",
-      "score": 2.5060595123900216,
+      "score": 2.499456781903115,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -325,7 +325,7 @@
         "wd:Q118929793"
       ],
       "category": "science",
-      "score": 1.922870638682579,
+      "score": 1.9178044395258405,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -343,7 +343,7 @@
         "wd:Q7685535"
       ],
       "category": "science",
-      "score": 1.8489204062668838,
+      "score": 1.8440490442445667,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -361,7 +361,7 @@
         "wd:Q124101558"
       ],
       "category": "science",
-      "score": 1.617083325160986,
+      "score": 1.6128227857292128,
       "extra": {
         "keep_reason": "own_achievement",
         "body_match": false
@@ -379,7 +379,7 @@
         "wd:Q53673421"
       ],
       "category": "achievement",
-      "score": 1.516172942486523,
+      "score": 1.5121782722636954,
       "extra": {
         "keep_reason": "own_achievement",
         "body_match": false
@@ -395,7 +395,7 @@
       "author": "Ukr.net",
       "person_ids": [],
       "category": "community",
-      "score": 1.5012509601025554,
+      "score": 1.4972956049189459,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://www.ukr.net",
@@ -413,7 +413,7 @@
       "author": "KyivMohyla",
       "person_ids": [],
       "category": "students",
-      "score": 1.4847841894186287,
+      "score": 1.4808722193375188,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -429,7 +429,7 @@
       "author": "Ukrainian News Agency",
       "person_ids": [],
       "category": "community",
-      "score": 1.3813439360694761,
+      "score": 1.3777045006632154,
       "extra": {
         "query": "\"Kyiv-Mohyla Academy\" OR \"NaUKMA\"",
         "publisher_url": "https://ukranews.com",
@@ -453,7 +453,7 @@
       "author": "Українські Новини",
       "person_ids": [],
       "category": "community",
-      "score": 1.2789924617760153,
+      "score": 1.275622692431696,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://ukranews.com",
@@ -477,7 +477,7 @@
       "author": "Український тиждень",
       "person_ids": [],
       "category": "community",
-      "score": 1.2510441997018777,
+      "score": 1.2477480658163895,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://tyzhden.ua",
@@ -519,14 +519,14 @@
       "name": "facebook_apify",
       "ok": true,
       "enabled": true,
-      "count": 17,
+      "count": 18,
       "message": ""
     },
     {
       "name": "websearch",
       "ok": true,
       "enabled": true,
-      "count": 28,
+      "count": 42,
       "message": ""
     }
   ],
