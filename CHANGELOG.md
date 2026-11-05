@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.3.0] - 2026-11-05
+### Features
+- Facebook at scale: one asynchronous Apify run for all public pages (facebook-posts-scraper)
+  and one for all public groups (facebook-groups-scraper), started together and long-polled.
+- Spend and time caps per run (`facebook_max_items`, `facebook_max_charge_usd`,
+  `facebook_timeout_minutes`); a run over budget is aborted and its partial dataset kept.
+- Facebook page/group discovery: links in kept items become sources for the next run
+  (`data/facebook_discovered.json`), like Telegram channels.
+- Facebook items carry `facebook:<page slug>`, so a person's own post matches their profile
+  handle and goes through the own-achievement rule.
+### Design Rationale
+- One run per actor instead of one per page: 100+ sync runs would exceed the 40-min job limit
+  and pay the actor start-up cost each time.
+- Sources are capped in priority order (config, people's profiles, discovered), so discovery
+  can never push curated sources out or raise the bill past the configured cap.
+### Notes & Caveats
+- Only public pages, public groups and posts marked Public; Meta's terms forbid scraping, the
+  risk sits with Apify. The legitimate full-text route is Meta Content Library (researchers).
+- Apify input/field names follow the actors' current docs; the first live run is the check.
+
 ## [0.2.0] - 2026-11-05
 ### Features
 - Graduate base from archived alumni pages (1995–2018, 8,706 people, 18 cohorts) via

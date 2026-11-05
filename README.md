@@ -47,8 +47,15 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 2. Settings → Pages → Deploy from branch → `main` / `docs`.
 3. Settings → Actions → General → Workflow permissions → Read and write.
 4. Опційні секрети (Settings → Secrets → Actions), кожен вмикає своє джерело:
-   `BSKY_HANDLE` + `BSKY_APP_PASSWORD`, `APIFY_TOKEN` (Facebook, платно),
+   `BSKY_HANDLE` + `BSKY_APP_PASSWORD`, `APIFY_TOKEN` (Facebook, платно, див. нижче),
    `BRAVE_API_KEY` (LinkedIn/X/Threads через пошук).
+
+## Facebook
+Публічні сторінки (`facebook_pages`) і групи (`facebook_groups`) з `config/sources.yaml`,
+профілі людей із бази та сторінки, знайдені за посиланнями в матеріалах дайджесту, збираються
+двома запусками Apify на день. Витрати обмежені в конфігу: `facebook_max_charge_usd` (на кожен
+запуск), `facebook_max_items`, `facebook_max_pages` / `facebook_max_groups`; фактична вартість
+пишеться в лог кроку «Build daily digest». Особисті дописи потрапляють лише з позначкою «Публічно».
 
 ## Обмеження
 - З 2025 року НаУКМА не веде офіційних Telegram-каналів, тож Telegram дає переважно

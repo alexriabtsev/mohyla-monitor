@@ -12,7 +12,7 @@ import pytest
 
 from mohyla import http as mhttp
 from mohyla.collectors import (
-    ALL_COLLECTORS, bluesky, facebook_apify, google_news, rss, run_all, telegram, websearch,
+    ALL_COLLECTORS, bluesky, facebook_apify, facebook_links, google_news, rss, run_all, telegram, websearch,
 )
 from mohyla.models import Item, Person
 
@@ -229,30 +229,91 @@ def test_bluesky_auth_failure(monkeypatch):
 
 # ---------- facebook via apify ----------
 
-def test_facebook_apify(monkeypatch):
-    monkeypatch.setenv("APIFY_TOKEN", "SECRET-TOKEN")
-    bodies: list[dict] = []
+class FakeApify:
+    """Mock Apify API: runs start RUNNING, finish on the first poll, datasets from a fixture."""
 
-    def handler(r: httpx.Request) -> httpx.Response:
+    def __init__(self, final_status="SUCCEEDED", poll_ok=True):
+        self.started: list[tuple[str, dict, dict]] = []
+        self.calls: list[str] = []
+        self.final_status, self.poll_ok = final_status, poll_ok
+
+    def __call__(self, r: httpx.Request) -> httpx.Response:
         # token goes in the Authorization header so it never appears in logged URLs
-        assert r.method == "POST" and r.headers["Authorization"] == "Bearer SECRET-TOKEN"
+        assert r.headers["Authorization"] == "Bearer SECRET-TOKEN"
         assert "token" not in r.url.params
-        bodies.append(json.loads(r.content))
-        return httpx.Response(201, content=fx("apify_fb.json"))
+        path = r.url.path
+        self.calls.append(f"{r.method} {path}")
+        if r.method == "POST" and path.endswith("/runs"):
+            actor = path.split("/")[-2]
+            self.started.append((actor, json.loads(r.content), dict(r.url.params)))
+            return httpx.Response(201, json={"data": {"id": f"run-{actor}", "status": "RUNNING",
+                                                      "defaultDatasetId": f"ds-{actor}"}})
+        if path.endswith("/abort"):
+            return httpx.Response(200, json={"data": {"id": "x", "status": "ABORTING",
+                                                      "defaultDatasetId": "ds-partial"}})
+        if path.startswith("/v2/actor-runs/"):
+            if not self.poll_ok:
+                return httpx.Response(500)
+            rid = path.rsplit("/", 1)[-1]
+            return httpx.Response(200, json={"data": {
+                "id": rid, "status": self.final_status, "usageTotalUsd": 0.12,
+                "defaultDatasetId": "ds-" + rid.removeprefix("run-")}})
+        if path.startswith("/v2/datasets/"):
+            return httpx.Response(200, content=fx("apify_fb.json"))
+        raise AssertionError(path)
 
+
+def test_facebook_apify_one_run_for_pages_and_one_for_groups(monkeypatch):
+    monkeypatch.setenv("APIFY_TOKEN", "SECRET-TOKEN")
+    api = FakeApify()
     people = [Person(id="p", name_uk="X", socials=(("facebook", "some.person"),))]
-    cfg = {"facebook_pages": ["https://www.facebook.com/naukma/"]}
-    res = facebook_apify.collect(client_for(handler), cfg, SINCE, people)
-    urls = [b["startUrls"][0]["url"] for b in bodies]
-    assert urls == ["https://www.facebook.com/naukma/", "https://www.facebook.com/some.person"]
-    assert bodies[0]["onlyPostsNewerThan"] == "2026-11-02" and bodies[0]["resultsLimit"] == 20
+    cfg = {"facebook_pages": ["https://www.facebook.com/naukma/", "naukma"],
+           "facebook_groups": ["https://m.facebook.com/groups/mohyla.alumni/?ref=share"],
+           "facebook_discovered": ["https://www.facebook.com/kmbs.ua/"],
+           "facebook_max_charge_usd": 0.3}
+    res = facebook_apify.collect(client_for(api), cfg, SINCE, people)
+    assert [a for a, _, _ in api.started] == ["apify~facebook-posts-scraper",
+                                              "apify~facebook-groups-scraper"]
+    pages_input, params = api.started[0][1], api.started[0][2]
+    assert [u["url"] for u in pages_input["startUrls"]] == [
+        "https://www.facebook.com/naukma/", "https://www.facebook.com/some.person/",
+        "https://www.facebook.com/kmbs.ua/"]
+    assert pages_input["onlyPostsNewerThan"] == "2026-11-02"
+    assert params == {"maxItems": "2000", "maxTotalChargeUsd": "0.3"}
+    assert api.started[1][1]["startUrls"] == [
+        {"url": "https://www.facebook.com/groups/mohyla.alumni/"}]
     assert res.status.ok
-    # per page: 111 (time) + 113 (timestamp); 112 old, error row skipped; same posts from 2 pages dedup
+    # per dataset: 111 (time) + 113 (timestamp); 112 old, error row skipped; dedup across runs
     assert [i.url for i in res.items] == ["https://www.facebook.com/naukma/posts/pfbid111",
                                           "https://www.facebook.com/naukma/posts/pfbid113"]
     assert res.items[0].author == "НаУКМА" and res.items[1].author == "Fallback Name"
-    assert res.items[0].kind == "social" and res.items[0].source.startswith("facebook:")
+    assert res.items[0].source == "facebook:naukma"  # from facebookUrl, matches profile handles
+    assert res.items[1].source == "facebook:Fallback Name"
+    assert res.items[0].kind == "social"
     assert_items_valid(res.items)
+
+
+def test_facebook_caps_sources(monkeypatch):
+    cfg = {"facebook_pages": [f"page{i}" for i in range(10)], "facebook_max_pages": 3}
+    pages, groups = facebook_apify.source_lists(cfg, [])
+    assert pages == [f"https://www.facebook.com/page{i}/" for i in range(3)] and groups == []
+
+
+def test_facebook_failed_run_keeps_partial_rows(monkeypatch):
+    monkeypatch.setenv("APIFY_TOKEN", "SECRET-TOKEN")
+    res = facebook_apify.collect(client_for(FakeApify(final_status="ABORTED")),
+                                 {"facebook_pages": ["naukma"]}, SINCE, [])
+    assert not res.status.ok and "ABORTED" in res.status.message
+    assert len(res.items) == 2
+
+
+def test_facebook_run_over_budget_is_aborted(monkeypatch):
+    monkeypatch.setenv("APIFY_TOKEN", "SECRET-TOKEN")
+    api = FakeApify()
+    cfg = {"facebook_pages": ["naukma"], "facebook_timeout_minutes": 0}
+    res = facebook_apify.collect(client_for(api), cfg, SINCE, [])
+    assert any(c.endswith("/abort") for c in api.calls)
+    assert "TIMED-OUT" in res.status.message and len(res.items) == 2
 
 
 def test_facebook_failure_never_leaks_token(monkeypatch, caplog):
@@ -262,6 +323,76 @@ def test_facebook_failure_never_leaks_token(monkeypatch, caplog):
     assert not res.status.ok
     assert "SECRET-TOKEN" not in res.status.message
     assert "SECRET-TOKEN" not in caplog.text
+
+
+def test_facebook_poll_failure_reported(monkeypatch):
+    monkeypatch.setenv("APIFY_TOKEN", "SECRET-TOKEN")
+    res = facebook_apify.collect(client_for(FakeApify(poll_ok=False)),
+                                 {"facebook_pages": ["naukma"]}, SINCE, [])
+    assert not res.status.ok and res.items == ()
+
+
+@pytest.mark.parametrize("raw,canon", [
+    ("naukma", "https://www.facebook.com/naukma/"),
+    ("@kmbs.ua", "https://www.facebook.com/kmbs.ua/"),
+    ("https://m.facebook.com/naukma/posts/123", "https://www.facebook.com/naukma/"),
+    ("fb.com/groups/12345/permalink/9", "https://www.facebook.com/groups/12345/"),
+    ("https://www.facebook.com/sharer/sharer.php?u=x", None),
+    ("https://www.facebook.com/profile.php?id=1", None),
+    ("https://example.com/naukma", None),
+    ("https://www.facebook.com/groups/", None),
+])
+def test_facebook_link_normalize(raw, canon):
+    assert facebook_links.normalize(raw) == canon
+
+
+def _post(text, kind="social", reason="keyword", source="telegram:x"):
+    return Item(url="https://t.me/x/1", title="t", source=source, kind=kind, published=SINCE,
+                text=text, extra={"keep_reason": reason})
+
+
+def test_facebook_discover_links_only_from_mohyla_social_posts():
+    text = "Деталі на facebook.com/naukma.fen і в групі https://www.facebook.com/groups/ukma.alumni"
+    found = facebook_links.discover([_post(text), _post("facebook.com/news.outlet", kind="media"),
+                                     _post("facebook.com/someone.else", reason="person")])
+    assert found == {"https://www.facebook.com/naukma.fen/",
+                     "https://www.facebook.com/groups/ukma.alumni/"}
+
+
+def test_facebook_lookalike_hosts_ignored():
+    assert facebook_links.discover([_post("знижки на shopfb.com/sale та notfacebook.com/x")]) == set()
+
+
+def test_facebook_abort_failure_keeps_partial_rows(monkeypatch):
+    monkeypatch.setenv("APIFY_TOKEN", "SECRET-TOKEN")
+    api = FakeApify()
+
+    def handler(r):
+        return httpx.Response(500) if r.url.path.endswith("/abort") else api(r)
+
+    res = facebook_apify.collect(client_for(handler),
+                                 {"facebook_pages": ["naukma"], "facebook_timeout_minutes": 0},
+                                 SINCE, [])
+    assert "TIMED-OUT" in res.status.message and len(res.items) == 2
+
+
+def test_facebook_group_post_labelled_with_group():
+    row = {"url": "https://www.facebook.com/groups/12345/posts/2", "text": "Привіт", "time":
+           "2026-11-04T07:00:00Z", "facebookUrl": "https://www.facebook.com/groups/12345/",
+           "groupTitle": "Могилянці", "user": {"name": "Член Групи"}}
+    item = facebook_apify.row_to_item(row, SINCE)
+    assert item.source == "facebook:Могилянці" and item.author == "Член Групи"
+    assert item.extra == {"fb_group": "Могилянці"}
+
+
+def test_facebook_blank_setting_uses_default():
+    assert facebook_apify.setting({"facebook_max_items": None}, "facebook_max_items") == 2000
+
+
+def test_facebook_discovered_sources_capped():
+    cfg = {"facebook_discovered": [f"d{i}" for i in range(50)], "facebook_max_discovered": 2}
+    assert facebook_apify.source_lists(cfg, [])[0] == ["https://www.facebook.com/d0/",
+                                                       "https://www.facebook.com/d1/"]
 
 
 # ---------- websearch (brave) ----------

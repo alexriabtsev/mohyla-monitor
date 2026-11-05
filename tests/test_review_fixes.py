@@ -55,7 +55,7 @@ def sandbox(tmp_path, monkeypatch):
 def _fake_collect(batches):
     def collect(cfg, people, since):
         items = batches.pop(0)
-        return items, [SourceStatus(name="fake", ok=True, count=len(items))], []
+        return items, [SourceStatus(name="fake", ok=True, count=len(items))], {}
     return collect
 
 
@@ -82,3 +82,13 @@ def test_people_refresh_refuses_to_shrink_base(sandbox, monkeypatch):
     monkeypatch.setattr(cli.wikidata, "enrich_people", lambda c, cfg, p: [])
     assert cli.cmd_people(load_config()) == 1
     assert len(store.load_people()) == 10
+
+
+def test_daily_saves_discovered_facebook_and_telegram_links(sandbox, monkeypatch):
+    story = Item(url="https://t.me/fen_news/1", title="Могилянка", source="telegram:fen_news",
+                 kind="social", published=NOW,
+                 text="Могилянка: деталі на facebook.com/naukma.fen та t.me/fen_news")
+    monkeypatch.setattr(cli, "_collect", _fake_collect([[story]]))
+    assert cli.cmd_daily(load_config()) == 0
+    assert state.load_extra("facebook_discovered") == {"https://www.facebook.com/naukma.fen/"}
+    assert state.load_extra("telegram_discovered") == {"fen_news"}

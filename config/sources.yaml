@@ -40,8 +40,104 @@ telegram_channels:          # public channels; people's handles are added from W
   - StudNaUKMA              # Студентська колегія НаУКМА
   - naukmanews
 
-facebook_pages:             # used only when APIFY_TOKEN is set
-  - https://www.facebook.com/naukma/
+# Facebook (only when APIFY_TOKEN is set): one Apify run for all pages, one for all groups.
+# Order = priority: these lists, then people's profiles, then pages found via links.
+facebook_max_charge_usd: 0.5    # spend cap per run (2 runs/day -> at most ~$30/month)
+facebook_max_items: 2000        # posts per run; keep >= sources x posts_per_source
+facebook_posts_per_source: 8
+facebook_max_pages: 200
+facebook_max_groups: 60
+facebook_max_discovered: 40
+facebook_timeout_minutes: 15
+
+facebook_pages:             # links taken from official NaUKMA sites (2026-11)
+  # Університет і вступ
+  - https://www.facebook.com/naukma/                       # НаУКМА
+  - https://www.facebook.com/181139331912553/              # Підтримую Києво-Могилянську академію
+  - https://www.facebook.com/WelcometoNaUKMA/              # Вступ до НаУКМА
+  - https://www.facebook.com/KMAalumni/                    # Асоціація випускників
+  - https://www.facebook.com/kma.norway/                   # KMA Alumni in Norway
+  - https://www.facebook.com/KyivMohyla/                   # Kyiv Mohyla Foundation of America
+  - https://www.facebook.com/kmbs.ua/                      # kmbs
+  # Факультети, школи, кафедри
+  - https://www.facebook.com/naukmafen/                    # ФЕН
+  - https://www.facebook.com/DepartmentOfFinanceNaUKMA/    # Кафедра фінансів
+  - https://www.facebook.com/Marketing.naukma/             # Кафедра маркетингу
+  - https://www.facebook.com/departmentOfEconomicsNaUKMA/  # Department of Economics
+  - https://www.facebook.com/managementnaukma/             # Менеджери Могилянки
+  - https://www.facebook.com/fin.ukma/                     # ФІ
+  - https://www.facebook.com/law.ukma/                     # ФПрН
+  - https://www.facebook.com/kmahistory/                   # Кафедра історії
+  - https://www.facebook.com/KMAJewishStudies/             # Юдаїка
+  - https://www.facebook.com/MohylaJSchool/                # Могилянська школа журналістики
+  - https://www.facebook.com/SSW.NaUKMA/                   # Школа соціальної роботи
+  - https://www.facebook.com/SPHNaUKMA/                    # Школа охорони здоров'я
+  - https://www.facebook.com/hct.summer.school/            # Літня школа ШОЗ
+  - https://www.facebook.com/MedSchoolUa/                  # Медична школа Могилянки і Добробуту
+  - https://www.facebook.com/kma.pro.official/             # KMA PRO
+  - https://www.facebook.com/gradschool.naukma/            # Докторська школа
+  - https://www.facebook.com/naukmadistedu/                # Центр дистанційного навчання
+  # Центри, наука, журнали
+  - https://www.facebook.com/852187844892788/              # Центр дослідження верховенства права
+  - https://www.facebook.com/kma.mcs/                      # Moot Court Society
+  - https://www.facebook.com/KyivMohylaJournals/           # Журнали НаУКМА
+  - https://www.facebook.com/201565946705667/              # Кіно-Театр
+  - https://www.facebook.com/nauka.kma/                    # Товариство аспірантів
+  - https://www.facebook.com/NaUKMA.Library/               # Бібліотека
+  - https://www.facebook.com/NaUKMAmuseum/                 # Музей
+  - https://www.facebook.com/SPANaUKMA/                    # Школа політичної аналітики
+  - https://www.facebook.com/crimeanstudies.naukma/        # Центр кримських студій
+  - https://www.facebook.com/pritsakcenter/                # Центр орієнталістики
+  - https://www.facebook.com/CPES.kma/                     # Центр польських та європейських студій
+  - https://www.facebook.com/icenaukma/                    # Інститут громадянської освіти
+  - https://www.facebook.com/PsychosocialSupportNaUKMA/    # Центр психосоціальної підтримки
+  - https://www.facebook.com/kmarehab/                     # Центр психосоціальної реабілітації
+  - https://www.facebook.com/safespace.kmarehab/           # Safe Space
+  - https://www.facebook.com/defenders.ukma/               # Центр лідерства захисників
+  - https://www.facebook.com/KMADefenceTraining/           # Військовий вишкіл
+  - https://www.facebook.com/RevitalizeNaUKMA/             # Revitalize NaUKMA
+  - https://www.facebook.com/philosophynewgeneration/      # Philosophy: New Generation
+  - https://www.facebook.com/podkmast/                     # podkmast
+  # Культура, кар'єра, спільнота
+  - https://www.facebook.com/kmcNaUKMA/                    # Культурно-мистецький центр
+  - https://www.facebook.com/bilyiprostir/                 # Білий простір
+  - https://www.facebook.com/antresolya/                   # Антресоля
+  - https://www.facebook.com/kmartyard/                    # KMArt Yard
+  - https://www.facebook.com/JCCofNaUKMA/                  # Центр кар'єри
+  - https://www.facebook.com/ProfiPlusNaUKMA/              # Профі+
+  - https://www.facebook.com/kmaprofessionals/             # KMA Professionals
+  - https://www.facebook.com/rukotvorynaukma/              # Могилянські рукотвори
+  - https://www.facebook.com/creativemogylianchyky/        # Творчі могилянчики
+  # Студентські організації
+  - https://www.facebook.com/StudNaUKMA/                   # Студентська колегія
+  - https://www.facebook.com/SpudeyskeBratstvoNaUKMA/      # Спудейське братство
+  - https://www.facebook.com/sv.ukma/                      # Спудейський вісник
+  - https://www.facebook.com/ukma.today/                   # KMA Today
+  - https://www.facebook.com/tamohyla/                     # ТА Могилянка
+  - https://www.facebook.com/sbtnaukma/                    # Біологічне товариство
+  - https://www.facebook.com/kmatalks/                     # KMA Talks
+  - https://www.facebook.com/KMAsGeekLab/                  # KMA's GeekLab
+  - https://www.facebook.com/ukrayinskyj.student/          # Український студент
+  - https://www.facebook.com/APSSofNaUKMA/                 # Асоціація студентів-політологів
+  - https://www.facebook.com/EnactusNaUKMA/                # Enactus
+  - https://www.facebook.com/KinoklubKMA/                  # Кіноклуб
+  - https://www.facebook.com/MohylaArtWeek/                # Mohyla Art Week
+  - https://www.facebook.com/mohyliankadance/              # Mohylianka Dance
+  - https://www.facebook.com/tempusvnaukma/                # Tempus
+  - https://www.facebook.com/studiyateatr/                 # Студентський театр
+  - https://www.facebook.com/tedxnaukma/                   # TEDxNaUKMA
+  - https://www.facebook.com/kmaprmasters/                 # KMA PR Masters
+  - https://www.facebook.com/fido.naukma/                  # FIdo
+  - https://www.facebook.com/buddynaukma/                  # Бадді
+
+facebook_groups:            # public status unconfirmed; closed groups return nothing
+  - https://www.facebook.com/groups/NaUKMA/             # NaUKMA
+  - https://www.facebook.com/groups/214386428733258/    # Асоціація випускників
+  - https://www.facebook.com/groups/jccnaukma/          # Центр кар'єри
+  - https://www.facebook.com/groups/131340237050260/    # Міжнародне співробітництво
+  - https://www.facebook.com/groups/444996058893310/    # Кафедра соціології
+  - https://www.facebook.com/groups/pochayna/           # Капела «Почайна»
+  - https://www.facebook.com/groups/mogylianka.armiyi/  # Могилянці – воїнам
 
 websearch_queries:          # used only when BRAVE_API_KEY is set
   - 'site:linkedin.com/posts "Kyiv-Mohyla"'

@@ -11,6 +11,7 @@ from zoneinfo import ZoneInfo
 
 from mohyla import digest, rank, state
 from mohyla.collectors import run_all
+from mohyla.collectors import facebook_links
 from mohyla.collectors.telegram import discover_channels
 from mohyla.config import DATA_DIR, SITE_DIR, load_config
 from mohyla.http import make_client
@@ -52,6 +53,7 @@ def cmd_people(cfg: dict) -> int:
 
 
 PRIVATE_DIR_NAME = "private"
+DISCOVERY_KEYS = ("telegram_discovered", "facebook_discovered")
 
 
 def cmd_archive(cfg: dict) -> int:
@@ -70,11 +72,19 @@ def cmd_archive(cfg: dict) -> int:
 
 
 def _collect(cfg: dict, people: list, since: datetime):
-    discovered = sorted(state.load_extra("telegram_discovered"))
-    run_cfg = {**cfg, "telegram_discovered": discovered}
+    discovered = {name: sorted(state.load_extra(name)) for name in DISCOVERY_KEYS}
+    run_cfg = {**cfg, **discovered}
     with make_client(cfg["user_agent"]) as client:
         items, statuses = run_all(client, run_cfg, since, people)
     return items, statuses, discovered
+
+
+def _save_discovered(discovered: dict, fresh: list) -> None:
+    """Links found in today's kept items become sources for the next run."""
+    found = {"telegram_discovered": discover_channels(fresh),
+             "facebook_discovered": facebook_links.discover(fresh)}
+    for name in DISCOVERY_KEYS:
+        state.save_extra(name, set(discovered.get(name, ())) | found[name])
 
 
 def _load_archive(public: list) -> list:
@@ -153,7 +163,7 @@ def cmd_daily(cfg: dict) -> int:
     store.save_people(people)
     store.save_graph(people, edges)  # public people only; graduates appear as opaque ids
     state.save_extra("alumni_mentioned", mentioned)
-    state.save_extra("telegram_discovered", set(discovered) | discover_channels(fresh))
+    _save_discovered(discovered, fresh)
     log.info("daily: raw=%d fresh=%d stories=%d chosen=%d new_people=%d",
              len(raw), len(fresh), len(stories), len(chosen), len(new_people))
     return 0 if any(s.ok and s.count for s in statuses) else 2
