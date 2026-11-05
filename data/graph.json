@@ -2230,12 +2230,50 @@
  ],
  "edges": [
   {
-   "a": "wd:Q124101558",
-   "b": "wd:Q80121827",
+   "a": "alumni:703d977d459d",
+   "b": "alumni:a1ee24a10dc8",
    "kind": "comention",
    "weight": 1.0,
    "evidence": [
-    "https://t.me/kozytskyy_maksym_official/34299"
+    "https://www.facebook.com/KMAalumni/posts/pfbid02BQhp8erwPWttm9KWySv3M22zaQrjg1iPv9hhh3r3iieH5qtkEymipYVWbkxBz91kl"
+   ]
+  },
+  {
+   "a": "alumni:703d977d459d",
+   "b": "wd:Q12079200",
+   "kind": "comention",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.facebook.com/KMAalumni/posts/pfbid02BQhp8erwPWttm9KWySv3M22zaQrjg1iPv9hhh3r3iieH5qtkEymipYVWbkxBz91kl"
+   ]
+  },
+  {
+   "a": "alumni:a1ee24a10dc8",
+   "b": "wd:Q12079200",
+   "kind": "comention",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.facebook.com/KMAalumni/posts/pfbid02BQhp8erwPWttm9KWySv3M22zaQrjg1iPv9hhh3r3iieH5qtkEymipYVWbkxBz91kl"
+   ]
+  },
+  {
+   "a": "wd:Q12139367",
+   "b": "wd:Q54860605",
+   "kind": "comention",
+   "weight": 1.0,
+   "evidence": [
+    "https://www.facebook.com/valerii.pekar/posts/pfbid02k9DLF4pA1RbXWmDL54aEs2iwuHwBDcoBXoNzEA5giodUzZ7PSyFswWALmamoPBE5l"
+   ]
+  },
+  {
+   "a": "wd:Q124101558",
+   "b": "wd:Q80121827",
+   "kind": "comention",
+   "weight": 3.0,
+   "evidence": [
+    "https://t.me/kozytskyy_maksym_official/34299",
+    "https://www.facebook.com/kozytskyy.maksym.official/posts/pfbid0VzVywEszjxbgA4LPqKqVqaSCSrCvY2u1BnXpbe5AGzAtie9CtW7JVuUD24YSQmTCl",
+    "https://www.facebook.com/kozytskyy.maksym.official/posts/pfbid02Jo2Wvka8J95Ey1Yg6ESiXou2aT2Hmk9FP9JfeeCsC43Wr6NexphHJannXRnZuhFil"
    ]
   },
   {
