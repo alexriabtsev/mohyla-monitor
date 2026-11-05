@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import logging
 import os
+import re
 from datetime import datetime, timezone
 from typing import Any, Sequence
 from urllib.parse import urlparse
@@ -25,6 +26,13 @@ ENV = ("TAVILY_API_KEY",)
 SEARCH_URL = "https://api.tavily.com/search"
 MAX_RESULTS = 20
 DATE_FORMATS = ("%a, %d %b %Y %H:%M:%S %Z", "%Y-%m-%d")  # Tavily dates vary by source
+# Only individual posts: profile, company and search pages (e.g. linkedin.com/in/<name>)
+# describe people, not news, and would put private individuals' profiles in the digest.
+POST_PATH = re.compile(
+    r"^/(?:posts/|pulse/|feed/update/"                 # LinkedIn
+    r"|[^/]+/status/\d+"                               # X
+    r"|@[^/]+/post/"                                    # Threads
+    r"|(?:[^/]+/)?(?:p|reel)/[\w-]+)")                 # Instagram
 
 
 def hostname(url: str) -> str:
@@ -45,9 +53,13 @@ def result_published(res: dict[str, Any]) -> datetime | None:
     return None
 
 
+def is_post(url: str) -> bool:
+    return bool(POST_PATH.match(urlparse(url).path or ""))
+
+
 def to_item(res: dict[str, Any], since: datetime, now: datetime) -> Item | None:
     url = res.get("url") or ""
-    if not url:
+    if not url or not is_post(url):
         return None
     published = result_published(res)
     extra: dict[str, Any] = {}

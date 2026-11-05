@@ -422,6 +422,23 @@ def test_websearch_tavily(monkeypatch):
     assert_items_valid(res.items)
 
 
+@pytest.mark.parametrize("url,ok", [
+    ("https://www.linkedin.com/posts/green-deal_x-activity-1", True),
+    ("https://www.linkedin.com/pulse/some-article-abc", True),
+    ("https://ua.linkedin.com/in/some-student-123", False),
+    ("https://www.linkedin.com/company/naukma", False),
+    ("https://x.com/TarasKuzio/status/2118087204173947266", True),
+    ("https://x.com/TarasKuzio", False),
+    ("https://www.threads.com/@someone/post/DfUfuRGDocl/x", True),
+    ("https://www.threads.com/@someone", False),
+    ("https://www.instagram.com/p/DfUsPlwIOeG", True),
+    ("https://www.instagram.com/naukma/reel/AbC-1/", True),
+    ("https://www.instagram.com/naukma/", False),
+])
+def test_websearch_keeps_only_posts(url, ok):
+    assert websearch.is_post(url) is ok
+
+
 def test_websearch_failure_never_leaks_key(monkeypatch, caplog):
     monkeypatch.setenv("TAVILY_API_KEY", "tvly-KEY")
     res = websearch.collect(client_for(lambda r: httpx.Response(432)),
