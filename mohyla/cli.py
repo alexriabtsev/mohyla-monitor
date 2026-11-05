@@ -154,7 +154,8 @@ def cmd_daily(cfg: dict) -> int:
     # a re-run on the same Kyiv day extends that day's issue instead of replacing it
     earlier = (state.load_digest(day) or {}).get("items", [])
     ranked = rank.rank([*earlier, *stories], people_by_id, cfg, now)
-    chosen = rank.select_digest(ranked, cfg["digest_size"])
+    chosen = rank.select_digest(ranked, cfg["digest_size"],
+                                cfg.get("source_family_shares") or {})
     stats = {"people": len(people), "archive": len(archived), "edges": len(edges)}
     _publish(cfg, day, chosen, statuses, people_by_id, new_people, stats)
     # publish succeeded: now persist state, seen first so nothing is counted twice

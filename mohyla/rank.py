@@ -129,30 +129,43 @@ def rank(items: Sequence[Item], people_by_id: Mapping[str, Person],
     return sorted(dedupe(scored), key=_preference)
 
 
+def _family(item: Item) -> str:
+    """Source family: 'web:x.com' -> 'web', 'telegram:naukma' -> 'telegram'."""
+    return item.source.split(":", 1)[0]
+
+
 def _greedy(pool: list[int], items: Sequence[Item], limit: int, cap: int | None,
-            chosen: list[int]) -> list[int]:
+            chosen: list[int], family_caps: dict[str, int]) -> list[int]:
+    """Add items in pool order; `cap` limits one source (None = no limit), family caps
+    are always enforced."""
     out = list(chosen)
     for idx in pool:
         if len(out) >= limit:
             break
         if idx in out:
             continue
-        same = sum(1 for j in out if items[j].source == items[idx].source)
-        if cap is None or same < cap:
+        item = items[idx]
+        same = sum(1 for j in out if items[j].source == item.source)
+        fam_cap = family_caps.get(_family(item))
+        fam = sum(1 for j in out if _family(items[j]) == _family(item))
+        if (cap is None or same < cap) and (fam_cap is None or fam < fam_cap):
             out.append(idx)
     return out
 
 
-def select_digest(items: Sequence[Item], size: int) -> list[Item]:
-    """Top `size` with <=40% per source and >=min(5, available) achievements."""
+def select_digest(items: Sequence[Item], size: int,
+                  family_shares: dict[str, float] | None = None) -> list[Item]:
+    """Top `size` with <=40% per source, per-family shares (e.g. {'web': 0.25}) as a hard
+    limit, and >=min(5, available) achievements."""
     if size <= 0:
         return []
     order = sorted(range(len(items)), key=lambda i: _preference(items[i]))
     cap = max(1, int(size * SOURCE_SHARE))
+    fams = {f: max(1, int(size * share)) for f, share in (family_shares or {}).items()}
     ach = [i for i in order if items[i].category == "achievement"]
     need = min(MIN_ACHIEVEMENTS, len(ach), size)
-    chosen = _greedy(ach, items, need, cap, [])
-    chosen = _greedy(ach, items, need, None, chosen)       # relax cap if needed
-    chosen = _greedy(order, items, size, cap, chosen)
-    chosen = _greedy(order, items, size, None, chosen)     # fill if sources too few
+    chosen = _greedy(ach, items, need, cap, [], fams)
+    chosen = _greedy(ach, items, need, None, chosen, fams)       # relax source cap if needed
+    chosen = _greedy(order, items, size, cap, chosen, fams)
+    chosen = _greedy(order, items, size, None, chosen, fams)     # fill if sources too few
     return [items[i] for i in sorted(chosen, key=lambda i: _preference(items[i]))]

@@ -138,3 +138,11 @@ def test_keep_reason_weight_prefers_explicit_mention():
     mk = lambda r: Item(url="https://e.com", title="t", text="", source="s", kind="media",
                         published=now, extra={"keep_reason": r})
     assert score(mk("keyword"), {}, w, now) > score(mk("body"), {}, w, now)
+
+
+def test_select_digest_family_cap_is_hard():
+    web = [mk(url=f"https://x.com/{i}", source=f"web:x{i}.com", score=10.0) for i in range(20)]
+    news = [mk(url=f"https://n.ua/{i}", source=f"gnews:n{i}", score=1.0) for i in range(5)]
+    out = select_digest(web + news, 20, {"web": 0.25})
+    assert sum(1 for i in out if i.source.startswith("web:")) == 5
+    assert len(out) == 10  # not refilled with web when other sources run out
