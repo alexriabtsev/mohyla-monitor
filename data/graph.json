@@ -2230,6 +2230,15 @@
  ],
  "edges": [
   {
+   "a": "wd:Q124101558",
+   "b": "wd:Q80121827",
+   "kind": "comention",
+   "weight": 1.0,
+   "evidence": [
+    "https://t.me/kozytskyy_maksym_official/34299"
+   ]
+  },
+  {
    "a": "wd:Q109647156",
    "b": "wd:Q12085682",
    "kind": "employer",

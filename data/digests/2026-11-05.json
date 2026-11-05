@@ -2,6 +2,25 @@
   "date": "2026-11-05",
   "items": [
     {
+      "url": "https://t.me/kozytskyy_maksym_official/34299",
+      "title": "Сьогодні у Львівській обласній військовій адміністрації відбулися спільні консультації урядів України та Словацької Республіки за участі Пр…",
+      "text": "Сьогодні у Львівській обласній військовій адміністрації відбулися спільні консультації урядів України та Словацької Республіки за участі Прем’єр-міністра України Сергія Корецького та Прем’єр-міністра Словаччини Роберта Фіцо. Для Львівської ОВА велика честь приймати у своїх стінах зустріч такого високого рівня, під час якої досягнули важливих домовленостей для наших держав. Підсумки зустрічі. Щиро дякую Прем’єр-міністру України Сергію Корецькому, Прем’єр-міністру Словаччини Роберту Фіцо та членам урядових делегацій обох держав за конструктивний діалог, конкретні рішення та довіру до Львівщини. Окрема вдячність усім, хто долучився до організації та проведення цієї зустрічі. За подіями такого масштабу стоїть велика командна робота. Дякую всім за професіоналізм, відповідальність і злагодженість.",
+      "source": "telegram:kozytskyy_maksym_official",
+      "kind": "social",
+      "published": "2026-11-05T18:23:22+00:00",
+      "author": "🇺🇦 Максим Козицький/Львівська ОВА (ОДА)",
+      "person_ids": [
+        "wd:Q80121827",
+        "wd:Q124101558"
+      ],
+      "category": "community",
+      "score": 5.326007939757927,
+      "extra": {
+        "keep_reason": "person",
+        "body_match": false
+      }
+    },
+    {
       "url": "https://www.ukma.edu.ua/index.php/news/6131-22-24-zhovtnia-2026-roku-v-stambuli-vidbuvsia-mizhnarodnyi-naukovyi-vorkshop-the-wider-black-sea-security-2030-threats-and-geopolitical-challenges",
       "title": "22–24 жовтня 2026 року в Стамбулі відбувся міжнародний науковий воркшоп «The Wider Black Sea Security 2030: Threats and Geopolitical Challenges»",
       "text": "22–24 жовтня 2026 року в Стамбулі відбувся міжнародний науковий воркшоп «The Wider Black Sea Security 2030: Threats and Geopolitical Challenges» («Безпека широкого Чорноморського регіону до 2030 року: загрози та геополітичні виклики») , організований за підтримки програми НАТО Science for Peace and Security у співпраці зі Стамбульським університетом Меденієт та кафедрою політології Національного університету «Києво-Могилянська академія» (співкерівник проекту від НаУКМА доктор політичних наук Микола Гнатюк). Захід об’єднав науковців, дипломатів і експертів з міжнародних відносин та безпеки для обговорення ключових викликів Чорноморського регіону та перспектив його безпеки до 2030 року. Особливу увагу учасники приділили наслідкам російської агресії проти України, трансформації регіонального безпекового середовища, зміні військово-стратегічного балансу в Чорному морі та їхньому впливу на європейську й трансатлантичну безпеку. У центрі дискусій також були геополітичні суперечності, регіональна співпраця та можливі сценарії розвитку безпекової ситуації в ширшому Чорноморському регіоні. Кафедру політології представили: Микола Гнатюк , доцент кафедри політології, співкерівник проекту Маргарита Чабанна , завідувач кафедри політології Тарас Кузьо , професор кафедри політології Аня Міхр , DAAD-професорка кафедри політології Дарія Сингаєвська , викладачка, аспірантка кафедри політології Олександр Вегержинський , аспірант кафедри політології За результатами обговорення передбачено підго…",
@@ -13,7 +32,7 @@
         "wd:Q7685535"
       ],
       "category": "science",
-      "score": 2.156472032046111,
+      "score": 1.9030421206683843,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -31,10 +50,28 @@
         "wd:Q124101558"
       ],
       "category": "science",
-      "score": 1.8860708943327182,
+      "score": 1.664418689945293,
       "extra": {
         "keep_reason": "own_achievement",
         "body_match": false
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9iMXRRcHJnME9qRXIzU1p6MGlTYXBXbTZZdjVlaVE1SDJxQkR3aWxaN2R6ZGl1eUstOXcxOFg0Y1gxNUpFd3QwcXRPaGsxekU2aWY4Z0QxOHJJNHlIUlJVdmIydEdnS1U?oc=5",
+      "title": "50 років Українській Гельсінській групі: уроки правозахисту для сьогодення",
+      "text": "50 років Українській Гельсінській групі: уроки правозахисту для сьогодення Ukr.net",
+      "source": "gnews:Ukr.net",
+      "kind": "media",
+      "published": "2026-11-05T15:55:48+00:00",
+      "author": "Ukr.net",
+      "person_ids": [],
+      "category": "community",
+      "score": 1.5451956726127605,
+      "extra": {
+        "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
+        "publisher_url": "https://www.ukr.net",
+        "keep_reason": "body",
+        "body_match": true
       }
     },
     {
@@ -47,12 +84,18 @@
       "author": "Ukrainian News Agency",
       "person_ids": [],
       "category": "community",
-      "score": 1.6111183340686952,
+      "score": 1.4217787226318384,
       "extra": {
         "query": "\"Kyiv-Mohyla Academy\" OR \"NaUKMA\"",
         "publisher_url": "https://ukranews.com",
         "keep_reason": "body",
-        "body_match": true
+        "body_match": true,
+        "also": [
+          {
+            "source": "gnews:Ukrainian News Agency",
+            "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQ0NoUUp6d1Y4WVUyZHk0Z2ZhN290SUVZTGdyalBiV1FjVVRmZldzelBqZ1FKVll0a1MzOWlTY2JMdk04OUdITmZHbVdlbjBLVlE4dnNPYzdmYVVqX0NESlFDUzJsc0VRWlp0b2NrbHlGRVFFblhYSUhraXBqLUQxWlV2Z213d1l6TjZoYThHYUdINWs2V2pQblozanB3emF4OWFQMDlPUkN1QnBsellqV3UyRTJTNUMta2lBUFJOSFFxcU1QeEppTWhZMnRoYldyQlE?oc=5"
+          }
+        ]
       }
     },
     {
@@ -65,7 +108,7 @@
       "author": "Українські Новини",
       "person_ids": [],
       "category": "community",
-      "score": 1.4914783305483867,
+      "score": 1.3161988854567497,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://ukranews.com",
@@ -83,7 +126,7 @@
       "author": "Український тиждень",
       "person_ids": [],
       "category": "community",
-      "score": 1.4591443841315836,
+      "score": 1.2876648441873957,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://tyzhden.ua",
@@ -101,12 +144,18 @@
       "author": "БукІнфо",
       "person_ids": [],
       "category": "community",
-      "score": 1.4228489278839547,
+      "score": 1.2556348521440595,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://bukinfo.com.ua",
         "keep_reason": "keyword",
-        "body_match": false
+        "body_match": false,
+        "also": [
+          {
+            "source": "gnews:БукІнфо",
+            "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOMWNrcGhXVC1taGdrSVJHcHNlSWZzRnRCQmRoSE5zdEg1RXJRRWZRRlRxRW9jc05VandRYTJVZ1ZPdHZFU0h0azRlVXJfT0RXVl9ua3NidzJUSkFzd0RJdUk1dU1DRFFLbWRjQXlaS3FJZFFtUU5pVktPTUljUVBTVl9waWlpeHY2V09CMG03RlppLW9uN0dvRTAwdmVzdHB1WFhHY3ZkSmhnYmRLZEVrLUk1djFyYm9VN1gwMUE4QU1DU2lMN2xxQVdCWFJNbW9S?oc=5"
+          }
+        ]
       }
     },
     {
@@ -121,7 +170,7 @@
         "wd:Q135615535"
       ],
       "category": "achievement",
-      "score": 1.2853396806721942,
+      "score": 1.1342857757189468,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://leopolis.news",
@@ -139,7 +188,7 @@
       "author": "Вікенд",
       "person_ids": [],
       "category": "community",
-      "score": 0.7262319346588028,
+      "score": 0.6408847137789541,
       "extra": {
         "query": "\"НаУКМА\"",
         "publisher_url": "https://weekend.today",
@@ -157,7 +206,7 @@
       "author": "MY.UA",
       "person_ids": [],
       "category": "community",
-      "score": 0.6574165091659037,
+      "score": 0.5801565191543074,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://my.ua",
@@ -175,7 +224,7 @@
       "author": "Громадське радіо",
       "person_ids": [],
       "category": "community",
-      "score": 0.3555803847937134,
+      "score": 0.3137923606196064,
       "extra": {
         "query": "\"Могилянка\" OR \"Могилянки\" OR \"Могилянці\"",
         "publisher_url": "https://hromadske.radio",
@@ -193,7 +242,7 @@
       "author": "Comments.ua",
       "person_ids": [],
       "category": "community",
-      "score": 0.3161868993747924,
+      "score": 0.27902842168689895,
       "extra": {
         "query": "\"НаУКМА\"",
         "publisher_url": "https://society.comments.ua",
@@ -211,7 +260,7 @@
       "author": "Українське радіо",
       "person_ids": [],
       "category": "community",
-      "score": 0.26770614932679465,
+      "score": 0.23624515901903295,
       "extra": {
         "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
         "publisher_url": "https://ukr.radio",
@@ -225,7 +274,7 @@
       "name": "rss",
       "ok": true,
       "enabled": true,
-      "count": 1,
+      "count": 0,
       "message": ""
     },
     {
@@ -239,7 +288,7 @@
       "name": "telegram",
       "ok": true,
       "enabled": true,
-      "count": 31,
+      "count": 32,
       "message": ""
     },
     {
@@ -267,7 +316,7 @@
   "extra": {
     "new_people": [],
     "people": 277,
-    "archive": 0,
-    "edges": 78
+    "archive": 8612,
+    "edges": 79
   }
 }
