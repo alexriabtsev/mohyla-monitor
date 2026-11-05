@@ -16,7 +16,7 @@ from dataclasses import replace
 from typing import Callable, Sequence
 
 from mohyla.models import Item, Person
-from mohyla.people.names import name_pattern
+from mohyla.people.names import name_pattern, normalize
 
 log = logging.getLogger(__name__)
 
@@ -24,6 +24,38 @@ log = logging.getLogger(__name__)
 MIN_PROMINENCE_WITHOUT_CONTEXT = 0.35
 
 Predicate = Callable[[Item], bool]
+Matchers = Sequence[tuple[Person, re.Pattern]]
+
+# Prefilter key length: a name word and its declined forms share the first letters
+KEY_LEN = 4
+_WORD = re.compile(r"[^\W\d_][\w'’ʼ`-]*")
+
+
+def _keys(text: str) -> set[str]:
+    return {w[:KEY_LEN] for w in _WORD.findall(normalize(text))}
+
+
+def _surname_keys(person: Person) -> set[str]:
+    """Every name pattern requires the surname, so indexing by it alone is enough.
+    Surname = last word of 'Ім'я Прізвище' labels, first word of 'Прізвище Ім'я По-батькові'."""
+    words = [_WORD.findall(normalize(n)) for n in (person.name_uk, person.name_en) if n]
+    words += [_WORD.findall(normalize(a))[::-1] for a in person.aliases if a]
+    return {w[-1][:KEY_LEN] for w in words if w}
+
+
+class MatcherIndex:
+    """Runs only the regexes whose surname shares a prefix with a word of the text."""
+
+    def __init__(self, matchers: Matchers):
+        self._by_key: dict[str, list[int]] = {}
+        self._matchers = list(matchers)
+        for i, (person, _) in enumerate(self._matchers):
+            for key in _surname_keys(person):
+                self._by_key.setdefault(key, []).append(i)
+
+    def candidates(self, text: str) -> Matchers:
+        idx = sorted({i for key in _keys(text) for i in self._by_key.get(key, ())})
+        return [self._matchers[i] for i in idx]
 
 
 def build_matchers(people: Sequence[Person]) -> list[tuple[Person, re.Pattern]]:
@@ -49,11 +81,13 @@ def owner_id(item: Item, owners: dict[str, str]) -> str | None:
 
 def link_item(
     item: Item,
-    matchers: Sequence[tuple[Person, re.Pattern]],
+    matchers: "Matchers | MatcherIndex",
     owner: str | None,
     relevant: bool,
 ) -> Item:
     haystack = f"{item.title}\n{item.text}"
+    if isinstance(matchers, MatcherIndex):
+        matchers = matchers.candidates(haystack)
     found = [
         person.id for person, pattern in matchers
         if pattern.search(haystack)
@@ -86,7 +120,7 @@ def filter_and_link(
     is_achievement: Predicate = lambda _: False,
     trusted_queries: Sequence[str] = (),
 ) -> list[Item]:
-    matchers = build_matchers(people)
+    matchers = MatcherIndex(build_matchers(people))
     owners = social_owners(people)
     trusted = set(trusted_queries)
     kept: list[Item] = []

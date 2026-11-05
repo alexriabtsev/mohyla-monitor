@@ -21,8 +21,18 @@ jobs:
   digest:
     runs-on: ubuntu-latest
     timeout-minutes: 40
+    env:
+      HAS_DATA_KEY: ${{ secrets.DATA_REPO_SSH_KEY != '' }}
     steps:
       - uses: actions/checkout@v4
+      - name: Fetch private graduate base
+        if: env.HAS_DATA_KEY == 'true'
+        continue-on-error: true   # without it the digest still runs on the public base
+        uses: actions/checkout@v4
+        with:
+          repository: alexriabtsev/mohyla-monitor-data
+          ssh-key: ${{ secrets.DATA_REPO_SSH_KEY }}
+          path: data/private
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

@@ -100,3 +100,27 @@ weights:
     body: 0.5
     own_achievement: 0.0
   recency_half_life_hours: 24
+
+# Graduate lists from the archived alumni site (live site returns 403). `python -m mohyla.cli archive`
+# writes data/private/people.json, which lives in the PRIVATE repo mohyla-monitor-data, never here.
+# Not archived: 2006-2007 (Flash only), 2009-2010, 2017, 2019+.
+alumni_archive_pages:
+  - {year: 1995, ts: "20080101", url: "http://www.ukma.kiev.ua/ua/alumni/about/1995/index.php"}
+  - {year: 1996, ts: "20030511173946", url: "http://www.ukma.kiev.ua/ua/alumni/about/1996/index.php"}
+  - {year: 1997, ts: "20080101", url: "http://www.ukma.kiev.ua/ua/alumni/about/1997/index.php"}
+  - {year: 1998, ts: "20080101", url: "http://www.ukma.kiev.ua/ua/alumni/about/1998/index.php"}
+  - {year: 1999, ts: "20080101", url: "http://www.ukma.kiev.ua/ua/alumni/about/1999/index.php"}
+  - {year: 2000, ts: "20080101", url: "http://www.ukma.kiev.ua/ua/alumni/about/2000/index.php"}
+  - {year: 2001, ts: "20080101", url: "http://www.ukma.kiev.ua/ua/alumni/about/2001/index.php"}
+  - {year: 2002, ts: "20080101", url: "http://www.ukma.kiev.ua/ua/alumni/about/2002/index.php"}
+  - {year: 2003, ts: "20080101", url: "http://www.ukma.kiev.ua/ua/alumni/about/2003/index.php"}
+  - {year: 2004, ts: "20080101", url: "http://www.ukma.kiev.ua/ua/alumni/about/2004/index.php"}
+  - {year: 2005, ts: "20080101", url: "http://www.ukma.kiev.ua/ua/alumni/about/2005/index.php"}
+  - {year: 2008, ts: "20220101", url: "https://alumni.ukma.edu.ua/Alumni2008.html"}
+  - {year: 2011, ts: "20140718235614", url: "http://alumni.ukma.edu.ua/Alumni2011.html"}
+  - {year: 2012, ts: "20220101", url: "https://alumni.ukma.edu.ua/alumni2012.html"}
+  - {year: 2013, ts: "20220101", url: "https://alumni.ukma.edu.ua/alumni2013.html"}
+  - {year: 2014, ts: "20220101", url: "https://alumni.ukma.edu.ua/alumni2014.html"}
+  - {year: 2015, ts: "20220101", url: "https://alumni.ukma.edu.ua/alumni2015.html"}
+  - {year: 2016, ts: "20161103121923", url: "http://alumni.ukma.edu.ua:80/alumni2016.html"}
+  - {year: 2018, ts: "20220101", url: "https://alumni.ukma.edu.ua/alumni2018.html"}

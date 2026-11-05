@@ -48,6 +48,7 @@ def sandbox(tmp_path, monkeypatch):
     for mod in (state, store):
         monkeypatch.setattr(mod, "DATA_DIR", tmp_path / "data")
     monkeypatch.setattr(cli, "SITE_DIR", tmp_path / "docs")
+    monkeypatch.setattr(cli, "DATA_DIR", tmp_path / "data")
     return tmp_path
 
 

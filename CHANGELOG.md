@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.2.0] - 2026-11-05
+### Features
+- Graduate base from archived alumni pages (1995–2018, 8,706 people, 18 cohorts) via
+  `python -m mohyla.cli archive`; matched in Mohyla-context news, shown with a cohort chip.
+- Classmate edges (same year + faculty) among graduates that appeared in the news.
+- Surname-prefix index for name matching: 30x faster with 8.9k people, identical results.
+### Design Rationale
+- Names of private individuals stay in a private repo read by a deploy key; public files hold
+  only opaque ids, so the public repo never republishes the compiled list.
+- Public records win over archive ones, matched by label and aliases (legal names, pen names).
+### Notes & Caveats
+- Archive gaps: 2006–2007 (Flash only), 2009–2010, 2017, 2019+. 2017+ needs another source.
+- Archive graduates have prominence 0: matched only when the item already mentions Mohyla.
+
 ## [0.1.0] - 2026-11-05
 ### Features
 - Daily NaUKMA media digest: official RSS, Google News (uk/en), public Telegram channels;

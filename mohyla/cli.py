@@ -12,10 +12,10 @@ from zoneinfo import ZoneInfo
 from mohyla import digest, rank, state
 from mohyla.collectors import run_all
 from mohyla.collectors.telegram import discover_channels
-from mohyla.config import SITE_DIR, load_config
+from mohyla.config import DATA_DIR, SITE_DIR, load_config
 from mohyla.http import make_client
 from mohyla.match import filter_and_link
-from mohyla.people import graph, store, wikidata, wikipedia
+from mohyla.people import archive, graph, store, wikidata, wikipedia
 from mohyla.people.names import normalize
 
 log = logging.getLogger("mohyla")
@@ -51,6 +51,24 @@ def cmd_people(cfg: dict) -> int:
     return 0
 
 
+PRIVATE_DIR_NAME = "private"
+
+
+def cmd_archive(cfg: dict) -> int:
+    """Rebuild the private graduate base from archived cohort pages."""
+    pages = cfg.get("alumni_archive_pages") or []
+    with make_client(cfg["user_agent"]) as client:
+        grads = archive.fetch_archive(client, pages)
+    people = archive.to_people(grads, "web.archive.org: alumni.ukma.edu.ua / ukma.kiev.ua")
+    private = store.load_people(data_dir=DATA_DIR / PRIVATE_DIR_NAME)
+    if len(people) < MIN_PEOPLE_RATIO * len(private) or not people:
+        log.error("archive base would shrink %d -> %d; keeping the old one", len(private), len(people))
+        return 1
+    store.save_people(people, data_dir=DATA_DIR / PRIVATE_DIR_NAME)
+    log.info("archive: %d records, %d people", len(grads), len(people))
+    return 0
+
+
 def _collect(cfg: dict, people: list, since: datetime):
     discovered = sorted(state.load_extra("telegram_discovered"))
     run_cfg = {**cfg, "telegram_discovered": discovered}
@@ -59,9 +77,29 @@ def _collect(cfg: dict, people: list, since: datetime):
     return items, statuses, discovered
 
 
-def _grow_graph(people: list, stories: list) -> tuple[list, list, dict, list]:
+def _load_archive(public: list) -> list:
+    """Private graduate base (absent on forks / without the deploy key: empty)."""
+    try:
+        archived = store.load_people(data_dir=DATA_DIR / PRIVATE_DIR_NAME)
+    except store.StoreError as exc:
+        log.error("private graduate base unreadable: %s", exc)
+        return []
+    if not archived:
+        log.warning("private graduate base not found; matching public people only")
+    return archive.without_public(archived, public)
+
+
+def _alumni_edges(edges: list, stories: list, people_by_id: dict) -> tuple[list, set]:
+    """Recompute classmate edges among every archived graduate ever seen in the news."""
+    mentioned = state.load_extra("alumni_mentioned") | {
+        pid for it in stories for pid in it.person_ids if pid.startswith("alumni:")}
+    kept = [e for e in edges if e.kind != "cohort"]
+    return kept + archive.cohort_edges(mentioned, people_by_id), mentioned
+
+
+def _grow_graph(people: list, stories: list, archived: list) -> tuple[list, list, dict, list]:
     """Snowball candidates + co-mention edges, in memory. `stories` must be deduped."""
-    candidates = graph.update_candidates(store.load_candidates(), stories, people)
+    candidates = graph.update_candidates(store.load_candidates(), stories, people + archived)
     known_ids = {p.id for p in people}
     known_names = {normalize(p.name_uk) for p in people}
     new_people = [p for p in graph.promote(candidates)
@@ -97,28 +135,31 @@ def cmd_daily(cfg: dict) -> int:
     raw, statuses, discovered = _collect(
         cfg, people, now - timedelta(hours=cfg["lookback_hours"]))
     seen = state.load_seen()
-    fresh = state.filter_unseen(_link(cfg, raw, people), seen)
-    stories = rank.rank(fresh, {p.id: p for p in people}, cfg, now)  # deduped
-    people, new_people, candidates, edges = _grow_graph(people, stories)
-    people_by_id = {p.id: p for p in people}
+    archived = _load_archive(people)
+    fresh = state.filter_unseen(_link(cfg, raw, people + archived), seen)
+    stories = rank.rank(fresh, {p.id: p for p in people + archived}, cfg, now)  # deduped
+    people, new_people, candidates, edges = _grow_graph(people, stories, archived)
+    people_by_id = {p.id: p for p in people + archived}
+    edges, mentioned = _alumni_edges(edges, stories, people_by_id)
     # a re-run on the same Kyiv day extends that day's issue instead of replacing it
     earlier = (state.load_digest(day) or {}).get("items", [])
     ranked = rank.rank([*earlier, *stories], people_by_id, cfg, now)
     chosen = rank.select_digest(ranked, cfg["digest_size"])
-    _publish(cfg, day, chosen, statuses, people_by_id, new_people, len(edges))
+    stats = {"people": len(people), "archive": len(archived), "edges": len(edges)}
+    _publish(cfg, day, chosen, statuses, people_by_id, new_people, stats)
     # publish succeeded: now persist state, seen first so nothing is counted twice
     state.save_seen(state.mark_seen_urls(seen, _processed_urls(stories), now))
     store.save_candidates(candidates)
     store.save_people(people)
-    store.save_graph(people, edges)
+    store.save_graph(people, edges)  # public people only; graduates appear as opaque ids
+    state.save_extra("alumni_mentioned", mentioned)
     state.save_extra("telegram_discovered", set(discovered) | discover_channels(fresh))
     log.info("daily: raw=%d fresh=%d stories=%d chosen=%d new_people=%d",
              len(raw), len(fresh), len(stories), len(chosen), len(new_people))
     return 0 if any(s.ok and s.count for s in statuses) else 2
 
 
-def _publish(cfg, day, chosen, statuses, people_by_id, new_people, n_edges) -> None:
-    stats = {"people": len(people_by_id), "edges": n_edges}
+def _publish(cfg, day, chosen, statuses, people_by_id, new_people, stats) -> None:
     state.save_digest(day, chosen, statuses,
                       {"new_people": [p.id for p in new_people], **stats})
     html_day = digest.render_day(day, chosen, statuses, people_by_id, new_people, stats)
@@ -129,14 +170,15 @@ def _publish(cfg, day, chosen, statuses, people_by_id, new_people, n_edges) -> N
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="mohyla")
-    parser.add_argument("command", choices=("people", "daily"))
+    parser.add_argument("command", choices=("people", "daily", "archive"))
     parser.add_argument("-v", "--verbose", action="store_true")
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.DEBUG if args.verbose else logging.INFO,
                         format="%(asctime)s %(levelname)s %(name)s: %(message)s")
     logging.getLogger("httpx").setLevel(logging.WARNING)
     cfg = load_config()
-    return cmd_people(cfg) if args.command == "people" else cmd_daily(cfg)
+    commands = {"people": cmd_people, "daily": cmd_daily, "archive": cmd_archive}
+    return commands[args.command](cfg)
 
 
 if __name__ == "__main__":

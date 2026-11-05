@@ -58,3 +58,11 @@ def test_inputs_not_mutated():
     src = item("Могилянка", text="Ярослав Грицак")
     run([src])
     assert src.person_ids == () and "keep_reason" not in src.extra
+
+
+def test_index_matches_declined_and_reversed_names():
+    from mohyla.match import MatcherIndex, build_matchers, link_item
+    p = Person(id="a", name_uk="Олена Петренко", aliases=("Петренко Олена Іванівна",))
+    ix = MatcherIndex(build_matchers([p, HRYTSAK]))
+    for text in ("з Оленою Петренко", "Петренко Олена розповіла", "Ярославом Грицаком"):
+        assert link_item(item("Могилянка", text=text), ix, None, True).person_ids

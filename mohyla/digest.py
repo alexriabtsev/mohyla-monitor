@@ -10,6 +10,7 @@ from urllib.parse import urlsplit
 from zoneinfo import ZoneInfo
 
 from mohyla import digest_assets as A
+from mohyla.people.archive import cohort_label
 from mohyla.models import Item, Person, SourceStatus
 
 KYIV = ZoneInfo("Europe/Kyiv")
@@ -65,6 +66,8 @@ def _cat_label(key: str) -> str:
 
 def _person_chip(person: Person) -> str:
     roles = ", ".join(A.ROLE_LABELS.get(r, r) for r in person.roles)
+    if person.id.startswith("alumni:"):  # graduate from the archived cohort lists
+        roles = " ".join(filter(None, (roles, cohort_label(person))))
     inner = esc(person.name_uk) + (f" <small>· {esc(roles)}</small>" if roles else "")
     if person.id.startswith("wd:Q") and person.id[4:].isdigit():
         return f'<a class="person" href="{WIKIDATA_URL}{esc(person.id[3:])}" ' \
@@ -157,6 +160,8 @@ def _footer(statuses: Sequence[SourceStatus], stats: Mapping[str, Any]) -> str:
     rows = "".join(_status_row(s) for s in statuses) or \
         '<tr><td colspan="4">Немає даних про джерела</td></tr>'
     people, edges = stats.get("people", "—"), stats.get("edges", "—")
+    if stats.get("archive"):
+        people = f"{people} публічних + {stats['archive']} випускників з архіву"
     return (f'<footer><h2 class="sec">Джерела сьогодні</h2><div class="tbl-wrap"><table>'
             f'<thead><tr><th>Джерело</th><th>Стан</th><th>Матеріалів</th><th>Примітка</th>'
             f'</tr></thead><tbody>{rows}</tbody></table></div>'
