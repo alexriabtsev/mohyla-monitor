@@ -2,21 +2,101 @@
   "date": "2026-11-06",
   "items": [
     {
-      "url": "https://www.facebook.com/KMAalumni/posts/pfbid07P76eqfNib8Tyo174nKXVpXvVRMQ7co9dWEfwsMJQ8spocrGfncH1UHnaMN1Krf3l",
-      "title": "Оприлюднено Довгі списки літературної премії Книга року ВВС-2026.",
-      "text": "Оприлюднено Довгі списки літературної премії Книга року ВВС-2026. Цьогоріч до переліку ввійшло 41 видання у трьох номінаціях: Книга року BBC, Книга року ВВС-Есеїстика та Дитяча Книга року ВВС. Серед авторів, чиї книги обрано до Довгого списку, є також випускники Могилянки. Зокрема, Артем Чапай (БП, МП «Філософія», 2008) та Наталія Шостак (МП «Культурологія», 2012). Також могилянські alumni ввійшли до складу журі. Серед семи експертів, які оцінювали книжки, двоє могилянців: Марта Шокало (БП, МП «Філософія», 2003) та Дар'я Тарадай (БП «Політологія», 2006). Незабаром буде оголошено Короткі списки Книги року ВВС-2026, а в грудні журі визначить переможців кожної категорії. Асоціація випускників НаУКМА бажає успіху всім учасникам та вболіває за могилянських alumni!",
-      "source": "facebook:kmaalumni",
+      "url": "https://www.instagram.com/p/DfX5L5_EeGP",
+      "title": "Оприлюднено Довгі списки літературної премії Книга року ВВС ...",
+      "text": "Серед авторів, чиї книги обрано до Довгого списку, є також випускники Могилянки. Зокрема, Артем Чапай (БП, МП «Філософія», 2008) та Наталія",
+      "source": "web:instagram.com",
       "kind": "social",
-      "published": "2026-11-05T19:15:25+00:00",
-      "author": "KMAalumni",
+      "published": "2026-11-06T17:04:55.658831+00:00",
+      "author": "",
       "person_ids": [
-        "wd:Q12079200",
-        "alumni:703d977d459d",
-        "alumni:a1ee24a10dc8"
+        "wd:Q12079200"
       ],
       "category": "achievement",
-      "score": 6.659401413424819,
+      "score": 6.383305484922871,
       "extra": {
+        "date_estimated": true,
+        "keep_reason": "keyword",
+        "body_match": false,
+        "also": [
+          {
+            "source": "facebook:kmaalumni",
+            "url": "https://www.facebook.com/KMAalumni/posts/pfbid07P76eqfNib8Tyo174nKXVpXvVRMQ7co9dWEfwsMJQ8spocrGfncH1UHnaMN1Krf3l"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://x.com/TarasKuzio/status/2118676076180255079",
+      "title": "National University of Kyiv Mohyla Academy. Winner of Peterson Literary Prize for book Russian Nationalism and Russian-Ukrainian War",
+      "text": "National University of Kyiv Mohyla Academy. Winner of Peterson Literary Prize for book Russian Nationalism and Russian-Ukrainian War",
+      "source": "web:x.com",
+      "kind": "social",
+      "published": "2026-11-06T17:04:55.658831+00:00",
+      "author": "Taras Kuzio",
+      "person_ids": [],
+      "category": "achievement",
+      "score": 4.3,
+      "extra": {
+        "date_estimated": true,
+        "handle": "TarasKuzio",
+        "keep_reason": "keyword",
+        "body_match": false,
+        "also": [
+          {
+            "source": "web:x.com",
+            "url": "https://x.com/TarasKuzio/status/2118624778341020000"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://www.instagram.com/p/DfXnWmpGZnd",
+      "title": "Kyiv-Mohyla Foundation of Canada | Могилянка об'єднує — навіть ...",
+      "text": "Могилянка об'єднує — навіть за тисячі кілометрів від Києва! ... Для Бібліотеки НаУКМА Могилянка — це не лише книги, документи й унікальні",
+      "source": "web:instagram.com",
+      "kind": "social",
+      "published": "2026-11-06T17:04:55.658831+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "science",
+      "score": 3.4,
+      "extra": {
+        "date_estimated": true,
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://www.instagram.com/p/DfY9TTqikUf",
+      "title": "Хорова капела НаУКМА «Почайна» запрошує могилянську ...",
+      "text": "Хорова капела НаУКМА «Почайна» запрошує могилянську спільноту й друзів вшанувати пам'ять героїв-могилянців на благодійному концерті,",
+      "source": "web:instagram.com",
+      "kind": "social",
+      "published": "2026-11-06T17:04:55.658831+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "science",
+      "score": 3.4,
+      "extra": {
+        "date_estimated": true,
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://www.instagram.com/p/DfXErvDir22",
+      "title": "Третя лекція модуля 1: що громада матиме наприкінці навчання ...",
+      "text": "Третю лекцію вже проведено онлайн. докторка політичних наук, професорка, декан єво-Могилянська школа",
+      "source": "web:instagram.com",
+      "kind": "social",
+      "published": "2026-11-06T17:04:55.658831+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "science",
+      "score": 3.4,
+      "extra": {
+        "date_estimated": true,
         "keep_reason": "keyword",
         "body_match": false
       }
@@ -31,7 +111,7 @@
       "author": "",
       "person_ids": [],
       "category": "achievement",
-      "score": 4.3,
+      "score": 3.228299119742719,
       "extra": {
         "date_estimated": true,
         "handle": "TarasKuzio",
@@ -52,53 +132,35 @@
         "wd:Q124101558"
       ],
       "category": "community",
-      "score": 3.9057153106543425,
+      "score": 2.931001681483668,
       "extra": {
         "keep_reason": "person",
         "body_match": false
       }
     },
     {
-      "url": "https://www.instagram.com/p/DfXHQ9woMnb",
-      "title": "Instagram",
-      "text": "Photo by acrec.education on October 29, 2026. May be an image of text. Photo by acrec.education on October 27, 2026. May be an image of poster and text. Photo by Асоціація випускниць та випускників Києво-Могилянської академії on October 24, 2026. May be an image of poster, magazine and text. Photo by acrec.education on October 19, 2026. May be an image of text. See more posts --- [...] #SLAPP #Law —— Проєкт «Захист громадської участі та свободи медіа в Україні: зміцнення демократичної стійкості шляхом застосування анти-SLAPP механізмів» має на меті сприяти прийняттю та ефективній реалізації законодавства щодо протидії SLAPP-позовам в Україні відповідно до Директиви (ЄС) 2024/1069. Проєкт реалізується Міждисциплінарним науково-освітнім центром протидії корупції НаУКМА (ACREC) та фінансується Міністерством закордонних справ Литовської Республіки. [...] ## No comments yet. Start the conversation. 8 Log in to like or comment. More posts from acrec.education Photo by acrec.education on June 09, 2026. Photo by acrec.education on September 12, 2025. Photo by acrec.education on November 03, 2026. May be an image of text. Photo by acrec.education on November 02, 2026. May be an image of poster, magazine and text. Photo by acrec.education on October 29, 2026. May be an image of magazine, poster and text.",
-      "source": "web:instagram.com",
+      "url": "https://www.facebook.com/KyivMohyla/posts/pfbid033SkAqP5CnyJ7uCi9bRnAXs5Et5sH6stHTSWChQ2PW5CXy23AoY3ZVxDnsbEjWkyCl",
+      "title": "Дорогі друзі, шановні добродії та приятелі Києво-Могилянської академії!",
+      "text": "Дорогі друзі, шановні добродії та приятелі Києво-Могилянської академії! ⭐ РІВНО МІСЯЦЬ ДО НАШОЇ ЗУСТРІЧІ! РОЗПОЧНІМО СВЯТКОВИЙ СЕЗОН РАЗОМ ІЗ КИЄВО-МОГИЛЯНСЬКОЮ ФУНДАЦІЄЮ В АМЕРИЦІ! Чому саме з нами? Бо ми готуємо для вас особливий вечір, сповнений святкового настрою, музики, теплих зустрічей і добрих справ! 5 грудня запрошуємо вас на STARS OF HOPE - «ЗІРКИ НАДІЇ», благодійний вечір на підтримку студентів Національного університету «Києво-Могилянська академія». На вас чекатимуть жива музика, смачні святкові страви, вино, благодійний аукціон, чудове товариство та багато приємних несподіванок! А найголовніше, що разом ми зможемо подарувати українським студентам шанс на освіту та краще майбутнє. 🎄 НАША ОСОБЛИВА ЯЛИНКА СТИПЕНДІЙ Цього вечора на вас чекатиме незвичайна ялинка! Замість традиційних прикрас на її гілочках з'являться символічні конверти зі стипендіями для студентів Могилянки. За кожним конвертом — мрія молодої людини, яка попри війну, повітряні тривоги, нічні обстріли та відключення електроенергії продовжує навчатися, здобувати знання й вірити в майбутнє України. І саме ви можете допомогти здійснити цю мрію! Кожна подарована стипендія - це підтримка молодої людини, яка завтра розбудовуватиме Україну. ⭐ ДЕ І КОЛИ ЗУСТРІЧАЄМОСЯ? Субота, 5 грудня 2026 року | 6:00 вечора Український інститут модерного мистецтва 2320 W. Chicago Ave., Chicago, IL Квиток — $50 з особи 🎟️ Придбати квитки: https://bit.ly/48iebsM ⭐ СТАНЬТЕ ДОБРОДІЄМ - ДОДАЙТЕ СВІЙ КОНВЕРТ НА ЯЛИНКУ НАДІЇ! Запр…",
+      "source": "facebook:kyivmohyla",
       "kind": "social",
-      "published": "2026-11-06T07:08:41.885850+00:00",
-      "author": "",
+      "published": "2026-11-06T03:33:07+00:00",
+      "author": "KyivMohyla",
       "person_ids": [],
-      "category": "science",
-      "score": 3.4,
+      "category": "achievement",
+      "score": 2.9100923391079645,
       "extra": {
-        "date_estimated": true,
         "keep_reason": "keyword",
         "body_match": false
       }
     },
     {
-      "url": "https://www.instagram.com/p/DfWqYDCt7QC",
-      "title": "Вітаємо нашу випускницю Валерію Якушко зі здобуттям ...",
-      "text": "Валерія закінчила бакалаврську програму із соціології НаУКМА у 2019 році. У 2024 році здобула ступінь магістра соціології в Університеті",
+      "url": "https://www.instagram.com/p/DfZPzQ4kQtR",
+      "title": "Україна є там, де є українці» Справжнім уособленням цих слів є ...",
+      "text": "Могилянка об'єднує — навіть за тисячі кілометрів від Києва! Під час свого візиту до Торонто президент Національного університету",
       "source": "web:instagram.com",
       "kind": "social",
-      "published": "2026-11-06T07:08:41.885850+00:00",
-      "author": "",
-      "person_ids": [],
-      "category": "science",
-      "score": 3.4,
-      "extra": {
-        "date_estimated": true,
-        "keep_reason": "keyword",
-        "body_match": false
-      }
-    },
-    {
-      "url": "https://www.instagram.com/p/DfX1DW8EcTP",
-      "title": "Києво-Могилянська школа професійної та неперервної освіти on ...",
-      "text": "Стартувала нова програма професійного розвитку «African Studies: стратегічне партнерство, дипломатія та геополітика», яку реалізує факультет",
-      "source": "web:instagram.com",
-      "kind": "social",
-      "published": "2026-11-06T07:08:41.885850+00:00",
+      "published": "2026-11-06T17:04:55.658831+00:00",
       "author": "",
       "person_ids": [],
       "category": "community",
@@ -110,18 +172,37 @@
       }
     },
     {
-      "url": "https://www.instagram.com/p/DfXv-PnjR0H",
-      "title": "Сьогодні неочікувано стукнуло пів року, як я працюю в ZDOROVI ...",
-      "text": "Сьогодні неочікувано стукнуло пів року, як я працюю в ZDOROVI @zdorovi.agency Колись я ділилася тут робочими буднями з Могилянки,",
-      "source": "web:instagram.com",
-      "kind": "social",
-      "published": "2026-11-06T07:08:41.885850+00:00",
-      "author": "",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOEdaZ2dRamFzajlmb2t1ME5Ock1PVlpkbVBNeFA3SWdSNWhsRV9oQUZCakg2Xy1ES3dGM3czT0pObDJWdEdLMEdJOGIxS1hmWURJekhMdWdkT0FKUkJsMEJaQnV4RWY2dnNDTmZoT0E5NXZuYXVhbmNwaFVHMndMVVI1bWFxX3d5WFc1Zw?oc=5",
+      "title": "Оголосили довгий список Премії імені Юрія Шевельова 2026 року",
+      "text": "Оголосили довгий список Премії імені Юрія Шевельова 2026 року Читомо",
+      "source": "gnews:Читомо",
+      "kind": "media",
+      "published": "2026-11-06T11:06:12+00:00",
+      "author": "Читомо",
       "person_ids": [],
-      "category": "community",
-      "score": 2.8,
+      "category": "achievement",
+      "score": 2.6934240431188248,
       "extra": {
-        "date_estimated": true,
+        "query": "\"НаУКМА\"",
+        "publisher_url": "https://chytomo.com",
+        "keep_reason": "body",
+        "body_match": true
+      }
+    },
+    {
+      "url": "https://www.facebook.com/law.ukma/posts/pfbid0351wEuqv7pdtBLTVNR9Qwu9u8xAK99A3JAZudBxfNz68yc4aviEC9aKhuwystE5GHl",
+      "title": "🇺🇦🇪🇺 Нові перспективи співпраці між Факультетом правничих наук НаУКМА та Universiteit Gent (Бельгія) у сфері міжнародного та європейського…",
+      "text": "🇺🇦🇪🇺 Нові перспективи співпраці між Факультетом правничих наук НаУКМА та Universiteit Gent (Бельгія) у сфері міжнародного та європейського права. У Генті відбулася міжнародна конференція, присвячена пам’яті професора Марка Мареска (Marc Maresceau) — одного із засновників наукового напряму права зовнішніх відносин Європейського Союзу. Подія об’єднала колег та учнів професора Мареска, провідних дослідників права ЄС, представників інституцій Європейського Союзу та Міністерства закордонних справ Бельгії. 🎓 Професор кафедри міжнародного та європейського права Факультету правничих наук НаУКМА Роман Петров виступив із доповіддю про вплив війни на процес вступу України до Європейського Союзу. 🤝 Під час конференції також вдалося домовитися про започаткування спільного наукового керівництва аспірантськими дослідженнями у сфері права зовнішніх відносин ЄС. До цієї пілотної ініціативи долучаться професор Гентського університету Пітер Ван Елсувеге (Peter Van Elsuwege) та професор Національний університет \"Києво-Могилянська академія\" Роман Петров. Співпраця відбуватиметься в межах докторської програми з міжнародного та європейського права Гентського університету й освітньо-наукової програми третього рівня вищої освіти за спеціальністю D9 «Міжнародне право» НаУКМА. Це ще один крок до зміцнення партнерства між університетами та нових можливостей для аспірантів, які досліджують міжнародне та європейське право.",
+      "source": "facebook:law.ukma",
+      "kind": "social",
+      "published": "2026-11-05T11:35:55+00:00",
+      "author": "law.ukma",
+      "person_ids": [
+        "wd:Q25437160"
+      ],
+      "category": "science",
+      "score": 2.163844898881831,
+      "extra": {
         "keep_reason": "keyword",
         "body_match": false
       }
@@ -136,7 +217,7 @@
       "author": "law.ukma",
       "person_ids": [],
       "category": "science",
-      "score": 2.191008233256063,
+      "score": 1.6442183582351777,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -152,7 +233,7 @@
       "author": "kmbs.ua",
       "person_ids": [],
       "category": "community",
-      "score": 1.8295182895801307,
+      "score": 1.3729421518349507,
       "extra": {
         "keep_reason": "keyword",
         "body_match": false
@@ -171,14 +252,14 @@
       "name": "google_news",
       "ok": true,
       "enabled": true,
-      "count": 5,
+      "count": 6,
       "message": ""
     },
     {
       "name": "telegram",
       "ok": true,
       "enabled": true,
-      "count": 28,
+      "count": 31,
       "message": ""
     },
     {
@@ -192,14 +273,14 @@
       "name": "facebook_apify",
       "ok": true,
       "enabled": true,
-      "count": 15,
+      "count": 19,
       "message": ""
     },
     {
       "name": "websearch",
       "ok": true,
       "enabled": true,
-      "count": 24,
+      "count": 31,
       "message": ""
     }
   ],
