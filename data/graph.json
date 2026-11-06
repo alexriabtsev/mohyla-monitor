@@ -2234,27 +2234,30 @@
    "a": "alumni:703d977d459d",
    "b": "alumni:a1ee24a10dc8",
    "kind": "comention",
-   "weight": 1.0,
+   "weight": 2.0,
    "evidence": [
-    "https://www.facebook.com/KMAalumni/posts/pfbid02BQhp8erwPWttm9KWySv3M22zaQrjg1iPv9hhh3r3iieH5qtkEymipYVWbkxBz91kl"
+    "https://www.facebook.com/KMAalumni/posts/pfbid02BQhp8erwPWttm9KWySv3M22zaQrjg1iPv9hhh3r3iieH5qtkEymipYVWbkxBz91kl",
+    "https://www.facebook.com/KMAalumni/posts/pfbid07P76eqfNib8Tyo174nKXVpXvVRMQ7co9dWEfwsMJQ8spocrGfncH1UHnaMN1Krf3l"
    ]
   },
   {
    "a": "alumni:703d977d459d",
    "b": "wd:Q12079200",
    "kind": "comention",
-   "weight": 1.0,
+   "weight": 2.0,
    "evidence": [
-    "https://www.facebook.com/KMAalumni/posts/pfbid02BQhp8erwPWttm9KWySv3M22zaQrjg1iPv9hhh3r3iieH5qtkEymipYVWbkxBz91kl"
+    "https://www.facebook.com/KMAalumni/posts/pfbid02BQhp8erwPWttm9KWySv3M22zaQrjg1iPv9hhh3r3iieH5qtkEymipYVWbkxBz91kl",
+    "https://www.facebook.com/KMAalumni/posts/pfbid07P76eqfNib8Tyo174nKXVpXvVRMQ7co9dWEfwsMJQ8spocrGfncH1UHnaMN1Krf3l"
    ]
   },
   {
    "a": "alumni:a1ee24a10dc8",
    "b": "wd:Q12079200",
    "kind": "comention",
-   "weight": 1.0,
+   "weight": 2.0,
    "evidence": [
-    "https://www.facebook.com/KMAalumni/posts/pfbid02BQhp8erwPWttm9KWySv3M22zaQrjg1iPv9hhh3r3iieH5qtkEymipYVWbkxBz91kl"
+    "https://www.facebook.com/KMAalumni/posts/pfbid02BQhp8erwPWttm9KWySv3M22zaQrjg1iPv9hhh3r3iieH5qtkEymipYVWbkxBz91kl",
+    "https://www.facebook.com/KMAalumni/posts/pfbid07P76eqfNib8Tyo174nKXVpXvVRMQ7co9dWEfwsMJQ8spocrGfncH1UHnaMN1Krf3l"
    ]
   },
   {
@@ -2270,12 +2273,13 @@
    "a": "wd:Q124101558",
    "b": "wd:Q80121827",
    "kind": "comention",
-   "weight": 4.0,
+   "weight": 5.0,
    "evidence": [
     "https://t.me/kozytskyy_maksym_official/34299",
     "https://www.facebook.com/kozytskyy.maksym.official/posts/pfbid0VzVywEszjxbgA4LPqKqVqaSCSrCvY2u1BnXpbe5AGzAtie9CtW7JVuUD24YSQmTCl",
     "https://www.facebook.com/kozytskyy.maksym.official/posts/pfbid02Jo2Wvka8J95Ey1Yg6ESiXou2aT2Hmk9FP9JfeeCsC43Wr6NexphHJannXRnZuhFil",
-    "https://t.me/kozytskyy_maksym_official/34304"
+    "https://t.me/kozytskyy_maksym_official/34304",
+    "https://www.facebook.com/kozytskyy.maksym.official/posts/pfbid02Zqwh7uopbJBNRE3KfzDVKx4SGUStjiv5vbrQf38ks9G7wwoU8xkxGkpoRQmqSiGcl"
    ]
   },
   {
