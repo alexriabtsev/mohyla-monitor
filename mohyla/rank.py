@@ -34,9 +34,17 @@ def _haystack(item: Item) -> str:
     return f"{item.title}\n{item.text}"
 
 
-def is_relevant(item: Item, patterns: Sequence[str]) -> bool:
+def is_relevant(item: Item, patterns: Sequence[str], exclude: Sequence[str] = ()) -> bool:
+    """Any pattern hit, after blanking `exclude` phrases (e.g. Petro Mohyla's daughters,
+    'Катерина Могилянка', are not the university); other mentions still count."""
     rx = _compile(tuple(patterns))
-    return bool(rx and rx.search(_haystack(item)))
+    if not rx:
+        return False
+    text = _haystack(item)
+    skip = _compile(tuple(exclude))
+    if skip:
+        text = skip.sub(" ", text)
+    return bool(rx.search(text))
 
 
 def categorize(item: Item, categories_cfg: Mapping[str, Any]) -> str:

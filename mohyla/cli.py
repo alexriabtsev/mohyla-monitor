@@ -122,7 +122,8 @@ def _grow_graph(people: list, stories: list, archived: list) -> tuple[list, list
 def _link(cfg: dict, raw: list, people: list) -> list:
     return filter_and_link(
         raw, people,
-        is_relevant=partial(rank.is_relevant, patterns=cfg["relevance_patterns"]),
+        is_relevant=partial(rank.is_relevant, patterns=cfg["relevance_patterns"],
+                            exclude=cfg.get("relevance_exclude_patterns") or ()),
         is_achievement=partial(rank.is_relevant,
                                patterns=cfg.get("own_achievement_patterns", [])),
         trusted_queries=cfg.get("google_news_queries", []),

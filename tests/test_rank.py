@@ -33,6 +33,23 @@ def test_relevant_negative(title):
     assert not is_relevant(mk(title=title), CFG["relevance_patterns"])
 
 
+@pytest.mark.parametrize("text", [
+    "Катерина Могилянка мала отримати 120 000 злотих посагу",
+    "Раїна Могилянка-Вишневецька заснувала монастир", "княжна Могилянка вийшла заміж",
+])
+def test_mohyla_family_is_not_the_university(text):
+    assert not is_relevant(mk(title="Історія", text=text), CFG["relevance_patterns"],
+                           CFG["relevance_exclude_patterns"])
+
+
+def test_excluded_phrase_does_not_hide_a_real_mention():
+    text = "Лекцію про Раїну Могилянку прочитали в Могилянці"
+    assert is_relevant(mk(title="Історія", text="У навчанні Могилянка допомагає"),
+                       CFG["relevance_patterns"], CFG["relevance_exclude_patterns"])
+    assert is_relevant(mk(title="Історія", text=text), CFG["relevance_patterns"],
+                       CFG["relevance_exclude_patterns"])
+
+
 def test_relevant_uses_text():
     assert is_relevant(mk(title="Новина", text="випускниця Могилянки"),
                        CFG["relevance_patterns"])

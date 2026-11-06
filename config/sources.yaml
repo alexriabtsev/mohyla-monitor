@@ -171,6 +171,11 @@ relevance_patterns:         # case-insensitive regexes; any hit = Mohyla-related
   - '\bnaukma\b'
   - '\bkmbs\b'
 
+relevance_exclude_patterns: # blanked before relevance_patterns: the Mohyla family, not the university
+  # Petro Mohyla's daughters and relatives: «Катерина Могилянка», «княжна Могилянка»
+  - '\b(раїн|катерин|марі|анн|ганн|регін|олен|княжн|княгин|сестр|доньк|доч)\w*\s+могилянк\w*(-\w+)?'
+  - 'могилянк\w*-(вишневецьк|потоцьк|корецьк|радзивілл)\w*'
+
 own_achievement_patterns:   # a person's OWN post is kept only with first-person success wording
   - '(мене|мою кандидатуру) (було )?(призначено|обрано|номіновано)'
   - '\b(я|ми) (отрима\w*|здобу\w*|вигра\w*|став|стала|стали|очоли\w*)'
