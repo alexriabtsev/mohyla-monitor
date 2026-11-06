@@ -2,7 +2,11 @@ name: daily-digest
 
 on:
   schedule:
-    - cron: "0 4 * * *"        # 06:00/07:00 Kyiv (UTC+2/+3)
+    # GitHub cron is best-effort: runs at :00 are often hours late or dropped, so use
+    # off-peak minutes plus two backups. A backup is skipped once today's issue exists.
+    - cron: "23 3 * * *"       # 05:23/06:23 Kyiv (UTC+2/+3)
+    - cron: "41 4 * * *"       # backup
+    - cron: "13 6 * * *"       # backup
   workflow_dispatch:
     inputs:
       refresh_people:
@@ -18,7 +22,27 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  guard:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: check
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          today=$(TZ=Europe/Kyiv date +%F)
+          if [ "$EVENT" = "schedule" ] && [ -f "data/digests/$today.json" ]; then
+            echo "today's issue ($today) already built; skipping backup run"
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
   digest:
+    needs: guard
+    if: needs.guard.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 40
     env:
