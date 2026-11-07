@@ -48,12 +48,18 @@ telegram_channels:          # public channels; people's handles are added from W
 
 # Facebook (only when APIFY_TOKEN is set): one Apify run for all pages, one for all groups.
 # Order = priority: these lists, then people's profiles, then pages found via links.
-facebook_max_charge_usd: 0.5    # spend cap per run (2 runs/day -> at most ~$30/month)
-facebook_max_items: 2000        # posts per run; keep >= sources x posts_per_source
-facebook_posts_per_source: 8
-facebook_max_pages: 200
-facebook_max_groups: 60
-facebook_max_discovered: 40
+# Apify charges ~$0.007 per post; the free plan gives $5 per billing cycle, i.e. ~25 posts
+# a day. The budget is spread evenly over the cycle (data/facebook_spend.json), and each
+# run only pays for posts newer than the previous run.
+facebook_monthly_budget_usd: 4.5  # keep under the free $5
+facebook_cycle_day: 1           # day of month the Apify billing cycle starts (Console > Billing)
+facebook_price_per_post_usd: 0.007
+facebook_max_charge_usd: 0.3    # ceiling for one day, both runs together
+facebook_max_items: 200         # posts per run
+facebook_posts_per_source: 3    # one busy page cannot eat the day's budget
+facebook_max_pages: 25          # = the first 25 pages below: university, alumni, faculties
+facebook_max_groups: 3
+facebook_max_discovered: 0      # discovery is off on the free budget
 facebook_timeout_minutes: 15
 
 facebook_pages:             # links taken from official NaUKMA sites (2026-11)

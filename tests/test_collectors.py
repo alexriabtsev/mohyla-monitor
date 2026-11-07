@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from typing import Callable
 from urllib.parse import parse_qs, urlparse
@@ -11,12 +11,19 @@ import httpx
 import pytest
 
 from mohyla import http as mhttp
+from mohyla import state
 from mohyla.collectors import (
-    ALL_COLLECTORS, bluesky, facebook_apify, facebook_links, google_news, rss, run_all, telegram, websearch,
+    ALL_COLLECTORS, bluesky, facebook_apify, facebook_budget as budget, facebook_links, google_news, rss, run_all, telegram, websearch,
 )
 from mohyla.models import Item, Person
 
 FIX = Path(__file__).parent / "fixtures"
+
+
+@pytest.fixture(autouse=True)
+def _isolated_state(tmp_path, monkeypatch):
+    """Collectors that keep state (the Facebook spend ledger) write to a temp dir."""
+    monkeypatch.setattr(state, "DATA_DIR", tmp_path / "data")
 SINCE = datetime(2026, 11, 2, tzinfo=timezone.utc)
 
 
@@ -270,7 +277,7 @@ def test_facebook_apify_one_run_for_pages_and_one_for_groups(monkeypatch):
     cfg = {"facebook_pages": ["https://www.facebook.com/naukma/", "naukma"],
            "facebook_groups": ["https://m.facebook.com/groups/mohyla.alumni/?ref=share"],
            "facebook_discovered": ["https://www.facebook.com/kmbs.ua/"],
-           "facebook_max_charge_usd": 0.3}
+           "facebook_max_charge_usd": 0.4, "facebook_monthly_budget_usd": 1000}
     res = facebook_apify.collect(client_for(api), cfg, SINCE, people)
     assert [a for a, _, _ in api.started] == ["apify~facebook-posts-scraper",
                                               "apify~facebook-groups-scraper"]
@@ -278,8 +285,10 @@ def test_facebook_apify_one_run_for_pages_and_one_for_groups(monkeypatch):
     assert [u["url"] for u in pages_input["startUrls"]] == [
         "https://www.facebook.com/naukma/", "https://www.facebook.com/some.person/",
         "https://www.facebook.com/kmbs.ua/"]
-    assert pages_input["onlyPostsNewerThan"] == "2026-11-02"
+    assert pages_input["onlyPostsNewerThan"] == "2026-11-02T00:00:00"
+    # today's spend (capped at 0.4) is split by source count: 3 pages, 1 group
     assert params == {"maxItems": "2000", "maxTotalChargeUsd": "0.3"}
+    assert api.started[1][2]["maxTotalChargeUsd"] == "0.1"
     assert api.started[1][1]["startUrls"] == [
         {"url": "https://www.facebook.com/groups/mohyla.alumni/"}]
     assert res.status.ok
@@ -291,6 +300,56 @@ def test_facebook_apify_one_run_for_pages_and_one_for_groups(monkeypatch):
     assert res.items[1].source == "facebook:Fallback Name"
     assert res.items[0].kind == "social"
     assert_items_valid(res.items)
+
+
+def test_facebook_skips_when_monthly_budget_is_spent(monkeypatch):
+    monkeypatch.setenv("APIFY_TOKEN", "SECRET-TOKEN")
+    now = datetime.now(timezone.utc)
+    budget.save(budget.Ledger(cycle=budget.cycle_start(now.date(), 1).isoformat(),
+                              usd=4.5, last_run=None))
+    api = FakeApify()
+    res = facebook_apify.collect(client_for(api), {"facebook_pages": ["naukma"]}, SINCE, [])
+    assert api.calls == [] and res.status.ok and "skipped" in res.status.message
+
+
+def test_facebook_records_spend_and_pays_only_for_newer_posts(monkeypatch):
+    monkeypatch.setenv("APIFY_TOKEN", "SECRET-TOKEN")
+    now = datetime.now(timezone.utc)
+    last = now.replace(microsecond=0) - timedelta(hours=20)
+    budget.save(budget.Ledger(cycle=budget.cycle_start(now.date(), 1).isoformat(),
+                              usd=1.0, last_run=last))
+    api = FakeApify()
+    facebook_apify.collect(client_for(api), {"facebook_pages": ["naukma"]},
+                           now - timedelta(hours=36), [])
+    assert api.started[0][1]["onlyPostsNewerThan"] == last.strftime("%Y-%m-%dT%H:%M:%S")
+    after = budget.load(now, 1)
+    # fixture dataset has 4 rows: max(events 0, 4 x 0.007) + platform 0.12
+    assert after.usd == pytest.approx(1.0 + 4 * 0.007 + 0.12, abs=1e-3)
+    assert after.last_run and after.last_run > last
+
+
+def test_facebook_failed_run_keeps_last_run(monkeypatch):
+    monkeypatch.setenv("APIFY_TOKEN", "SECRET-TOKEN")
+    facebook_apify.collect(client_for(FakeApify(final_status="FAILED")),
+                           {"facebook_pages": ["naukma"]}, SINCE, [])
+    assert budget.load(datetime.now(timezone.utc), 1).last_run is None
+
+
+def test_run_cost_prefers_reported_event_charges():
+    run = {"chargedEventCounts": {"post": 100, "date-filter": 100},
+           "pricingInfo": {"pricingPerEvent": {"actorChargeEvents": {
+               "post": {"eventPriceUsd": 0.005}, "date-filter": {"eventPriceUsd": 0.002}}}}}
+    assert budget.run_cost(run, rows=10, price_per_post=0.007) == pytest.approx(0.7)
+    assert budget.run_cost({}, rows=10, price_per_post=0.007) == pytest.approx(0.07)
+
+
+@pytest.mark.parametrize("today,day,start,left", [
+    (date(2026, 11, 7), 1, date(2026, 11, 1), 24),
+    (date(2026, 11, 3), 5, date(2026, 10, 5), 2),
+    (date(2026, 12, 31), 5, date(2026, 12, 5), 5),
+])
+def test_billing_cycle(today, day, start, left):
+    assert budget.cycle_start(today, day) == start and budget.days_left(today, day) == left
 
 
 def test_facebook_caps_sources(monkeypatch):

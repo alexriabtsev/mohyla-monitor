@@ -173,3 +173,17 @@ def load_extra(name: str) -> set[str]:
 
 def save_extra(name: str, values: Iterable[str]) -> Path:
     return _write_json(_extra_path(name), sorted(set(values)))
+
+
+def load_record(name: str) -> dict[str, Any]:
+    """A small JSON object in data/<name>.json ({} when missing)."""
+    data = _read_json(_extra_path(name))
+    if data is None:
+        return {}
+    if not isinstance(data, dict):
+        raise StateError(f"{_extra_path(name)} must contain a JSON object")
+    return data
+
+
+def save_record(name: str, record: dict[str, Any]) -> Path:
+    return _write_json(_extra_path(name), record)

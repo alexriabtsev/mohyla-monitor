@@ -2,8 +2,9 @@
 
 One asynchronous actor run covers all pages and one covers all groups: start the run,
 long-poll it until it finishes (or the time budget runs out, then abort it), and read the
-dataset, keeping partial results. Every run is capped by item count and by spend
-(maxItems / maxTotalChargeUsd), so a long source list cannot produce a surprise bill.
+dataset, keeping partial results. The actors charge per post, so spend is capped by a
+monthly budget (facebook_budget): each day gets an even share of what is left, split
+between the runs as maxTotalChargeUsd, and only posts newer than the last run are paid for.
 
 The token is sent as an Authorization header, so it never appears in URLs that
 http.fetch logs or puts into FetchError messages.
@@ -20,8 +21,9 @@ from typing import Any, Sequence
 import httpx
 
 from mohyla.http import FetchError, fetch
-from mohyla.models import CollectResult, Item, Person
+from mohyla.models import CollectResult, Item, Person, SourceStatus
 
+from . import facebook_budget as budget
 from . import facebook_links as links
 from ._common import clean_text, disabled, make_title, parse_epoch, parse_iso, result, social_handles
 
@@ -40,8 +42,11 @@ DEFAULTS = {
     "facebook_max_discovered": 40,     # of the pages/groups found via links
     "facebook_posts_per_source": 8,
     "facebook_max_items": 2000,        # per actor run; keep >= sources x posts_per_source
-    "facebook_max_charge_usd": 0.5,    # per actor run
+    "facebook_max_charge_usd": 0.5,    # per day, both runs together (the budget share is lower)
     "facebook_timeout_minutes": 15,    # for both runs together
+    "facebook_monthly_budget_usd": 4.5,
+    "facebook_cycle_day": 1,           # day of month the Apify billing cycle starts
+    "facebook_price_per_post_usd": 0.007,  # $5/1000 posts + $2/1000 for the date filter
 }
 
 
@@ -50,6 +55,7 @@ class RunPlan:
     actor: str
     urls: tuple[str, ...]
     input: dict
+    charge_usd: float
 
 
 def setting(cfg: dict, key: str) -> float:
@@ -69,9 +75,11 @@ def source_lists(cfg: dict, people: Sequence[Person]) -> tuple[list[str], list[s
             groups[: int(setting(cfg, "facebook_max_groups"))])
 
 
-def plans(cfg: dict, people: Sequence[Person], since: datetime) -> list[RunPlan]:
+def plans(cfg: dict, people: Sequence[Person], since: datetime, spend_usd: float) -> list[RunPlan]:
+    """Runs for pages and groups; `spend_usd` is split between them by source count."""
     pages, groups = source_lists(cfg, people)
-    newer = since.astimezone(timezone.utc).strftime("%Y-%m-%d")
+    newer = since.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S")  # UTC, per actor docs
+    total = len(pages) + len(groups)
     per = int(setting(cfg, "facebook_posts_per_source"))
     cap = int(setting(cfg, "facebook_max_items"))
     for kind, urls in (("pages", pages), ("groups", groups)):
@@ -82,11 +90,12 @@ def plans(cfg: dict, people: Sequence[Person], since: datetime) -> list[RunPlan]
     if pages:
         out.append(RunPlan(POSTS_ACTOR, tuple(pages), {
             "startUrls": [{"url": u} for u in pages], "resultsLimit": per,
-            "onlyPostsNewerThan": newer}))
+            "onlyPostsNewerThan": newer}, spend_usd * len(pages) / total))
     if groups:
         out.append(RunPlan(GROUPS_ACTOR, tuple(groups), {
             "startUrls": [{"url": u} for u in groups], "resultsLimit": per,
-            "viewOption": "CHRONOLOGICAL", "onlyPostsNewerThan": newer}))
+            "viewOption": "CHRONOLOGICAL", "onlyPostsNewerThan": newer},
+            spend_usd * len(groups) / total))
     return out
 
 
@@ -144,7 +153,7 @@ def _data(resp: httpx.Response) -> dict:
 
 def start_run(client: httpx.Client, headers: dict, plan: RunPlan, cfg: dict) -> dict:
     params = {"maxItems": int(setting(cfg, "facebook_max_items")),
-              "maxTotalChargeUsd": setting(cfg, "facebook_max_charge_usd")}
+              "maxTotalChargeUsd": round(plan.charge_usd, 4)}
     resp = fetch(client, f"{API}/acts/{plan.actor}/runs", method="POST", retries=1,
                  params=params, json=plan.input, headers=headers, timeout=60.0)
     return _data(resp)
@@ -181,28 +190,43 @@ def dataset_rows(client: httpx.Client, headers: dict, run: dict, limit: int) -> 
 
 
 def finish_run(client: httpx.Client, headers: dict, plan: RunPlan, run: dict, cfg: dict,
-               deadline: float) -> tuple[list[Any], str | None]:
-    """Rows of one started run, plus an error message if it did not fully succeed."""
+               deadline: float) -> tuple[list[Any], str | None, float]:
+    """Rows of one started run, an error message if it did not fully succeed, and its cost."""
     run = wait_run(client, headers, run, deadline)
     rows = dataset_rows(client, headers, run, int(setting(cfg, "facebook_max_items")))
-    cost = run.get("usageTotalUsd")
-    log.info("apify %s: status=%s sources=%d rows=%d cost=%s", plan.actor, run.get("status"),
-             len(plan.urls), len(rows), cost if cost is not None else "?")
+    cost = budget.run_cost(run, len(rows), setting(cfg, "facebook_price_per_post_usd"))
+    log.info("apify %s: status=%s sources=%d rows=%d cost=$%.3f (cap $%.3f)", plan.actor,
+             run.get("status"), len(plan.urls), len(rows), cost, plan.charge_usd)
     error = None if run.get("status") == "SUCCEEDED" else f"{plan.actor}: {run.get('status')}"
-    return rows, error
+    return rows, error, cost
 
 
 def _reason(exc: Exception) -> str:
     return exc.reason if isinstance(exc, FetchError) else str(exc)
 
 
+def _today_spend(cfg: dict, ledger: budget.Ledger, now: datetime) -> float:
+    share = budget.allowance(ledger, setting(cfg, "facebook_monthly_budget_usd"), now.date(),
+                             int(setting(cfg, "facebook_cycle_day")))
+    return min(share, setting(cfg, "facebook_max_charge_usd"))
+
+
 def collect(client: httpx.Client, cfg: dict, since: datetime, people: Sequence[Person]) -> CollectResult:
     token = os.environ.get(ENV[0])
     if not token:
         return disabled(NAME, ENV)
+    now = datetime.now(timezone.utc)
+    ledger = budget.load(now, int(setting(cfg, "facebook_cycle_day")))
+    spend = _today_spend(cfg, ledger, now)
+    if spend < budget.MIN_RUN_USD:
+        msg = (f"skipped: ${ledger.usd:.2f} of ${setting(cfg, 'facebook_monthly_budget_usd'):.2f} "
+               f"spent since {ledger.cycle}")
+        log.info("facebook: %s", msg)
+        return CollectResult(items=(), status=SourceStatus(name=NAME, ok=True, message=msg))
+    newer = max(since, ledger.last_run) if ledger.last_run else since  # pay once per post
     headers = {"Authorization": f"Bearer {token}"}
     deadline = time.monotonic() + 60 * setting(cfg, "facebook_timeout_minutes")
-    runs = plans(cfg, people, since)
+    runs = plans(cfg, people, newer, spend)
     errors: list[str] = []
     started: list[tuple[RunPlan, dict]] = []
     for plan in runs:  # start all runs first so pages and groups scrape in parallel
@@ -212,17 +236,24 @@ def collect(client: httpx.Client, cfg: dict, since: datetime, people: Sequence[P
             log.warning("apify %s failed to start: %s", plan.actor, _reason(exc))
             errors.append(f"{plan.actor}: {_reason(exc)}")
     items: dict[str, Item] = {}
+    spent = 0.0
     for plan, run in started:
         try:
-            rows, error = finish_run(client, headers, plan, run, cfg, deadline)
+            rows, error, cost = finish_run(client, headers, plan, run, cfg, deadline)
         except (FetchError, ValueError) as exc:
             log.warning("apify %s failed: %s", plan.actor, _reason(exc))
             errors.append(f"{plan.actor}: {_reason(exc)}")
+            spent += plan.charge_usd  # cost unknown: assume the cap was used
             continue
+        spent += cost
         if error:
             errors.append(error)  # partial rows are still used
         for row in rows:
             item = row_to_item(row, since) if isinstance(row, dict) else None
             if item is not None:
                 items.setdefault(item.url, item)
+    # a failed run leaves last_run alone, so the next run re-reads the missed window
+    ledger = budget.record(ledger, spent, now if started and not errors else None)
+    budget.save(ledger)
+    log.info("facebook: spent $%.3f today, $%.2f since %s", spent, ledger.usd, ledger.cycle)
     return result(NAME, items.values(), errors, attempts=len(runs))

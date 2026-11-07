@@ -6,6 +6,11 @@
   is dropped even under a new URL (reposts, Facebook `pfbid` links, Instagram/Telegram copies).
 - Same-story check shared by in-issue dedupe and cross-day filtering: same URL, similar title,
   same body, or a title that opens the other post's text (Instagram titles are the post's start).
+- Facebook fits the Apify free plan: a monthly budget ledger (`data/facebook_spend.json`)
+  spreads what is left evenly over the billing cycle and skips Facebook when it is spent;
+  runs only pay for posts newer than the last successful run (ISO `onlyPostsNewerThan`);
+  25 key pages and 3 groups, up to 3 posts each.
+- Real Apify cost in the log: per-event charges (or rows x price), not just platform usage.
 - `relevance_exclude_patterns`: Petro Mohyla's daughters ("Катерина Могилянка") are not the university.
 - Schedule: off-peak cron with backups, plus a `skip_if_built` dispatch input for an external
   scheduler (GitHub fired one scheduled run in three days).
@@ -13,7 +18,11 @@
 - Repeats are matched against stored issues, not raw history: only what readers saw matters,
   and the issues are already in the repo.
 - Dropped repeats are still marked seen, so the same URL is not re-checked next day.
+- The Facebook actors bill per post; logging `usageTotalUsd` showed $0 while every run hit
+  its $0.50 cap, and the free $5 ran out in two days.
 ### Notes & Caveats
+- `facebook_cycle_day` must match the Apify billing date; a mismatch only shifts when
+  Facebook resumes (Apify itself blocks runs past the free limit).
 - A substantially rewritten follow-up (new facts, new headline) is treated as a new story.
 
 ## [0.3.0] - 2026-11-05
