@@ -52,7 +52,7 @@ telegram_channels:          # public channels; people's handles are added from W
 # a day. The budget is spread evenly over the cycle (data/facebook_spend.json), and each
 # run only pays for posts newer than the previous run.
 facebook_monthly_budget_usd: 4.5  # keep under the free $5
-facebook_cycle_day: 1           # day of month the Apify billing cycle starts (Console > Billing)
+facebook_cycle_day: 5           # day of month the Apify billing cycle starts (Console > Billing)
 facebook_price_per_post_usd: 0.007
 facebook_max_charge_usd: 0.3    # ceiling for one day, both runs together
 facebook_max_items: 200         # posts per run
