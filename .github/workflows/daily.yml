@@ -13,6 +13,10 @@ on:
         description: "Rebuild people base from Wikidata/Wikipedia"
         type: boolean
         default: false
+      skip_if_built:
+        description: "Do nothing if today's issue already exists (for external schedulers)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -31,10 +35,11 @@ jobs:
       - id: check
         env:
           EVENT: ${{ github.event_name }}
+          SKIP_IF_BUILT: ${{ github.event.inputs.skip_if_built }}
         run: |
           today=$(TZ=Europe/Kyiv date +%F)
-          if [ "$EVENT" = "schedule" ] && [ -f "data/digests/$today.json" ]; then
-            echo "today's issue ($today) already built; skipping backup run"
+          if { [ "$EVENT" = "schedule" ] || [ "$SKIP_IF_BUILT" = "true" ]; } && [ -f "data/digests/$today.json" ]; then
+            echo "today's issue ($today) already built; skipping"
             echo "run=false" >> "$GITHUB_OUTPUT"
           else
             echo "run=true" >> "$GITHUB_OUTPUT"
