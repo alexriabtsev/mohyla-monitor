@@ -137,6 +137,13 @@ def _processed_urls(items: list) -> list[str]:
     return [it.url for it in items] + [u for u in also if u]
 
 
+def _recent_items(day, cfg: dict) -> list:
+    """Items of the issues from the previous `repeat_window_days` days (not today's)."""
+    window = int(cfg.get("repeat_window_days") or 0)
+    days = [d for d in state.list_digest_dates() if 0 < (day - d).days <= window]
+    return [it for d in days for it in (state.load_digest(d) or {}).get("items", [])]
+
+
 def cmd_daily(cfg: dict) -> int:
     now = datetime.now(timezone.utc)
     day = now.astimezone(KYIV).date()
@@ -148,7 +155,8 @@ def cmd_daily(cfg: dict) -> int:
     seen = state.load_seen()
     archived = _load_archive(people)
     fresh = state.filter_unseen(_link(cfg, raw, people + archived), seen)
-    stories = rank.rank(fresh, {p.id: p for p in people + archived}, cfg, now)  # deduped
+    ranked_new = rank.rank(fresh, {p.id: p for p in people + archived}, cfg, now)  # deduped
+    stories = rank.drop_repeats(ranked_new, _recent_items(day, cfg))
     people, new_people, candidates, edges = _grow_graph(people, stories, archived)
     people_by_id = {p.id: p for p in people + archived}
     edges, mentioned = _alumni_edges(edges, stories, people_by_id)
@@ -160,14 +168,15 @@ def cmd_daily(cfg: dict) -> int:
     stats = {"people": len(people), "archive": len(archived), "edges": len(edges)}
     _publish(cfg, day, chosen, statuses, people_by_id, new_people, stats)
     # publish succeeded: now persist state, seen first so nothing is counted twice
-    state.save_seen(state.mark_seen_urls(seen, _processed_urls(stories), now))
+    state.save_seen(state.mark_seen_urls(seen, _processed_urls(ranked_new), now))
     store.save_candidates(candidates)
     store.save_people(people)
     store.save_graph(people, edges)  # public people only; graduates appear as opaque ids
     state.save_extra("alumni_mentioned", mentioned)
     _save_discovered(discovered, fresh)
-    log.info("daily: raw=%d fresh=%d stories=%d chosen=%d new_people=%d",
-             len(raw), len(fresh), len(stories), len(chosen), len(new_people))
+    log.info("daily: raw=%d fresh=%d repeats=%d stories=%d chosen=%d new_people=%d",
+             len(raw), len(fresh), len(ranked_new) - len(stories), len(stories), len(chosen),
+             len(new_people))
     return 0 if any(s.ok and s.count for s in statuses) else 2
 
 

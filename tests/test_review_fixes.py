@@ -92,3 +92,16 @@ def test_daily_saves_discovered_facebook_and_telegram_links(sandbox, monkeypatch
     assert cli.cmd_daily(load_config()) == 0
     assert state.load_extra("facebook_discovered") == {"https://www.facebook.com/naukma.fen/"}
     assert state.load_extra("telegram_discovered") == {"fen_news"}
+
+
+def test_story_from_an_earlier_issue_is_not_repeated(sandbox, monkeypatch):
+    title = "Могилянка оголосила переможців конкурсу «Зірка ФЕН» цього року"
+    yesterday = NOW.astimezone(cli.KYIV).date() - timedelta(days=1)
+    state.save_digest(yesterday, [_story("https://facebook.com/fen/posts/pfbid1", title, title)], [], {})
+    repost = _story("https://facebook.com/fen/posts/pfbid2", title + "!", title)  # new URL, same post
+    other = _story("https://c.ua/3", "У НаУКМА новий курс про ШІ")
+    monkeypatch.setattr(cli, "_collect", _fake_collect([[repost, other]]))
+    assert cli.cmd_daily(load_config()) == 0
+    today = state.load_digest(NOW.astimezone(cli.KYIV).date())["items"]
+    assert [i.url for i in today] == ["https://c.ua/3"]
+    assert "https://facebook.com/fen/posts/pfbid2" in state.load_seen()  # not re-checked daily

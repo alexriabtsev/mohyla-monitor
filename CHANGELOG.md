@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.4.0] - 2026-11-07
+### Features
+- No repeats across days: a story already shown in the last `repeat_window_days` (7) issues
+  is dropped even under a new URL (reposts, Facebook `pfbid` links, Instagram/Telegram copies).
+- Same-story check shared by in-issue dedupe and cross-day filtering: same URL, similar title,
+  same body, or a title that opens the other post's text (Instagram titles are the post's start).
+- `relevance_exclude_patterns`: Petro Mohyla's daughters ("Катерина Могилянка") are not the university.
+- Schedule: off-peak cron with backups, plus a `skip_if_built` dispatch input for an external
+  scheduler (GitHub fired one scheduled run in three days).
+### Design Rationale
+- Repeats are matched against stored issues, not raw history: only what readers saw matters,
+  and the issues are already in the repo.
+- Dropped repeats are still marked seen, so the same URL is not re-checked next day.
+### Notes & Caveats
+- A substantially rewritten follow-up (new facts, new headline) is treated as a new story.
+
 ## [0.3.0] - 2026-11-05
 ### Features
 - Facebook at scale: one asynchronous Apify run for all public pages (facebook-posts-scraper)

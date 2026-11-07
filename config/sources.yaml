@@ -4,6 +4,7 @@ user_agent: "MohylaMonitor/0.1 (+https://github.com/alexriabtsev/mohyla-monitor;
 site_url: "https://alexrb.name/mohyla-monitor/"   # GitHub Pages under the account custom domain
 lookback_hours: 36          # window for a daily run (overlap protects against missed runs)
 digest_size: 30             # max items on the daily page
+repeat_window_days: 7       # a story shown in the last N issues is not shown again
 source_family_shares:       # hard cap on a source family's share of the page
   web: 0.25                 # LinkedIn/X/Threads/Instagram via web search
 

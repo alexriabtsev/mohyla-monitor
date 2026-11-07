@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import re
-from dataclasses import replace
+from dataclasses import dataclass, replace
 from datetime import datetime
 from functools import lru_cache
 from typing import Any, Mapping, Sequence
@@ -16,6 +16,7 @@ TITLE_JACCARD = 0.7
 TITLE_PREFIX = 60
 MIN_TITLE_TOKENS = 3
 MIN_TEXT_TOKENS = 12
+MIN_LEAD_TOKENS = 6   # a title this long that opens another post's text = same post
 PERSON_CAP = 3
 SOURCE_SHARE = 0.4
 MIN_ACHIEVEMENTS = 5
@@ -95,19 +96,59 @@ def _text_key(item: Item) -> str:
     return text if len(text.split()) >= MIN_TEXT_TOKENS else ""
 
 
+_ELLIPSIS = ("...", "…")
+
+
+@dataclass(frozen=True)
+class _Keys:
+    url: str
+    title: str
+    text: str   # whole body, only when long enough to identify a story
+    lead: str   # title as a text opening (cross-posts: Instagram titles are the post's start)
+    body: str
+
+
+def _keys(item: Item) -> _Keys:
+    title = _norm_title(item.title)
+    lead = title.split()
+    if item.title.rstrip().endswith(_ELLIPSIS):
+        lead = lead[:-1]  # cut mid-word by the platform
+    return _Keys(canonical_url(item.url), title, _text_key(item),
+                 " ".join(lead) if len(lead) >= MIN_LEAD_TOKENS else "",
+                 _norm_title(item.text))
+
+
+def _opens(lead: str, body: str) -> bool:
+    return bool(lead) and (body == lead or body.startswith(lead + " "))
+
+
+def _same_story(a: _Keys, b: _Keys) -> bool:
+    return (a.url == b.url or _titles_similar(a.title, b.title)
+            or bool(a.text and a.text == b.text)
+            or _opens(a.lead, b.body) or _opens(b.lead, a.body))
+
+
 def dedupe(items: Sequence[Item]) -> list[Item]:
-    """Collapse URL, title or identical-text duplicates; the best item keeps others in
-    extra['also']."""
-    clusters: list[tuple[Item, str, str, str, list[Item]]] = []
+    """Collapse items that are the same story (URL, similar title, same text, or a title
+    that opens the other's text); the best item keeps others in extra['also']."""
+    clusters: list[tuple[Item, _Keys, list[Item]]] = []
     for item in sorted(items, key=_preference):
-        url, title, text = canonical_url(item.url), _norm_title(item.title), _text_key(item)
-        for rep, rurl, rtitle, rtext, dups in clusters:
-            if url == rurl or _titles_similar(title, rtitle) or (text and text == rtext):
+        keys = _keys(item)
+        for rep, rkeys, dups in clusters:
+            if _same_story(keys, rkeys):
                 dups.append(item)
                 break
         else:
-            clusters.append((item, url, title, text, []))
-    return [_merge(rep, dups) for rep, _, _, _, dups in clusters]
+            clusters.append((item, keys, []))
+    return [_merge(rep, dups) for rep, _, dups in clusters]
+
+
+def drop_repeats(items: Sequence[Item], previous: Sequence[Item]) -> list[Item]:
+    """Items that are not the same story as anything in earlier issues (a repost or a
+    cross-post gets a new URL, so seen-URL tracking alone lets it come back)."""
+    old = [_keys(p) for p in previous]
+    return [it for it, keys in ((i, _keys(i)) for i in items)
+            if not any(_same_story(keys, k) for k in old)]
 
 
 def _merge(rep: Item, dups: list[Item]) -> Item:

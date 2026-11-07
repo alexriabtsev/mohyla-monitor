@@ -5,8 +5,8 @@ import pytest
 
 from mohyla.config import load_config
 from mohyla.models import Item, Person
-from mohyla.rank import (canonical_url, categorize, dedupe, is_relevant, rank, score,
-                         select_digest)
+from mohyla.rank import (canonical_url, categorize, dedupe, drop_repeats, is_relevant, rank,
+                         score, select_digest)
 
 NOW = datetime(2026, 11, 4, 6, 0, tzinfo=timezone.utc)
 CFG = load_config()
@@ -96,6 +96,32 @@ def test_dedupe_higher_score_wins_over_kind():
     soc = mk(url="https://t.me/a/2", title=t, kind="social", source="tg", score=5.0)
     off = mk(url="https://ukma.edu.ua/2", title=t, kind="official", source="u", score=1.0)
     assert dedupe([off, soc])[0].kind == "social"
+
+
+FB_POST = mk(url="https://facebook.com/kma.pro/posts/pfbid0abc", title="«Україна є там, де є українці»",
+             text="«Україна є там, де є українці» Справжнім уособленням цих слів є президентка "
+                  "Kyiv Mohyla Foundation of America Marta Farion", source="facebook:kma.pro")
+
+
+def test_repeat_with_new_url_and_similar_title_dropped():
+    tail = ", народними депутатами та представниками Уряду зустрілися з керівниками громад"
+    old = mk(url="https://t.me/k/1", title="Разом із Прем’єр-міністром України Сергієм Корецьким" + tail)
+    new = mk(url="https://facebook.com/k/posts/2",
+             title="Разом із Прем’єр-міністром України Сергій Корецький" + tail)
+    assert drop_repeats([new], [old]) == []
+
+
+def test_truncated_crosspost_title_matches_earlier_post_text():
+    insta = mk(url="https://www.instagram.com/p/Df1", title="Україна є там, де є українці» Справжнім уособленням цих слів є ...",
+               text="Могилянка об'єднує — навіть за тисячі кілометрів від Києва!", source="web:instagram.com")
+    assert drop_repeats([insta], [FB_POST]) == []
+    assert len(dedupe([insta, FB_POST])) == 1  # same rule inside one issue
+
+
+def test_new_story_survives_and_short_titles_do_not_match_text():
+    fresh = mk(url="https://ukma.edu.ua/9", title="Могилянка відкрила нову лабораторію штучного інтелекту")
+    short = mk(url="https://x.com/a/status/1", title="Україна є там")
+    assert drop_repeats([fresh, short], [FB_POST]) == [fresh, short]
 
 
 def test_score_ordering():
