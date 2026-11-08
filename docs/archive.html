@@ -14,6 +14,11 @@ a{color:var(--accent)}
 .topnav{display:flex;justify-content:space-between;gap:12px;font-size:13px;
 padding:12px 0;color:var(--muted)}
 .topnav a{color:var(--muted);text-decoration:none}.topnav a:hover{color:var(--accent)}
+.topnav .tabs{display:flex;flex-wrap:wrap;gap:4px 14px}
+.topnav a[aria-current=page]{color:var(--accent);font-weight:600;
+box-shadow:inset 0 -2px 0 var(--accent)}
+.badge.ev{color:var(--accent);background:var(--accent-soft);border-color:transparent}
+.place{margin:2px 0 0;font-size:14px;color:var(--ink)}
 .mast{border-top:4px solid var(--accent);border-bottom:1px solid var(--line);
 padding:20px 0 18px;margin-bottom:8px}
 .mast .brand{font:600 13px var(--sans);letter-spacing:.12em;text-transform:uppercase;
@@ -63,4 +68,4 @@ th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertic
 .is-hidden{display:none!important}
 @media (min-width:720px){.lead{grid-template-columns:1fr 1fr}
 .lead .card:first-child{grid-column:1/-1}}
-</style></head><body><div class="wrap"><nav class="topnav"><a href="index.html">Могилянський ранок</a><span><a href="archive.html">Архів</a> · <a href="feed.xml">RSS</a></span></nav><header class="mast"><p class="brand">Могилянський ранок</p><h1>Архів випусків</h1></header><ul class="list archive"><li><a href="2026-11-08.html">неділя, 8 листопада 2026</a></li><li><a href="2026-11-07.html">субота, 7 листопада 2026</a></li><li><a href="2026-11-06.html">пʼятниця, 6 листопада 2026</a></li><li><a href="2026-11-05.html">четвер, 5 листопада 2026</a></li></ul></div></body></html>
+</style></head><body><div class="wrap"><nav class="topnav"><a class="home" href="index.html">Могилянський ранок</a><span class="tabs"><a href="index.html">Випуск</a><a href="events.html">Події</a><a href="archive.html" aria-current="page">Архів</a><a href="feed.xml">RSS</a></span></nav><header class="mast"><p class="brand">Могилянський ранок</p><h1>Архів випусків</h1></header><ul class="list archive"><li><a href="2026-11-08.html">неділя, 8 листопада 2026</a></li><li><a href="2026-11-07.html">субота, 7 листопада 2026</a></li><li><a href="2026-11-06.html">пʼятниця, 6 листопада 2026</a></li><li><a href="2026-11-05.html">четвер, 5 листопада 2026</a></li></ul></div></body></html>

@@ -2,6 +2,25 @@
   "date": "2026-11-08",
   "items": [
     {
+      "url": "https://www.instagram.com/p/DfdTF9PTmLk",
+      "title": "Професор Сергій Квіт із дирекцією НТШ Канади і ...",
+      "text": "У п'ятницю, 6 листопада, запрошуємо всіх могилянців та друзів Могилянки на зустріч із Сергієм Квітом, президентом Національного університету",
+      "source": "web:instagram.com",
+      "kind": "social",
+      "published": "2026-11-08T17:04:16.573961+00:00",
+      "author": "",
+      "person_ids": [
+        "wd:Q12109356"
+      ],
+      "category": "community",
+      "score": 4.941969911218856,
+      "extra": {
+        "date_estimated": true,
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
       "url": "https://www.instagram.com/p/DfcGTZCRgfY",
       "title": "Шалені автор(к)и» Розмова Віри Агеєвої, Ростислава ...",
       "text": "Доцент кафедри літературознавства НаУКМА, з 2004 року — директор видавництва «Смолоскип». Читає лекції про літературу й креативне письмо на платформах",
@@ -13,7 +32,24 @@
         "wd:Q12076600"
       ],
       "category": "science",
-      "score": 5.460120589702669,
+      "score": 4.529104174433709,
+      "extra": {
+        "date_estimated": true,
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://www.instagram.com/reel/DfdyyFxM8iE",
+      "title": "Reel by ‎علی‎ (@d.raligayor) · November 8, 2026",
+      "text": "Величезна вдячність Національному університету «Києво-Могилянська академія» та Докторській школі імені родини Юхименків НаУКМА. Це були важливі чотири роки",
+      "source": "web:instagram.com",
+      "kind": "social",
+      "published": "2026-11-08T17:04:16.573961+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "science",
+      "score": 3.4,
       "extra": {
         "date_estimated": true,
         "keep_reason": "keyword",
@@ -30,7 +66,7 @@
       "author": "",
       "person_ids": [],
       "category": "science",
-      "score": 3.4,
+      "score": 2.820258992469095,
       "extra": {
         "date_estimated": true,
         "keep_reason": "keyword",
@@ -47,7 +83,7 @@
       "author": "",
       "person_ids": [],
       "category": "science",
-      "score": 3.4,
+      "score": 2.820258992469095,
       "extra": {
         "date_estimated": true,
         "keep_reason": "keyword",
@@ -64,7 +100,7 @@
       "author": "",
       "person_ids": [],
       "category": "science",
-      "score": 3.4,
+      "score": 2.820258992469095,
       "extra": {
         "date_estimated": true,
         "keep_reason": "keyword",
@@ -72,47 +108,12 @@
       }
     },
     {
-      "url": "https://x.com/svlavra/status/2119079563422511241",
-      "title": "...",
-      "text": "... Могилянка, — там её дочь Татьяна стоит, тоже записочку подала о упокоении «новопреставленной Наталии». И сколько я потом не ездил, всегда на панихидах на ...Read more",
-      "source": "web:x.com",
-      "kind": "social",
-      "published": "2026-11-08T10:35:35.376570+00:00",
-      "author": "",
-      "person_ids": [],
-      "category": "community",
-      "score": 2.8,
-      "extra": {
-        "date_estimated": true,
-        "handle": "svlavra",
-        "keep_reason": "keyword",
-        "body_match": false
-      }
-    },
-    {
-      "url": "https://www.instagram.com/reel/DfcXiZfofNk",
-      "title": "Зверніть увагу на хрести: вони різні за формою ...",
-      "text": "... Могилянка. Історію саме цього хреста ще потрібно з'ясувати. Але такі знахідки змушують уважніше дивитися навколо: за кожним надгробком стоїть чиєсь життя",
+      "url": "https://www.instagram.com/p/DfdDxdgIZ0S",
+      "title": "ПОВЕРТАЮТЬСЯ! Вчора розпочали другий сезон! ...",
+      "text": "Дітей відправили на квест, а дорослі теж вирішили не гаяти час. За дві години ми встигли поговорити про Сковороду, Могилянку, Контрактовий будинок, ратушу,",
       "source": "web:instagram.com",
       "kind": "social",
-      "published": "2026-11-08T10:35:35.376570+00:00",
-      "author": "",
-      "person_ids": [],
-      "category": "community",
-      "score": 2.8,
-      "extra": {
-        "date_estimated": true,
-        "keep_reason": "keyword",
-        "body_match": false
-      }
-    },
-    {
-      "url": "https://www.instagram.com/p/DfcKniPDLSz",
-      "title": "Photos by Olena Lutska (@olenalutska) · November 7, 2026",
-      "text": "Подивились на Могилянку очима майбутнього лікаря Так з'явилася наша «Анатомія Могилянки»: про людей, історію, традиції, критичне мислення та спільноту,",
-      "source": "web:instagram.com",
-      "kind": "social",
-      "published": "2026-11-08T10:35:35.376570+00:00",
+      "published": "2026-11-08T17:04:16.573961+00:00",
       "author": "",
       "person_ids": [],
       "category": "community",
@@ -143,7 +144,7 @@
       "name": "telegram",
       "ok": true,
       "enabled": true,
-      "count": 23,
+      "count": 24,
       "message": ""
     },
     {
