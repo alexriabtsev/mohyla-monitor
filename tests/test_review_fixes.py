@@ -4,6 +4,7 @@ from datetime import datetime, timedelta, timezone
 import pytest
 
 from mohyla import cli, rank, state
+from mohyla.collectors import kmaevents
 from mohyla.config import load_config
 from mohyla.models import Item, Person, SourceStatus
 from mohyla.people import graph, store
@@ -49,6 +50,8 @@ def sandbox(tmp_path, monkeypatch):
         monkeypatch.setattr(mod, "DATA_DIR", tmp_path / "data")
     monkeypatch.setattr(cli, "SITE_DIR", tmp_path / "docs")
     monkeypatch.setattr(cli, "DATA_DIR", tmp_path / "data")
+    monkeypatch.setattr(cli, "_events", lambda cfg, day, now: kmaevents.Events(
+        (), SourceStatus(name="kmaevents.com", ok=True), now))
     return tmp_path
 
 
@@ -72,6 +75,7 @@ def test_same_day_rerun_extends_issue_and_never_repeats(sandbox, monkeypatch):
     assert urls == ["https://a.ua/1", "https://c.ua/2"]
     assert "https://b.ua/1" in state.load_seen()
     assert (sandbox / "docs" / "index.html").exists()
+    assert "<h1>Події</h1>" in (sandbox / "docs" / "events.html").read_text(encoding="utf-8")
 
 
 def test_people_refresh_refuses_to_shrink_base(sandbox, monkeypatch):

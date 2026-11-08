@@ -14,6 +14,11 @@ WEEKDAYS = ("понеділок", "вівторок", "середа", "четв�
 CATEGORY_LABELS = {"achievement": "Досягнення", "science": "Наука",
                    "students": "Студентство", "community": "Спільнота"}
 KIND_LABELS = {"official": "офіційне", "media": "медіа", "social": "соцмережі"}
+EVENT_KIND_LABELS = {"talk": "Лекція", "workshop": "Воркшоп", "meeting": "Зустріч",
+                     "social": "Дозвілля", "performance": "Виступ",
+                     "career_fair": "Ярмарок вакансій", "summer_school": "Школа, курс",
+                     "recruitment": "Набір", "registration_deadline": "Дедлайн реєстрації",
+                     "fundraiser": "Благодійність", "other": "Подія"}
 ROLE_LABELS = {"alumnus": "випускник", "staff": "співробітник", "student": "студент"}
 
 CSS = """
@@ -32,6 +37,11 @@ a{color:var(--accent)}
 .topnav{display:flex;justify-content:space-between;gap:12px;font-size:13px;
 padding:12px 0;color:var(--muted)}
 .topnav a{color:var(--muted);text-decoration:none}.topnav a:hover{color:var(--accent)}
+.topnav .tabs{display:flex;flex-wrap:wrap;gap:4px 14px}
+.topnav a[aria-current=page]{color:var(--accent);font-weight:600;
+box-shadow:inset 0 -2px 0 var(--accent)}
+.badge.ev{color:var(--accent);background:var(--accent-soft);border-color:transparent}
+.place{margin:2px 0 0;font-size:14px;color:var(--ink)}
 .mast{border-top:4px solid var(--accent);border-bottom:1px solid var(--line);
 padding:20px 0 18px;margin-bottom:8px}
 .mast .brand{font:600 13px var(--sans);letter-spacing:.12em;text-transform:uppercase;

@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.5.0] - 2026-11-08
+### Features
+- «Події» tab (`events.html`): upcoming NaUKMA events from kmaevents.com for the next 60 days,
+  grouped by Kyiv day, with type filters, search, place, organiser and «Додати в календар».
+- Site navigation is now tabs: Випуск · Події · Архів · RSS.
+### Design Rationale
+- Events are announcements, not coverage: they stay out of the digest, ranking, seen-URLs
+  and RSS, so they can't crowd out news or be dropped as repeats.
+- kmaevents.com is a client-side app; its own public API (`/api/events?from=…`, cursor pages)
+  is the cleanest source. Links go to the organiser's post (the site has no event pages).
+### Notes & Caveats
+- On an API outage the page shows the last good snapshot (`data/kmaevents.json`) and says
+  when it was fetched; the snapshot is only replaced after a successful fetch.
+- The API host (railway.app) is the site's backend, not a documented API; if it moves,
+  update `kmaevents.api_url`.
+
 ## [0.4.0] - 2026-11-07
 ### Features
 - No repeats across days: a story already shown in the last `repeat_window_days` (7) issues

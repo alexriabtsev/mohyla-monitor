@@ -2,6 +2,13 @@
 
 user_agent: "MohylaMonitor/0.1 (+https://github.com/alexriabtsev/mohyla-monitor; media monitoring of NaUKMA community)"
 site_url: "https://alexrb.name/mohyla-monitor/"   # GitHub Pages under the account custom domain
+# «Події» tab (docs/events.html): kmaevents.com, kept apart from the digest
+kmaevents:
+  api_url: https://kmaeventsapi-production.up.railway.app/api/events
+  site_url: https://kmaevents.com/events
+  days_ahead: 60
+  max_pages: 10
+
 lookback_hours: 36          # window for a daily run (overlap protects against missed runs)
 digest_size: 30             # max items on the daily page
 repeat_window_days: 7       # a story shown in the last N issues is not shown again

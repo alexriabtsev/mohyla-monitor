@@ -189,9 +189,17 @@ def _page(title: str, body: str, with_js: bool = False) -> str:
             f'<body><div class="wrap">{body}</div>{js}</body></html>')
 
 
-def _nav() -> str:
-    return (f'<nav class="topnav"><a href="index.html">{esc(A.SITE_TITLE)}</a>'
-            f'<span><a href="archive.html">Архів</a> · <a href="feed.xml">RSS</a></span></nav>')
+NAV_TABS = (("digest", "index.html", "Випуск"), ("events", "events.html", "Події"),
+            ("archive", "archive.html", "Архів"))
+
+
+def _nav(active: str = "") -> str:
+    """Site tabs; `active` is the current tab key."""
+    tabs = "".join(
+        f'<a href="{href}"' + (' aria-current="page"' if key == active else "")
+        + f">{label}</a>" for key, href, label in NAV_TABS)
+    return (f'<nav class="topnav"><a class="home" href="index.html">{esc(A.SITE_TITLE)}</a>'
+            f'<span class="tabs">{tabs}<a href="feed.xml">RSS</a></span></nav>')
 
 
 def render_day(day: date, items: Sequence[Item], statuses: Sequence[SourceStatus],
@@ -209,7 +217,7 @@ def render_day(day: date, items: Sequence[Item], statuses: Sequence[SourceStatus
                 f'<div class="lead">{cards}</div></section>' + _grouped(rest, people_by_id))
     else:
         main = '<p class="empty">Сьогодні нових матеріалів про Могилянку не знайдено.</p>'
-    body = _nav() + head + f"<main>{main}{_new_people(new_people)}</main>"
+    body = _nav("digest") + head + f"<main>{main}{_new_people(new_people)}</main>"
     body += _footer(statuses, stats)
     return _page(f"{A.SITE_TITLE} — {day.isoformat()}", body, with_js=bool(items))
 
@@ -218,7 +226,7 @@ def render_index(dates: Sequence[date]) -> str:
     """Archive page listing all digest days, newest first."""
     rows = "".join(f'<li><a href="{d.isoformat()}.html">{esc(fmt_day(d))}</a></li>'
                    for d in sorted(set(dates), reverse=True))
-    body = (_nav() + f'<header class="mast"><p class="brand">{esc(A.SITE_TITLE)}</p>'
+    body = (_nav("archive") + f'<header class="mast"><p class="brand">{esc(A.SITE_TITLE)}</p>'
             f'<h1>Архів випусків</h1></header><ul class="list archive">'
             f'{rows or "<li>Поки що порожньо</li>"}</ul>')
     return _page(f"{A.SITE_TITLE} — архів", body)
@@ -245,8 +253,10 @@ def render_feed(day: date, items: Sequence[Item], site_url: str = "") -> str:
 
 
 def write_site(site_dir: Path, day: date, html_day: str, index_html: str,
-               items: Sequence[Item] = (), site_url: str = "") -> list[Path]:
-    """Write <day>.html, index.html (= latest day), archive.html, feed.xml, .nojekyll.
+               items: Sequence[Item] = (), site_url: str = "",
+               pages: Mapping[str, str] | None = None) -> list[Path]:
+    """Write <day>.html, index.html (= latest day), archive.html, feed.xml, .nojekyll,
+    plus extra `pages` ({file name: html}, e.g. events.html).
 
     `index_html` is the archive page from render_index(); `day` is assumed latest.
     """
@@ -258,6 +268,7 @@ def write_site(site_dir: Path, day: date, html_day: str, index_html: str,
         "archive.html": index_html,
         "feed.xml": render_feed(day, items, site_url),
         ".nojekyll": "",
+        **(pages or {}),
     }
     written = []
     for name, content in files.items():

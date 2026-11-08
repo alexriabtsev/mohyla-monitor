@@ -9,9 +9,9 @@ from datetime import datetime, timedelta, timezone
 from functools import partial
 from zoneinfo import ZoneInfo
 
-from mohyla import digest, rank, state
+from mohyla import digest, events_page, rank, state
 from mohyla.collectors import run_all
-from mohyla.collectors import facebook_links
+from mohyla.collectors import facebook_links, kmaevents
 from mohyla.collectors.telegram import discover_channels
 from mohyla.config import DATA_DIR, SITE_DIR, load_config
 from mohyla.http import make_client
@@ -166,7 +166,8 @@ def cmd_daily(cfg: dict) -> int:
     chosen = rank.select_digest(ranked, cfg["digest_size"],
                                 cfg.get("source_family_shares") or {})
     stats = {"people": len(people), "archive": len(archived), "edges": len(edges)}
-    _publish(cfg, day, chosen, statuses, people_by_id, new_people, stats)
+    _publish(cfg, day, chosen, statuses, people_by_id, new_people, stats,
+             _events(cfg, day, now))
     # publish succeeded: now persist state, seen first so nothing is counted twice
     state.save_seen(state.mark_seen_urls(seen, _processed_urls(ranked_new), now))
     store.save_candidates(candidates)
@@ -180,13 +181,25 @@ def cmd_daily(cfg: dict) -> int:
     return 0 if any(s.ok and s.count for s in statuses) else 2
 
 
-def _publish(cfg, day, chosen, statuses, people_by_id, new_people, stats) -> None:
+def _events(cfg: dict, day, now: datetime) -> kmaevents.Events:
+    """Upcoming events for the «Події» tab, kept apart from the digest."""
+    start = datetime.combine(day, datetime.min.time(), KYIV).astimezone(timezone.utc)
+    with make_client(cfg["user_agent"]) as client:
+        return kmaevents.collect(client, cfg, start, now)
+
+
+def _publish(cfg, day, chosen, statuses, people_by_id, new_people, stats,
+             events: kmaevents.Events) -> None:
     state.save_digest(day, chosen, statuses,
                       {"new_people": [p.id for p in new_people], **stats})
     html_day = digest.render_day(day, chosen, statuses, people_by_id, new_people, stats)
     dates = sorted(set(state.list_digest_dates()) | {day})
+    days_ahead = int(kmaevents.settings(cfg)["days_ahead"])
+    pages = {events_page.EVENTS_FILE: events_page.render_events(day, events, days_ahead)}
     digest.write_site(SITE_DIR, day, html_day, digest.render_index(dates),
-                      items=chosen, site_url=cfg.get("site_url", ""))
+                      items=chosen, site_url=cfg.get("site_url", ""), pages=pages)
+    if events.status.ok:
+        kmaevents.save_snapshot(events)
 
 
 def main(argv: list[str] | None = None) -> int:
