@@ -481,6 +481,38 @@ def test_websearch_tavily(monkeypatch):
     assert_items_valid(res.items)
 
 
+@pytest.mark.parametrize("url,expected", [
+    ("https://www.instagram.com/p/DfdTF9PTmLk", datetime(2026, 11, 7, 22, 52, 44, 23000)),
+    ("https://www.instagram.com/reel/DfdyyFxM8iE/", None),   # checked below: decodes
+    ("https://www.threads.com/@x/post/DfUlSDMitOv/slug", None),
+    ("https://x.com/TarasKuzio/status/2118676076180255079", None),
+    ("https://www.linkedin.com/posts/a_b-activity-7392000000000000000-xyZ", None),
+])
+def test_post_time_from_url_id(url, expected):
+    got = websearch.id_published(url, datetime(2026, 11, 9, tzinfo=timezone.utc))
+    assert got is not None and datetime(2025, 1, 1, tzinfo=timezone.utc) < got
+    if expected:
+        assert got == expected.replace(tzinfo=timezone.utc)
+
+
+@pytest.mark.parametrize("url", [
+    "https://x.com/someone/status/1",                      # too small to be a real id
+    "https://www.instagram.com/naukma/",                    # no post code
+    "https://www.linkedin.com/posts/someone_kyiv-mohyla-123",
+])
+def test_post_time_absent_or_implausible(url):
+    assert websearch.id_published(url, datetime(2026, 11, 9, tzinfo=timezone.utc)) is None
+
+
+def test_old_post_without_tavily_date_is_dropped():
+    res = {"url": "https://www.instagram.com/p/DeR4A-aDPrA", "title": "t", "content": "НаУКМА"}
+    now = datetime(2026, 11, 8, 17, tzinfo=timezone.utc)
+    assert websearch.to_item(res, now - timedelta(hours=36), now) is None   # 9 Oct post
+    fresh = {**res, "url": "https://www.instagram.com/p/DfdTF9PTmLk"}
+    item = websearch.to_item(fresh, now - timedelta(hours=36), now)
+    assert item.published.hour == 22 and "date_estimated" not in item.extra
+
+
 @pytest.mark.parametrize("url,ok", [
     ("https://www.linkedin.com/posts/green-deal_x-activity-1", True),
     ("https://www.linkedin.com/pulse/some-article-abc", True),

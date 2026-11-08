@@ -9,7 +9,7 @@ from __future__ import annotations
 import logging
 import os
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Any, Sequence
 from urllib.parse import urlparse
 
@@ -53,6 +53,39 @@ def result_published(res: dict[str, Any]) -> datetime | None:
     return None
 
 
+# Post IDs carry their creation time, which beats Tavily's date (often absent; its
+# time_range filters by index date, so an old post can come back as "today").
+_SHORTCODE = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"
+_IG_CODE = re.compile(r"/(?:p|reel|post)/([\w-]{11})(?:[/?]|$)")     # Instagram, Threads
+_X_ID = re.compile(r"/status/(\d{15,})")
+_LI_ID = re.compile(r"(?:activity|ugcPost|share)[-:](\d{15,})")
+IG_EPOCH_MS = 1314220021721   # Instagram media ids: ms since this epoch << 23
+X_EPOCH_MS = 1288834974657    # X snowflake: ms since this epoch << 22
+EARLIEST_ID_TIME = datetime(2015, 1, 1, tzinfo=timezone.utc)
+
+
+def _ms(ms: int) -> datetime:
+    return datetime.fromtimestamp(ms / 1000, timezone.utc)
+
+
+def id_published(url: str, now: datetime) -> datetime | None:
+    """Creation time decoded from the post id in the URL; None if absent or implausible."""
+    path = urlparse(url).path or ""
+    dt = None
+    if (m := _IG_CODE.search(path)) and hostname(url).startswith(("instagram.", "threads.")):
+        num = 0
+        for ch in m.group(1):
+            num = num * 64 + _SHORTCODE.index(ch)
+        dt = _ms((num >> 23) + IG_EPOCH_MS)
+    elif (m := _X_ID.search(path)) and hostname(url) in ("x.com", "twitter.com"):
+        dt = _ms((int(m.group(1)) >> 22) + X_EPOCH_MS)
+    elif (m := _LI_ID.search(url)) and hostname(url).endswith("linkedin.com"):
+        dt = _ms(int(m.group(1)) >> 22)
+    if dt is None or not EARLIEST_ID_TIME <= dt <= now + timedelta(days=1):
+        return None
+    return dt
+
+
 def is_post(url: str) -> bool:
     return bool(POST_PATH.match(urlparse(url).path or ""))
 
@@ -84,10 +117,10 @@ def to_item(res: dict[str, Any], since: datetime, now: datetime,
     url = res.get("url") or ""
     if not url or not is_post(url):
         return None
-    published = result_published(res)
+    published = id_published(url, now) or result_published(res)
     extra: dict[str, Any] = {}
     if published is None:
-        published, extra = now, {"date_estimated": True}  # time_range=day keeps it recent
+        published, extra = now, {"date_estimated": True}  # no id, no date: assume new
     if published < since:
         return None
     host = hostname(url)

@@ -5,6 +5,8 @@
 - «Події» tab (`events.html`): upcoming NaUKMA events from kmaevents.com for the next 60 days,
   grouped by Kyiv day, with type filters, search, place, organiser and «Додати в календар».
 - Site navigation is now tabs: Випуск · Події · Архів · RSS.
+- Web-search posts (Instagram, Threads, X, LinkedIn) get their real time from the post id
+  in the URL; before, a post without a Tavily date was shown with the fetch time.
 ### Design Rationale
 - Events are announcements, not coverage: they stay out of the digest, ranking, seen-URLs
   and RSS, so they can't crowd out news or be dropped as repeats.
