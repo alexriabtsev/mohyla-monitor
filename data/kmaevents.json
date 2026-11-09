@@ -1,66 +1,6 @@
 {
-  "fetched": "2026-11-08T17:24:52.842435+00:00",
+  "fetched": "2026-11-09T11:47:06.388407+00:00",
   "items": [
-    {
-      "id": "9cb4082a-573b-4b5e-969a-8a77e92930c4",
-      "title": "Сектор Змін — ярмарок імпакт-вакансій",
-      "kind": "career_fair",
-      "starts": "2026-11-08T07:00:00+00:00",
-      "ends": "2026-11-08T17:00:00+00:00",
-      "club": "Асоціація випускниць та випускників НаУКМА",
-      "location": "Київ (точну адресу повідомлять згодом)",
-      "description": "Найбільший в Україні ярмарок імпакт-вакансій від Lobby X, понад 50 роботодавців із державного сектору, громадських організацій, незалежних медіа та міжнародних проєктів. Для участі потрібно зареєструватись, зробити донат від 333 грн на фонд «Повернись живим» та пройти безпекову перевірку.",
-      "url": "https://www.instagram.com/p/De9zZMDiDbg/",
-      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%A1%D0%B5%D0%BA%D1%82%D0%BE%D1%80+%D0%97%D0%BC%D1%96%D0%BD+%E2%80%94+%D1%8F%D1%80%D0%BC%D0%B0%D1%80%D0%BE%D0%BA+%D1%96%D0%BC%D0%BF%D0%B0%D0%BA%D1%82-%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D1%96%D0%B9&dates=20261108T070000Z%2F20261108T170000Z&details=%D0%9D%D0%B0%D0%B9%D0%B1%D1%96%D0%BB%D1%8C%D1%88%D0%B8%D0%B9+%D0%B2+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%96+%D1%8F%D1%80%D0%BC%D0%B0%D1%80%D0%BE%D0%BA+%D1%96%D0%BC%D0%BF%D0%B0%D0%BA%D1%82-%D0%B2%D0%B0%D0%BA%D0%B0%D0%BD%D1%81%D1%96%D0%B9+%D0%B2%D1%96%D0%B4+Lobby+X%2C+%D0%BF%D0%BE%D0%BD%D0%B0%D0%B4+50+%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%BE%D0%B4%D0%B0%D0%B2%D1%86%D1%96%D0%B2+%D1%96%D0%B7+%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%BE%D0%B3%D0%BE+%D1%81%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D1%83%2C+%D0%B3%D1%80%D0%BE%D0%BC%D0%B0%D0%B4%D1%81%D1%8C%D0%BA%D0%B8%D1%85+%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D0%B9%2C+%D0%BD%D0%B5%D0%B7%D0%B0%D0%BB%D0%B5%D0%B6%D0%BD%D0%B8%D1%85+%D0%BC%D0%B5%D0%B4%D1%96%D0%B0+%D1%82%D0%B0+%D0%BC%D1%96%D0%B6%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B8%D1%85+%D0%BF%D1%80%D0%BE%D1%94%D0%BA%D1%82%D1%96%D0%B2.+%D0%94%D0%BB%D1%8F+%D1%83%D1%87%D0%B0%D1%81%D1%82%D1%96+%D0%BF%D0%BE%D1%82%D1%80%D1%96%D0%B1%D0%BD%D0%BE+%D0%B7%D0%B0%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D1%83%D0%B2%D0%B0%D1%82%D0%B8%D1%81%D1%8C%2C+%D0%B7%D1%80%D0%BE%D0%B1%D0%B8%D1%82%D0%B8+%D0%B4%D0%BE%D0%BD%D0%B0%D1%82+%D0%B2%D1%96%D0%B4+333+%D0%B3%D1%80%D0%BD+%D0%BD%D0%B0+%D1%84%D0%BE%D0%BD%D0%B4+%C2%AB%D0%9F%D0%BE%D0%B2%D0%B5%D1%80%D0%BD%D0%B8%D1%81%D1%8C+%D0%B6%D0%B8%D0%B2%D0%B8%D0%BC%C2%BB+%D1%82%D0%B0+%D0%BF%D1%80%D0%BE%D0%B9%D1%82%D0%B8+%D0%B1%D0%B5%D0%B7%D0%BF%D0%B5%D0%BA%D0%BE%D0%B2%D1%83+%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D1%96%D1%80%D0%BA%D1%83.&location=%D0%9A%D0%B8%D1%97%D0%B2+%28%D1%82%D0%BE%D1%87%D0%BD%D1%83+%D0%B0%D0%B4%D1%80%D0%B5%D1%81%D1%83+%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D0%BE%D0%BC%D0%BB%D1%8F%D1%82%D1%8C+%D0%B7%D0%B3%D0%BE%D0%B4%D0%BE%D0%BC%29"
-    },
-    {
-      "id": "b1391884-2d35-47c8-bb4f-83deeb328b42",
-      "title": "День відкритого навчання Presidents' та Executive MBA",
-      "kind": "talk",
-      "starts": "2026-11-08T08:00:00+00:00",
-      "ends": null,
-      "club": "Kyiv-Mohyla Business School",
-      "location": "kmbs, м. Київ, вул. Волоська 8/5, 4-й корпус, 4-й поверх",
-      "description": "День відкритого навчання для засновників бізнесу і топменеджерів, лекція Сергія Ноздрачова про performance management, знайомство з навчальними підходами kmbs та обговорення організаційних питань.",
-      "url": "https://www.instagram.com/p/DfFb3lBoZNf/",
-      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%94%D0%B5%D0%BD%D1%8C+%D0%B2%D1%96%D0%B4%D0%BA%D1%80%D0%B8%D1%82%D0%BE%D0%B3%D0%BE+%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D0%BD%D0%BD%D1%8F+Presidents%27+%D1%82%D0%B0+Executive+MBA&dates=20261108T080000Z%2F20261108T090000Z&details=%D0%94%D0%B5%D0%BD%D1%8C+%D0%B2%D1%96%D0%B4%D0%BA%D1%80%D0%B8%D1%82%D0%BE%D0%B3%D0%BE+%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D0%BD%D0%BD%D1%8F+%D0%B4%D0%BB%D1%8F+%D0%B7%D0%B0%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA%D1%96%D0%B2+%D0%B1%D1%96%D0%B7%D0%BD%D0%B5%D1%81%D1%83+%D1%96+%D1%82%D0%BE%D0%BF%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%B5%D1%80%D1%96%D0%B2%2C+%D0%BB%D0%B5%D0%BA%D1%86%D1%96%D1%8F+%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D1%8F+%D0%9D%D0%BE%D0%B7%D0%B4%D1%80%D0%B0%D1%87%D0%BE%D0%B2%D0%B0+%D0%BF%D1%80%D0%BE+performance+management%2C+%D0%B7%D0%BD%D0%B0%D0%B9%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%BE+%D0%B7+%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%BC%D0%B8+%D0%BF%D1%96%D0%B4%D1%85%D0%BE%D0%B4%D0%B0%D0%BC%D0%B8+kmbs+%D1%82%D0%B0+%D0%BE%D0%B1%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F+%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D0%B8%D1%85+%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D1%8C.&location=kmbs%2C+%D0%BC.+%D0%9A%D0%B8%D1%97%D0%B2%2C+%D0%B2%D1%83%D0%BB.+%D0%92%D0%BE%D0%BB%D0%BE%D1%81%D1%8C%D0%BA%D0%B0+8%2F5%2C+4-%D0%B9+%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%2C+4-%D0%B9+%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85"
-    },
-    {
-      "id": "60e6c991-6b9f-4f8e-82a2-779acce2507c",
-      "title": "Обговорення книги «З країни рижу та опію» (Читацький клюб)",
-      "kind": "meeting",
-      "starts": "2026-11-08T12:00:00+00:00",
-      "ends": null,
-      "club": "Читацький клуб",
-      "location": "Онлайн",
-      "description": "Зустріч Читацького клюбу НаУКМА, присвячена обговоренню книги Софії Яблонської «З країни рижу та опію».",
-      "url": "https://www.instagram.com/p/DeeSI4rNjha/",
-      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%9E%D0%B1%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F+%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8+%C2%AB%D0%97+%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8+%D1%80%D0%B8%D0%B6%D1%83+%D1%82%D0%B0+%D0%BE%D0%BF%D1%96%D1%8E%C2%BB+%28%D0%A7%D0%B8%D1%82%D0%B0%D1%86%D1%8C%D0%BA%D0%B8%D0%B9+%D0%BA%D0%BB%D1%8E%D0%B1%29&dates=20261108T120000Z%2F20261108T130000Z&details=%D0%97%D1%83%D1%81%D1%82%D1%80%D1%96%D1%87+%D0%A7%D0%B8%D1%82%D0%B0%D1%86%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D0%BA%D0%BB%D1%8E%D0%B1%D1%83+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90%2C+%D0%BF%D1%80%D0%B8%D1%81%D0%B2%D1%8F%D1%87%D0%B5%D0%BD%D0%B0+%D0%BE%D0%B1%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8E+%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8+%D0%A1%D0%BE%D1%84%D1%96%D1%97+%D0%AF%D0%B1%D0%BB%D0%BE%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%C2%AB%D0%97+%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8+%D1%80%D0%B8%D0%B6%D1%83+%D1%82%D0%B0+%D0%BE%D0%BF%D1%96%D1%8E%C2%BB.&location=%D0%9E%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD"
-    },
-    {
-      "id": "5e9e652d-dead-4f05-a927-483d3481a62d",
-      "title": "Симуляція засідання ASEAN +3",
-      "kind": "workshop",
-      "starts": "2026-11-08T12:00:00+00:00",
-      "ends": null,
-      "club": "Асоціація Студентів-політологів",
-      "location": "PidWall, КМЦ",
-      "description": "Симуляція ASEAN +3 від АСП та КАС на тему «Розробка Кодексу поведінки для запобігання конфліктам у Південнокитайському морі»",
-      "url": "https://www.instagram.com/p/DfKR0OwOVtS/",
-      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%A1%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%86%D1%96%D1%8F+%D0%B7%D0%B0%D1%81%D1%96%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F+ASEAN+%2B3&dates=20261108T120000Z%2F20261108T130000Z&details=%D0%A1%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%86%D1%96%D1%8F+ASEAN+%2B3+%D0%B2%D1%96%D0%B4+%D0%90%D0%A1%D0%9F+%D1%82%D0%B0+%D0%9A%D0%90%D0%A1+%D0%BD%D0%B0+%D1%82%D0%B5%D0%BC%D1%83+%C2%AB%D0%A0%D0%BE%D0%B7%D1%80%D0%BE%D0%B1%D0%BA%D0%B0+%D0%9A%D0%BE%D0%B4%D0%B5%D0%BA%D1%81%D1%83+%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D1%96%D0%BD%D0%BA%D0%B8+%D0%B4%D0%BB%D1%8F+%D0%B7%D0%B0%D0%BF%D0%BE%D0%B1%D1%96%D0%B3%D0%B0%D0%BD%D0%BD%D1%8F+%D0%BA%D0%BE%D0%BD%D1%84%D0%BB%D1%96%D0%BA%D1%82%D0%B0%D0%BC+%D1%83+%D0%9F%D1%96%D0%B2%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE%D0%BA%D0%B8%D1%82%D0%B0%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D0%BC%D1%83+%D0%BC%D0%BE%D1%80%D1%96%C2%BB&location=PidWall%2C+%D0%9A%D0%9C%D0%A6"
-    },
-    {
-      "id": "f3bbfda9-e486-4e5e-ac3c-eb3849c28803",
-      "title": "Геловінська ігротека",
-      "kind": "social",
-      "starts": "2026-11-08T13:00:00+00:00",
-      "ends": "2026-11-08T18:00:00+00:00",
-      "club": "Гік-Клуб \"Кобольдичі\"",
-      "location": "Фоє поруч з Деканатом ФМВВ, третій поверх, НаУКМА",
-      "description": "Геловінська ігротека з іграми та розвагами у фоє НаУКМА.",
-      "url": "https://www.instagram.com/p/DfPzr9xsk-z/",
-      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%93%D0%B5%D0%BB%D0%BE%D0%B2%D1%96%D0%BD%D1%81%D1%8C%D0%BA%D0%B0+%D1%96%D0%B3%D1%80%D0%BE%D1%82%D0%B5%D0%BA%D0%B0&dates=20261108T130000Z%2F20261108T180000Z&details=%D0%93%D0%B5%D0%BB%D0%BE%D0%B2%D1%96%D0%BD%D1%81%D1%8C%D0%BA%D0%B0+%D1%96%D0%B3%D1%80%D0%BE%D1%82%D0%B5%D0%BA%D0%B0+%D0%B7+%D1%96%D0%B3%D1%80%D0%B0%D0%BC%D0%B8+%D1%82%D0%B0+%D1%80%D0%BE%D0%B7%D0%B2%D0%B0%D0%B3%D0%B0%D0%BC%D0%B8+%D1%83+%D1%84%D0%BE%D1%94+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90.&location=%D0%A4%D0%BE%D1%94+%D0%BF%D0%BE%D1%80%D1%83%D1%87+%D0%B7+%D0%94%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D1%82%D0%BE%D0%BC+%D0%A4%D0%9C%D0%92%D0%92%2C+%D1%82%D1%80%D0%B5%D1%82%D1%96%D0%B9+%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85%2C+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90"
-    },
     {
       "id": "99b8a381-ad03-4705-ac8d-1668bdae031d",
       "title": "Могилянська школа переговорів з ЄС",
