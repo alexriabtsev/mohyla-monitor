@@ -1,18 +1,6 @@
 {
-  "fetched": "2026-11-10T07:34:03.467242+00:00",
+  "fetched": "2026-11-11T11:12:55.724736+00:00",
   "items": [
-    {
-      "id": "15cdf3ab-337f-4a0d-b7a6-ed593f07caf0",
-      "title": "«Обнулення» класичного PR: як війна змінила архітектуру та наповнення корпоративних комунікацій",
-      "kind": "talk",
-      "starts": "2026-11-10T17:00:00+00:00",
-      "ends": null,
-      "club": "Kyiv-Mohyla Business School",
-      "location": "Онлайн",
-      "description": "Відкрита онлайн-дискусія kmbs про зміну логіки корпоративних комунікацій під час війни, за участі представників бізнесу, військового та неприбуткового секторів. Подія відбудеться в межах відкритих подій до старту програми «Дієві комунікації: практика репутаційного менеджменту» kmbs.",
-      "url": "https://www.instagram.com/p/DfSBsxRIOIB/",
-      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%C2%AB%D0%9E%D0%B1%D0%BD%D1%83%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F%C2%BB+%D0%BA%D0%BB%D0%B0%D1%81%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+PR%3A+%D1%8F%D0%BA+%D0%B2%D1%96%D0%B9%D0%BD%D0%B0+%D0%B7%D0%BC%D1%96%D0%BD%D0%B8%D0%BB%D0%B0+%D0%B0%D1%80%D1%85%D1%96%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D1%83+%D1%82%D0%B0+%D0%BD%D0%B0%D0%BF%D0%BE%D0%B2%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F+%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8%D1%85+%D0%BA%D0%BE%D0%BC%D1%83%D0%BD%D1%96%D0%BA%D0%B0%D1%86%D1%96%D0%B9&dates=20261110T170000Z%2F20261110T180000Z&details=%D0%92%D1%96%D0%B4%D0%BA%D1%80%D0%B8%D1%82%D0%B0+%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D0%B4%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%96%D1%8F+kmbs+%D0%BF%D1%80%D0%BE+%D0%B7%D0%BC%D1%96%D0%BD%D1%83+%D0%BB%D0%BE%D0%B3%D1%96%D0%BA%D0%B8+%D0%BA%D0%BE%D1%80%D0%BF%D0%BE%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B8%D1%85+%D0%BA%D0%BE%D0%BC%D1%83%D0%BD%D1%96%D0%BA%D0%B0%D1%86%D1%96%D0%B9+%D0%BF%D1%96%D0%B4+%D1%87%D0%B0%D1%81+%D0%B2%D1%96%D0%B9%D0%BD%D0%B8%2C+%D0%B7%D0%B0+%D1%83%D1%87%D0%B0%D1%81%D1%82%D1%96+%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D0%B8%D0%BA%D1%96%D0%B2+%D0%B1%D1%96%D0%B7%D0%BD%D0%B5%D1%81%D1%83%2C+%D0%B2%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE+%D1%82%D0%B0+%D0%BD%D0%B5%D0%BF%D1%80%D0%B8%D0%B1%D1%83%D1%82%D0%BA%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE+%D1%81%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D1%96%D0%B2.+%D0%9F%D0%BE%D0%B4%D1%96%D1%8F+%D0%B2%D1%96%D0%B4%D0%B1%D1%83%D0%B4%D0%B5%D1%82%D1%8C%D1%81%D1%8F+%D0%B2+%D0%BC%D0%B5%D0%B6%D0%B0%D1%85+%D0%B2%D1%96%D0%B4%D0%BA%D1%80%D0%B8%D1%82%D0%B8%D1%85+%D0%BF%D0%BE%D0%B4%D1%96%D0%B9+%D0%B4%D0%BE+%D1%81%D1%82%D0%B0%D1%80%D1%82%D1%83+%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8+%C2%AB%D0%94%D1%96%D1%94%D0%B2%D1%96+%D0%BA%D0%BE%D0%BC%D1%83%D0%BD%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%97%3A+%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0+%D1%80%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%BC%D0%B5%D0%BD%D1%82%D1%83%C2%BB+kmbs.&location=%D0%9E%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD"
-    },
     {
       "id": "c7d98d32-1f49-4184-9544-be2a6d6ff412",
       "title": "Гостьова лекція Тетяни Харебави: «Ноу-хау як об'єкт правової охорони в цифровій економіці»",
@@ -36,6 +24,18 @@
       "description": "Зустріч із Віктором Нікітюком – колишнім Надзвичайним і Повноважним Послом України в Республіці Таджикистан та за сумісництвом в Ісламській Республіці Афганістан. Лекція про сучасну українську дипломатію, міжнародні партнерства та роботу дипломатичних представництв.",
       "url": "https://www.instagram.com/p/DfcUXxUNnjw/",
       "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0%D1%82%D1%96%D1%8F+%D0%B1%D0%B5%D0%B7+%D0%BA%D0%BE%D1%80%D0%B4%D0%BE%D0%BD%D1%96%D0%B2%3A+%D1%8F%D0%BA+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0+%D0%B2%D0%B8%D0%B1%D1%83%D0%B4%D0%BE%D0%B2%D1%83%D1%94+%D0%B2%D1%96%D0%B4%D0%BD%D0%BE%D1%81%D0%B8%D0%BD%D0%B8+%D0%B7%D1%96+%D1%81%D0%B2%D1%96%D1%82%D0%BE%D0%BC&dates=20261112T143000Z%2F20261112T153000Z&details=%D0%97%D1%83%D1%81%D1%82%D1%80%D1%96%D1%87+%D1%96%D0%B7+%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80%D0%BE%D0%BC+%D0%9D%D1%96%D0%BA%D1%96%D1%82%D1%8E%D0%BA%D0%BE%D0%BC+%E2%80%93+%D0%BA%D0%BE%D0%BB%D0%B8%D1%88%D0%BD%D1%96%D0%BC+%D0%9D%D0%B0%D0%B4%D0%B7%D0%B2%D0%B8%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%D0%BC+%D1%96+%D0%9F%D0%BE%D0%B2%D0%BD%D0%BE%D0%B2%D0%B0%D0%B6%D0%BD%D0%B8%D0%BC+%D0%9F%D0%BE%D1%81%D0%BB%D0%BE%D0%BC+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8+%D0%B2+%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D1%96%D1%86%D1%96+%D0%A2%D0%B0%D0%B4%D0%B6%D0%B8%D0%BA%D0%B8%D1%81%D1%82%D0%B0%D0%BD+%D1%82%D0%B0+%D0%B7%D0%B0+%D1%81%D1%83%D0%BC%D1%96%D1%81%D0%BD%D0%B8%D1%86%D1%82%D0%B2%D0%BE%D0%BC+%D0%B2+%D0%86%D1%81%D0%BB%D0%B0%D0%BC%D1%81%D1%8C%D0%BA%D1%96%D0%B9+%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D1%96%D1%86%D1%96+%D0%90%D1%84%D0%B3%D0%B0%D0%BD%D1%96%D1%81%D1%82%D0%B0%D0%BD.+%D0%9B%D0%B5%D0%BA%D1%86%D1%96%D1%8F+%D0%BF%D1%80%D0%BE+%D1%81%D1%83%D1%87%D0%B0%D1%81%D0%BD%D1%83+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D1%83+%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0%D1%82%D1%96%D1%8E%2C+%D0%BC%D1%96%D0%B6%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%96+%D0%BF%D0%B0%D1%80%D1%82%D0%BD%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%B0+%D1%82%D0%B0+%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D1%83+%D0%B4%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D1%85+%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BD%D0%B8%D1%86%D1%82%D0%B2.&location=%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D1%96%D1%88%D0%B0+%D1%96%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D1%8F+%D0%B1%D1%83%D0%B4%D0%B5+%D0%BD%D0%B0%D0%B4%D1%96%D1%81%D0%BB%D0%B0%D0%BD%D0%B0+%D0%BF%D1%96%D1%81%D0%BB%D1%8F+%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97"
+    },
+    {
+      "id": "cc37898b-86fa-4898-b745-c2bb7fd17bc7",
+      "title": "Вивчення Біблії: Книга пророка Амоса (3)",
+      "kind": "meeting",
+      "starts": "2026-11-12T16:00:00+00:00",
+      "ends": null,
+      "club": "Lumen",
+      "location": "вул. Нижній Вал, 19Д, Київ [1-й поверх, двері ліворуч]",
+      "description": "Групове вивчення Книги пророка Амоса з обговоренням та рефлексіями. Долучитися можна на будь-якому етапі.",
+      "url": "https://www.instagram.com/p/DfkY65Ftnzo/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%92%D0%B8%D0%B2%D1%87%D0%B5%D0%BD%D0%BD%D1%8F+%D0%91%D1%96%D0%B1%D0%BB%D1%96%D1%97%3A+%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0+%D0%BF%D1%80%D0%BE%D1%80%D0%BE%D0%BA%D0%B0+%D0%90%D0%BC%D0%BE%D1%81%D0%B0+%283%29&dates=20261112T160000Z%2F20261112T170000Z&details=%D0%93%D1%80%D1%83%D0%BF%D0%BE%D0%B2%D0%B5+%D0%B2%D0%B8%D0%B2%D1%87%D0%B5%D0%BD%D0%BD%D1%8F+%D0%9A%D0%BD%D0%B8%D0%B3%D0%B8+%D0%BF%D1%80%D0%BE%D1%80%D0%BE%D0%BA%D0%B0+%D0%90%D0%BC%D0%BE%D1%81%D0%B0+%D0%B7+%D0%BE%D0%B1%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D0%BC+%D1%82%D0%B0+%D1%80%D0%B5%D1%84%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D1%8F%D0%BC%D0%B8.+%D0%94%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D0%B8%D1%81%D1%8F+%D0%BC%D0%BE%D0%B6%D0%BD%D0%B0+%D0%BD%D0%B0+%D0%B1%D1%83%D0%B4%D1%8C-%D1%8F%D0%BA%D0%BE%D0%BC%D1%83+%D0%B5%D1%82%D0%B0%D0%BF%D1%96.&location=%D0%B2%D1%83%D0%BB.+%D0%9D%D0%B8%D0%B6%D0%BD%D1%96%D0%B9+%D0%92%D0%B0%D0%BB%2C+19%D0%94%2C+%D0%9A%D0%B8%D1%97%D0%B2+%5B1-%D0%B9+%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85%2C+%D0%B4%D0%B2%D0%B5%D1%80%D1%96+%D0%BB%D1%96%D0%B2%D0%BE%D1%80%D1%83%D1%87%5D"
     },
     {
       "id": "7284e471-2a7a-4b2f-bf17-97552309b04f",
