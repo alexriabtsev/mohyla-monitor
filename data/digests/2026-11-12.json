@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-12",
+  "items": [
+    {
+      "url": "https://www.instagram.com/p/DfnY6p7OyGg",
+      "title": "Допомагаю збиратина квадроцикл для одного з ...",
+      "text": "Допомагаю збирати на квадроцикл для одного з підрозділів НГУ⚡️ ОСС НаУКМА об'єднуються заради спільної мети - зібрати 300 000 грн. До спільного збору",
+      "source": "web:instagram.com",
+      "kind": "social",
+      "published": "2026-11-11T20:56:01.487000+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "science",
+      "score": 2.259991479649175,
+      "extra": {
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://www.instagram.com/p/Dfm6gxKAHe3",
+      "title": "Готуйте свої килимки для йоґи! Звізитуйте ... - Instagram",
+      "text": "Де: Культурно-мистецький центр НаУКМА (вхід через прохідну на вул. Волоській, 8\\5), зала йоги (йога-1) (не хвилюйтеся, ми знімемо видиво, як до нас дістатися).",
+      "source": "web:instagram.com",
+      "kind": "social",
+      "published": "2026-11-11T16:30:20.781000+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "science",
+      "score": 1.9886900238749092,
+      "extra": {
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPa3FVMWh1NW5LeWd4NmpoeWR4MXRwUURXeHctR1NMTHBlZWo0YnpHSlFReE5vcXRoYmVDcVFiVW4wdDhKWFliXzFSWldfRHl1aG9XRTN1R0JlUmlISEd6T3dLNmNUb0JxNVQxRXRCRV95dGpsamdyeTlybFEyeFlXVlZoU3BCV2pVTXZERXpn0gGTAUFVX3lxTFA5WmZBWVlkbzA2dWZVRnZFaDZ6YkJFSW5NRHRFWGQ2aWpaS0lxMmo3ZU1YU1pyUHdiRjkzRVB0RWVxZmtsdUtRREhhZHhzdkRqMDhpdl82QkVPUnJPTFJIWGczOVRoZFdNMk1NZ2k1aExUajJoS1lSQmRmazI4NkNFR0ZQR3hfaDl3T3REV282NU1TWQ?oc=5",
+      "title": "Як громадам розвивати освіту за орієнтирами Європи: у Києві відбудеться зустріч MSAgency Club",
+      "text": "Як громадам розвивати освіту за орієнтирами Європи: у Києві відбудеться зустріч MSAgency Club 24 Канал",
+      "source": "gnews:24 Канал",
+      "kind": "media",
+      "published": "2026-11-12T10:54:55+00:00",
+      "author": "24 Канал",
+      "person_ids": [],
+      "category": "community",
+      "score": 1.6921777748990383,
+      "extra": {
+        "query": "\"Києво-Могилянська бізнес-школа\" OR \"Kyiv-Mohyla Business School\"",
+        "publisher_url": "https://24tv.ua",
+        "keep_reason": "body",
+        "body_match": true
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPb2dac2tBWUhRV3FmbnBDMmZpYVg5UnN2cTNlM2E2QUowYThkNkxkVG1PMFgyQ0o4WXV5SlVTUm1DX0ZnT0s5T3VIckRqdm9xdjBlaV9NRXozMU10c0NoaXBaeEVFRXdkazB6dnpXa24zZGE5a1JsdjRoQkhKSnZRUm9pandGaWdSeWdDdkpFWnY2d1VudFBNWWtlOG12NURuSkRVc2lvLWQ2bmtjU2E3a1dVRUpTWlA0XzNNRi1aVWFBeEY5YUNGcWQzZEVuVThBQUhMQklMaGJSQnljM0hZ0gHfAUFVX3lxTE9vZ1pza0FZSFFXcWZucEMyZmlhWDlSc3ZxM2UzYTZBSjBhOGQ2TGRUbU8wWDJDSjhZdXlKVVNSbUNfRmdPSzlPdUhyRGp2b3F2MGVpX01FejMxTXRzQ2hpcFp4RUVFd2RrMHp2eldrbjNkYTlrUmx2NGhCSEpKdlFSb2lqd0ZpZ1J5Z0N2SkVadjZ3VW50UE1Za2U4bXY1RG5KRFVzaW8tZDZua2NTYTdrV1VFSlNaUDRfM01GLVpVYUF4RjlhQ0ZxZDNkRW5VOEFBSExCSUxoYlJCeWMzSFk?oc=5",
+      "title": "Найкращі університети України 2026: які 50 вишів увійшли до рейтингу",
+      "text": "Найкращі університети України 2026: які 50 вишів увійшли до рейтингу OBOZ.UA",
+      "source": "gnews:OBOZ.UA",
+      "kind": "media",
+      "published": "2026-11-11T08:26:00+00:00",
+      "author": "OBOZ.UA",
+      "person_ids": [],
+      "category": "community",
+      "score": 0.7875627543423684,
+      "extra": {
+        "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
+        "publisher_url": "https://shkola.obozrevatel.com",
+        "keep_reason": "body",
+        "body_match": true
+      }
+    }
+  ],
+  "statuses": [
+    {
+      "name": "rss",
+      "ok": true,
+      "enabled": true,
+      "count": 0,
+      "message": ""
+    },
+    {
+      "name": "google_news",
+      "ok": true,
+      "enabled": true,
+      "count": 3,
+      "message": ""
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "enabled": true,
+      "count": 32,
+      "message": ""
+    },
+    {
+      "name": "bluesky",
+      "ok": true,
+      "enabled": false,
+      "count": 0,
+      "message": "disabled: set BSKY_HANDLE + BSKY_APP_PASSWORD"
+    },
+    {
+      "name": "facebook_apify",
+      "ok": true,
+      "enabled": true,
+      "count": 0,
+      "message": "skipped: $4.50 of $4.50 spent since 2026-11-05"
+    },
+    {
+      "name": "websearch",
+      "ok": true,
+      "enabled": true,
+      "count": 22,
+      "message": ""
+    }
+  ],
+  "extra": {
+    "new_people": [],
+    "people": 277,
+    "archive": 8612,
+    "edges": 83
+  }
+}

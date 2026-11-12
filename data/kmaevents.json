@@ -1,18 +1,6 @@
 {
-  "fetched": "2026-11-11T11:12:55.724736+00:00",
+  "fetched": "2026-11-12T11:04:29.871465+00:00",
   "items": [
-    {
-      "id": "c7d98d32-1f49-4184-9544-be2a6d6ff412",
-      "title": "Гостьова лекція Тетяни Харебави: «Ноу-хау як об'єкт правової охорони в цифровій економіці»",
-      "kind": "talk",
-      "starts": "2026-11-11T08:00:00+00:00",
-      "ends": "2026-11-11T09:20:00+00:00",
-      "club": "Факультет правничих наук НаУКМА",
-      "location": "Онлайн (Zoom)",
-      "description": "Гостьова лекція Тетяни Харебави — керівниці юридичного департаменту Sport Labs Group, голови Комітету АПУ з інтелектуальної власності, адвокатки. Тема: захист комерційної таємниці, ноу-хау, законодавчі зміни. Лекція в межах магістерського курсу «Право інтелектуальної власності у цифровій економіці» (викладач Дар'я Богатчук).",
-      "url": "https://www.instagram.com/p/DfhzEhjCDht/",
-      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%93%D0%BE%D1%81%D1%82%D1%8C%D0%BE%D0%B2%D0%B0+%D0%BB%D0%B5%D0%BA%D1%86%D1%96%D1%8F+%D0%A2%D0%B5%D1%82%D1%8F%D0%BD%D0%B8+%D0%A5%D0%B0%D1%80%D0%B5%D0%B1%D0%B0%D0%B2%D0%B8%3A+%C2%AB%D0%9D%D0%BE%D1%83-%D1%85%D0%B0%D1%83+%D1%8F%D0%BA+%D0%BE%D0%B1%27%D1%94%D0%BA%D1%82+%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE%D1%97+%D0%BE%D1%85%D0%BE%D1%80%D0%BE%D0%BD%D0%B8+%D0%B2+%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D1%96%D0%B9+%D0%B5%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D1%96%D1%86%D1%96%C2%BB&dates=20261111T080000Z%2F20261111T092000Z&details=%D0%93%D0%BE%D1%81%D1%82%D1%8C%D0%BE%D0%B2%D0%B0+%D0%BB%D0%B5%D0%BA%D1%86%D1%96%D1%8F+%D0%A2%D0%B5%D1%82%D1%8F%D0%BD%D0%B8+%D0%A5%D0%B0%D1%80%D0%B5%D0%B1%D0%B0%D0%B2%D0%B8+%E2%80%94+%D0%BA%D0%B5%D1%80%D1%96%D0%B2%D0%BD%D0%B8%D1%86%D1%96+%D1%8E%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+%D0%B4%D0%B5%D0%BF%D0%B0%D1%80%D1%82%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D1%83+Sport+Labs+Group%2C+%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%B8+%D0%9A%D0%BE%D0%BC%D1%96%D1%82%D0%B5%D1%82%D1%83+%D0%90%D0%9F%D0%A3+%D0%B7+%D1%96%D0%BD%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%97+%D0%B2%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%96%2C+%D0%B0%D0%B4%D0%B2%D0%BE%D0%BA%D0%B0%D1%82%D0%BA%D0%B8.+%D0%A2%D0%B5%D0%BC%D0%B0%3A+%D0%B7%D0%B0%D1%85%D0%B8%D1%81%D1%82+%D0%BA%D0%BE%D0%BC%D0%B5%D1%80%D1%86%D1%96%D0%B9%D0%BD%D0%BE%D1%97+%D1%82%D0%B0%D1%94%D0%BC%D0%BD%D0%B8%D1%86%D1%96%2C+%D0%BD%D0%BE%D1%83-%D1%85%D0%B0%D1%83%2C+%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D0%B2%D1%87%D1%96+%D0%B7%D0%BC%D1%96%D0%BD%D0%B8.+%D0%9B%D0%B5%D0%BA%D1%86%D1%96%D1%8F+%D0%B2+%D0%BC%D0%B5%D0%B6%D0%B0%D1%85+%D0%BC%D0%B0%D0%B3%D1%96%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D0%BA%D1%83%D1%80%D1%81%D1%83+%C2%AB%D0%9F%D1%80%D0%B0%D0%B2%D0%BE+%D1%96%D0%BD%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%97+%D0%B2%D0%BB%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%96+%D1%83+%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D1%96%D0%B9+%D0%B5%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D1%96%D1%86%D1%96%C2%BB+%28%D0%B2%D0%B8%D0%BA%D0%BB%D0%B0%D0%B4%D0%B0%D1%87+%D0%94%D0%B0%D1%80%27%D1%8F+%D0%91%D0%BE%D0%B3%D0%B0%D1%82%D1%87%D1%83%D0%BA%29.&location=%D0%9E%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD+%28Zoom%29"
-    },
     {
       "id": "dec4c592-7726-4ba3-a90c-7943fd438fd4",
       "title": "Дипломатія без кордонів: як Україна вибудовує відносини зі світом",
@@ -120,6 +108,18 @@
       "description": "Новий генеральний набір до організації, який триватиме до кінця осені. Набір триватиме до 30.11.2026.",
       "url": "https://www.instagram.com/p/DdtrZj1DeLz/",
       "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%94%D0%B5%D0%B4%D0%BB%D0%B0%D0%B9%D0%BD+%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97%3A+%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9+%D0%BD%D0%B0%D0%B1%D1%96%D1%80+%D0%B4%D0%BE+%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97&dates=20261130%2F20261201&details=%D0%9D%D0%BE%D0%B2%D0%B8%D0%B9+%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9+%D0%BD%D0%B0%D0%B1%D1%96%D1%80+%D0%B4%D0%BE+%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97%2C+%D1%8F%D0%BA%D0%B8%D0%B9+%D1%82%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%B8%D0%BC%D0%B5+%D0%B4%D0%BE+%D0%BA%D1%96%D0%BD%D1%86%D1%8F+%D0%BE%D1%81%D0%B5%D0%BD%D1%96.+%D0%9D%D0%B0%D0%B1%D1%96%D1%80+%D1%82%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%B8%D0%BC%D0%B5+%D0%B4%D0%BE+30.11.2026."
+    },
+    {
+      "id": "7577c122-ec6f-405d-8550-3c68d117921a",
+      "title": "Підтвердження сертифікатів на державний грант у Дії",
+      "kind": "registration_deadline",
+      "starts": "2026-12-03T21:59:59+00:00",
+      "ends": null,
+      "club": "Відділом у справах студентства",
+      "location": "Застосунок Дія",
+      "description": "МОН запустило формування грантів на контрактне навчання. Студенти 1-го року навчання (вступ 2026) підтверджують сертифікат з 9 до 29 листопада. Студенти 2-го і 3-го років навчання (вступ 2024/2025) підтверджують продовження гранту з 13 листопада до 3 грудня. Підтвердження відбувається через застосунок Дія за допомогою Дія.Підпису.",
+      "url": "https://www.instagram.com/p/DfmZ8akAi-Y/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%94%D0%B5%D0%B4%D0%BB%D0%B0%D0%B9%D0%BD+%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97%3A+%D0%9F%D1%96%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F+%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%82%D1%96%D0%B2+%D0%BD%D0%B0+%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%B8%D0%B9+%D0%B3%D1%80%D0%B0%D0%BD%D1%82+%D1%83+%D0%94%D1%96%D1%97&dates=20261203%2F20261204&details=%D0%9C%D0%9E%D0%9D+%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%B8%D0%BB%D0%BE+%D1%84%D0%BE%D1%80%D0%BC%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F+%D0%B3%D1%80%D0%B0%D0%BD%D1%82%D1%96%D0%B2+%D0%BD%D0%B0+%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D0%B5+%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D0%BD%D0%BD%D1%8F.+%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%B8+1-%D0%B3%D0%BE+%D1%80%D0%BE%D0%BA%D1%83+%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D0%BD%D0%BD%D1%8F+%28%D0%B2%D1%81%D1%82%D1%83%D0%BF+2026%29+%D0%BF%D1%96%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B6%D1%83%D1%8E%D1%82%D1%8C+%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%82+%D0%B7+9+%D0%B4%D0%BE+29+%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%BF%D0%B0%D0%B4%D0%B0.+%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%B8+2-%D0%B3%D0%BE+%D1%96+3-%D0%B3%D0%BE+%D1%80%D0%BE%D0%BA%D1%96%D0%B2+%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D0%BD%D0%BD%D1%8F+%28%D0%B2%D1%81%D1%82%D1%83%D0%BF+2024%2F2025%29+%D0%BF%D1%96%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B6%D1%83%D1%8E%D1%82%D1%8C+%D0%BF%D1%80%D0%BE%D0%B4%D0%BE%D0%B2%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F+%D0%B3%D1%80%D0%B0%D0%BD%D1%82%D1%83+%D0%B7+13+%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%BF%D0%B0%D0%B4%D0%B0+%D0%B4%D0%BE+3+%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F.+%D0%9F%D1%96%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F+%D0%B2%D1%96%D0%B4%D0%B1%D1%83%D0%B2%D0%B0%D1%94%D1%82%D1%8C%D1%81%D1%8F+%D1%87%D0%B5%D1%80%D0%B5%D0%B7+%D0%B7%D0%B0%D1%81%D1%82%D0%BE%D1%81%D1%83%D0%BD%D0%BE%D0%BA+%D0%94%D1%96%D1%8F+%D0%B7%D0%B0+%D0%B4%D0%BE%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%BE%D1%8E+%D0%94%D1%96%D1%8F.%D0%9F%D1%96%D0%B4%D0%BF%D0%B8%D1%81%D1%83.&location=%D0%97%D0%B0%D1%81%D1%82%D0%BE%D1%81%D1%83%D0%BD%D0%BE%D0%BA+%D0%94%D1%96%D1%8F"
     },
     {
       "id": "c3121eb1-c635-412d-8348-29bb99f1eb62",
