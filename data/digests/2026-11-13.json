@@ -1,0 +1,315 @@
+{
+  "date": "2026-11-13",
+  "items": [
+    {
+      "url": "https://x.com/UmlandAndreas/status/2120985955381162010",
+      "title": "Editor of @ibidem11 book series SPPS & Ukrainian Voices. Assoc. Prof. of Politics @NaUKMA.",
+      "text": "Editor of @ibidem11 book series SPPS & Ukrainian Voices. Assoc. Prof. of Politics @NaUKMA.",
+      "source": "web:x.com",
+      "kind": "social",
+      "published": "2026-11-12T21:03:52.433000+00:00",
+      "author": "",
+      "person_ids": [
+        "wd:Q87159"
+      ],
+      "category": "community",
+      "score": 4.092881002986172,
+      "extra": {
+        "handle": "UmlandAndreas",
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0ycXBFQlZqcnFKYmhQejRtbnVqY1FYenBWZ1dqSmw1WEJzWDFsbjdlQmpWWkNuaGdob1RxQjRhVEp4SXhKdTE4QU9iSWZmN0E4SDFtcXlxTllVWURhZDVZamc1NTd5M0U?oc=5",
+      "title": "Берлінська Марія. Досье",
+      "text": "Берлінська Марія. Досье LB.ua",
+      "source": "gnews:LB.ua",
+      "kind": "media",
+      "published": "2026-11-12T21:13:28+00:00",
+      "author": "LB.ua",
+      "person_ids": [
+        "wd:Q47489237"
+      ],
+      "category": "community",
+      "score": 3.0902720987198324,
+      "extra": {
+        "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
+        "publisher_url": "https://rus.lb.ua",
+        "keep_reason": "body",
+        "body_match": true
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVDZYaTN6RjRDYVFvMHBZRWNjNWswSUViejhLdHVWeHBWV3pEV1R5UU9ENTljS3NUdHZMVDYwWnNQWnBlVFMzS2F0Wk5TdzRIUkpNelA0OV9QUlV1cmUxSkNJcEc4aE5vRWVBOTh5Q1JtN0JYUVdnaDNKWDNGT3pmUU5zb0d6R0UwWldIMUFBMU9HOWRYZzBCRndVQWxMNlMxdE40MlM5RTU0dWZXV1E?oc=5",
+      "title": "The Cabinet of Ministers appointed Oleksandr Plachynta as Deputy Minister of Defence • ANTIKOR portal",
+      "text": "The Cabinet of Ministers appointed Oleksandr Plachynta as Deputy Minister of Defence • ANTIKOR portal АНТИКОР",
+      "source": "gnews:АНТИКОР",
+      "kind": "media",
+      "published": "2026-11-12T21:33:14+00:00",
+      "author": "АНТИКОР",
+      "person_ids": [],
+      "category": "achievement",
+      "score": 2.655076996182359,
+      "extra": {
+        "query": "\"Kyiv-Mohyla Academy\" OR \"NaUKMA\"",
+        "publisher_url": "https://m.antikor.info",
+        "keep_reason": "body",
+        "body_match": true
+      }
+    },
+    {
+      "url": "https://www.ukma.edu.ua/index.php/news/6133-mohylianka-spivimplementuvatyme-novyi-velykyi-proiekt-horyzont-yevropa-u-sferi-protydii-henderno-zumovlenomu-nasylstvu",
+      "title": "Могилянка співімплементуватиме новий великий проєкт «Горизонт Європа» у сфері протидії гендерно зумовленому насильству",
+      "text": "У 2026-2029 роках кафедра міжнародного та європейського права НаУКМА , спільно із низкою потужних міжнародних партнерів, імплементуватиме трирічний проєкт «Відстеження та протидія гендерно зумовленому насильству, вчиненому за допомогою технологій, на основі науково-обґрунтованих підходів у континуумі конфлікту та прихистку в Європі» (TRACE ) за підтримки Європейської дослідницької виконавчої агенції Рамкової програми «Горизонт Європа». Проєкт TRACE — це 3-річний науковий проєкт в межах рамкової програми «Горизонт Європа». Його мета — створення першої системної бази доказів щодо гендерно зумовленого насильства, вчиненого за допомогою технологій (Т-ГЗН), у ситуаціях збройного конфлікту, під час переміщення та пошуку прихистку. Т-ГЗН стосується актів гендерно зумовленого насильства, скоєних, спричинених або посилених за допомогою цифрових технологій. Незважаючи на зростаюче визнання цього явища як серйозної проблеми, транснаціональна та кумулятивна динаміка Т-ГЗН у контексті збройного конфлікту та вимушеної міграції залишається недостатньо дослідженою. TRACE вивчатиме, як цифрові системи сприяють та посилюють ГЗН, а також створить відповідні інструменти для запобігання, розпізнавання та реагування. Проєкт досліджує, як саме кривдники використовують цифрові технології як зброю для цілеспрямованого таргетування, завдання шкоди та контролю над переміщеними особами, для яких технології можуть бути як життєво важливими, так і небезпечними. Використовуючи змішаний метод і міждисциплі…",
+      "source": "ukma.edu.ua",
+      "kind": "official",
+      "published": "2026-11-12T13:16:07+00:00",
+      "author": "t.klauning@ukma.edu.ua (Тетяна Клаунінг)",
+      "person_ids": [],
+      "category": "science",
+      "score": 2.3513002779027037,
+      "extra": {
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://www.instagram.com/p/DfpwbzZB7va",
+      "title": "Благодійне, кулінарне шоу Галичанка Готує! Наші гандболістки ...",
+      "text": "Могилянка Оранта і Софія Метро Ринки Золоті ворота. Терещенки і Ханенки. А гості вгадували, що вони їли. @100rokivtomuvpered. View all 13",
+      "source": "web:instagram.com",
+      "kind": "social",
+      "published": "2026-11-12T19:00:00.523000+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "community",
+      "score": 2.1580116264616627,
+      "extra": {
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://x.com/rynkrynk/status/2120947199521542590",
+      "title": "I used to be a film critic at @Vertigo_com_ua and a translator of food-related stuff.",
+      "text": "I used to be a film critic at @Vertigo_com_ua and a translator of food-related stuff. Then Russia invaded my homeland. @NaUKMA alumna. She/her",
+      "source": "web:x.com",
+      "kind": "social",
+      "published": "2026-11-12T18:29:52.316000+00:00",
+      "author": "Oleksandra Povoroznyk 🇺🇦",
+      "person_ids": [],
+      "category": "community",
+      "score": 2.126932598547327,
+      "extra": {
+        "handle": "rynkrynk",
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://www.instagram.com/reel/DfpLrOuI0Z_",
+      "title": "Всеукраїнський студентський чемпіонат з дебатів! 24–27 ...",
+      "text": "Історія Могилянки почалася зі щирого внеску в освіту. Її минуле, теперішнє та майбутнє нерозривно пов'язані з місією Суспільного служіння. Для",
+      "source": "web:instagram.com",
+      "kind": "social",
+      "published": "2026-11-12T13:38:48.245000+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "students",
+      "score": 2.1129943978420127,
+      "extra": {
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://www.linkedin.com/posts/marko-hubka-285598394_i-am-completing-my-bachelors-degree-in-activity-7526700460846505985-qIv4",
+      "title": "Marko Hubka's Post",
+      "text": "I have completed three courses: → “Financial Management” (Kyiv-Mohyla Business School) processes and management accounting.",
+      "source": "web:linkedin.com",
+      "kind": "social",
+      "published": "2026-11-12T17:40:29.198000+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "community",
+      "score": 2.0769679710011713,
+      "extra": {
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://www.instagram.com/p/Dfo0kcjOtmM",
+      "title": "5000 Гроші підуть на купівлю квадроцикла, необхідного для ...",
+      "text": "Допомагаю збирати на квадроцикл для одного з підрозділів НГУ⚡️ ОСС НаУКМА об'єднуються заради спільної мети - зібрати 300 000 грн. До",
+      "source": "web:instagram.com",
+      "kind": "social",
+      "published": "2026-11-12T10:16:54.047000+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "science",
+      "score": 2.0371343904507073,
+      "extra": {
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://www.linkedin.com/posts/kma-law_today-our-students-completed-the-unified-activity-7526614771996106753-ityl",
+      "title": "Kyiv-Mohyla Faculty of Law's Post",
+      "text": "Today, our students completed the Unified State Qualification Examination, an important step towards obtaining a Master's degree in Law.",
+      "source": "web:linkedin.com",
+      "kind": "social",
+      "published": "2026-11-12T11:59:59.384000+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "students",
+      "score": 2.0148436145122233,
+      "extra": {
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9OcktXckFTcDdOLWdpM0hvbjVOUmdRLV8yOTU5MGFrU2pPb2k0b1RDNUt1bk5MX1hqNnZfM3lwMjV0ekRmSmNLbUtScUxaMVRTNXNGeW5YQWE3X1JXcVAyUzdwSXQ4dVZVNVVJ?oc=5",
+      "title": "Плачинта Олександр. Досье",
+      "text": "Плачинта Олександр. Досье LB.ua",
+      "source": "gnews:LB.ua",
+      "kind": "media",
+      "published": "2026-11-12T21:13:28+00:00",
+      "author": "LB.ua",
+      "person_ids": [],
+      "category": "community",
+      "score": 1.3971526823396723,
+      "extra": {
+        "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
+        "publisher_url": "https://rus.lb.ua",
+        "keep_reason": "body",
+        "body_match": true
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNc3BPbkxuVERhaXZ0MW56akRiRy1RcDR5NkdoRWZ2TzNOak44Rml3NUxwNkVfT0VBQjRzREs3QVh0WV8wdUY2TUhGOHNSYzV1YnlENzVXS1lmTV9rb1NzRy14MkdyZGgwby1rZ1g4Q0J3UXlYTVJ0Q0s1LTNyZ0tudTZyS2JSb25NVWRRSjJWeW5NWDNBUG9mQXB2X1dKVDFOdlBYVXUzQdIBpwFBVV95cUxNc3BPbkxuVERhaXZ0MW56akRiRy1RcDR5NkdoRWZ2TzNOak44Rml3NUxwNkVfT0VBQjRzREs3QVh0WV8wdUY2TUhGOHNSYzV1YnlENzVXS1lmTV9rb1NzRy14MkdyZGgwby1rZ1g4Q0J3UXlYTVJ0Q0s1LTNyZ0tudTZyS2JSb25NVWRRSjJWeW5NWDNBUG9mQXB2X1dKVDFOdlBYVXUzQQ?oc=5",
+      "title": "Кабмін призначив нового заступника Хмари: що про нього відомо",
+      "text": "Кабмін призначив нового заступника Хмари: що про нього відомо Korrespondent.net",
+      "source": "gnews:Korrespondent.net",
+      "kind": "media",
+      "published": "2026-11-12T18:10:00+00:00",
+      "author": "Korrespondent.net",
+      "person_ids": [],
+      "category": "community",
+      "score": 1.2790585277300508,
+      "extra": {
+        "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
+        "publisher_url": "https://ua.korrespondent.net",
+        "keep_reason": "body",
+        "body_match": true
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMkR4RVNqdlFhYWdMeS10dnJFSVlISlhfNmg0S2M5S1pldjhacDlOV1BfYkxkbjJaUVB1b21Fb29PcHNSQ0F1SzJheVlEazBIVGlFWjN4Z1JFcUFnN05BVXJUTUlkV0NQNXZaOEdQWEdDUzZwTDROR2hNS3hoaXlERzJJczMyNm0yZEE?oc=5",
+      "title": "Олександр Плачинта став заступником міністра оборони",
+      "text": "Олександр Плачинта став заступником міністра оборони Телеканал Ми Україна",
+      "source": "gnews:Телеканал Ми Україна",
+      "kind": "media",
+      "published": "2026-11-12T16:29:52+00:00",
+      "author": "Телеканал Ми Україна",
+      "person_ids": [],
+      "category": "community",
+      "score": 1.2188708299302924,
+      "extra": {
+        "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
+        "publisher_url": "https://weukraine.tv",
+        "keep_reason": "body",
+        "body_match": true
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWTQ4MzhPTHhCZWp5MTVPMkRTcVRFYWtCZExvVzVsWnVTcUE3SkxfZnllZlRhSVZpM0t4OVZVVEtmQXJONDNpYnpwaDVjSDB5V1N0bGgydXFobi1fZHVjc0JnQl9QcWpEMkt6cmJHWHZkNDJVTGVVWHJDQmZTblY4b2U2aTVDZlFRUnBjZnI0THY2OHFMWG5RMTJ3TFU3amFXZGpSYTZpdWxfRnVZdTdybVI1OUc2V1E?oc=5",
+      "title": "За оборонний бюджет та аудит відповідатиме новий заступник міністра оборони",
+      "text": "За оборонний бюджет та аудит відповідатиме новий заступник міністра оборони Львівський портал",
+      "source": "gnews:Львівський портал",
+      "kind": "media",
+      "published": "2026-11-12T15:50:00+00:00",
+      "author": "Львівський портал",
+      "person_ids": [],
+      "category": "community",
+      "score": 1.1957038082205818,
+      "extra": {
+        "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
+        "publisher_url": "https://portal.lviv.ua",
+        "keep_reason": "body",
+        "body_match": true
+      }
+    },
+    {
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOEFlbUV0TE5xNy02RDB5U2xaZHVXNXNleUNJcmIyck1IWlRhaUM5bHNtS3pTRFZETzNOYjZZQTJPZUttaWVUTHlvTzdqSlFXa3dyQTRaZWtxSGxCYjUwbzloWFdqdkwtajlKYWlsUmdvTDRNSUt2UnFyQVNLMTh4ajNIUE5ockdfS1Zjb0Y5d0xFdlpBOUdNSHRoMWg0LXBwUkRXZFhlODBGeEQ1MnpSZDJfeXUxY2dSc0Vud1B2UUJGQ2ktOGpJ0gG2AUFVX3lxTE1uQ1FXc2pfVGQ0S0RHbGN1dGZuZThjTnF5ekVUaVB3eE9DeWVVOUNwSE1aNFowQTNuSzNGWVB2MVZ2Zk1ubEJic1ZHS3FMdjdjeGhVVmx5bkxpamZ1ZFgtdGJfQU5lWkRjVjl2REhQT0dnX3UtX2x5SFFaamZqdnBMVkN1dmhNOU1JR3VHbUtNYlpRaXVCMkFuVkt5TXhYaGZaU3d0SmpnTFR2a01CekRpamhDV3hB?oc=5",
+      "title": "Новим заступником міністра оборони став Олександр Плачинта: він відповідатиме за оборонний бюджет",
+      "text": "Новим заступником міністра оборони став Олександр Плачинта: він відповідатиме за оборонний бюджет NV",
+      "source": "gnews:NV",
+      "kind": "media",
+      "published": "2026-11-12T15:42:00+00:00",
+      "author": "NV",
+      "person_ids": [],
+      "category": "community",
+      "score": 1.19110822492366,
+      "extra": {
+        "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
+        "publisher_url": "https://nv.ua",
+        "keep_reason": "body",
+        "body_match": true
+      }
+    }
+  ],
+  "statuses": [
+    {
+      "name": "rss",
+      "ok": true,
+      "enabled": true,
+      "count": 1,
+      "message": ""
+    },
+    {
+      "name": "google_news",
+      "ok": true,
+      "enabled": true,
+      "count": 8,
+      "message": ""
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "enabled": true,
+      "count": 30,
+      "message": ""
+    },
+    {
+      "name": "bluesky",
+      "ok": true,
+      "enabled": false,
+      "count": 0,
+      "message": "disabled: set BSKY_HANDLE + BSKY_APP_PASSWORD"
+    },
+    {
+      "name": "facebook_apify",
+      "ok": true,
+      "enabled": true,
+      "count": 0,
+      "message": "skipped: $4.50 of $4.50 spent since 2026-11-05"
+    },
+    {
+      "name": "websearch",
+      "ok": true,
+      "enabled": true,
+      "count": 26,
+      "message": ""
+    }
+  ],
+  "extra": {
+    "new_people": [],
+    "people": 277,
+    "archive": 8612,
+    "edges": 83
+  }
+}
