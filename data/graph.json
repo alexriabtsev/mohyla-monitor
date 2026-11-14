@@ -2261,6 +2261,15 @@
    ]
   },
   {
+   "a": "wd:Q109336893",
+   "b": "wd:Q4097480",
+   "kind": "comention",
+   "weight": 1.0,
+   "evidence": [
+    "https://t.me/Kyrylo_Budanov_Official/962"
+   ]
+  },
+  {
    "a": "wd:Q12139367",
    "b": "wd:Q54860605",
    "kind": "comention",
