@@ -32,7 +32,7 @@
   "sources": [
    "https://www.wikidata.org/wiki/Q64486491"
   ],
-  "prominence": 0.9516280807158373
+  "prominence": 0.9564452139946669
  },
  {
   "id": "wd:Q109336893",
@@ -50,27 +50,70 @@
   ],
   "socials": [
    [
-    "telegram",
-    "Kyrylo_Budanov_Official"
-   ],
-   [
-    "facebook",
-    "100092170489440"
+    "instagram",
+    "kyrylo.budanov"
    ],
    [
     "x",
     "Kyrylo_Budanov"
    ],
    [
-    "instagram",
-    "kyrylo.budanov"
+    "facebook",
+    "100092170489440"
+   ],
+   [
+    "telegram",
+    "Kyrylo_Budanov_Official"
    ]
   ],
   "sources": [
    "https://uk.wikipedia.org/wiki/%D0%91%D1%83%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2_%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BE_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87",
    "https://www.wikidata.org/wiki/Q109336893"
   ],
-  "prominence": 0.9092153497721114
+  "prominence": 0.9149393145999464
+ },
+ {
+  "id": "wd:Q124101558",
+  "name_uk": "Сергій Корецький",
+  "name_en": "Serhii Koretskyi",
+  "aliases": [
+   "Сергій Федорович Корецький"
+  ],
+  "roles": [
+   "alumnus@kmbs"
+  ],
+  "description": "премʼєр-міністр України, підприємець і топ-менеджер у нафтогазовій сфері",
+  "employers": [
+   "Q613729",
+   "Q728513",
+   "Q2447961"
+  ],
+  "socials": [
+   [
+    "instagram",
+    "sergii.koretskyi"
+   ],
+   [
+    "linkedin",
+    "sergii-koretskyi-02944b58"
+   ],
+   [
+    "x",
+    "KoretskyiUA"
+   ],
+   [
+    "facebook",
+    "sergii.koretskyi.page"
+   ],
+   [
+    "telegram",
+    "Koretskyi_official"
+   ]
+  ],
+  "sources": [
+   "https://www.wikidata.org/wiki/Q124101558"
+  ],
+  "prominence": 0.8648643035425235
  },
  {
   "id": "wd:Q16700680",
@@ -96,49 +139,6 @@
   ],
   "sources": [
    "https://www.wikidata.org/wiki/Q16700680"
-  ],
-  "prominence": 0.8578128741309132
- },
- {
-  "id": "wd:Q124101558",
-  "name_uk": "Сергій Корецький",
-  "name_en": "Serhii Koretskyi",
-  "aliases": [
-   "Сергій Федорович Корецький"
-  ],
-  "roles": [
-   "alumnus@kmbs"
-  ],
-  "description": "премʼєр-міністр України, підприємець і топ-менеджер у нафтогазовій сфері",
-  "employers": [
-   "Q613729",
-   "Q728513",
-   "Q2447961"
-  ],
-  "socials": [
-   [
-    "linkedin",
-    "sergii-koretskyi-02944b58"
-   ],
-   [
-    "instagram",
-    "sergii.koretskyi"
-   ],
-   [
-    "x",
-    "KoretskyiUA"
-   ],
-   [
-    "facebook",
-    "sergii.koretskyi.page"
-   ],
-   [
-    "telegram",
-    "Koretskyi_official"
-   ]
-  ],
-  "sources": [
-   "https://www.wikidata.org/wiki/Q124101558"
   ],
   "prominence": 0.8578128741309132
  },
@@ -247,20 +247,20 @@
   "employers": [],
   "socials": [
    [
-    "facebook",
-    "anton.gerashchenko.7"
-   ],
-   [
-    "telegram",
-    "Pravda_Gerashchenko"
-   ],
-   [
     "x",
     "Gerashchenko_en"
    ],
    [
     "x",
     "Gerashchenko7"
+   ],
+   [
+    "facebook",
+    "anton.gerashchenko.7"
+   ],
+   [
+    "telegram",
+    "Pravda_Gerashchenko"
    ]
   ],
   "sources": [
@@ -286,15 +286,15 @@
   "employers": [],
   "socials": [
    [
+    "instagram",
+    "kira.rudik"
+   ],
+   [
     "x",
     "kiraincongress"
    ],
    [
     "facebook",
-    "kira.rudik"
-   ],
-   [
-    "instagram",
     "kira.rudik"
    ]
   ],
@@ -334,12 +334,12 @@
   ],
   "socials": [
    [
-    "x",
-    "UmlandAndreas"
-   ],
-   [
     "linkedin",
     "andreasumland"
+   ],
+   [
+    "x",
+    "UmlandAndreas"
    ]
   ],
   "sources": [
@@ -380,8 +380,8 @@
    "Скалецька Зоряна Степанівна"
   ],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "Міністр охорони здоров'я України з 2019",
   "employers": [
@@ -425,8 +425,8 @@
    "Совсун Інна Романівна"
   ],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "український політик",
   "employers": [
@@ -720,12 +720,12 @@
   "employers": [],
   "socials": [
    [
-    "linkedin",
-    "tetyana-berezhna-6776922a"
-   ],
-   [
     "instagram",
     "tetyana__b"
+   ],
+   [
+    "linkedin",
+    "tetyana-berezhna-6776922a"
    ],
    [
     "x",
@@ -971,8 +971,8 @@
    "Єрмоленко Володимир Анатолійович"
   ],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "український філософ",
   "employers": [
@@ -1067,7 +1067,7 @@
   "employers": [],
   "socials": [
    [
-    "facebook",
+    "instagram",
     "yuliya.kovaliv"
    ],
    [
@@ -1075,7 +1075,7 @@
     "Kovaliv_y"
    ],
    [
-    "instagram",
+    "facebook",
     "yuliya.kovaliv"
    ]
   ],
@@ -1265,21 +1265,39 @@
   "employers": [],
   "socials": [
    [
-    "telegram",
-    "DMYTROLUNIN"
+    "instagram",
+    "dmytro.lunin"
    ],
    [
     "facebook",
     "Dmytro.Lunin"
    ],
    [
-    "instagram",
-    "dmytro.lunin"
+    "telegram",
+    "DMYTROLUNIN"
    ]
   ],
   "sources": [
    "https://uk.wikipedia.org/wiki/%D0%9B%D1%83%D0%BD%D1%96%D0%BD_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE_%D0%A1%D0%B5%D1%80%D0%B3%D1%96%D0%B9%D0%BE%D0%B2%D0%B8%D1%87",
    "https://www.wikidata.org/wiki/Q110411627"
+  ],
+  "prominence": 0.47335681252935546
+ },
+ {
+  "id": "wd:Q65198501",
+  "name_uk": "Марина Бардіна",
+  "name_en": "Marina Bardina",
+  "aliases": [
+   "Бардіна Марина Олегівна"
+  ],
+  "roles": [
+   "alumnus"
+  ],
+  "description": "український політик",
+  "employers": [],
+  "socials": [],
+  "sources": [
+   "https://www.wikidata.org/wiki/Q65198501"
   ],
   "prominence": 0.47335681252935546
  },
@@ -1535,31 +1553,6 @@
   "prominence": 0.43585853724275586
  },
  {
-  "id": "wd:Q4097480",
-  "name_uk": "В'ячеслав Брюховецький",
-  "name_en": "Viacheslav Briukhovetskyi",
-  "aliases": [
-   "Брюховецький В'ячеслав Степанович",
-   "Брюховецький В'ячеслав",
-   "Брюховецький В’ячеслав Степанович",
-   "Брюховецький Вячеслав",
-   "В’ячеслав Брюховецький",
-   "Вячеслав Брюховецький"
-  ],
-  "roles": [
-   "staff"
-  ],
-  "description": "український літературознавець, педагог і громадський діяч",
-  "employers": [
-   "Q1133013"
-  ],
-  "socials": [],
-  "sources": [
-   "https://www.wikidata.org/wiki/Q4097480"
-  ],
-  "prominence": 0.43585853724275586
- },
- {
   "id": "wd:Q68069976",
   "name_uk": "Владислав Скальський",
   "name_en": "Vladyslav Skalsky",
@@ -1598,12 +1591,12 @@
   "employers": [],
   "socials": [
    [
-    "linkedin",
-    "kateryna-chernohorenko"
-   ],
-   [
     "instagram",
     "kate_chernohorenko"
+   ],
+   [
+    "linkedin",
+    "kateryna-chernohorenko"
    ],
    [
     "x",
@@ -1632,24 +1625,6 @@
   "socials": [],
   "sources": [
    "https://www.wikidata.org/wiki/Q273152"
-  ],
-  "prominence": 0.43585853724275586
- },
- {
-  "id": "wd:Q65198501",
-  "name_uk": "Марина Бардіна",
-  "name_en": "Marina Bardina",
-  "aliases": [
-   "Бардіна Марина Олегівна"
-  ],
-  "roles": [
-   "alumnus"
-  ],
-  "description": "український політик",
-  "employers": [],
-  "socials": [],
-  "sources": [
-   "https://www.wikidata.org/wiki/Q65198501"
   ],
   "prominence": 0.43585853724275586
  },
@@ -1747,8 +1722,8 @@
   "name_en": "Olena Semenyaka",
   "aliases": [],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "",
   "employers": [
@@ -1889,12 +1864,12 @@
   "employers": [],
   "socials": [
    [
-    "facebook",
-    "andriysmyrnov"
-   ],
-   [
     "instagram",
     "amicuscuriaes"
+   ],
+   [
+    "facebook",
+    "andriysmyrnov"
    ]
   ],
   "sources": [
@@ -1919,6 +1894,34 @@
   "socials": [],
   "sources": [
    "https://www.wikidata.org/wiki/Q15526840"
+  ],
+  "prominence": 0.3915074910131681
+ },
+ {
+  "id": "wd:Q20066777",
+  "name_uk": "Вадим Денисенко",
+  "name_en": "Vadym Denysenko",
+  "aliases": [
+   "Денисенко Вадим Ігорович"
+  ],
+  "roles": [
+   "alumnus"
+  ],
+  "description": "",
+  "employers": [],
+  "socials": [
+   [
+    "instagram",
+    "vadym.denysenko"
+   ],
+   [
+    "facebook",
+    "vadym.denysenko.ua"
+   ]
+  ],
+  "sources": [
+   "https://uk.wikipedia.org/wiki/%D0%94%D0%B5%D0%BD%D0%B8%D1%81%D0%B5%D0%BD%D0%BA%D0%BE_%D0%92%D0%B0%D0%B4%D0%B8%D0%BC_%D0%86%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
+   "https://www.wikidata.org/wiki/Q20066777"
   ],
   "prominence": 0.3915074910131681
  },
@@ -2088,8 +2091,8 @@
    "Мінаков Михайло Анатолійович"
   ],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "",
   "employers": [
@@ -2415,34 +2418,6 @@
   "prominence": 0.3372261973790022
  },
  {
-  "id": "wd:Q20066777",
-  "name_uk": "Вадим Денисенко",
-  "name_en": "Vadym Denysenko",
-  "aliases": [
-   "Денисенко Вадим Ігорович"
-  ],
-  "roles": [
-   "alumnus"
-  ],
-  "description": "",
-  "employers": [],
-  "socials": [
-   [
-    "facebook",
-    "vadym.denysenko.ua"
-   ],
-   [
-    "instagram",
-    "vadym.denysenko"
-   ]
-  ],
-  "sources": [
-   "https://uk.wikipedia.org/wiki/%D0%94%D0%B5%D0%BD%D0%B8%D1%81%D0%B5%D0%BD%D0%BA%D0%BE_%D0%92%D0%B0%D0%B4%D0%B8%D0%BC_%D0%86%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87",
-   "https://www.wikidata.org/wiki/Q20066777"
-  ],
-  "prominence": 0.3372261973790022
- },
- {
   "id": "wd:Q113459566",
   "name_uk": "Вадим Карп'як",
   "name_en": "Vadym Karpyak",
@@ -2520,8 +2495,8 @@
    "Іщенко Володимир Олександрович"
   ],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "український соціолог",
   "employers": [
@@ -2601,12 +2576,12 @@
   "employers": [],
   "socials": [
    [
-    "linkedin",
-    "anna-zamazeeva-13922010"
-   ],
-   [
     "instagram",
     "anna.zamazeeva"
+   ],
+   [
+    "linkedin",
+    "anna-zamazeeva-13922010"
    ],
    [
     "x",
@@ -2944,8 +2919,8 @@
    "Лютий Тарас Володимирович"
   ],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "український філософ",
   "employers": [
@@ -3189,12 +3164,12 @@
   "employers": [],
   "socials": [
    [
-    "facebook",
-    "anya.hrytsenko"
-   ],
-   [
     "x",
     "tovaryshka"
+   ],
+   [
+    "facebook",
+    "anya.hrytsenko"
    ]
   ],
   "sources": [
@@ -3431,8 +3406,8 @@
    "Бетлій Олена В'ячеславівна"
   ],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "українська історикиня",
   "employers": [
@@ -3635,16 +3610,16 @@
   "employers": [],
   "socials": [
    [
+    "instagram",
+    "tricky_nicki_official"
+   ],
+   [
     "facebook",
     "thetrickynicki"
    ],
    [
     "telegram",
     "trickynicki"
-   ],
-   [
-    "instagram",
-    "tricky_nicki_official"
    ]
   ],
   "sources": [
@@ -3737,12 +3712,12 @@
   ],
   "socials": [
    [
-    "linkedin",
-    "alyona-mysko"
-   ],
-   [
     "instagram",
     "alyona_mysko"
+   ],
+   [
+    "linkedin",
+    "alyona-mysko"
    ],
    [
     "facebook",
@@ -4968,8 +4943,8 @@
   "name_en": "Tanya Lokot",
   "aliases": [],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "дослідниця",
   "employers": [
@@ -5300,8 +5275,8 @@
   "name_en": "Anastasiia Navalikhina",
   "aliases": [],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "дослідник",
   "employers": [
@@ -5374,8 +5349,8 @@
   "name_en": "Anna Tokar",
   "aliases": [],
   "roles": [
-   "alumnus",
-   "staff"
+   "staff",
+   "alumnus"
   ],
   "description": "дослідниця",
   "employers": [
@@ -5948,6 +5923,10 @@
   "employers": [],
   "socials": [
    [
+    "instagram",
+    "10nyk"
+   ],
+   [
     "x",
     "desiatnyk2024"
    ],
@@ -5958,10 +5937,6 @@
    [
     "telegram",
     "valuesovercoins"
-   ],
-   [
-    "instagram",
-    "10nyk"
    ]
   ],
   "sources": [

@@ -6,7 +6,7 @@
    "roles": [
     "alumnus@kmbs"
    ],
-   "prominence": 0.9516280807158373
+   "prominence": 0.9564452139946669
   },
   {
    "id": "wd:Q109336893",
@@ -14,21 +14,21 @@
    "roles": [
     "alumnus@kmbs"
    ],
-   "prominence": 0.9092153497721114
-  },
-  {
-   "id": "wd:Q16700680",
-   "name_uk": "Катерина Калитко",
-   "roles": [
-    "alumnus"
-   ],
-   "prominence": 0.8578128741309132
+   "prominence": 0.9149393145999464
   },
   {
    "id": "wd:Q124101558",
    "name_uk": "Сергій Корецький",
    "roles": [
     "alumnus@kmbs"
+   ],
+   "prominence": 0.8648643035425235
+  },
+  {
+   "id": "wd:Q16700680",
+   "name_uk": "Катерина Калитко",
+   "roles": [
+    "alumnus"
    ],
    "prominence": 0.8578128741309132
   },
@@ -92,8 +92,8 @@
    "id": "wd:Q66823503",
    "name_uk": "Зоряна Скалецька",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.6891997754414121
   },
@@ -109,8 +109,8 @@
    "id": "wd:Q16717067",
    "name_uk": "Інна Совсун",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.6587529295664228
   },
@@ -278,8 +278,8 @@
    "id": "wd:Q17371776",
    "name_uk": "Володимир Єрмоленко",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.5344908771065096
   },
@@ -372,6 +372,14 @@
    "prominence": 0.47335681252935546
   },
   {
+   "id": "wd:Q65198501",
+   "name_uk": "Марина Бардіна",
+   "roles": [
+    "alumnus"
+   ],
+   "prominence": 0.47335681252935546
+  },
+  {
    "id": "wd:Q140608110",
    "name_uk": "Оксана Ферчук",
    "roles": [
@@ -460,14 +468,6 @@
    "prominence": 0.43585853724275586
   },
   {
-   "id": "wd:Q4097480",
-   "name_uk": "В'ячеслав Брюховецький",
-   "roles": [
-    "staff"
-   ],
-   "prominence": 0.43585853724275586
-  },
-  {
    "id": "wd:Q68069976",
    "name_uk": "Владислав Скальський",
    "roles": [
@@ -487,14 +487,6 @@
   {
    "id": "wd:Q273152",
    "name_uk": "Люба Шумейко",
-   "roles": [
-    "alumnus"
-   ],
-   "prominence": 0.43585853724275586
-  },
-  {
-   "id": "wd:Q65198501",
-   "name_uk": "Марина Бардіна",
    "roles": [
     "alumnus"
    ],
@@ -536,8 +528,8 @@
    "id": "wd:Q64410361",
    "name_uk": "Олена Семеняка",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.43585853724275586
   },
@@ -594,6 +586,14 @@
    "name_uk": "Богдан Кравченко",
    "roles": [
     "staff"
+   ],
+   "prominence": 0.3915074910131681
+  },
+  {
+   "id": "wd:Q20066777",
+   "name_uk": "Вадим Денисенко",
+   "roles": [
+    "alumnus"
    ],
    "prominence": 0.3915074910131681
   },
@@ -657,8 +657,8 @@
    "id": "wd:Q12131336",
    "name_uk": "Михайло Мінаков",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.3915074910131681
   },
@@ -775,14 +775,6 @@
    "prominence": 0.3372261973790022
   },
   {
-   "id": "wd:Q20066777",
-   "name_uk": "Вадим Денисенко",
-   "roles": [
-    "alumnus"
-   ],
-   "prominence": 0.3372261973790022
-  },
-  {
    "id": "wd:Q113459566",
    "name_uk": "Вадим Карп'як",
    "roles": [
@@ -810,8 +802,8 @@
    "id": "wd:Q17327072",
    "name_uk": "Володимир Іщенко",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.3372261973790022
   },
@@ -963,8 +955,8 @@
    "id": "wd:Q12119406",
    "name_uk": "Тарас Лютий",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.3372261973790022
   },
@@ -1148,8 +1140,8 @@
    "id": "wd:Q50328553",
    "name_uk": "Олена Бетлій",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.2672454385532547
   },
@@ -1749,8 +1741,8 @@
    "id": "wd:Q61022459",
    "name_uk": "Тетяна Локот",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.1686130986895011
   },
@@ -1878,8 +1870,8 @@
    "id": "wd:Q61774718",
    "name_uk": "Anastasiia Navalikhina",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.0
   },
@@ -1911,8 +1903,8 @@
    "id": "wd:Q92017825",
    "name_uk": "Anna Tokar",
    "roles": [
-    "alumnus",
-    "staff"
+    "staff",
+    "alumnus"
    ],
    "prominence": 0.0
   },
