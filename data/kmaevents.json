@@ -1,18 +1,6 @@
 {
-  "fetched": "2026-11-19T04:01:03.029892+00:00",
+  "fetched": "2026-11-20T04:01:06.276447+00:00",
   "items": [
-    {
-      "id": "bd75348f-988b-4ed2-ac02-dd8568a7662d",
-      "title": "Вивчення Біблії: Книга пророка Амоса (4)",
-      "kind": "meeting",
-      "starts": "2026-11-19T16:00:00+00:00",
-      "ends": null,
-      "club": "Lumen",
-      "location": "вул. Нижній Вал, 19Д, Київ [1-й поверх, двері ліворуч]",
-      "description": "Продовження вивчення Книги пророка Амоса. Код від дверей: 125.",
-      "url": "https://www.instagram.com/p/Df2qihiRAhO/",
-      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%92%D0%B8%D0%B2%D1%87%D0%B5%D0%BD%D0%BD%D1%8F+%D0%91%D1%96%D0%B1%D0%BB%D1%96%D1%97%3A+%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0+%D0%BF%D1%80%D0%BE%D1%80%D0%BE%D0%BA%D0%B0+%D0%90%D0%BC%D0%BE%D1%81%D0%B0+%284%29&dates=20261119T160000Z%2F20261119T170000Z&details=%D0%9F%D1%80%D0%BE%D0%B4%D0%BE%D0%B2%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F+%D0%B2%D0%B8%D0%B2%D1%87%D0%B5%D0%BD%D0%BD%D1%8F+%D0%9A%D0%BD%D0%B8%D0%B3%D0%B8+%D0%BF%D1%80%D0%BE%D1%80%D0%BE%D0%BA%D0%B0+%D0%90%D0%BC%D0%BE%D1%81%D0%B0.+%D0%9A%D0%BE%D0%B4+%D0%B2%D1%96%D0%B4+%D0%B4%D0%B2%D0%B5%D1%80%D0%B5%D0%B9%3A+125.&location=%D0%B2%D1%83%D0%BB.+%D0%9D%D0%B8%D0%B6%D0%BD%D1%96%D0%B9+%D0%92%D0%B0%D0%BB%2C+19%D0%94%2C+%D0%9A%D0%B8%D1%97%D0%B2+%5B1-%D0%B9+%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85%2C+%D0%B4%D0%B2%D0%B5%D1%80%D1%96+%D0%BB%D1%96%D0%B2%D0%BE%D1%80%D1%83%D1%87%5D"
-    },
     {
       "id": "0802dea3-c735-43cf-a9e4-39411a86a60b",
       "title": "Лекція з Анастасією Герман: Кріо-електронна мікроскопія та томографія",
@@ -24,6 +12,18 @@
       "description": "Лекція про кріоелектронну мікроскопію та кріоелектронну томографію, структурні дослідження механізмів вірусного біогенезу, з Анастасією Герман, випускницею НаУКМА, PhD University of York, науковою співробітницею KULeuven.",
       "url": "https://www.instagram.com/p/DfsP50WNz83/",
       "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%9B%D0%B5%D0%BA%D1%86%D1%96%D1%8F+%D0%B7+%D0%90%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D1%96%D1%94%D1%8E+%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%3A+%D0%9A%D1%80%D1%96%D0%BE-%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B0+%D0%BC%D1%96%D0%BA%D1%80%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D1%96%D1%8F+%D1%82%D0%B0+%D1%82%D0%BE%D0%BC%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D1%96%D1%8F&dates=20261120T130000Z%2F20261120T140000Z&details=%D0%9B%D0%B5%D0%BA%D1%86%D1%96%D1%8F+%D0%BF%D1%80%D0%BE+%D0%BA%D1%80%D1%96%D0%BE%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D1%83+%D0%BC%D1%96%D0%BA%D1%80%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D1%96%D1%8E+%D1%82%D0%B0+%D0%BA%D1%80%D1%96%D0%BE%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D1%83+%D1%82%D0%BE%D0%BC%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D1%96%D1%8E%2C+%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%BD%D1%96+%D0%B4%D0%BE%D1%81%D0%BB%D1%96%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F+%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D0%B7%D0%BC%D1%96%D0%B2+%D0%B2%D1%96%D1%80%D1%83%D1%81%D0%BD%D0%BE%D0%B3%D0%BE+%D0%B1%D1%96%D0%BE%D0%B3%D0%B5%D0%BD%D0%B5%D0%B7%D1%83%2C+%D0%B7+%D0%90%D0%BD%D0%B0%D1%81%D1%82%D0%B0%D1%81%D1%96%D1%94%D1%8E+%D0%93%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%2C+%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA%D0%BD%D0%B8%D1%86%D0%B5%D1%8E+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90%2C+PhD+University+of+York%2C+%D0%BD%D0%B0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D1%8E+%D1%81%D0%BF%D1%96%D0%B2%D1%80%D0%BE%D0%B1%D1%96%D1%82%D0%BD%D0%B8%D1%86%D0%B5%D1%8E+KULeuven.&location=%D0%B9%D0%BE%D0%B3%D0%B0-%D0%B7%D0%B0%D0%BB%D0%B0%2C+%D0%9A%D0%9C%D0%A6"
+    },
+    {
+      "id": "8ee303c8-9d4f-47dc-89ae-da701a51f1a1",
+      "title": "Ювілейний концерт до 130-річчя Михайла Вериківського",
+      "kind": "performance",
+      "starts": "2026-11-21T12:00:00+00:00",
+      "ends": null,
+      "club": "КМЦ НаУКМА",
+      "location": "НаУКМА, 1 корпус, ауд. 1-227",
+      "description": "Концерт хорової капели НаУКМА «Почайна», присвячений 130-річчю від дня народження композитора Михайла Вериківського. У програмі - слово про М. Вериківського та виступ «Почайни» і юних музикантів з Ірпінської дитячої школи мистецтв ім. М. І. Вериківського та Київської дитячої школи мистецтв №2 ім. М. І. Вериківського. Вхід вільний.",
+      "url": "https://www.instagram.com/p/Df49XyHB9m9/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%AE%D0%B2%D1%96%D0%BB%D0%B5%D0%B9%D0%BD%D0%B8%D0%B9+%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D1%80%D1%82+%D0%B4%D0%BE+130-%D1%80%D1%96%D1%87%D1%87%D1%8F+%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%B0+%D0%92%D0%B5%D1%80%D0%B8%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE&dates=20261121T120000Z%2F20261121T130000Z&details=%D0%9A%D0%BE%D0%BD%D1%86%D0%B5%D1%80%D1%82+%D1%85%D0%BE%D1%80%D0%BE%D0%B2%D0%BE%D1%97+%D0%BA%D0%B0%D0%BF%D0%B5%D0%BB%D0%B8+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90+%C2%AB%D0%9F%D0%BE%D1%87%D0%B0%D0%B9%D0%BD%D0%B0%C2%BB%2C+%D0%BF%D1%80%D0%B8%D1%81%D0%B2%D1%8F%D1%87%D0%B5%D0%BD%D0%B8%D0%B9+130-%D1%80%D1%96%D1%87%D1%87%D1%8E+%D0%B2%D1%96%D0%B4+%D0%B4%D0%BD%D1%8F+%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F+%D0%BA%D0%BE%D0%BC%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B0+%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%B0+%D0%92%D0%B5%D1%80%D0%B8%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE.+%D0%A3+%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D1%96+-+%D1%81%D0%BB%D0%BE%D0%B2%D0%BE+%D0%BF%D1%80%D0%BE+%D0%9C.+%D0%92%D0%B5%D1%80%D0%B8%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D1%82%D0%B0+%D0%B2%D0%B8%D1%81%D1%82%D1%83%D0%BF+%C2%AB%D0%9F%D0%BE%D1%87%D0%B0%D0%B9%D0%BD%D0%B8%C2%BB+%D1%96+%D1%8E%D0%BD%D0%B8%D1%85+%D0%BC%D1%83%D0%B7%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%D1%96%D0%B2+%D0%B7+%D0%86%D1%80%D0%BF%D1%96%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%B4%D0%B8%D1%82%D1%8F%D1%87%D0%BE%D1%97+%D1%88%D0%BA%D0%BE%D0%BB%D0%B8+%D0%BC%D0%B8%D1%81%D1%82%D0%B5%D1%86%D1%82%D0%B2+%D1%96%D0%BC.+%D0%9C.+%D0%86.+%D0%92%D0%B5%D1%80%D0%B8%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D1%82%D0%B0+%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%B4%D0%B8%D1%82%D1%8F%D1%87%D0%BE%D1%97+%D1%88%D0%BA%D0%BE%D0%BB%D0%B8+%D0%BC%D0%B8%D1%81%D1%82%D0%B5%D1%86%D1%82%D0%B2+%E2%84%962+%D1%96%D0%BC.+%D0%9C.+%D0%86.+%D0%92%D0%B5%D1%80%D0%B8%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE.+%D0%92%D1%85%D1%96%D0%B4+%D0%B2%D1%96%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9.&location=%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90%2C+1+%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%2C+%D0%B0%D1%83%D0%B4.+1-227"
     },
     {
       "id": "101fea8b-1a33-4403-83f7-9cacd68fd9e9",
@@ -48,6 +48,54 @@
       "description": "Спільне читання книг протягом години з подальшим обговоренням прочитаного. Організовано спільно з книгарнею book.ua.",
       "url": "https://www.instagram.com/p/DfzP1DOttym/",
       "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%A7%D0%B8%D1%82%D0%B0%D1%86%D1%8C%D0%BA%D0%B8%D0%B9+%D1%80%D0%B5%D0%B9%D0%B2&dates=20261122T120000Z%2F20261122T130000Z&details=%D0%A1%D0%BF%D1%96%D0%BB%D1%8C%D0%BD%D0%B5+%D1%87%D0%B8%D1%82%D0%B0%D0%BD%D0%BD%D1%8F+%D0%BA%D0%BD%D0%B8%D0%B3+%D0%BF%D1%80%D0%BE%D1%82%D1%8F%D0%B3%D0%BE%D0%BC+%D0%B3%D0%BE%D0%B4%D0%B8%D0%BD%D0%B8+%D0%B7+%D0%BF%D0%BE%D0%B4%D0%B0%D0%BB%D1%8C%D1%88%D0%B8%D0%BC+%D0%BE%D0%B1%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D0%BC+%D0%BF%D1%80%D0%BE%D1%87%D0%B8%D1%82%D0%B0%D0%BD%D0%BE%D0%B3%D0%BE.+%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%BE+%D1%81%D0%BF%D1%96%D0%BB%D1%8C%D0%BD%D0%BE+%D0%B7+%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0%D1%80%D0%BD%D0%B5%D1%8E+book.ua.&location=%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0%D1%80%D0%BD%D1%8F+book.ua%2C+%D0%B2%D1%83%D0%BB.+%D0%A1%D0%BF%D0%B0%D1%81%D1%8C%D0%BA%D0%B0%2C+5"
+    },
+    {
+      "id": "4ce4e84d-cb9e-49f1-80ad-0cdb7a4dedea",
+      "title": "Як стати майстром Архетерики?",
+      "kind": "talk",
+      "starts": "2026-11-22T13:30:00+00:00",
+      "ends": null,
+      "club": "KMA's GeekLab",
+      "location": "зала для йоги 1, КМЦ НаУКМА",
+      "description": "Зустріч відділу НРІ присвячена настільній рольовій системі Архетерика: знайомство з сетингом та механіками, відповіді на запитання про роботу майстра гри.",
+      "url": "https://www.instagram.com/p/Df5OZiMBGwD/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%AF%D0%BA+%D1%81%D1%82%D0%B0%D1%82%D0%B8+%D0%BC%D0%B0%D0%B9%D1%81%D1%82%D1%80%D0%BE%D0%BC+%D0%90%D1%80%D1%85%D0%B5%D1%82%D0%B5%D1%80%D0%B8%D0%BA%D0%B8%3F&dates=20261122T133000Z%2F20261122T143000Z&details=%D0%97%D1%83%D1%81%D1%82%D1%80%D1%96%D1%87+%D0%B2%D1%96%D0%B4%D0%B4%D1%96%D0%BB%D1%83+%D0%9D%D0%A0%D0%86+%D0%BF%D1%80%D0%B8%D1%81%D0%B2%D1%8F%D1%87%D0%B5%D0%BD%D0%B0+%D0%BD%D0%B0%D1%81%D1%82%D1%96%D0%BB%D1%8C%D0%BD%D1%96%D0%B9+%D1%80%D0%BE%D0%BB%D1%8C%D0%BE%D0%B2%D1%96%D0%B9+%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%96+%D0%90%D1%80%D1%85%D0%B5%D1%82%D0%B5%D1%80%D0%B8%D0%BA%D0%B0%3A+%D0%B7%D0%BD%D0%B0%D0%B9%D0%BE%D0%BC%D1%81%D1%82%D0%B2%D0%BE+%D0%B7+%D1%81%D0%B5%D1%82%D0%B8%D0%BD%D0%B3%D0%BE%D0%BC+%D1%82%D0%B0+%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D0%BA%D0%B0%D0%BC%D0%B8%2C+%D0%B2%D1%96%D0%B4%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D1%96+%D0%BD%D0%B0+%D0%B7%D0%B0%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%BD%D1%8F+%D0%BF%D1%80%D0%BE+%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D1%83+%D0%BC%D0%B0%D0%B9%D1%81%D1%82%D1%80%D0%B0+%D0%B3%D1%80%D0%B8.&location=%D0%B7%D0%B0%D0%BB%D0%B0+%D0%B4%D0%BB%D1%8F+%D0%B9%D0%BE%D0%B3%D0%B8+1%2C+%D0%9A%D0%9C%D0%A6+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90"
+    },
+    {
+      "id": "bb5997b4-2358-4f1a-a2da-b0c749a2625c",
+      "title": "Дмитрівські Діди: Пам’ять НаУКМА",
+      "kind": "talk",
+      "starts": "2026-11-22T15:00:00+00:00",
+      "ends": null,
+      "club": "Студентське братство НаУКМА",
+      "location": "ПідWall КМЦ",
+      "description": "Вечір вшанування пам'яті діячів Академії: лекторій із Ярославом Затилюком, перерва з чаєм та смаколиками, перегляд тематичного фільму.",
+      "url": "https://www.instagram.com/p/Df4zHzhoFlT/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%94%D0%BC%D0%B8%D1%82%D1%80%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D1%96+%D0%94%D1%96%D0%B4%D0%B8%3A+%D0%9F%D0%B0%D0%BC%E2%80%99%D1%8F%D1%82%D1%8C+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90&dates=20261122T150000Z%2F20261122T160000Z&details=%D0%92%D0%B5%D1%87%D1%96%D1%80+%D0%B2%D1%88%D0%B0%D0%BD%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F+%D0%BF%D0%B0%D0%BC%27%D1%8F%D1%82%D1%96+%D0%B4%D1%96%D1%8F%D1%87%D1%96%D0%B2+%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D1%96%D1%97%3A+%D0%BB%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D1%96%D0%B9+%D1%96%D0%B7+%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%BC+%D0%97%D0%B0%D1%82%D0%B8%D0%BB%D1%8E%D0%BA%D0%BE%D0%BC%2C+%D0%BF%D0%B5%D1%80%D0%B5%D1%80%D0%B2%D0%B0+%D0%B7+%D1%87%D0%B0%D1%94%D0%BC+%D1%82%D0%B0+%D1%81%D0%BC%D0%B0%D0%BA%D0%BE%D0%BB%D0%B8%D0%BA%D0%B0%D0%BC%D0%B8%2C+%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BB%D1%8F%D0%B4+%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+%D1%84%D1%96%D0%BB%D1%8C%D0%BC%D1%83.&location=%D0%9F%D1%96%D0%B4Wall+%D0%9A%D0%9C%D0%A6"
+    },
+    {
+      "id": "ff4582ee-cade-49da-8366-130358ee2bac",
+      "title": "Кіноклуб до Дня Гідності та Свободи: перегляд «Фактор вибору»",
+      "kind": "performance",
+      "starts": "2026-11-23T17:00:00+00:00",
+      "ends": "2026-11-23T20:00:00+00:00",
+      "club": "Асоціація випускниць та випускників НаУКМА",
+      "location": "вул. Сковороди, 2, Музей НаУКМА, 1-й поверх",
+      "description": "Перегляд документального фільму «Фактор вибору» про шлях української демократії, з подальшим обговоренням за участі Младени Качурець, однієї з героїнь фільму.",
+      "url": "https://www.instagram.com/p/Df4_5GZCCNt/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%9A%D1%96%D0%BD%D0%BE%D0%BA%D0%BB%D1%83%D0%B1+%D0%B4%D0%BE+%D0%94%D0%BD%D1%8F+%D0%93%D1%96%D0%B4%D0%BD%D0%BE%D1%81%D1%82%D1%96+%D1%82%D0%B0+%D0%A1%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D0%B8%3A+%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BB%D1%8F%D0%B4+%C2%AB%D0%A4%D0%B0%D0%BA%D1%82%D0%BE%D1%80+%D0%B2%D0%B8%D0%B1%D0%BE%D1%80%D1%83%C2%BB&dates=20261123T170000Z%2F20261123T200000Z&details=%D0%9F%D0%B5%D1%80%D0%B5%D0%B3%D0%BB%D1%8F%D0%B4+%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE+%D1%84%D1%96%D0%BB%D1%8C%D0%BC%D1%83+%C2%AB%D0%A4%D0%B0%D0%BA%D1%82%D0%BE%D1%80+%D0%B2%D0%B8%D0%B1%D0%BE%D1%80%D1%83%C2%BB+%D0%BF%D1%80%D0%BE+%D1%88%D0%BB%D1%8F%D1%85+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%B4%D0%B5%D0%BC%D0%BE%D0%BA%D1%80%D0%B0%D1%82%D1%96%D1%97%2C+%D0%B7+%D0%BF%D0%BE%D0%B4%D0%B0%D0%BB%D1%8C%D1%88%D0%B8%D0%BC+%D0%BE%D0%B1%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D0%BC+%D0%B7%D0%B0+%D1%83%D1%87%D0%B0%D1%81%D1%82%D1%96+%D0%9C%D0%BB%D0%B0%D0%B4%D0%B5%D0%BD%D0%B8+%D0%9A%D0%B0%D1%87%D1%83%D1%80%D0%B5%D1%86%D1%8C%2C+%D0%BE%D0%B4%D0%BD%D1%96%D1%94%D1%97+%D0%B7+%D0%B3%D0%B5%D1%80%D0%BE%D1%97%D0%BD%D1%8C+%D1%84%D1%96%D0%BB%D1%8C%D0%BC%D1%83.&location=%D0%B2%D1%83%D0%BB.+%D0%A1%D0%BA%D0%BE%D0%B2%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%2C+2%2C+%D0%9C%D1%83%D0%B7%D0%B5%D0%B9+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90%2C+1-%D0%B9+%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85"
+    },
+    {
+      "id": "3553ed9b-588e-484a-b677-4f4f8b750b47",
+      "title": "Планування майбутнього в часи невизначеності: лекція-дискусія з Олексієм Ковжуном",
+      "kind": "talk",
+      "starts": "2026-11-24T15:00:00+00:00",
+      "ends": null,
+      "club": "KMA Talks",
+      "location": "7 корпус НаУКМА (фоє, вхід через приймальну комісію)",
+      "description": "Лекція-дискусія з медіаекспертом, політичним консультантом та ведучим проєкту «Довга війна» на «ҐРУНТі» Олексієм Ковжуном про стратегічне планування в умовах невизначеності.",
+      "url": "https://www.instagram.com/p/Df44hn8DMPA/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%9F%D0%BB%D0%B0%D0%BD%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F+%D0%BC%D0%B0%D0%B9%D0%B1%D1%83%D1%82%D0%BD%D1%8C%D0%BE%D0%B3%D0%BE+%D0%B2+%D1%87%D0%B0%D1%81%D0%B8+%D0%BD%D0%B5%D0%B2%D0%B8%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%BE%D1%81%D1%82%D1%96%3A+%D0%BB%D0%B5%D0%BA%D1%86%D1%96%D1%8F-%D0%B4%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%96%D1%8F+%D0%B7+%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D1%94%D0%BC+%D0%9A%D0%BE%D0%B2%D0%B6%D1%83%D0%BD%D0%BE%D0%BC&dates=20261124T150000Z%2F20261124T160000Z&details=%D0%9B%D0%B5%D0%BA%D1%86%D1%96%D1%8F-%D0%B4%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%96%D1%8F+%D0%B7+%D0%BC%D0%B5%D0%B4%D1%96%D0%B0%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D1%82%D0%BE%D0%BC%2C+%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%BC+%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BB%D1%8C%D1%82%D0%B0%D0%BD%D1%82%D0%BE%D0%BC+%D1%82%D0%B0+%D0%B2%D0%B5%D0%B4%D1%83%D1%87%D0%B8%D0%BC+%D0%BF%D1%80%D0%BE%D1%94%D0%BA%D1%82%D1%83+%C2%AB%D0%94%D0%BE%D0%B2%D0%B3%D0%B0+%D0%B2%D1%96%D0%B9%D0%BD%D0%B0%C2%BB+%D0%BD%D0%B0+%C2%AB%D2%90%D0%A0%D0%A3%D0%9D%D0%A2%D1%96%C2%BB+%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D1%94%D0%BC+%D0%9A%D0%BE%D0%B2%D0%B6%D1%83%D0%BD%D0%BE%D0%BC+%D0%BF%D1%80%D0%BE+%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D1%96%D1%87%D0%BD%D0%B5+%D0%BF%D0%BB%D0%B0%D0%BD%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F+%D0%B2+%D1%83%D0%BC%D0%BE%D0%B2%D0%B0%D1%85+%D0%BD%D0%B5%D0%B2%D0%B8%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%BE%D1%81%D1%82%D1%96.&location=7+%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90+%28%D1%84%D0%BE%D1%94%2C+%D0%B2%D1%85%D1%96%D0%B4+%D1%87%D0%B5%D1%80%D0%B5%D0%B7+%D0%BF%D1%80%D0%B8%D0%B9%D0%BC%D0%B0%D0%BB%D1%8C%D0%BD%D1%83+%D0%BA%D0%BE%D0%BC%D1%96%D1%81%D1%96%D1%8E%29"
     },
     {
       "id": "56ae591c-b771-4646-89bc-3113650a25a7",
@@ -144,6 +192,18 @@
       "description": "Новий генеральний набір до організації, який триватиме до кінця осені. Набір триватиме до 30.11.2026.",
       "url": "https://www.instagram.com/p/DdtrZj1DeLz/",
       "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%94%D0%B5%D0%B4%D0%BB%D0%B0%D0%B9%D0%BD+%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97%3A+%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9+%D0%BD%D0%B0%D0%B1%D1%96%D1%80+%D0%B4%D0%BE+%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97&dates=20261130%2F20261201&details=%D0%9D%D0%BE%D0%B2%D0%B8%D0%B9+%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9+%D0%BD%D0%B0%D0%B1%D1%96%D1%80+%D0%B4%D0%BE+%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97%2C+%D1%8F%D0%BA%D0%B8%D0%B9+%D1%82%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%B8%D0%BC%D0%B5+%D0%B4%D0%BE+%D0%BA%D1%96%D0%BD%D1%86%D1%8F+%D0%BE%D1%81%D0%B5%D0%BD%D1%96.+%D0%9D%D0%B0%D0%B1%D1%96%D1%80+%D1%82%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%B8%D0%BC%D0%B5+%D0%B4%D0%BE+30.11.2026."
+    },
+    {
+      "id": "f6835677-a91b-4123-b266-c075a185459c",
+      "title": "День донора в Могилянці",
+      "kind": "other",
+      "starts": "2026-12-01T07:00:00+00:00",
+      "ends": "2026-12-01T11:00:00+00:00",
+      "club": "Києво-Могилянська Академія",
+      "location": "7 корпус НаУКМА, 1 поверх",
+      "description": "День донора в НаУКМА: забір крові бригадою Центру крові Збройних Сил України для військових госпіталів. Також можна дізнатися про донорство кісткового мозку та органів. Участь лише за попередньою реєстрацією.",
+      "url": "https://www.instagram.com/p/Df4GAZVI60j/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%94%D0%B5%D0%BD%D1%8C+%D0%B4%D0%BE%D0%BD%D0%BE%D1%80%D0%B0+%D0%B2+%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D1%8F%D0%BD%D1%86%D1%96&dates=20261201T070000Z%2F20261201T110000Z&details=%D0%94%D0%B5%D0%BD%D1%8C+%D0%B4%D0%BE%D0%BD%D0%BE%D1%80%D0%B0+%D0%B2+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90%3A+%D0%B7%D0%B0%D0%B1%D1%96%D1%80+%D0%BA%D1%80%D0%BE%D0%B2%D1%96+%D0%B1%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%D0%BE%D1%8E+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D1%83+%D0%BA%D1%80%D0%BE%D0%B2%D1%96+%D0%97%D0%B1%D1%80%D0%BE%D0%B9%D0%BD%D0%B8%D1%85+%D0%A1%D0%B8%D0%BB+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8+%D0%B4%D0%BB%D1%8F+%D0%B2%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D0%B2%D0%B8%D1%85+%D0%B3%D0%BE%D1%81%D0%BF%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B2.+%D0%A2%D0%B0%D0%BA%D0%BE%D0%B6+%D0%BC%D0%BE%D0%B6%D0%BD%D0%B0+%D0%B4%D1%96%D0%B7%D0%BD%D0%B0%D1%82%D0%B8%D1%81%D1%8F+%D0%BF%D1%80%D0%BE+%D0%B4%D0%BE%D0%BD%D0%BE%D1%80%D1%81%D1%82%D0%B2%D0%BE+%D0%BA%D1%96%D1%81%D1%82%D0%BA%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE+%D0%BC%D0%BE%D0%B7%D0%BA%D1%83+%D1%82%D0%B0+%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B2.+%D0%A3%D1%87%D0%B0%D1%81%D1%82%D1%8C+%D0%BB%D0%B8%D1%88%D0%B5+%D0%B7%D0%B0+%D0%BF%D0%BE%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D1%8C%D0%BE%D1%8E+%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%94%D1%8E.&location=7+%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90%2C+1+%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D1%85"
     },
     {
       "id": "7577c122-ec6f-405d-8550-3c68d117921a",
