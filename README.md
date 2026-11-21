@@ -51,7 +51,9 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
 ## Публікація
 1. Запушити репозиторій на GitHub.
-2. Settings → Pages → Deploy from branch → `main` / `docs`.
+2. Settings → Pages → Source → **GitHub Actions**. Сайт (`docs/`) публікує workflow `deploy-site`
+   одразу після випуску; якщо публікація зависне, запуск стане червоним. Щоб перепублікувати
+   вручну: Actions → deploy-site → Run workflow.
 3. Settings → Actions → General → Workflow permissions → Read and write.
 4. Опційні секрети (Settings → Secrets → Actions), кожен вмикає своє джерело:
    `BSKY_HANDLE` + `BSKY_APP_PASSWORD`, `APIFY_TOKEN` (Facebook, платно, див. нижче),

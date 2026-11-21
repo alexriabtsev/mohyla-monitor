@@ -91,3 +91,13 @@ jobs:
           git add data docs
           git diff --cached --quiet || git commit -m "chore: digest $(date -u +%F)"
           git push
+
+  publish:
+    needs: [guard, digest]
+    # publish whatever was committed, even when a digest step failed (as the commit does)
+    if: ${{ !cancelled() && needs.guard.outputs.run == 'true' }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml

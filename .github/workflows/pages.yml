@@ -1,0 +1,47 @@
+name: deploy-site
+
+# Publishes docs/ to GitHub Pages. Called by daily-digest right after the issue is
+# committed, and run on its own when someone pushes a change to docs/ (pushes made by
+# the workflow's own token do not trigger workflows, so a digest is never deployed twice).
+# A stuck or failed deploy fails this job, so it shows up as a failed run instead of a
+# silently stale site (2026-11-21: the legacy Pages build hung for 9 hours).
+
+on:
+  workflow_call:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["docs/**"]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.retry.outputs.page_url || steps.first.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main            # the digest commit, not the commit that started the run
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: first
+        continue-on-error: true
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 600000      # ms; the default is the same, stated so the retry is clear
+      - id: retry
+        if: steps.first.outcome == 'failure'
+        uses: actions/deploy-pages@v4
+        with:
+          timeout: 600000

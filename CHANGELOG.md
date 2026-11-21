@@ -1,5 +1,19 @@
 # Changelog
 
+## [0.5.1] - 2026-11-21
+### Features
+- The site is deployed by the workflow itself (`deploy-site`, `.github/workflows/pages.yml`):
+  daily-digest calls it right after committing the issue; a push to `docs/` deploys on its own.
+- A stuck deploy times out after 10 minutes, is retried once, and then fails the run.
+### Design Rationale
+- On 2026-11-21 the legacy "deploy from branch" Pages build hung for 9 hours: the digest run
+  was green while the site still showed yesterday. Deploying from Actions makes a stale site
+  a red run (and a GitHub e-mail) instead of a silent one.
+### Notes & Caveats
+- Pages source is now "GitHub Actions" (`build_type=workflow`); pushing to `main` no longer
+  publishes by itself unless it touches `docs/`. To republish by hand, run `deploy-site`.
+- The workflow's own pushes don't trigger workflows, so a digest is deployed exactly once.
+
 ## [0.5.0] - 2026-11-08
 ### Features
 - «Події» tab (`events.html`): upcoming NaUKMA events from kmaevents.com for the next 60 days,
