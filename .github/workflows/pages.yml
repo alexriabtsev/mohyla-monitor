@@ -19,7 +19,22 @@ permissions:
   id-token: write
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main            # the digest commit, not the commit that started the run
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  # A separate job, as in GitHub's template: the artifact is listed for the run only a
+  # moment after upload. Deploying in the same job raced it (2026-11-22: "No artifacts
+  # named github-pages" 23 ms after the upload finished).
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 25
     concurrency:
@@ -29,17 +44,14 @@ jobs:
       name: github-pages
       url: ${{ steps.retry.outputs.page_url || steps.first.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main            # the digest commit, not the commit that started the run
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
       - id: first
         continue-on-error: true
         uses: actions/deploy-pages@v4
         with:
           timeout: 600000      # ms; the default is the same, stated so the retry is clear
+      - name: Wait before retrying
+        if: steps.first.outcome == 'failure'
+        run: sleep 30
       - id: retry
         if: steps.first.outcome == 'failure'
         uses: actions/deploy-pages@v4

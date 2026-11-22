@@ -13,6 +13,8 @@
 - Pages source is now "GitHub Actions" (`build_type=workflow`); pushing to `main` no longer
   publishes by itself unless it touches `docs/`. To republish by hand, run `deploy-site`.
 - The workflow's own pushes don't trigger workflows, so a digest is deployed exactly once.
+- Upload and deploy are separate jobs (2026-11-22 fix): deploying in the upload job asked for
+  the artifact before GitHub listed it and failed; the retry now waits 30 s.
 
 ## [0.5.0] - 2026-11-08
 ### Features
