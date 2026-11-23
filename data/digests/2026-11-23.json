@@ -1,6 +1,74 @@
 {
   "date": "2026-11-23",
-  "items": [],
+  "items": [
+    {
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPT242N1NHOF9LNHpQcGFuSXB5enFLRVBNZVN0djczR1FqNjd2VVluSC03bndMZnRLOEhuSDRWb0JrYkJlZXgwaWU1VWhaVlZEeG9MMWxqVUxpY2VXclZSNDgwclZ4U2gzbmVrTVU0NUFfTEdlNEd5WjY4djZ2Zy1aMjhNY0FwUEp1Z2FlbGJFVU5VWmdJT3A5WGNqUW03N25aSHdudUFlNA?oc=5",
+      "title": "Де і коли відбудеться прощання із засновником відродженої Києво-Могилянської академії В'ячеславом Брюховецьким",
+      "text": "Де і коли відбудеться прощання із засновником відродженої Києво-Могилянської академії В'ячеславом Брюховецьким Новинарня",
+      "source": "gnews:Новинарня",
+      "kind": "media",
+      "published": "2026-11-23T09:11:11+00:00",
+      "author": "Новинарня",
+      "person_ids": [],
+      "category": "community",
+      "score": 2.98240223584464,
+      "extra": {
+        "query": "\"Києво-Могилянська академія\" OR \"Києво-Могилянської академії\"",
+        "publisher_url": "https://novynarnia.com",
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://x.com/TarasKuzio/status/2124530829388882290",
+      "title": "National University of Kyiv Mohyla Academy. Winner of Peterson Literary Prize for book Russian Nationalism and Russian-Ukrainian War",
+      "text": "National University of Kyiv Mohyla Academy. Winner of Peterson Literary Prize for book Russian Nationalism and Russian-Ukrainian War",
+      "source": "web:x.com",
+      "kind": "social",
+      "published": "2026-11-22T15:49:56.257000+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "achievement",
+      "score": 2.4278045765548684,
+      "extra": {
+        "handle": "TarasKuzio",
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://www.instagram.com/p/DgDmpPrtrw_",
+      "title": "Президент України Володимир Зеленський підписав ...",
+      "text": "Могилянка стала активною учасницею Помаранчевої революції та Революції Гідності. «Справа його життя живе — у відродженому ним університеті, у людях, яких",
+      "source": "web:instagram.com",
+      "kind": "social",
+      "published": "2026-11-22T19:54:42.992000+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "community",
+      "score": 1.778582411914781,
+      "extra": {
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    },
+    {
+      "url": "https://www.threads.com/@names_of_ukraine/post/DgDE-02kT9v/%D0%BC%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE-%D0%BC%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%D0%BE%D0%B2%D0%B8%D1%87-18041873-%D0%BF%D0%B5%D1%80%D1%88%D0%B8%D0%B9-%D1%80%D0%B5%D0%BA%D1%82%D0%BE%D1%80-%D0%BA%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE-%D1%83%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%83-%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%B9-%D0%B1%D0%BE%D1%82%D0%B0%D0%BD%D1%96",
+      "title": "Михайло Максимович (1804–1873) Перший ректор Київського ...",
+      "text": "Відроджувач і перший ректор та президент Києво-Могилянської Академії. Як один з 3го випуску Могилянки зазначу: такого УНІВЕРСИТЕТУ!!!, що",
+      "source": "web:threads.com",
+      "kind": "social",
+      "published": "2026-11-22T15:00:33.990000+00:00",
+      "author": "",
+      "person_ids": [],
+      "category": "community",
+      "score": 1.5437690802122095,
+      "extra": {
+        "keep_reason": "keyword",
+        "body_match": false
+      }
+    }
+  ],
   "statuses": [
     {
       "name": "rss",
@@ -13,14 +81,14 @@
       "name": "google_news",
       "ok": true,
       "enabled": true,
-      "count": 0,
+      "count": 1,
       "message": ""
     },
     {
       "name": "telegram",
       "ok": true,
       "enabled": true,
-      "count": 20,
+      "count": 22,
       "message": ""
     },
     {
