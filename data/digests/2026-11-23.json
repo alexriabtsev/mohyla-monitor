@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-23",
+  "items": [],
+  "statuses": [
+    {
+      "name": "rss",
+      "ok": true,
+      "enabled": true,
+      "count": 0,
+      "message": ""
+    },
+    {
+      "name": "google_news",
+      "ok": true,
+      "enabled": true,
+      "count": 0,
+      "message": ""
+    },
+    {
+      "name": "telegram",
+      "ok": true,
+      "enabled": true,
+      "count": 20,
+      "message": ""
+    },
+    {
+      "name": "bluesky",
+      "ok": true,
+      "enabled": false,
+      "count": 0,
+      "message": "disabled: set BSKY_HANDLE + BSKY_APP_PASSWORD"
+    },
+    {
+      "name": "facebook_apify",
+      "ok": true,
+      "enabled": true,
+      "count": 0,
+      "message": "skipped: $4.50 of $4.50 spent since 2026-11-05"
+    },
+    {
+      "name": "websearch",
+      "ok": true,
+      "enabled": true,
+      "count": 15,
+      "message": ""
+    }
+  ],
+  "extra": {
+    "new_people": [],
+    "people": 276,
+    "archive": 8612,
+    "edges": 84
+  }
+}
