@@ -1,42 +1,6 @@
 {
-  "fetched": "2026-11-25T04:01:01.775322+00:00",
+  "fetched": "2026-11-26T04:01:17.220920+00:00",
   "items": [
-    {
-      "id": "56ae591c-b771-4646-89bc-3113650a25a7",
-      "title": "Семінар «Примирювальна роль судді в цивільному судочинстві України та Бельгії: порівняльний погляд»",
-      "kind": "talk",
-      "starts": "2026-11-25T10:45:00+00:00",
-      "ends": "2026-11-25T11:45:00+00:00",
-      "club": "Факультет правничих наук НаУКМА",
-      "location": "Онлайн, Microsoft Teams",
-      "description": "Спільний міжнародний онлайн-семінар аспірантів Києво-Могилянської академії та Гентського університету (Бельгія) на тему примирювальної ролі судді в цивільному судочинстві України та Бельгії. Доповідачі: Сільке Онрадт (Гентський університет) та Ярослав Брич (НаУКМА). Мова заходу — англійська.",
-      "url": "https://www.instagram.com/p/Df18k7fNiTe/",
-      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%A1%D0%B5%D0%BC%D1%96%D0%BD%D0%B0%D1%80+%C2%AB%D0%9F%D1%80%D0%B8%D0%BC%D0%B8%D1%80%D1%8E%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0+%D1%80%D0%BE%D0%BB%D1%8C+%D1%81%D1%83%D0%B4%D0%B4%D1%96+%D0%B2+%D1%86%D0%B8%D0%B2%D1%96%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC%D1%83+%D1%81%D1%83%D0%B4%D0%BE%D1%87%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8+%D1%82%D0%B0+%D0%91%D0%B5%D0%BB%D1%8C%D0%B3%D1%96%D1%97%3A+%D0%BF%D0%BE%D1%80%D1%96%D0%B2%D0%BD%D1%8F%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9+%D0%BF%D0%BE%D0%B3%D0%BB%D1%8F%D0%B4%C2%BB&dates=20261125T104500Z%2F20261125T114500Z&details=%D0%A1%D0%BF%D1%96%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9+%D0%BC%D1%96%D0%B6%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B8%D0%B9+%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D1%81%D0%B5%D0%BC%D1%96%D0%BD%D0%B0%D1%80+%D0%B0%D1%81%D0%BF%D1%96%D1%80%D0%B0%D0%BD%D1%82%D1%96%D0%B2+%D0%9A%D0%B8%D1%94%D0%B2%D0%BE-%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%97+%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D1%96%D1%97+%D1%82%D0%B0+%D0%93%D0%B5%D0%BD%D1%82%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D1%83%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D1%83+%28%D0%91%D0%B5%D0%BB%D1%8C%D0%B3%D1%96%D1%8F%29+%D0%BD%D0%B0+%D1%82%D0%B5%D0%BC%D1%83+%D0%BF%D1%80%D0%B8%D0%BC%D0%B8%D1%80%D1%8E%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%97+%D1%80%D0%BE%D0%BB%D1%96+%D1%81%D1%83%D0%B4%D0%B4%D1%96+%D0%B2+%D1%86%D0%B8%D0%B2%D1%96%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC%D1%83+%D1%81%D1%83%D0%B4%D0%BE%D1%87%D0%B8%D0%BD%D1%81%D1%82%D0%B2%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8+%D1%82%D0%B0+%D0%91%D0%B5%D0%BB%D1%8C%D0%B3%D1%96%D1%97.+%D0%94%D0%BE%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D0%B0%D1%87%D1%96%3A+%D0%A1%D1%96%D0%BB%D1%8C%D0%BA%D0%B5+%D0%9E%D0%BD%D1%80%D0%B0%D0%B4%D1%82+%28%D0%93%D0%B5%D0%BD%D1%82%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%83%D0%BD%D1%96%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%29+%D1%82%D0%B0+%D0%AF%D1%80%D0%BE%D1%81%D0%BB%D0%B0%D0%B2+%D0%91%D1%80%D0%B8%D1%87+%28%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90%29.+%D0%9C%D0%BE%D0%B2%D0%B0+%D0%B7%D0%B0%D1%85%D0%BE%D0%B4%D1%83+%E2%80%94+%D0%B0%D0%BD%D0%B3%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0.&location=%D0%9E%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD%2C+Microsoft+Teams"
-    },
-    {
-      "id": "a88f5015-71f8-4188-9051-1f7484472d74",
-      "title": "Панельна дискусія: Академічні та професійні можливості для українських студентів і дослідників у Польщі",
-      "kind": "talk",
-      "starts": "2026-11-25T15:00:00+00:00",
-      "ends": null,
-      "club": "Асоціація Студентів-політологів",
-      "location": "Гібридний формат: Київ та онлайн",
-      "description": "Панельна дискусія за участю організаторів і випускників Програми Лейна Кіркланда про навчання та дослідницьку діяльність у Польщі, відбір, професійні можливості та кар’єрний розвиток в Україні. Організатори: Рада зовнішньої політики «Українська призма» та Факультет міжнародних відносин і врядування НаУКМА, за підтримки Kirkland Alumni, у співпраці з Асоціацією студентів-політологів НаУКМА.",
-      "url": "https://www.instagram.com/p/DfR2xfgjq03/",
-      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%9F%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0+%D0%B4%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%96%D1%8F%3A+%D0%90%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D1%96%D1%87%D0%BD%D1%96+%D1%82%D0%B0+%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%96%D0%B9%D0%BD%D1%96+%D0%BC%D0%BE%D0%B6%D0%BB%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%96+%D0%B4%D0%BB%D1%8F+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D1%85+%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D1%96%D0%B2+%D1%96+%D0%B4%D0%BE%D1%81%D0%BB%D1%96%D0%B4%D0%BD%D0%B8%D0%BA%D1%96%D0%B2+%D1%83+%D0%9F%D0%BE%D0%BB%D1%8C%D1%89%D1%96&dates=20261125T150000Z%2F20261125T160000Z&details=%D0%9F%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0+%D0%B4%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%96%D1%8F+%D0%B7%D0%B0+%D1%83%D1%87%D0%B0%D1%81%D1%82%D1%8E+%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%82%D0%BE%D1%80%D1%96%D0%B2+%D1%96+%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA%D0%BD%D0%B8%D0%BA%D1%96%D0%B2+%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8+%D0%9B%D0%B5%D0%B9%D0%BD%D0%B0+%D0%9A%D1%96%D1%80%D0%BA%D0%BB%D0%B0%D0%BD%D0%B4%D0%B0+%D0%BF%D1%80%D0%BE+%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D0%BD%D0%BD%D1%8F+%D1%82%D0%B0+%D0%B4%D0%BE%D1%81%D0%BB%D1%96%D0%B4%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D1%83+%D0%B4%D1%96%D1%8F%D0%BB%D1%8C%D0%BD%D1%96%D1%81%D1%82%D1%8C+%D1%83+%D0%9F%D0%BE%D0%BB%D1%8C%D1%89%D1%96%2C+%D0%B2%D1%96%D0%B4%D0%B1%D1%96%D1%80%2C+%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%96%D0%B9%D0%BD%D1%96+%D0%BC%D0%BE%D0%B6%D0%BB%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%96+%D1%82%D0%B0+%D0%BA%D0%B0%D1%80%E2%80%99%D1%94%D1%80%D0%BD%D0%B8%D0%B9+%D1%80%D0%BE%D0%B7%D0%B2%D0%B8%D1%82%D0%BE%D0%BA+%D0%B2+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%96.+%D0%9E%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%82%D0%BE%D1%80%D0%B8%3A+%D0%A0%D0%B0%D0%B4%D0%B0+%D0%B7%D0%BE%D0%B2%D0%BD%D1%96%D1%88%D0%BD%D1%8C%D0%BE%D1%97+%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B8%D0%BA%D0%B8+%C2%AB%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0+%D0%BF%D1%80%D0%B8%D0%B7%D0%BC%D0%B0%C2%BB+%D1%82%D0%B0+%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82+%D0%BC%D1%96%D0%B6%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D0%B8%D1%85+%D0%B2%D1%96%D0%B4%D0%BD%D0%BE%D1%81%D0%B8%D0%BD+%D1%96+%D0%B2%D1%80%D1%8F%D0%B4%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90%2C+%D0%B7%D0%B0+%D0%BF%D1%96%D0%B4%D1%82%D1%80%D0%B8%D0%BC%D0%BA%D0%B8+Kirkland+Alumni%2C+%D1%83+%D1%81%D0%BF%D1%96%D0%B2%D0%BF%D1%80%D0%B0%D1%86%D1%96+%D0%B7+%D0%90%D1%81%D0%BE%D1%86%D1%96%D0%B0%D1%86%D1%96%D1%94%D1%8E+%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D1%96%D0%B2-%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D0%B2+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90.&location=%D0%93%D1%96%D0%B1%D1%80%D0%B8%D0%B4%D0%BD%D0%B8%D0%B9+%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%3A+%D0%9A%D0%B8%D1%97%D0%B2+%D1%82%D0%B0+%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD"
-    },
-    {
-      "id": "f77f0bf4-9df3-467b-bfd1-4fa76fc8a16f",
-      "title": "Панельна дискусія: Як Програма Лейна Кіркланда вплинула на професійний розвиток її випускників?",
-      "kind": "talk",
-      "starts": "2026-11-25T15:00:00+00:00",
-      "ends": null,
-      "club": "Асоціація Студентів-політологів",
-      "location": "Онлайн",
-      "description": "Панельна дискусія про досвід випускників Програми Лейна Кіркланда, її роль у кар'єрному зростанні та українсько-польську співпрацю. Спікери: Володимир Абрамюк, Катерина Гуменна, Віталій Лебедюк, Мар'ян Лопата. Модератор: Дмитро Коваль.",
-      "url": "https://www.instagram.com/p/Dft8vKJDkPm/",
-      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%9F%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0+%D0%B4%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%96%D1%8F%3A+%D0%AF%D0%BA+%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0+%D0%9B%D0%B5%D0%B9%D0%BD%D0%B0+%D0%9A%D1%96%D1%80%D0%BA%D0%BB%D0%B0%D0%BD%D0%B4%D0%B0+%D0%B2%D0%BF%D0%BB%D0%B8%D0%BD%D1%83%D0%BB%D0%B0+%D0%BD%D0%B0+%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%96%D0%B9%D0%BD%D0%B8%D0%B9+%D1%80%D0%BE%D0%B7%D0%B2%D0%B8%D1%82%D0%BE%D0%BA+%D1%97%D1%97+%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA%D0%BD%D0%B8%D0%BA%D1%96%D0%B2%3F&dates=20261125T150000Z%2F20261125T160000Z&details=%D0%9F%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0+%D0%B4%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%96%D1%8F+%D0%BF%D1%80%D0%BE+%D0%B4%D0%BE%D1%81%D0%B2%D1%96%D0%B4+%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA%D0%BD%D0%B8%D0%BA%D1%96%D0%B2+%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8+%D0%9B%D0%B5%D0%B9%D0%BD%D0%B0+%D0%9A%D1%96%D1%80%D0%BA%D0%BB%D0%B0%D0%BD%D0%B4%D0%B0%2C+%D1%97%D1%97+%D1%80%D0%BE%D0%BB%D1%8C+%D1%83+%D0%BA%D0%B0%D1%80%27%D1%94%D1%80%D0%BD%D0%BE%D0%BC%D1%83+%D0%B7%D1%80%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%96+%D1%82%D0%B0+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%BE-%D0%BF%D0%BE%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D1%83+%D1%81%D0%BF%D1%96%D0%B2%D0%BF%D1%80%D0%B0%D1%86%D1%8E.+%D0%A1%D0%BF%D1%96%D0%BA%D0%B5%D1%80%D0%B8%3A+%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80+%D0%90%D0%B1%D1%80%D0%B0%D0%BC%D1%8E%D0%BA%2C+%D0%9A%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0+%D0%93%D1%83%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%2C+%D0%92%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9+%D0%9B%D0%B5%D0%B1%D0%B5%D0%B4%D1%8E%D0%BA%2C+%D0%9C%D0%B0%D1%80%27%D1%8F%D0%BD+%D0%9B%D0%BE%D0%BF%D0%B0%D1%82%D0%B0.+%D0%9C%D0%BE%D0%B4%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%3A+%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE+%D0%9A%D0%BE%D0%B2%D0%B0%D0%BB%D1%8C.&location=%D0%9E%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD"
-    },
     {
       "id": "9a8cae9a-4e8f-4e3a-b5cb-4a8566049e9f",
       "title": "Пленарне засідання конференції «Міждисциплінарні експертизи 2.0»: Європа в умовах світових трансформацій",
@@ -74,6 +38,42 @@
       "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%94%D0%B5%D0%BD%D1%8C+%D0%A4%D0%95%D0%9D&dates=20261127T140000Z%2F20261127T150000Z&details=%D0%A9%D0%BE%D1%80%D1%96%D1%87%D0%BD%D0%B5+%D1%81%D0%B2%D1%8F%D1%82%D0%BA%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F+%D0%94%D0%BD%D1%8F+%D0%A4%D0%95%D0%9D%3A+%D0%BE%D1%84%D1%96%D1%86%D1%96%D0%B9%D0%BD%D0%B0+%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%BD%D0%B0%2C+%D0%B2%D1%96%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B0%2C+%D0%BF%D0%BE%D0%BA%D0%B0%D0%B7+%D1%84%D1%96%D0%BB%D1%8C%D0%BC%D1%83%2C+%D0%B2%D1%96%D0%BB%D1%8C%D0%BD%D0%B5+%D1%81%D0%BF%D1%96%D0%BB%D0%BA%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F+%D1%82%D0%B0+%D0%B0%D1%84%D1%82%D0%B5%D1%80%D0%BF%D0%B0%D1%82%D1%96.&location=%D0%9F%D1%96%D0%B4Wall"
     },
     {
+      "id": "7012ddda-c55d-445e-a6cf-57d13c2c3cf1",
+      "title": "English Movie Night: Inside Out 2",
+      "kind": "social",
+      "starts": "2026-11-27T17:00:00+00:00",
+      "ends": null,
+      "club": "Lumen",
+      "location": "Нижній Вал 19-Д, Поділ",
+      "description": "Вечір кіно англійською — перегляд мультфільму Inside Out 2 з подальшим обговоренням у теплій атмосфері.",
+      "url": "https://www.instagram.com/p/DgHe5VnN9CW/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=English+Movie+Night%3A+Inside+Out+2&dates=20261127T170000Z%2F20261127T180000Z&details=%D0%92%D0%B5%D1%87%D1%96%D1%80+%D0%BA%D1%96%D0%BD%D0%BE+%D0%B0%D0%BD%D0%B3%D0%BB%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D1%8E+%E2%80%94+%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BB%D1%8F%D0%B4+%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D1%96%D0%BB%D1%8C%D0%BC%D1%83+Inside+Out+2+%D0%B7+%D0%BF%D0%BE%D0%B4%D0%B0%D0%BB%D1%8C%D1%88%D0%B8%D0%BC+%D0%BE%D0%B1%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F%D0%BC+%D1%83+%D1%82%D0%B5%D0%BF%D0%BB%D1%96%D0%B9+%D0%B0%D1%82%D0%BC%D0%BE%D1%81%D1%84%D0%B5%D1%80%D1%96.&location=%D0%9D%D0%B8%D0%B6%D0%BD%D1%96%D0%B9+%D0%92%D0%B0%D0%BB+19-%D0%94%2C+%D0%9F%D0%BE%D0%B4%D1%96%D0%BB"
+    },
+    {
+      "id": "bb46c0cd-439f-4d51-9593-23a9483792b8",
+      "title": "Симуляційна гра «Річка з крокодилами»",
+      "kind": "workshop",
+      "starts": "2026-11-28T11:30:00+00:00",
+      "ends": "2026-11-28T15:00:00+00:00",
+      "club": "Відділом у справах студентства",
+      "location": "7 корпус НаУКМА (вул. Волоська, 9/12)",
+      "description": "Тренувальна симуляція-гра для відпрацювання навичок багаторівневих перемовин. Для студент_ок НаУКМА (до 40 осіб).",
+      "url": "https://www.instagram.com/p/DgIAU3fCEFg/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%A1%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%86%D1%96%D0%B9%D0%BD%D0%B0+%D0%B3%D1%80%D0%B0+%C2%AB%D0%A0%D1%96%D1%87%D0%BA%D0%B0+%D0%B7+%D0%BA%D1%80%D0%BE%D0%BA%D0%BE%D0%B4%D0%B8%D0%BB%D0%B0%D0%BC%D0%B8%C2%BB&dates=20261128T113000Z%2F20261128T150000Z&details=%D0%A2%D1%80%D0%B5%D0%BD%D1%83%D0%B2%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0+%D1%81%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%86%D1%96%D1%8F-%D0%B3%D1%80%D0%B0+%D0%B4%D0%BB%D1%8F+%D0%B2%D1%96%D0%B4%D0%BF%D1%80%D0%B0%D1%86%D1%8E%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F+%D0%BD%D0%B0%D0%B2%D0%B8%D1%87%D0%BE%D0%BA+%D0%B1%D0%B0%D0%B3%D0%B0%D1%82%D0%BE%D1%80%D1%96%D0%B2%D0%BD%D0%B5%D0%B2%D0%B8%D1%85+%D0%BF%D0%B5%D1%80%D0%B5%D0%BC%D0%BE%D0%B2%D0%B8%D0%BD.+%D0%94%D0%BB%D1%8F+%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82_%D0%BE%D0%BA+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90+%28%D0%B4%D0%BE+40+%D0%BE%D1%81%D1%96%D0%B1%29.&location=7+%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90+%28%D0%B2%D1%83%D0%BB.+%D0%92%D0%BE%D0%BB%D0%BE%D1%81%D1%8C%D0%BA%D0%B0%2C+9%2F12%29"
+    },
+    {
+      "id": "aa5d6005-a189-4c6f-a640-03dae7e8425e",
+      "title": "Андріївські вечорниці",
+      "kind": "social",
+      "starts": "2026-11-29T13:00:00+00:00",
+      "ends": null,
+      "club": "Студентське братство НаУКМА",
+      "location": "Підвол",
+      "description": "Традиційні Андріївські вечорниці від Спудейського Братства: ворожіння, заплітання кіс, кусання калити, танці з українським гуртом, ліплення вареників, обрядові сценки. 12:00 - ліплення вареників, 15:00 - основна подія.",
+      "url": "https://www.instagram.com/p/DgD0khgIdpY/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%90%D0%BD%D0%B4%D1%80%D1%96%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D1%96+%D0%B2%D0%B5%D1%87%D0%BE%D1%80%D0%BD%D0%B8%D1%86%D1%96&dates=20261129T130000Z%2F20261129T140000Z&details=%D0%A2%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D1%96%D0%B9%D0%BD%D1%96+%D0%90%D0%BD%D0%B4%D1%80%D1%96%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D1%96+%D0%B2%D0%B5%D1%87%D0%BE%D1%80%D0%BD%D0%B8%D1%86%D1%96+%D0%B2%D1%96%D0%B4+%D0%A1%D0%BF%D1%83%D0%B4%D0%B5%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D0%91%D1%80%D0%B0%D1%82%D1%81%D1%82%D0%B2%D0%B0%3A+%D0%B2%D0%BE%D1%80%D0%BE%D0%B6%D1%96%D0%BD%D0%BD%D1%8F%2C+%D0%B7%D0%B0%D0%BF%D0%BB%D1%96%D1%82%D0%B0%D0%BD%D0%BD%D1%8F+%D0%BA%D1%96%D1%81%2C+%D0%BA%D1%83%D1%81%D0%B0%D0%BD%D0%BD%D1%8F+%D0%BA%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%2C+%D1%82%D0%B0%D0%BD%D1%86%D1%96+%D0%B7+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%BC+%D0%B3%D1%83%D1%80%D1%82%D0%BE%D0%BC%2C+%D0%BB%D1%96%D0%BF%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F+%D0%B2%D0%B0%D1%80%D0%B5%D0%BD%D0%B8%D0%BA%D1%96%D0%B2%2C+%D0%BE%D0%B1%D1%80%D1%8F%D0%B4%D0%BE%D0%B2%D1%96+%D1%81%D1%86%D0%B5%D0%BD%D0%BA%D0%B8.+12%3A00+-+%D0%BB%D1%96%D0%BF%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F+%D0%B2%D0%B0%D1%80%D0%B5%D0%BD%D0%B8%D0%BA%D1%96%D0%B2%2C+15%3A00+-+%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B0+%D0%BF%D0%BE%D0%B4%D1%96%D1%8F.&location=%D0%9F%D1%96%D0%B4%D0%B2%D0%BE%D0%BB"
+    },
+    {
       "id": "3bdddae3-68fa-474a-bfd4-b9bba40262c0",
       "title": "Вечорниці",
       "kind": "social",
@@ -84,6 +84,18 @@
       "description": "Традиційні вечорниці з живою музикою гурту «Бурсаки», кусанням калити, танцями та старовинними забавами напередодні свята Андрія.",
       "url": "https://www.instagram.com/p/DfzRyQ4tu7P/",
       "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%92%D0%B5%D1%87%D0%BE%D1%80%D0%BD%D0%B8%D1%86%D1%96&dates=20261129T150000Z%2F20261129T160000Z&details=%D0%A2%D1%80%D0%B0%D0%B4%D0%B8%D1%86%D1%96%D0%B9%D0%BD%D1%96+%D0%B2%D0%B5%D1%87%D0%BE%D1%80%D0%BD%D0%B8%D1%86%D1%96+%D0%B7+%D0%B6%D0%B8%D0%B2%D0%BE%D1%8E+%D0%BC%D1%83%D0%B7%D0%B8%D0%BA%D0%BE%D1%8E+%D0%B3%D1%83%D1%80%D1%82%D1%83+%C2%AB%D0%91%D1%83%D1%80%D1%81%D0%B0%D0%BA%D0%B8%C2%BB%2C+%D0%BA%D1%83%D1%81%D0%B0%D0%BD%D0%BD%D1%8F%D0%BC+%D0%BA%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%2C+%D1%82%D0%B0%D0%BD%D1%86%D1%8F%D0%BC%D0%B8+%D1%82%D0%B0+%D1%81%D1%82%D0%B0%D1%80%D0%BE%D0%B2%D0%B8%D0%BD%D0%BD%D0%B8%D0%BC%D0%B8+%D0%B7%D0%B0%D0%B1%D0%B0%D0%B2%D0%B0%D0%BC%D0%B8+%D0%BD%D0%B0%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%BE%D0%B4%D0%BD%D1%96+%D1%81%D0%B2%D1%8F%D1%82%D0%B0+%D0%90%D0%BD%D0%B4%D1%80%D1%96%D1%8F.&location=4-%D0%B9+%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%2C+%D0%BF%D1%80%D0%B8%D0%BC%D1%96%D1%89%D0%B5%D0%BD%D0%BD%D1%8F+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE+%D1%81%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%B0+%28%D0%9A%D1%80%D0%B8%D1%97%D0%B2%D0%BA%D0%B0+%D0%A3%D0%BA%D1%80%D0%A1%D1%82%D1%83%D0%B4%D0%B0%29"
+    },
+    {
+      "id": "cf28cd2f-2a2b-4ac8-b61f-0ef3e1c07767",
+      "title": "Вечорниці з гуртом «Бурсаки»",
+      "kind": "social",
+      "starts": "2026-11-29T15:00:00+00:00",
+      "ends": null,
+      "club": "Український студент",
+      "location": "Криївка Укрстуда",
+      "description": "Вечорниці з виступом гурту «Бурсаки». Реєстрація за посиланням у шапці профілю.",
+      "url": "https://www.instagram.com/p/DgFNuY1NiB2/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%92%D0%B5%D1%87%D0%BE%D1%80%D0%BD%D0%B8%D1%86%D1%96+%D0%B7+%D0%B3%D1%83%D1%80%D1%82%D0%BE%D0%BC+%C2%AB%D0%91%D1%83%D1%80%D1%81%D0%B0%D0%BA%D0%B8%C2%BB&dates=20261129T150000Z%2F20261129T160000Z&details=%D0%92%D0%B5%D1%87%D0%BE%D1%80%D0%BD%D0%B8%D1%86%D1%96+%D0%B7+%D0%B2%D0%B8%D1%81%D1%82%D1%83%D0%BF%D0%BE%D0%BC+%D0%B3%D1%83%D1%80%D1%82%D1%83+%C2%AB%D0%91%D1%83%D1%80%D1%81%D0%B0%D0%BA%D0%B8%C2%BB.+%D0%A0%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%8F+%D0%B7%D0%B0+%D0%BF%D0%BE%D1%81%D0%B8%D0%BB%D0%B0%D0%BD%D0%BD%D1%8F%D0%BC+%D1%83+%D1%88%D0%B0%D0%BF%D1%86%D1%96+%D0%BF%D1%80%D0%BE%D1%84%D1%96%D0%BB%D1%8E.&location=%D0%9A%D1%80%D0%B8%D1%97%D0%B2%D0%BA%D0%B0+%D0%A3%D0%BA%D1%80%D1%81%D1%82%D1%83%D0%B4%D0%B0"
     },
     {
       "id": "c80c0362-eb3a-4aaf-bf46-dae5b013ebb9",
@@ -134,6 +146,30 @@
       "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%C2%AB%D0%9F%D0%B0%D1%81%D1%82%D0%BA%D0%B8+%D0%BA%D1%80%D0%B8%D0%B7%D0%BE%D0%B2%D0%B8%D1%85+%D0%BA%D0%BE%D0%BC%D1%83%D0%BD%D1%96%D0%BA%D0%B0%D1%86%D1%96%D0%B9%3A+%D0%BF%D0%BE%D0%BC%D0%B8%D0%BB%D0%BA%D0%B8+%D1%83+%D0%B7%D0%B0%D1%85%D0%B8%D1%81%D1%82%D1%96+%D1%80%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%86%D1%96%D1%97%C2%BB&dates=20261201T170000Z%2F20261201T180000Z&details=%D0%92%D1%96%D0%B4%D0%BA%D1%80%D0%B8%D1%82%D0%B0+%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD-%D0%BF%D0%BE%D0%B4%D1%96%D1%8F+kmbs+%D0%B2+%D0%BC%D0%B5%D0%B6%D0%B0%D1%85+%D1%86%D0%B8%D0%BA%D0%BB%D1%83+%D0%BF%D0%BE%D0%B4%D1%96%D0%B9+%D0%B4%D0%BE+%D1%81%D1%82%D0%B0%D1%80%D1%82%D1%83+%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8+%C2%AB%D0%94%D1%96%D1%94%D0%B2%D1%96+%D0%BA%D0%BE%D0%BC%D1%83%D0%BD%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%97%3A+%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D0%B0+%D1%80%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%BC%D0%B5%D0%BD%D1%82%D1%83%C2%BB.+%D0%9E%D0%B1%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F+%D0%BA%D1%80%D0%B8%D0%B7+%D1%82%D0%B0+%D1%80%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BC%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%BC%D0%B5%D0%BD%D1%82%D1%83+%D0%B7%D0%B0+%D1%83%D1%87%D0%B0%D1%81%D1%82%D1%96+%D0%9A%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8+%D0%97%D0%B0%D0%B3%D0%BE%D1%80%D1%96%D0%B9%2C+%D0%86%D1%80%D0%B8%D0%BD%D0%B8+%D0%92%D0%BE%D0%B9%D1%82%D0%BE%D0%B2%D0%B8%D1%87%2C+%D0%9A%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B8+%D0%94%D1%83%D0%B1%D0%BE%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D1%97%2C+%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%B0+%D0%A2%D1%83%D1%80%D1%8F%D0%BD%D0%B8%D1%86%D1%96%2C+%D0%9D%D0%B0%D0%B4%D1%96%D1%97+%D0%9F%D0%BE%D1%82%D0%BE%D1%86%D1%8C%D0%BA%D0%BE%D1%97.+%D0%9C%D0%BE%D0%B4%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BA%D0%B0+%E2%80%94+%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%B0+%D0%A1%D1%82%D0%B0%D1%80%D0%BE%D0%B4%D1%83%D0%B1%D1%81%D1%8C%D0%BA%D0%B0.&location=Online"
     },
     {
+      "id": "f77f0bf4-9df3-467b-bfd1-4fa76fc8a16f",
+      "title": "Панельна дискусія: Як Програма Лейна Кіркланда вплинула на професійний розвиток її випускників?",
+      "kind": "talk",
+      "starts": "2026-12-02T15:00:00+00:00",
+      "ends": null,
+      "club": "Асоціація Студентів-політологів",
+      "location": "Онлайн",
+      "description": "Панельна дискусія про досвід випускників Програми Лейна Кіркланда, її роль у кар'єрному зростанні та українсько-польську співпрацю. Спікери: Володимир Абрамюк, Катерина Гуменна, Віталій Лебедюк, Мар'ян Лопата. Модератор: Дмитро Коваль.",
+      "url": "https://www.instagram.com/p/Dft8vKJDkPm/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%9F%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0+%D0%B4%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%96%D1%8F%3A+%D0%AF%D0%BA+%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0+%D0%9B%D0%B5%D0%B9%D0%BD%D0%B0+%D0%9A%D1%96%D1%80%D0%BA%D0%BB%D0%B0%D0%BD%D0%B4%D0%B0+%D0%B2%D0%BF%D0%BB%D0%B8%D0%BD%D1%83%D0%BB%D0%B0+%D0%BD%D0%B0+%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%96%D0%B9%D0%BD%D0%B8%D0%B9+%D1%80%D0%BE%D0%B7%D0%B2%D0%B8%D1%82%D0%BE%D0%BA+%D1%97%D1%97+%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA%D0%BD%D0%B8%D0%BA%D1%96%D0%B2%3F&dates=20261202T150000Z%2F20261202T160000Z&details=%D0%9F%D0%B0%D0%BD%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0+%D0%B4%D0%B8%D1%81%D0%BA%D1%83%D1%81%D1%96%D1%8F+%D0%BF%D1%80%D0%BE+%D0%B4%D0%BE%D1%81%D0%B2%D1%96%D0%B4+%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA%D0%BD%D0%B8%D0%BA%D1%96%D0%B2+%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8+%D0%9B%D0%B5%D0%B9%D0%BD%D0%B0+%D0%9A%D1%96%D1%80%D0%BA%D0%BB%D0%B0%D0%BD%D0%B4%D0%B0%2C+%D1%97%D1%97+%D1%80%D0%BE%D0%BB%D1%8C+%D1%83+%D0%BA%D0%B0%D1%80%27%D1%94%D1%80%D0%BD%D0%BE%D0%BC%D1%83+%D0%B7%D1%80%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BD%D1%96+%D1%82%D0%B0+%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%BE-%D0%BF%D0%BE%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D1%83+%D1%81%D0%BF%D1%96%D0%B2%D0%BF%D1%80%D0%B0%D1%86%D1%8E.+%D0%A1%D0%BF%D1%96%D0%BA%D0%B5%D1%80%D0%B8%3A+%D0%92%D0%BE%D0%BB%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%80+%D0%90%D0%B1%D1%80%D0%B0%D0%BC%D1%8E%D0%BA%2C+%D0%9A%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B0+%D0%93%D1%83%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%2C+%D0%92%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9+%D0%9B%D0%B5%D0%B1%D0%B5%D0%B4%D1%8E%D0%BA%2C+%D0%9C%D0%B0%D1%80%27%D1%8F%D0%BD+%D0%9B%D0%BE%D0%BF%D0%B0%D1%82%D0%B0.+%D0%9C%D0%BE%D0%B4%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%3A+%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%BE+%D0%9A%D0%BE%D0%B2%D0%B0%D0%BB%D1%8C.&location=%D0%9E%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD"
+    },
+    {
+      "id": "aeb72d00-81e5-416d-93e8-b1e0d8a6e188",
+      "title": "Аспірантський семінар: «Демократія як об’єкт конституційно-правового захисту: еволюція розуміння та межі захисту»",
+      "kind": "talk",
+      "starts": "2026-12-03T15:00:00+00:00",
+      "ends": null,
+      "club": "Факультет правничих наук НаУКМА",
+      "location": "онлайн",
+      "description": "Аспірантський семінар кафедри загальнотеоретичного правознавства та публічного права НаУКМА. Доповідачка: Ольга Сидій. Модератор: Юрій Ключковський. Тема: еволюція розуміння демократії, доктрина войовничої демократії, межі демократичного самозахисту.",
+      "url": "https://www.instagram.com/p/DgDJGT0N7wU/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%90%D1%81%D0%BF%D1%96%D1%80%D0%B0%D0%BD%D1%82%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%81%D0%B5%D0%BC%D1%96%D0%BD%D0%B0%D1%80%3A+%C2%AB%D0%94%D0%B5%D0%BC%D0%BE%D0%BA%D1%80%D0%B0%D1%82%D1%96%D1%8F+%D1%8F%D0%BA+%D0%BE%D0%B1%E2%80%99%D1%94%D0%BA%D1%82+%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%86%D1%96%D0%B9%D0%BD%D0%BE-%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE+%D0%B7%D0%B0%D1%85%D0%B8%D1%81%D1%82%D1%83%3A+%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D1%96%D1%8F+%D1%80%D0%BE%D0%B7%D1%83%D0%BC%D1%96%D0%BD%D0%BD%D1%8F+%D1%82%D0%B0+%D0%BC%D0%B5%D0%B6%D1%96+%D0%B7%D0%B0%D1%85%D0%B8%D1%81%D1%82%D1%83%C2%BB&dates=20261203T150000Z%2F20261203T160000Z&details=%D0%90%D1%81%D0%BF%D1%96%D1%80%D0%B0%D0%BD%D1%82%D1%81%D1%8C%D0%BA%D0%B8%D0%B9+%D1%81%D0%B5%D0%BC%D1%96%D0%BD%D0%B0%D1%80+%D0%BA%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B8+%D0%B7%D0%B0%D0%B3%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%82%D0%B5%D0%BE%D1%80%D0%B5%D1%82%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D0%B7%D0%BD%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D0%B0+%D1%82%D0%B0+%D0%BF%D1%83%D0%B1%D0%BB%D1%96%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BF%D1%80%D0%B0%D0%B2%D0%B0+%D0%9D%D0%B0%D0%A3%D0%9A%D0%9C%D0%90.+%D0%94%D0%BE%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D0%B0%D1%87%D0%BA%D0%B0%3A+%D0%9E%D0%BB%D1%8C%D0%B3%D0%B0+%D0%A1%D0%B8%D0%B4%D1%96%D0%B9.+%D0%9C%D0%BE%D0%B4%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%3A+%D0%AE%D1%80%D1%96%D0%B9+%D0%9A%D0%BB%D1%8E%D1%87%D0%BA%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9.+%D0%A2%D0%B5%D0%BC%D0%B0%3A+%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D1%96%D1%8F+%D1%80%D0%BE%D0%B7%D1%83%D0%BC%D1%96%D0%BD%D0%BD%D1%8F+%D0%B4%D0%B5%D0%BC%D0%BE%D0%BA%D1%80%D0%B0%D1%82%D1%96%D1%97%2C+%D0%B4%D0%BE%D0%BA%D1%82%D1%80%D0%B8%D0%BD%D0%B0+%D0%B2%D0%BE%D0%B9%D0%BE%D0%B2%D0%BD%D0%B8%D1%87%D0%BE%D1%97+%D0%B4%D0%B5%D0%BC%D0%BE%D0%BA%D1%80%D0%B0%D1%82%D1%96%D1%97%2C+%D0%BC%D0%B5%D0%B6%D1%96+%D0%B4%D0%B5%D0%BC%D0%BE%D0%BA%D1%80%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%BE%D0%B3%D0%BE+%D1%81%D0%B0%D0%BC%D0%BE%D0%B7%D0%B0%D1%85%D0%B8%D1%81%D1%82%D1%83.&location=%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD"
+    },
+    {
       "id": "7577c122-ec6f-405d-8550-3c68d117921a",
       "title": "Підтвердження сертифікатів на державний грант у Дії",
       "kind": "registration_deadline",
@@ -146,6 +182,30 @@
       "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%94%D0%B5%D0%B4%D0%BB%D0%B0%D0%B9%D0%BD+%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97%3A+%D0%9F%D1%96%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F+%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%82%D1%96%D0%B2+%D0%BD%D0%B0+%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%B8%D0%B9+%D0%B3%D1%80%D0%B0%D0%BD%D1%82+%D1%83+%D0%94%D1%96%D1%97&dates=20261203%2F20261204&details=%D0%9C%D0%9E%D0%9D+%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%B8%D0%BB%D0%BE+%D1%84%D0%BE%D1%80%D0%BC%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F+%D0%B3%D1%80%D0%B0%D0%BD%D1%82%D1%96%D0%B2+%D0%BD%D0%B0+%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D0%B5+%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D0%BD%D0%BD%D1%8F.+%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%B8+1-%D0%B3%D0%BE+%D1%80%D0%BE%D0%BA%D1%83+%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D0%BD%D0%BD%D1%8F+%28%D0%B2%D1%81%D1%82%D1%83%D0%BF+2026%29+%D0%BF%D1%96%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B6%D1%83%D1%8E%D1%82%D1%8C+%D1%81%D0%B5%D1%80%D1%82%D0%B8%D1%84%D1%96%D0%BA%D0%B0%D1%82+%D0%B7+9+%D0%B4%D0%BE+29+%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%BF%D0%B0%D0%B4%D0%B0.+%D0%A1%D1%82%D1%83%D0%B4%D0%B5%D0%BD%D1%82%D0%B8+2-%D0%B3%D0%BE+%D1%96+3-%D0%B3%D0%BE+%D1%80%D0%BE%D0%BA%D1%96%D0%B2+%D0%BD%D0%B0%D0%B2%D1%87%D0%B0%D0%BD%D0%BD%D1%8F+%28%D0%B2%D1%81%D1%82%D1%83%D0%BF+2024%2F2025%29+%D0%BF%D1%96%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B6%D1%83%D1%8E%D1%82%D1%8C+%D0%BF%D1%80%D0%BE%D0%B4%D0%BE%D0%B2%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F+%D0%B3%D1%80%D0%B0%D0%BD%D1%82%D1%83+%D0%B7+13+%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%BF%D0%B0%D0%B4%D0%B0+%D0%B4%D0%BE+3+%D0%B3%D1%80%D1%83%D0%B4%D0%BD%D1%8F.+%D0%9F%D1%96%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F+%D0%B2%D1%96%D0%B4%D0%B1%D1%83%D0%B2%D0%B0%D1%94%D1%82%D1%8C%D1%81%D1%8F+%D1%87%D0%B5%D1%80%D0%B5%D0%B7+%D0%B7%D0%B0%D1%81%D1%82%D0%BE%D1%81%D1%83%D0%BD%D0%BE%D0%BA+%D0%94%D1%96%D1%8F+%D0%B7%D0%B0+%D0%B4%D0%BE%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%BE%D1%8E+%D0%94%D1%96%D1%8F.%D0%9F%D1%96%D0%B4%D0%BF%D0%B8%D1%81%D1%83.&location=%D0%97%D0%B0%D1%81%D1%82%D0%BE%D1%81%D1%83%D0%BD%D0%BE%D0%BA+%D0%94%D1%96%D1%8F"
     },
     {
+      "id": "846a7653-b06a-4148-863b-4ad1f04809dc",
+      "title": "Стендап «Генератор сміху»",
+      "kind": "performance",
+      "starts": "2026-12-04T16:00:00+00:00",
+      "ends": null,
+      "club": "Підмогильний",
+      "location": "ПідWall",
+      "description": "Новий стендап від Підмогильного — жарти про злободенне.",
+      "url": "https://www.instagram.com/p/DgE-G3ooBgo/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%A1%D1%82%D0%B5%D0%BD%D0%B4%D0%B0%D0%BF+%C2%AB%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80+%D1%81%D0%BC%D1%96%D1%85%D1%83%C2%BB&dates=20261204T160000Z%2F20261204T170000Z&details=%D0%9D%D0%BE%D0%B2%D0%B8%D0%B9+%D1%81%D1%82%D0%B5%D0%BD%D0%B4%D0%B0%D0%BF+%D0%B2%D1%96%D0%B4+%D0%9F%D1%96%D0%B4%D0%BC%D0%BE%D0%B3%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE+%E2%80%94+%D0%B6%D0%B0%D1%80%D1%82%D0%B8+%D0%BF%D1%80%D0%BE+%D0%B7%D0%BB%D0%BE%D0%B1%D0%BE%D0%B4%D0%B5%D0%BD%D0%BD%D0%B5.&location=%D0%9F%D1%96%D0%B4Wall"
+    },
+    {
+      "id": "417f5f7a-30c9-43a1-829a-4baa2cf2d6a4",
+      "title": "Міжпартійний гамбіт: дебати-симуляція парламенту",
+      "kind": "talk",
+      "starts": "2026-12-05T13:00:00+00:00",
+      "ends": "2026-12-05T17:00:00+00:00",
+      "club": "Могилянська Спільнота Міжнародників",
+      "location": "ПідWall (КМЦ)",
+      "description": "Дебати-симуляція роботи парламенту після завершення війни. Учасники розподіляються на 5 політичних фракцій (Євроліберали, Правоцентристи, Націоналісти, Позаблокові, Соціалісти) та обговорюють теми: торгівля з РФ, політика щодо діаспори та біженців, вступ до ЄС. Вхід за вільний донат на ЗСУ.",
+      "url": "https://www.instagram.com/p/DgDHBDnNLz6/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%9C%D1%96%D0%B6%D0%BF%D0%B0%D1%80%D1%82%D1%96%D0%B9%D0%BD%D0%B8%D0%B9+%D0%B3%D0%B0%D0%BC%D0%B1%D1%96%D1%82%3A+%D0%B4%D0%B5%D0%B1%D0%B0%D1%82%D0%B8-%D1%81%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%86%D1%96%D1%8F+%D0%BF%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D1%83&dates=20261205T130000Z%2F20261205T170000Z&details=%D0%94%D0%B5%D0%B1%D0%B0%D1%82%D0%B8-%D1%81%D0%B8%D0%BC%D1%83%D0%BB%D1%8F%D1%86%D1%96%D1%8F+%D1%80%D0%BE%D0%B1%D0%BE%D1%82%D0%B8+%D0%BF%D0%B0%D1%80%D0%BB%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D1%83+%D0%BF%D1%96%D1%81%D0%BB%D1%8F+%D0%B7%D0%B0%D0%B2%D0%B5%D1%80%D1%88%D0%B5%D0%BD%D0%BD%D1%8F+%D0%B2%D1%96%D0%B9%D0%BD%D0%B8.+%D0%A3%D1%87%D0%B0%D1%81%D0%BD%D0%B8%D0%BA%D0%B8+%D1%80%D0%BE%D0%B7%D0%BF%D0%BE%D0%B4%D1%96%D0%BB%D1%8F%D1%8E%D1%82%D1%8C%D1%81%D1%8F+%D0%BD%D0%B0+5+%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D1%85+%D1%84%D1%80%D0%B0%D0%BA%D1%86%D1%96%D0%B9+%28%D0%84%D0%B2%D1%80%D0%BE%D0%BB%D1%96%D0%B1%D0%B5%D1%80%D0%B0%D0%BB%D0%B8%2C+%D0%9F%D1%80%D0%B0%D0%B2%D0%BE%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%B8%D1%81%D1%82%D0%B8%2C+%D0%9D%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%2C+%D0%9F%D0%BE%D0%B7%D0%B0%D0%B1%D0%BB%D0%BE%D0%BA%D0%BE%D0%B2%D1%96%2C+%D0%A1%D0%BE%D1%86%D1%96%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%29+%D1%82%D0%B0+%D0%BE%D0%B1%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8E%D1%8E%D1%82%D1%8C+%D1%82%D0%B5%D0%BC%D0%B8%3A+%D1%82%D0%BE%D1%80%D0%B3%D1%96%D0%B2%D0%BB%D1%8F+%D0%B7+%D0%A0%D0%A4%2C+%D0%BF%D0%BE%D0%BB%D1%96%D1%82%D0%B8%D0%BA%D0%B0+%D1%89%D0%BE%D0%B4%D0%BE+%D0%B4%D1%96%D0%B0%D1%81%D0%BF%D0%BE%D1%80%D0%B8+%D1%82%D0%B0+%D0%B1%D1%96%D0%B6%D0%B5%D0%BD%D1%86%D1%96%D0%B2%2C+%D0%B2%D1%81%D1%82%D1%83%D0%BF+%D0%B4%D0%BE+%D0%84%D0%A1.+%D0%92%D1%85%D1%96%D0%B4+%D0%B7%D0%B0+%D0%B2%D1%96%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9+%D0%B4%D0%BE%D0%BD%D0%B0%D1%82+%D0%BD%D0%B0+%D0%97%D0%A1%D0%A3.&location=%D0%9F%D1%96%D0%B4Wall+%28%D0%9A%D0%9C%D0%A6%29"
+    },
+    {
       "id": "c3121eb1-c635-412d-8348-29bb99f1eb62",
       "title": "Загальні Збори ГО «Асоціація випускників КМА»",
       "kind": "meeting",
@@ -156,6 +216,18 @@
       "description": "Чергові Загальні Збори ГО «Асоціація випускників КМА», на порядку денному — формування нового складу Наглядової Ради організації. Для участі та голосування потрібна реєстрація.",
       "url": "https://www.instagram.com/p/DfhqtDiCEyC/",
       "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%97%D0%B0%D0%B3%D0%B0%D0%BB%D1%8C%D0%BD%D1%96+%D0%97%D0%B1%D0%BE%D1%80%D0%B8+%D0%93%D0%9E+%C2%AB%D0%90%D1%81%D0%BE%D1%86%D1%96%D0%B0%D1%86%D1%96%D1%8F+%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA%D0%BD%D0%B8%D0%BA%D1%96%D0%B2+%D0%9A%D0%9C%D0%90%C2%BB&dates=20261209T220000Z%2F20261209T230000Z&details=%D0%A7%D0%B5%D1%80%D0%B3%D0%BE%D0%B2%D1%96+%D0%97%D0%B0%D0%B3%D0%B0%D0%BB%D1%8C%D0%BD%D1%96+%D0%97%D0%B1%D0%BE%D1%80%D0%B8+%D0%93%D0%9E+%C2%AB%D0%90%D1%81%D0%BE%D1%86%D1%96%D0%B0%D1%86%D1%96%D1%8F+%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA%D0%BD%D0%B8%D0%BA%D1%96%D0%B2+%D0%9A%D0%9C%D0%90%C2%BB%2C+%D0%BD%D0%B0+%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BA%D1%83+%D0%B4%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC%D1%83+%E2%80%94+%D1%84%D0%BE%D1%80%D0%BC%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F+%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE+%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D1%83+%D0%9D%D0%B0%D0%B3%D0%BB%D1%8F%D0%B4%D0%BE%D0%B2%D0%BE%D1%97+%D0%A0%D0%B0%D0%B4%D0%B8+%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%96%D0%B7%D0%B0%D1%86%D1%96%D1%97.+%D0%94%D0%BB%D1%8F+%D1%83%D1%87%D0%B0%D1%81%D1%82%D1%96+%D1%82%D0%B0+%D0%B3%D0%BE%D0%BB%D0%BE%D1%81%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F+%D0%BF%D0%BE%D1%82%D1%80%D1%96%D0%B1%D0%BD%D0%B0+%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%8F."
+    },
+    {
+      "id": "455f9e4f-4100-4ba5-ba10-7b8ec7685f85",
+      "title": "Розшук музикантів на новорічний відбір",
+      "kind": "recruitment",
+      "starts": "2026-12-11T22:00:00+00:00",
+      "ends": null,
+      "club": "Музичний хаб «КУТ»",
+      "location": "",
+      "description": "Пошук музикантів для участі у новорічному виступі. Приймаються новорічні саундтреки з фільмів чи будь-які пісні, пов'язані з зимовими святами, в оригінальному виконанні або обробках. Форма реєстрації на відбір в описі профілю.",
+      "url": "https://www.instagram.com/p/DgFQombtD-6/",
+      "calendar_url": "https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D0%A0%D0%BE%D0%B7%D1%88%D1%83%D0%BA+%D0%BC%D1%83%D0%B7%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%D1%96%D0%B2+%D0%BD%D0%B0+%D0%BD%D0%BE%D0%B2%D0%BE%D1%80%D1%96%D1%87%D0%BD%D0%B8%D0%B9+%D0%B2%D1%96%D0%B4%D0%B1%D1%96%D1%80&dates=20261211T220000Z%2F20261211T230000Z&details=%D0%9F%D0%BE%D1%88%D1%83%D0%BA+%D0%BC%D1%83%D0%B7%D0%B8%D0%BA%D0%B0%D0%BD%D1%82%D1%96%D0%B2+%D0%B4%D0%BB%D1%8F+%D1%83%D1%87%D0%B0%D1%81%D1%82%D1%96+%D1%83+%D0%BD%D0%BE%D0%B2%D0%BE%D1%80%D1%96%D1%87%D0%BD%D0%BE%D0%BC%D1%83+%D0%B2%D0%B8%D1%81%D1%82%D1%83%D0%BF%D1%96.+%D0%9F%D1%80%D0%B8%D0%B9%D0%BC%D0%B0%D1%8E%D1%82%D1%8C%D1%81%D1%8F+%D0%BD%D0%BE%D0%B2%D0%BE%D1%80%D1%96%D1%87%D0%BD%D1%96+%D1%81%D0%B0%D1%83%D0%BD%D0%B4%D1%82%D1%80%D0%B5%D0%BA%D0%B8+%D0%B7+%D1%84%D1%96%D0%BB%D1%8C%D0%BC%D1%96%D0%B2+%D1%87%D0%B8+%D0%B1%D1%83%D0%B4%D1%8C-%D1%8F%D0%BA%D1%96+%D0%BF%D1%96%D1%81%D0%BD%D1%96%2C+%D0%BF%D0%BE%D0%B2%27%D1%8F%D0%B7%D0%B0%D0%BD%D1%96+%D0%B7+%D0%B7%D0%B8%D0%BC%D0%BE%D0%B2%D0%B8%D0%BC%D0%B8+%D1%81%D0%B2%D1%8F%D1%82%D0%B0%D0%BC%D0%B8%2C+%D0%B2+%D0%BE%D1%80%D0%B8%D0%B3%D1%96%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%BC%D1%83+%D0%B2%D0%B8%D0%BA%D0%BE%D0%BD%D0%B0%D0%BD%D0%BD%D1%96+%D0%B0%D0%B1%D0%BE+%D0%BE%D0%B1%D1%80%D0%BE%D0%B1%D0%BA%D0%B0%D1%85.+%D0%A4%D0%BE%D1%80%D0%BC%D0%B0+%D1%80%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%97+%D0%BD%D0%B0+%D0%B2%D1%96%D0%B4%D0%B1%D1%96%D1%80+%D0%B2+%D0%BE%D0%BF%D0%B8%D1%81%D1%96+%D0%BF%D1%80%D0%BE%D1%84%D1%96%D0%BB%D1%8E."
     },
     {
       "id": "473262c3-af02-4ecf-9db9-c937f8ef8ddc",
