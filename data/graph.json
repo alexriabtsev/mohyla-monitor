@@ -2272,6 +2272,15 @@
   },
   {
    "a": "wd:Q124101558",
+   "b": "wd:Q65198934",
+   "kind": "comention",
+   "weight": 1.0,
+   "evidence": [
+    "https://t.me/HYanchenko/3807"
+   ]
+  },
+  {
+   "a": "wd:Q124101558",
    "b": "wd:Q80121827",
    "kind": "comention",
    "weight": 5.0,

@@ -1,1 +1,15 @@
-{}
+{
+ "в'ячеслава брюховецького": {
+  "name": "В'ячеслава Брюховецького",
+  "count": 1,
+  "evidence": [
+   "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW9mS1BTRlhUSGthZ1E5UXhZY0hOa0ZVcVNtX0o4OUVEa0FTMUZEemtRV2FuZ3RyZDdNbkZnclBzemstOWZ6aFhjaG5pbTR1WmRRRUp6Yy1hX0FkVUxqNnJNc1dTZmhoc2JNanctX0s1dmpNNXZmTzVCY0FCWmVfcDdZMGRsTUM4bkc5c2dhSWlOSnJKWVA3RUdleHB5a29adTlLT2d5bklmZWJrX2Y1WnN6c3JPeU1KM2piVm9LS055N0RR0gG_AUFVX3lxTE5QSW1Jemw1SU55Q2k5SmhkMWVtZTFiVEFXVjlxNTloaFpMSTlzcW1BNW9FVlQ4RkxHbDhVZFpWanZ6R3hycHlBWUJOLXR4dTRUZ2VyX2tFYmpjNFA3aU9rM215MEQwU2wySlluOEdFenYwWVVhT2VKclNSZXdXN01aZ3dTNGVEeTJ0U0U2Y21Qb1dRWU5aUk9CVU1uakIyY2JSRmFreU5QM202RHVRbXd5d3FZTlN5VE9xSHgteFhZ?oc=5"
+  ],
+  "first_seen": "2026-11-26T15:55:00+00:00",
+  "last_seen": "2026-11-26T15:55:00+00:00",
+  "role_votes": {
+   "staff": 1
+  },
+  "role": "staff"
+ }
+}
